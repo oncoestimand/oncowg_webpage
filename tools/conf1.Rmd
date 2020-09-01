@@ -1,0 +1,42 @@
+```{r echo = FALSE}
+# how to do this with child documents: https://gist.github.com/rmoff/a043676a2f084b81a434
+
+i <- as.numeric('{{i}}')
+tab <- talks[i, ]
+```
+
+
+# `r (tab %>% select(Conference))` {.tabset .tabset-fade .tabset-pills} 
+
+```{r, echo = FALSE, results = 'asis', message = FALSE, eval = TRUE}
+panderOptions('knitr.auto.asis', FALSE)
+t0 <- (tab %>% select(Start, City, Country, Type))
+rownames(t0) <- NULL
+pander(t0)
+```
+
+## Program
+
+[Link to Program](`r (tab %>% select(Web))`)
+
+## Talks
+
+```{r echo = FALSE}
+tab2 <- data.frame(matrix(NA, ncol = 1, nrow = 5))
+colnames(tab2) <- c("Speaker and Title")
+ns <- as.numeric(substr(tail(colnames(tab), 1), 5, 5))
+for (i in 1:ns){
+  z1 <- tab[, paste("Speaker", i, sep = "")]
+  z2 <- paste("[", tab[, paste("Title", i, sep = "")], "](", tab[, paste("Talk", i, sep = "")], ")", sep = "")
+  tab2[i, 1] <- paste(z1, ": ", z2, sep = "")
+}
+
+# nonempty rows
+r <- sum((tab2 == "NA: [NA](NA)") == FALSE)
+tab3 <- as.data.frame(tab2[1:r, ])
+colnames(tab3) <- "Speaker (click on title to download slides)"
+```
+
+```{r, echo = FALSE, results = 'asis', message = FALSE, eval = TRUE}
+kable(tab3)
+```
