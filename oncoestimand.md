@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '01 Sep 2020'
+date: '21 Sep 2020'
 output:
   html_document:
     keep_md: true
@@ -54,7 +54,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 01 September 2020, the working group 
+As of 21 September 2020, the working group 
 
  + has 39 members (14 from Europe and 24 from US) representing 23 companies,
  + regularly interacts with seven Health Authorities globally,
@@ -95,7 +95,9 @@ The general spirit of the working group is inclusive. If you'd like to contribut
 
 # Interactions with Health Authorities and the ICH E9(R1) working group
 
-We are grateful for ongoing collaboration and regular dialogue to statisticians from European Medicines Agency (EMA), U.S. Food and Drug Administration (FDA), Pharmaceuticals and Medical Devices Agency (PMDA, Japan), Health Canada, National Medical Products Administration (NMPA, China) and Center for Drug Evaluation (CDE, Taiwan). 
+We are grateful for ongoing collaboration and regular dialogue to statisticians from European Medicines Agency (EMA), U.S. Food and Drug Administration (FDA), Pharmaceuticals and Medical Devices Agency (PMDA, Japan), Health Canada, Swissmedic, National Medical Products Administration (NMPA, China) and Center for Drug Evaluation (CDE, Taiwan). 
+
+In September 2020, the WG presented to all these regulatory agencies the results of the work that had been done within the WG until then. The slidedeck with a concise summary of all the submitted papers is available for [download](docs/202009 Summary of Onco Estimand WG papers.pdf).
 
 We also thank Keaven Anderson (Merck) and Frank Bretz (Novartis) for their support.
 
@@ -132,8 +134,7 @@ We appreciate any feedback on these documents! Please feel reach out to Evgeny o
 
 ## Upcoming events with involvement (contributions and/or co-organization) of the working group
 
-* 7th September 2020: [BBS webinar "RCTs meeting causal inference: principal stratum strategy and beyond"](http://bbs.ceb-institute.org/wp-content/uploads/2020/07/20200907_BBS_causality_estimands.pdf).
-
+* 7-11th December: [The 76th Annual Deming Conference on Applied Statistics](https://demingconference.org/programs/2020-program/). Evgeny Degtyarev and Kaspar Rufibach are given an introductory course on "Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology."
 
 ## [Past events and and all presentation slide decks](conferences.html)
 

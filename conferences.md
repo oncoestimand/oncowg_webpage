@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '31 Aug 2020'
+date: '21 Sep 2020'
 output:
   html_document:
     keep_md: true
