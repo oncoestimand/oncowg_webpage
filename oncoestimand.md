@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '21 Sep 2020'
+date: '25 Sep 2020'
 output:
   html_document:
     keep_md: true
@@ -54,13 +54,14 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 21 September 2020, the working group 
+As of 25 September 2020, the working group 
 
- + has 39 members (14 from Europe and 24 from US) representing 23 companies,
+ + has 41 members (14 from Europe and 26 from US) representing 25 companies,
  + regularly interacts with seven Health Authorities globally,
  + regularly organizes sessions and presents at conferences,
  + has started to interact with academic colleagues.
 
+![](docs/companies.jpg)
 
 # Organization {.tabset .tabset-fade .tabset-pills} 
 

@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '21 Sep 2020'
+date: '25 Sep 2020'
 output:
   html_document:
     keep_md: true
@@ -436,6 +436,30 @@ output:
 |Kunthel By: [NA](NA)                                                                                                                |
 |Catherine Njue: [NA](NA)                                                                                                            |
 |Richard J. Cook: [NA](NA)                                                                                                           |
+
+
+
+# ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2020 {.tabset .tabset-fade .tabset-pills} 
+
+
+-----------------------------------------------
+   Start       City     Country       Type     
+------------ --------- --------- --------------
+ 2020-09-22   Virtual     USA     Invited talk 
+-----------------------------------------------
+
+## Program
+
+[Link to Program](https://ww2.amstat.org/meetings/biop/2020/)
+
+## Talks
+
+
+
+
+|Speaker (click on title to download slides)                                                                            |
+|:----------------------------------------------------------------------------------------------------------------------|
+|Jonathan Siegel: [Industry Perspective on Subsequent Therapy: An Estimands Approach](talks/ASA20_Siegel_switching.pdf) |
 
 
 

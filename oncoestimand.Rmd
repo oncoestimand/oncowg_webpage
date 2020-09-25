@@ -96,6 +96,7 @@ As of `r tod`, the working group
  + regularly organizes sessions and presents at conferences,
  + has started to interact with academic colleagues.
 
+![](docs/companies.jpg)
 
 # Organization {.tabset .tabset-fade .tabset-pills} 
 
