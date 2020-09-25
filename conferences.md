@@ -439,6 +439,31 @@ output:
 
 
 
+# Webinar of the Basel Biometrics Section: RCTs meeting causal inference: principal stratum strategy and beyond {.tabset .tabset-fade .tabset-pills} 
+
+
+---------------------------------------------------
+   Start       City       Country         Type     
+------------ --------- ------------- --------------
+ 2020-09-07   Webinar   Switzerland   Invited talk 
+---------------------------------------------------
+
+## Program
+
+[Link to Program](http://bbs.ceb-institute.org/?p=1587)
+
+## Talks
+
+
+
+
+|Speaker (click on title to download slides)                                                                                                                |
+|:----------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Kaspar Rufibach: [Introduction](http://bbs.ceb-institute.org/wp-content/uploads/2020/09/01-Rufibach.pdf)                                                   |
+|Bjoern Bornkamp: [Principal Stratum Strategy: Potential Role in Drug Development](http://bbs.ceb-institute.org/wp-content/uploads/2020/09/05-Bornkamp.pdf) |
+
+
+
 # ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2020 {.tabset .tabset-fade .tabset-pills} 
 
 
