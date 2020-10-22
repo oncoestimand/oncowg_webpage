@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '05 Oct 2020'
+date: '22 Oct 2020'
 output:
   html_document:
     keep_md: true
@@ -54,7 +54,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 05 October 2020, the working group 
+As of 22 October 2020, the working group 
 
  + has 41 members (14 from Europe and 26 from US) representing 25 companies,
  + regularly interacts with seven Health Authorities globally,
@@ -108,10 +108,10 @@ We also thank Keaven Anderson (Merck) and Frank Bretz (Novartis) for their suppo
 
 * Lawrence, R., Degtyarev, E., Griffiths, P., Trask, P., Lau, H., D'Alessio, D., Griebsch, I., Wallenstein, G., Cocks, K., Rufibach, K. _What is an estimand & how does it relate to quantifying the effect of treatment on patient-reported quality of life outcomes in clinical trials_ (2020). Journal of Patient-Reported Outcomes, 4(1):68. [doi](https://jpro.springeropen.com/track/pdf/10.1186/s41687-020-00218-5). 
 * Degtyarev, E., Rufibach, K., Shentu, Y., Yung, G., Casey, M., Englert, S., Liu, F., Liu, Y., Sailer, O., Siegel, J., Sun, S., Tang, R., Zhou, J. _Assessing the impact of COVID-19 on the objective and analysis of oncology clinical trials – application of the estimand framework_ (2020). Statistics in Biopharmaceutical Research. [doi](https://doi.org/10.1080/19466315.2020.1785543) | [arxiv](http://arxiv.org/abs/2006.04480)
+* Casey M., Degtyarev E., Lechuga M.J., Aimone P., Ravaud A., Motzer R., Liu F., Stalbovskaya V., Tang R., Butler E., Sailer O., Halabi S., George D. _Estimand framework: Are we   asking the right question? A case study in the solid tumor setting_ (2020). Pharmaceutical Statistics, accepted. 
 
 ## Under review
 
-* Casey M., Degtyarev E., Lechuga M.J., Aimone P., Ravaud A., Motzer R., Liu F., Stalbovskaya V., Tang R., Butler E., Sailer O., Halabi S., George D. _Estimand framework: Are we   asking the right question? A case study in the solid tumor setting_ (2020). Under revision. 
 * Sun, S., Weber, J., Butler, E., Rufibach, K., Roychoudhury, S. _Estimands in Hematology Trials_ (2020). Under revision. [arxiv](https://arxiv.org/abs/2010.00957)
 * Manitz, J., Kan-Dobrosky, N., Buchner, H., Casadebaig, M.L., Degtyarev, E., Dey, J., Haddad, V., Fei, J., Martin, E., Mo, M., Rufibach, K., Shentu, Y., Stalbovskaya, V., Tang, R., Yung, G., Zhu, J. _Estimands in clinical trials with treatment switching_ (2020). Under revision.
 * Bornkamp, B., Rufibach, K., Lin, J., Liu, Y., Mehrotra, D., Roychoudhury, S., Schmidli, H., Shentu, Y., Wolbers, M. _Principal Stratum Strategy: Potential Role in Drug Development_ (2020). Under revision. [arxiv](https://arxiv.org/abs/2008.05406) | [github](https://github.com/oncoestimand/princ_strat_drug_dev) | [markdown](https://oncoestimand.github.io/princ_strat_drug_dev/princ_strat_example.html)
@@ -135,7 +135,7 @@ We appreciate any feedback on these documents! Please feel reach out to Evgeny o
 
 ## Upcoming events with involvement (contributions and/or co-organization) of the working group
 
-* 7-11th December: [The 76th Annual Deming Conference on Applied Statistics](https://demingconference.org/programs/2020-program/). Evgeny Degtyarev and Kaspar Rufibach are given an introductory course on "Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology."
+* 7-11th December: [The 76th Annual Deming Conference on Applied Statistics](https://demingconference.org/programs/2020-program/). Evgeny Degtyarev and Kaspar Rufibach are given an introductory course on ["Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology."](https://demingconference.org/topic/session-j/)
 
 ## [Past events and and all presentation slide decks](conferences.html)
 
