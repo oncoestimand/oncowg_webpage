@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '25 Sep 2020'
+date: '17 Nov 2020'
 output:
   html_document:
     keep_md: true
@@ -485,6 +485,55 @@ output:
 |Speaker (click on title to download slides)                                                                            |
 |:----------------------------------------------------------------------------------------------------------------------|
 |Jonathan Siegel: [Industry Perspective on Subsequent Therapy: An Estimands Approach](talks/ASA20_Siegel_switching.pdf) |
+
+
+
+# Joint PSI, EFSPI & ASA BIOP Webinar: Estimands {.tabset .tabset-fade .tabset-pills} 
+
+
+------------------------------------------------
+   Start       City     Country        Type     
+------------ --------- ---------- --------------
+ 2020-11-05   Virtual   UK / USA   Invited talk 
+------------------------------------------------
+
+## Program
+
+[Link to Program](https://www.psiweb.org/vod/item/joint-psi-efspi-asa-biop-webinar-estimands)
+
+## Talks
+
+
+
+
+|Speaker (click on title to download slides)                                                                                                                                                                 |
+|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Evgeny Degtyarev: [Estimand framework: What are the opportunities in oncology?](https://www.psiweb.org/docs/default-source/default-document-library/degtyarev_asa_psi_efspi_webinar.pptx?sfvrsn=45d8a5db_0) |
+
+
+
+# The effective statistician podcast: A deep dive into principal stratification and causal inference {.tabset .tabset-fade .tabset-pills} 
+
+
+-------------------------------------------------
+   Start       City       Country        Type    
+------------ --------- ------------- ------------
+ 2020-11-17   Podcast   Switzerland   Discussion 
+-------------------------------------------------
+
+## Program
+
+[Link to Program](https://theeffectivestatistician.com/a-deep-dive-into-principal-stratification-and-causal-inference/)
+
+## Talks
+
+
+
+
+|Speaker (click on title to download slides)                                                                                              |
+|:----------------------------------------------------------------------------------------------------------------------------------------|
+|Kaspar Rufibach: [Link to podcast](https://theeffectivestatistician.com/a-deep-dive-into-principal-stratification-and-causal-inference/) |
+|Bjoern Bornkamp: [Link to podcast](https://theeffectivestatistician.com/a-deep-dive-into-principal-stratification-and-causal-inference/) |
 
 
 
