@@ -506,9 +506,9 @@ output:
 
 
 
-|Speaker (click on title to download slides)                                                                                                                                                                 |
-|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Evgeny Degtyarev: [Estimand framework: What are the opportunities in oncology?](https://www.psiweb.org/docs/default-source/default-document-library/degtyarev_asa_psi_efspi_webinar.pptx?sfvrsn=45d8a5db_0) |
+|Speaker (click on title to download slides)                                                                                     |
+|:-------------------------------------------------------------------------------------------------------------------------------|
+|Evgeny Degtyarev: [Estimand framework: What are the opportunities in oncology?](talks/Degtyarev_2020_asa_psi_efspi_webinar.pdf) |
 
 
 
