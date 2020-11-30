@@ -555,10 +555,10 @@ output:
 
 
 
-|Speaker (click on title to download slides)                                                                                             |
-|:---------------------------------------------------------------------------------------------------------------------------------------|
-|Hannes Buchner: [Estimands update: Summary of world-wide authority interaction](talks/Buchner_Rufibach_HAinteractions_PS_switching.pdf) |
-|Kaspar Rufibach: [talks/Buchner_Rufibach_HAinteractions_PS_switching.pdf](NA)                                                           |
+|Speaker (click on title to download slides)                                                                                              |
+|:----------------------------------------------------------------------------------------------------------------------------------------|
+|Hannes Buchner: [Estimands update: Summary of world-wide authority interaction](talks/Buchner_Rufibach_HAinteractions_PS_switching.pdf)  |
+|Kaspar Rufibach: [Estimands update: Summary of world-wide authority interaction](talks/Buchner_Rufibach_HAinteractions_PS_switching.pdf) |
 
 
 
