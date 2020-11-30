@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '17 Nov 2020'
+date: '30 Nov 2020'
 output:
   html_document:
     keep_md: true
@@ -534,6 +534,31 @@ output:
 |:----------------------------------------------------------------------------------------------------------------------------------------|
 |Kaspar Rufibach: [Link to podcast](https://theeffectivestatistician.com/a-deep-dive-into-principal-stratification-and-causal-inference/) |
 |Bjoern Bornkamp: [Link to podcast](https://theeffectivestatistician.com/a-deep-dive-into-principal-stratification-and-causal-inference/) |
+
+
+
+# Working group "Pharmaceutical Industry" of the German Region of the IBS (APF) {.tabset .tabset-fade .tabset-pills} 
+
+
+-----------------------------------------------
+   Start       City     Country       Type     
+------------ --------- --------- --------------
+ 2020-11-27   Virtual   Germany   Invited talk 
+-----------------------------------------------
+
+## Program
+
+[Link to Program](http://www.biometrische-gesellschaft.de/fileadmin/AG_Daten/PharamzeutischeForschung/PDFs/Agenda_APF_74_virtuell_Nov_2020.pdf)
+
+## Talks
+
+
+
+
+|Speaker (click on title to download slides)                                                                                             |
+|:---------------------------------------------------------------------------------------------------------------------------------------|
+|Hannes Buchner: [Estimands update: Summary of world-wide authority interaction](talks/Buchner_Rufibach_HAinteractions_PS_switching.pdf) |
+|Kaspar Rufibach: [talks/Buchner_Rufibach_HAinteractions_PS_switching.pdf](NA)                                                           |
 
 
 
