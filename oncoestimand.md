@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '30 Nov 2020'
+date: '02 Dec 2020'
 output:
   html_document:
     keep_md: true
@@ -54,10 +54,10 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 30 November 2020, the working group 
+As of 02 December 2020, the working group 
 
- + has 41 members (14 from Europe and 26 from US) representing 25 companies,
- + regularly interacts with seven Health Authorities globally,
+ + has 54 members (20 from Europe, 29 from US, and 5 from Asia) representing 28 companies,
+ + regularly interacts with eight Health Authorities globally,
  + regularly organizes sessions and presents at conferences,
  + has started to interact with academic colleagues.
 
@@ -96,7 +96,8 @@ The general spirit of the working group is inclusive. If you'd like to contribut
 
 # Interactions with Health Authorities and the ICH E9(R1) working group
 
-We are grateful for ongoing collaboration and regular dialogue to statisticians from European Medicines Agency (EMA), U.S. Food and Drug Administration (FDA), Pharmaceuticals and Medical Devices Agency (PMDA, Japan), Health Canada, Swissmedic, National Medical Products Administration (NMPA, China) and Center for Drug Evaluation (CDE, Taiwan). 
+We are grateful for ongoing collaboration and regular dialogue to statisticians from European Medicines Agency (EMA), 
+Medicines and Healthcare products Regulatory Agency (MHRA, UK), U.S. Food and Drug Administration (FDA), Pharmaceuticals and Medical Devices Agency (PMDA, Japan), Health Canada, Swissmedic, National Medical Products Administration (NMPA, China) and Center for Drug Evaluation (CDE, Taiwan). 
 
 In September 2020, the WG presented to all these regulatory agencies the results of the work that had been done within the WG until then. The slidedeck with a concise summary of all the submitted papers is available for [download](docs/202009 Summary of Onco Estimand WG papers.pdf).
 
@@ -171,7 +172,6 @@ Lead: Viktoriya Stalbovskaya (Merus)
 
 Firstname     Lastname       Institution   Location 
 ------------  -------------  ------------  ---------
-Vincent       Haddad         AstraZeneca   EU       
 Marie-Laure   Casadebaig     Celgene       EU       
 Viktoriya     Stalbovskaya   Merus         EU       
 Evgeny        Degtyarev      Novartis      EU       
