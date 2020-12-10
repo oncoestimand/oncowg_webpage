@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '02 Dec 2020'
+date: '10 Dec 2020'
 output:
   html_document:
     keep_md: true
@@ -559,6 +559,31 @@ output:
 |:----------------------------------------------------------------------------------------------------------------------------------------|
 |Hannes Buchner: [Estimands update: Summary of world-wide authority interaction](talks/Buchner_Rufibach_HAinteractions_PS_switching.pdf)  |
 |Kaspar Rufibach: [Estimands update: Summary of world-wide authority interaction](talks/Buchner_Rufibach_HAinteractions_PS_switching.pdf) |
+
+
+
+# The 76th Annual Deming Conference on Applied Statistics {.tabset .tabset-fade .tabset-pills} 
+
+
+----------------------------------------------
+   Start       City     Country      Type     
+------------ --------- --------- -------------
+ 2020-12-09   Virtual     USA     Shortcourse 
+----------------------------------------------
+
+## Program
+
+[Link to Program](https://demingconference.org/topic/session-j/)
+
+## Talks
+
+
+
+
+|Speaker (click on title to download slides)                                                                                                               |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Evgeny Degtyarev: [Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology](talks/Deming2020_ED_KR_estimands_oncology.pdf) |
+|Kaspar Rufibach: [Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology](talks/Deming2020_ED_KR_estimands_oncology.pdf)  |
 
 
 

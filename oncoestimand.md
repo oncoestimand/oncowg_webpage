@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '02 Dec 2020'
+date: '10 Dec 2020'
 output:
   html_document:
     keep_md: true
@@ -54,7 +54,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 02 December 2020, the working group 
+As of 10 December 2020, the working group 
 
  + has 54 members (20 from Europe, 29 from US, and 5 from Asia) representing 28 companies,
  + regularly interacts with eight Health Authorities globally,
@@ -136,7 +136,7 @@ We appreciate any feedback on these documents! Please feel reach out to Evgeny o
 
 ## Upcoming events with involvement (contributions and/or co-organization) of the working group
 
-* 7-11th December: [The 76th Annual Deming Conference on Applied Statistics](https://demingconference.org/programs/2020-program/). Evgeny Degtyarev and Kaspar Rufibach are given an introductory course on ["Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology."](https://demingconference.org/topic/session-j/)
+* Currently none announced.
 
 ## [Past events and and all presentation slide decks](conferences.html)
 

@@ -171,7 +171,7 @@ We appreciate any feedback on these documents! Please feel reach out to Evgeny o
 
 ## Upcoming events with involvement (contributions and/or co-organization) of the working group
 
-* 7-11th December: [The 76th Annual Deming Conference on Applied Statistics](https://demingconference.org/programs/2020-program/). Evgeny Degtyarev and Kaspar Rufibach are given an introductory course on ["Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology."](https://demingconference.org/topic/session-j/)
+* Currently none announced.
 
 ## [Past events and and all presentation slide decks](conferences.html)
 
