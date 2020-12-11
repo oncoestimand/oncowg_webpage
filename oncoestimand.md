@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '10 Dec 2020'
+date: '11 Dec 2020'
 output:
   html_document:
     keep_md: true
@@ -54,7 +54,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 10 December 2020, the working group 
+As of 11 December 2020, the working group 
 
  + has 54 members (20 from Europe, 29 from US, and 5 from Asia) representing 28 companies,
  + regularly interacts with eight Health Authorities globally,
@@ -128,7 +128,7 @@ The working group has started to assess the impact of the COVID-19 pandemic on e
 * A slide deck which summarizes the group's assessment on how the COVID-19 pandemic affects the estimand in a typical oncology clinical trial, for various endpoints. This slidedeck is considered to be a ``living document'' that will be updated as we, as a drug development community, learn about the impact of the pandemic on our trials, and how to best handle this impact. The slidedecks can be downloaded here: 
   + [Onco estimand WG COVID-19 slidedeck (Version 1 16th April 2020)](docs/onco_estimand_COVID-19_slidedeck_v1.pdf).
 * A paper summarizing the concepts in this slide deck: 
-  + [Onco estimand WG COVID-19 paper draft (revised submitted version)](http://arxiv.org/abs/2006.04480). The full reference is given above.
+  + [Onco estimand WG COVID-19 paper draft](http://arxiv.org/abs/2006.04480). The full reference to the finally published paper is given above.
 
 We appreciate any feedback on these documents! Please feel reach out to Evgeny or Kaspar (contact details above).
 
