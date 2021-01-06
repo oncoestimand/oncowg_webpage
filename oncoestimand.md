@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '17 Dec 2020'
+date: '06 Jan 2021'
 output:
   html_document:
     keep_md: true
@@ -54,9 +54,9 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 17 December 2020, the working group 
+As of 06 January 2021, the working group 
 
- + has 54 members (20 from Europe, 29 from US, and 5 from Asia) representing 28 companies,
+ + has 55 members (21 from Europe, 29 from US, and 5 from Asia) representing 28 companies,
  + regularly interacts with eight Health Authorities globally,
  + regularly organizes sessions and presents at conferences,
  + has started to interact with academic colleagues.
@@ -177,7 +177,6 @@ Viktoriya     Stalbovskaya   Merus         EU
 Evgeny        Degtyarev      Novartis      EU       
 Hannes        Buchner        Staburo       EU       
 Jyotirmoy     Dey            AbbVie        NorAm    
-Fei           Jie            Astellas      NorAm    
 Juliane       Manitz         EMD Serono    NorAm    
 Emily         Martin         EMD Serono    NorAm    
 Jiangxiu      Zhou           GSK           NorAm    
