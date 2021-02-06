@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: relevant presentations"
 author: "A cross-industry international working group"
-date: '06 Jan 2021'
+date: '06 Feb 2021'
 output:
   html_document:
     keep_md: true
@@ -28,7 +28,7 @@ bibliography: biblio.bib
 [Back to main site](http://www.oncoestimand.org)
 
 This site provides references that the working group considers relevant for the implementation of the ICH E9 addendum in drug development in pharma industry. The list is subjective and not exhaustive. If you would like to have a relevent reference added here please let us know.
-
+ 
 # References
 
 
