@@ -60,6 +60,11 @@ talks <- as.data.frame(read_excel(paste(path, "/data/conferences.xlsx", sep = ""
 
 Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org)
 
+# Latest news
+
+* 5th February: Papers on [principal stratification](https://arxiv.org/abs/2008.05406) and [hematology case studies](https://arxiv.org/abs/2010.00957) both accepted for publication by [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612). See [publication section](https://oncoestimand.github.io/oncowg_webpage/oncoestimand.html#publications).
+* 30th January: Kick-off of new task forces.
+
 # Background {.tabset .tabset-fade .tabset-pills}
 
 ## History of the working group

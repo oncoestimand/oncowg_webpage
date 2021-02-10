@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '05 Feb 2021'
+date: '10 Feb 2021'
 output:
   html_document:
     keep_md: true
@@ -24,6 +24,11 @@ output:
 
 
 Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org)
+
+# Latest news
+
+* 5th February: Papers on [principal stratification](https://arxiv.org/abs/2008.05406) and [hematology case studies](https://arxiv.org/abs/2010.00957) both accepted for publication by [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612). See [publication section](https://oncoestimand.github.io/oncowg_webpage/oncoestimand.html#publications).
+* 30th January: Kick-off of new task forces.
 
 # Background {.tabset .tabset-fade .tabset-pills}
 
@@ -54,7 +59,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 05 February 2021, the working group 
+As of 10 February 2021, the working group 
 
  + has 55 members (21 from Europe, 29 from US, and 5 from Asia) representing 28 companies,
  + regularly interacts with eight Health Authorities globally,
