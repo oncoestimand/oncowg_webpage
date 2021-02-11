@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '06 Jan 2021'
+date: '11 Feb 2021'
 output:
   html_document:
     keep_md: true
@@ -584,6 +584,31 @@ output:
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Evgeny Degtyarev: [Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology](talks/Deming2020_ED_KR_estimands_oncology.pdf) |
 |Kaspar Rufibach: [Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology](talks/Deming2020_ED_KR_estimands_oncology.pdf)  |
+
+
+
+# ASA - FDA - LUNGevity symposium: Statistical considerations in Oncology clinical trials in the COVID-19 era {.tabset .tabset-fade .tabset-pills} 
+
+
+--------------------------------------------
+   Start       City     Country     Type    
+------------ --------- --------- -----------
+ 2021-02-11   Virtual     USA     Symposium 
+--------------------------------------------
+
+## Program
+
+[Link to Program](NA)
+
+## Talks
+
+
+
+
+|Speaker (click on title to download slides)                                                                         |
+|:-------------------------------------------------------------------------------------------------------------------|
+|Evgeny Degtyarev: [How can the estimand framework support decentralized trials?](talks/20210211_DCTs_estimands.pdf) |
+|Kaspar Rufibach: [How can the estimand framework support decentralized trials?](talks/20210211_DCTs_estimands.pdf)  |
 
 
 

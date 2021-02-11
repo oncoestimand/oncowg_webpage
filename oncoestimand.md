@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '10 Feb 2021'
+date: '11 Feb 2021'
 output:
   html_document:
     keep_md: true
@@ -27,6 +27,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org)
 
 # Latest news
 
+* 11th February: Added slides presented by Evgeny and Kaspar at ASA - FDA - LUNGevity symposium "Statistical considerations in Oncology clinical trials in the COVID-19 era".
 * 5th February: Papers on [principal stratification](https://arxiv.org/abs/2008.05406) and [hematology case studies](https://arxiv.org/abs/2010.00957) both accepted for publication by [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612). See [publication section](https://oncoestimand.github.io/oncowg_webpage/oncoestimand.html#publications).
 * 30th January: Kick-off of new task forces.
 
@@ -59,7 +60,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 10 February 2021, the working group 
+As of 11 February 2021, the working group 
 
  + has 55 members (21 from Europe, 29 from US, and 5 from Asia) representing 28 companies,
  + regularly interacts with eight Health Authorities globally,
@@ -153,21 +154,21 @@ We appreciate any feedback on these documents! Please feel reach out to Evgeny o
 Lead: Kaspar Rufibach (Roche)
 
 
-Firstname     Lastname       Institution   Location 
-------------  -------------  ------------  ---------
-Marie-Laure   Casadebaig     Celgene       EU       
-Alan          Phillips       ICON          EU       
-An            Vandebosch     J&J           EU       
-Björn         Bornkamp       Novartis      EU       
-Kaspar        Rufibach       Roche         EU       
-Feng          Liu            AstraZeneca   NorAm    
-Emily         Martin         EMD Serono    NorAm    
-Devan         Mehrotra       Merck         NorAm    
-Yue           Shentu         Merck         NorAm    
-Yi            Liu            Nektar        NorAm    
-Satrajit      Roychoudhury   Pfizer        NorAm    
-Audrey        Boruvka        Roche         NorAm    
-Jianchang     Lin            Takeda        NorAm    
+|Firstname   |Lastname     |Institution |Location |
+|:-----------|:------------|:-----------|:--------|
+|Marie-Laure |Casadebaig   |Celgene     |EU       |
+|Alan        |Phillips     |ICON        |EU       |
+|An          |Vandebosch   |J&J         |EU       |
+|Björn       |Bornkamp     |Novartis    |EU       |
+|Kaspar      |Rufibach     |Roche       |EU       |
+|Feng        |Liu          |AstraZeneca |NorAm    |
+|Emily       |Martin       |EMD Serono  |NorAm    |
+|Devan       |Mehrotra     |Merck       |NorAm    |
+|Yue         |Shentu       |Merck       |NorAm    |
+|Yi          |Liu          |Nektar      |NorAm    |
+|Satrajit    |Roychoudhury |Pfizer      |NorAm    |
+|Audrey      |Boruvka      |Roche       |NorAm    |
+|Jianchang   |Lin          |Takeda      |NorAm    |
 
 
 ## Subteam: Switching
@@ -175,20 +176,20 @@ Jianchang     Lin            Takeda        NorAm
 Lead: Viktoriya Stalbovskaya (Merus)
 
 
-Firstname     Lastname       Institution   Location 
-------------  -------------  ------------  ---------
-Marie-Laure   Casadebaig     Celgene       EU       
-Viktoriya     Stalbovskaya   Merus         EU       
-Evgeny        Degtyarev      Novartis      EU       
-Hannes        Buchner        Staburo       EU       
-Jyotirmoy     Dey            AbbVie        NorAm    
-Juliane       Manitz         EMD Serono    NorAm    
-Emily         Martin         EMD Serono    NorAm    
-Jiangxiu      Zhou           GSK           NorAm    
-Yue           Shentu         Merck         NorAm    
-Natalia       Kan-Dobrosky   PPDI          NorAm    
-Godwin        Yung           Roche         NorAm    
-Rui           Tang           Servier       NorAm    
+|Firstname   |Lastname     |Institution |Location |
+|:-----------|:------------|:-----------|:--------|
+|Marie-Laure |Casadebaig   |Celgene     |EU       |
+|Viktoriya   |Stalbovskaya |Merus       |EU       |
+|Evgeny      |Degtyarev    |Novartis    |EU       |
+|Hannes      |Buchner      |Staburo     |EU       |
+|Jyotirmoy   |Dey          |AbbVie      |NorAm    |
+|Juliane     |Manitz       |EMD Serono  |NorAm    |
+|Emily       |Martin       |EMD Serono  |NorAm    |
+|Jiangxiu    |Zhou         |GSK         |NorAm    |
+|Yue         |Shentu       |Merck       |NorAm    |
+|Natalia     |Kan-Dobrosky |PPDI        |NorAm    |
+|Godwin      |Yung         |Roche       |NorAm    |
+|Rui         |Tang         |Servier     |NorAm    |
 
 
 ## Subteam: Censoring
@@ -196,18 +197,18 @@ Rui           Tang           Servier       NorAm
 Lead: Jonathan Siegel (Bayer)
 
 
-Firstname     Lastname       Institution   Location 
-------------  -------------  ------------  ---------
-Stefan        Englert        AbbVie        EU       
-Lynda         Grinsted       AstraZeneca   EU       
-Hans-Jochen   Weber          Novartis      EU       
-Kaspar        Rufibach       Roche         EU       
-Jonathan      Siegel         Bayer         NorAm    
-Shoubhik      Mondal         Boehringer    NorAm    
-Jiangxiu      Zhou           GSK           NorAm    
-Steven        Sun            J&J           NorAm    
-Michelle      Casey          Pfizer        NorAm    
-Natalia       Kan-Dobrosky   PPDI          NorAm    
+|Firstname   |Lastname     |Institution |Location |
+|:-----------|:------------|:-----------|:--------|
+|Stefan      |Englert      |AbbVie      |EU       |
+|Lynda       |Grinsted     |AstraZeneca |EU       |
+|Hans-Jochen |Weber        |Novartis    |EU       |
+|Kaspar      |Rufibach     |Roche       |EU       |
+|Jonathan    |Siegel       |Bayer       |NorAm    |
+|Shoubhik    |Mondal       |Boehringer  |NorAm    |
+|Jiangxiu    |Zhou         |GSK         |NorAm    |
+|Steven      |Sun          |J&J         |NorAm    |
+|Michelle    |Casey        |Pfizer      |NorAm    |
+|Natalia     |Kan-Dobrosky |PPDI        |NorAm    |
 
 
 ## Subteam: Solid
@@ -215,15 +216,15 @@ Natalia       Kan-Dobrosky   PPDI          NorAm
 Lead: Evgeny Degtyarev (Novartis)
 
 
-Firstname       Lastname       Institution   Location 
---------------  -------------  ------------  ---------
-Martin-Oliver   Sailer         Boehringer    EU       
-Viktoriya       Stalbovskaya   Merus         EU       
-Evgeny          Degtyarev      Novartis      EU       
-Feng            Liu            AstraZeneca   NorAm    
-Emily           Butler         GSK           NorAm    
-Michelle        Casey          Pfizer        NorAm    
-Rui             Tang           Servier       NorAm    
+|Firstname     |Lastname     |Institution |Location |
+|:-------------|:------------|:-----------|:--------|
+|Martin-Oliver |Sailer       |Boehringer  |EU       |
+|Viktoriya     |Stalbovskaya |Merus       |EU       |
+|Evgeny        |Degtyarev    |Novartis    |EU       |
+|Feng          |Liu          |AstraZeneca |NorAm    |
+|Emily         |Butler       |GSK         |NorAm    |
+|Michelle      |Casey        |Pfizer      |NorAm    |
+|Rui           |Tang         |Servier     |NorAm    |
 
 
 ## Subteam: Hematology
@@ -231,15 +232,15 @@ Rui             Tang           Servier       NorAm
 Lead: Steven Sun (J&J)
 
 
-Firstname     Lastname       Institution   Location 
-------------  -------------  ------------  ---------
-Lucy          DeCosta        Amgen         EU       
-Viktoriya     Stalbovskaya   Merus         EU       
-Hans-Jochen   Weber          Novartis      EU       
-Kaspar        Rufibach       Roche         EU       
-Emily         Butler         GSK           NorAm    
-Steven        Sun            J&J           NorAm    
-Satrajit      Roychoudhury   Pfizer        NorAm    
+|Firstname   |Lastname     |Institution |Location |
+|:-----------|:------------|:-----------|:--------|
+|Lucy        |DeCosta      |Amgen       |EU       |
+|Viktoriya   |Stalbovskaya |Merus       |EU       |
+|Hans-Jochen |Weber        |Novartis    |EU       |
+|Kaspar      |Rufibach     |Roche       |EU       |
+|Emily       |Butler       |GSK         |NorAm    |
+|Steven      |Sun          |J&J         |NorAm    |
+|Satrajit    |Roychoudhury |Pfizer      |NorAm    |
 
 # Key achievements per year
 
