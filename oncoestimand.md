@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '24 Feb 2021'
+date: '28 Feb 2021'
 output:
   html_document:
     keep_md: true
@@ -27,6 +27,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org)
 
 # Latest news
 
+* 28th February: Added rosters and objectives of [task forces](taskforces.html).
 * 11th February: Added [slides](https://oncoestimand.github.io/oncowg_webpage/talks/20210211_DCTs_estimands.pdf) presented by Evgeny and Kaspar at ASA - FDA - LUNGevity symposium "Statistical considerations in Oncology clinical trials in the COVID-19 era".
 * 5th February: Papers on [principal stratification](https://arxiv.org/abs/2008.05406) and [hematology case studies](https://arxiv.org/abs/2010.00957) both accepted for publication by [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612). See [publication section](https://oncoestimand.github.io/oncowg_webpage/oncoestimand.html#publications).
 * 30th January: Kick-off of new task forces.
@@ -60,9 +61,9 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 24 February 2021, the working group 
+As of 28 February 2021, the working group 
 
- + has 55 members (21 from Europe, 29 from US, and 5 from Asia) representing 28 companies,
+ + has 59 members (20 from Europe, 28 from US, and 6 from Asia) representing 32 companies,
  + regularly interacts with eight Health Authorities globally,
  + regularly organizes sessions and presents at conferences,
  + has started to interact with academic colleagues.
@@ -75,20 +76,13 @@ As of 24 February 2021, the working group
 
 Evgeny Degtyarev from [Novartis](http://www.novartis.com) and [Kaspar Rufibach](https://www.kasparrufibach.ch) from [Roche](http://www.roche.com), both located in Basel, Switzerland. Their email addresses are generic _firstname.lastname@employer.com_.
 
-## Ways of working 
+## Task forces and members
 
-The working group operates within five subteams:
-
- + Causal estimands in time-to-event setting (lead by [Kaspar Rufibach](https://www.kasparrufibach.ch) from [Roche](http://www.roche.com)): Focuses on identifying situations when causal interpretation is necessary and meaningful causally interpretable estimand(s) and corresponding analyses in time-to-event setting. The subteam will also assess possible applications of principal stratification in Oncology.
- + Treatment switching (lead by Viktoriya Stalbovskaya, Merus): Interested in the impact of different types of treatment switching and different estimands targeting OS and PFS2 endpoints.
- + Censoring mechanisms and their impact on interpretation of estimands (lead by Jonathan Siegel, Bayer): Evaluates the use of censoring to handle intercurrent events, related assumptions and interpretation, discussing the often performed sensitivity analyses and possible alternatives in view of estimand framework.
- + Case studies in solid tumors (lead by Evgeny Degtyarev, Novartis) and in hematology (lead by Steven Sun, J&J): They focus on the discussion of relevant estimands targeting PFS/DFS/EFS, intercurrent events and sensitivity analyses in the different settings across solid and hematology.
-
-These subteams hold regular TCs and work on white papers and presentations.
+After a first phase where five subteams have written several publications (see below) the working group now operates within seven task forces. Objectives and member rosters of these task forces are available [here](taskforces.html).
 
 ## Activities
 
-Beyond work in the subteams, the aim of the working group is to provide answers to the above questions through a variety of activities. These will include: 
+Beyond work in the task forces, the aim of the working group is to provide answers to the above questions through a variety of activities. These will include: 
 
  + Collaborating with experts to refine and possibly extend available methods.
  + Publishing reviews of the available methods, case studies, and white papers with recommendations, for statisticians and non-statisticians.
@@ -98,7 +92,7 @@ Beyond work in the subteams, the aim of the working group is to provide answers 
 
 ## Become a member
 
-The general spirit of the working group is inclusive. If you'd like to contribute in one or the other way, we propose you first reach out to your company's representative(s) (if applicable) and align within your company who is best placed to contribute to which subteam. After that is clarified reach out to Evgeny or Kaspar.
+The general spirit of the working group is inclusive. If you'd like to contribute in one or the other way, we propose you first reach out to your company's representative(s) (if applicable) and align within your company who is best placed to contribute to which task force. After that is clarified reach out to Evgeny or Kaspar.
 
 # Interactions with Health Authorities and the ICH E9(R1) working group
 
@@ -144,140 +138,10 @@ We appreciate any feedback on these documents! Please feel reach out to Evgeny o
 
 * Currently none announced.
 
-## [Past events and and all presentation slide decks](conferences.html)
+## Past events and and all presentation slide decks
 
-# Members {.tabset .tabset-fade .tabset-pills} 
-
-
-## Subteam: Causal
-
-Lead: Kaspar Rufibach (Roche)
-
-
-Firstname     Lastname       Institution   Location 
-------------  -------------  ------------  ---------
-Marie-Laure   Casadebaig     Celgene       EU       
-Alan          Phillips       ICON          EU       
-An            Vandebosch     J&J           EU       
-Björn         Bornkamp       Novartis      EU       
-Kaspar        Rufibach       Roche         EU       
-Feng          Liu            AstraZeneca   NorAm    
-Emily         Martin         EMD Serono    NorAm    
-Devan         Mehrotra       Merck         NorAm    
-Yue           Shentu         Merck         NorAm    
-Yi            Liu            Nektar        NorAm    
-Satrajit      Roychoudhury   Pfizer        NorAm    
-Audrey        Boruvka        Roche         NorAm    
-Jianchang     Lin            Takeda        NorAm    
-
-
-## Subteam: Switching
-
-Lead: Viktoriya Stalbovskaya (Merus)
-
-
-Firstname     Lastname       Institution   Location 
-------------  -------------  ------------  ---------
-Marie-Laure   Casadebaig     Celgene       EU       
-Viktoriya     Stalbovskaya   Merus         EU       
-Evgeny        Degtyarev      Novartis      EU       
-Hannes        Buchner        Staburo       EU       
-Jyotirmoy     Dey            AbbVie        NorAm    
-Juliane       Manitz         EMD Serono    NorAm    
-Emily         Martin         EMD Serono    NorAm    
-Jiangxiu      Zhou           GSK           NorAm    
-Yue           Shentu         Merck         NorAm    
-Natalia       Kan-Dobrosky   PPDI          NorAm    
-Godwin        Yung           Roche         NorAm    
-Rui           Tang           Servier       NorAm    
-
-
-## Subteam: Censoring
-
-Lead: Jonathan Siegel (Bayer)
-
-
-Firstname     Lastname       Institution   Location 
-------------  -------------  ------------  ---------
-Stefan        Englert        AbbVie        EU       
-Lynda         Grinsted       AstraZeneca   EU       
-Hans-Jochen   Weber          Novartis      EU       
-Kaspar        Rufibach       Roche         EU       
-Jonathan      Siegel         Bayer         NorAm    
-Shoubhik      Mondal         Boehringer    NorAm    
-Jiangxiu      Zhou           GSK           NorAm    
-Steven        Sun            J&J           NorAm    
-Michelle      Casey          Pfizer        NorAm    
-Natalia       Kan-Dobrosky   PPDI          NorAm    
-
-
-## Subteam: Solid
-
-Lead: Evgeny Degtyarev (Novartis)
-
-
-Firstname       Lastname       Institution   Location 
---------------  -------------  ------------  ---------
-Martin-Oliver   Sailer         Boehringer    EU       
-Viktoriya       Stalbovskaya   Merus         EU       
-Evgeny          Degtyarev      Novartis      EU       
-Feng            Liu            AstraZeneca   NorAm    
-Emily           Butler         GSK           NorAm    
-Michelle        Casey          Pfizer        NorAm    
-Rui             Tang           Servier       NorAm    
-
-
-## Subteam: Hematology
-
-Lead: Steven Sun (J&J)
-
-
-Firstname     Lastname       Institution   Location 
-------------  -------------  ------------  ---------
-Lucy          DeCosta        Amgen         EU       
-Viktoriya     Stalbovskaya   Merus         EU       
-Hans-Jochen   Weber          Novartis      EU       
-Kaspar        Rufibach       Roche         EU       
-Emily         Butler         GSK           NorAm    
-Steven        Sun            J&J           NorAm    
-Satrajit      Roychoudhury   Pfizer        NorAm    
+See [here](conferences.html).
 
 # Key achievements per year
 
-## 2019
-
-The WG created a platform for sharing experience and ensuring common understanding of estimands in oncology trials across industry and continues to grow both in terms of members and companies. The discussions within the WG advanced in all subteams and several manuscripts are under preparation. As planned, the initial content was disseminated in 2019 via several statistical conferences in Europe and US. One publication was submitted in 2019 and several submissions are planned in 2020. The WG engaged with the Clinical community and submitted abstracts to several Clinical conferences in collaboration with key opinion leaders and industry clinicians, a poster was presented at ESMO. Similarly, the collaboration with Health Authorities is ongoing and expected to continue over several years. Furthermore, the SWG also had some initial discussions with academia statisticians on potential topics for collaboration in future.
-
-The WG highlighted various estimand problems in Oncology and shared the view of the SWG in many presentations at conferences in Europe and US and in collaboration with EMA and FDA:
-
-* invited talk at HTA EFSPI SIG 1-day event (Berlin, February 2019)
-* session (4 talks) at DAGStat (Munich, March 2019)
-* session (3 talks by WG members and EMA discussant) at LiDS conference (Pittsburgh, June 2019)
-* 2 talks at PSI conference (London, June 2019)
-* 1 talk at DIA Annual meeting (San Diego, June 2019)
-* 1 talk at ISCB conference (Leuven, July 2019)
-* session (4 talks and FDA discussant) at JSM (Denver, July 2019)
-* talk at EFSPI regulatory (Basel, September 2019)
-* session (3 talks) and invited to participate in a panel discussion at ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop (September 2019)
-* talk at ISOQoL conference (San Diego, October 2019)
-* Poster on estimands in adjuvant renal cell carcinoma in collaboration with key opinion leaders and industry clinicians at ESMO  (September 2019)
-
-## 2020
-
-Despite the many challenges in 2020 the SIG was able to relevantly contribute to the implementation of the estimand addendum in drug development in oncology and beyond. Key achievements are:
-
-* The intercontinental team spirit that allowed to come up with a rapid response to COVID-19 pandemic: a [slidedeck](https://oncoestimand.github.io/oncowg_webpage/docs/onco_estimand_COVID-19_slidedeck_v1.pdf) discussing the impact of the pandemic on a trial's estimand was published on the webpage less than five weeks after WHO declared the pandemic. A [paper](https://doi.org/10.1080/19466315.2020.1785543) followed only a few weeks later.
-* Several [publications](https://oncoestimand.github.io/oncowg_webpage/oncoestimand.html#publications) of the SIG were published this year, and several more are in their last rounds of revision.
-* The SIG organized two webinars that brought together drug developers, academics, and regulators to discuss topics around estimands in oncology and beyond:
-  + [Estimands addendum is final: Anything new for oncology?](http://bbs.ceb-institute.org/?p=1453): The highlight here was that several clinical colleagues contributed as presenters and panelists.
-  + [RCTs meeting causal inference: principal stratum strategy and beyond.](http://bbs.ceb-institute.org/?p=1587)
-* The SIG organized sessions and was invited to speak at virtual US conferences (JSM, ASA-FDA workshop, Deming conference on applied statistics). Further [talks](https://oncoestimand.github.io/oncowg_webpage/conferences.html#webinar_of_the_basel_biometrics_section:_impact_of_covid-19_on_clinical_trials) were given at several occasions.
-* The SIG organized TCs with seven Health Authorities (FDA, HC, Swissmedic, China, Japan, Taiwan, MHRA) to share its work and get input on future directions.
-* Set up a webpage ([www.oncoestimand.org](http://www.oncoestimand.org/)) to foster sharing of information and generated content such as presentations and publications. As of today, the SIG has 54 members (20 from Europe, 29 from US, and 5 from Asia) representing 28 companies.
-Currently the SIG is regrouping in task forces dedicated to eight topics that are considered relevant to develop implementation of the addendum further in oncology clinical trials. So expect more output in 2021!
-
-
-
-
-
-
+See [here](achievements.html).

@@ -1,0 +1,71 @@
+---
+title: "Oncology estimand working group: task forces"
+author: "A cross-industry international working group"
+date: '`r Sys.setlocale("LC_TIME", "C"); format(Sys.Date(), "%d %b %Y")`'
+output:
+  html_document:
+    keep_md: true
+    toc: yes
+    toc_depth: 2
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+      number_sections: true
+  github_document: 
+    toc: true
+    toc_depth: 2
+  pdf_document:
+    toc: yes
+  word_document:
+    fig_caption: yes
+    toc: yes
+---
+
+```{r setup, include=FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+
+knitr::opts_chunk$set(echo = TRUE)
+panderOptions('table.alignment.default', function(df){ifelse(sapply(df, is.numeric), 'right', 'left')})
+
+path <- getwd()
+
+## =================================================================
+## functions
+## =================================================================
+source(file = paste(path, "/tools/mydisp.r", sep = ""))
+source(file = paste(path, "/tools/lead.r", sep = ""))
+source(file = paste(path, "/tools/obj.r", sep = ""))
+
+## =================================================================
+## member list
+## =================================================================
+email <- as.data.frame(read_excel(paste(path, "/data/members.xlsx", sep = ""), col_types = NULL))
+objectives <- as.data.frame(read_excel(paste(path, "/data/objectives.xlsx", sep = ""), col_types = NULL))
+
+## Current month
+today <- Sys.Date()
+tod <- format(today, format = "%d %B %Y")
+
+## subteams
+taskforces <- c("Clinical", "PS_switch", "PRO", "DOR", "FU", "RWD", "CondMarg", "T2E_sub")
+```
+
+[Back to main site](http://www.oncoestimand.org)
+
+# Members {.tabset .tabset-fade .tabset-pills} 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, results = "asis"}
+
+# how to do this with child documents: https://gist.github.com/rmoff/a043676a2f084b81a434
+
+out2 <- NULL
+for (i in 1:length(taskforces)){
+  out2 <- c(out2, knit_expand('tools/taskforce.Rmd'))
+}
+
+# the "knit" command somehow produces unwanted output, this is why I assign its output to a and use a separate chunk to display a
+cat(knit(text = unlist(paste(out2, collapse = '\n')), quiet = TRUE))
+```
+

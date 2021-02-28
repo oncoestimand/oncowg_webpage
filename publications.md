@@ -1,7 +1,7 @@
 ---
-title: "Oncology estimand working group: relevant presentations"
+title: "Oncology estimand working group: relevant publications"
 author: "A cross-industry international working group"
-date: '06 Feb 2021'
+date: '28 Feb 2021'
 output:
   html_document:
     keep_md: true
