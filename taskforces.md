@@ -32,7 +32,7 @@ output:
 
 **Lead**: Stefan Englert (AbbVie)
 
-**Objective**: 
+**Objective**: Develop basic introductory material that can be used by all study team members to educate themselves on Oncology Estimands. Translate key messages from the working group activities to a non-statistical audience, targeting especially clinical functions.
 
 
 |Firstname |Lastname |Institution |Location |
@@ -49,7 +49,7 @@ output:
 
 **Lead**: character(0) character(0) (character(0))
 
-**Objective**: 
+**Objective**: NA
 
 
 |Firstname |Lastname |Institution |Location |
@@ -60,7 +60,7 @@ output:
 
 **Lead**: Rachael Lawrence (Adelphi)
 
-**Objective**: 
+**Objective**: Clarify what questions are we answering with typical analyses conducted on HRQoL endpoints in regulatory clinical trials. We are going to consider longitudinal mixed models and time to event analyses initially; "mapping" potential common questions into the estimand framework. The task force is also going to dig into the question of "how to handle death" in HRQoL analyses. We are keen to build collaborative approaches with statisticians and others active in this topic area, such as SISAQoL and ISOQoL working groups.
 
 
 |Firstname |Lastname  |Institution |Location |
@@ -76,7 +76,7 @@ output:
 
 **Lead**: Hans-Jochen Weber (Novartis)
 
-**Objective**: 
+**Objective**: Duration of response and also time to response are standard secondary endpoints in clinical studies in oncology. There are different approaches for analysis and often the clinical question to be addressed remains unclear. We contextualize the different approaches using the estimand framework and illustrate those with case studies. Finally we intend to present recommendations for analyses targeting relevant clinical questions.
 
 
 |Firstname     |Lastname     |Institution |Location |
@@ -95,7 +95,7 @@ output:
 
 **Lead**: Kaspar Rufibach (Roche)
 
-**Objective**: 
+**Objective**: Follow up is very heterogeneously quantified in oncological clinical trials. Given the importance assigned to "amount of follow up" in general the objective of this task force is to describe various ways how follow up is typically quantified, study its properties and issue recommendations how to report follow up and how to interpret it.
 
 
 |Firstname   |Lastname |Institution |Location |
@@ -113,7 +113,7 @@ output:
 
 **Lead**: Evgeny Degtyarev (Novartis)
 
-**Objective**: 
+**Objective**: NA
 
 
 |Firstname |Lastname  |Institution |Location |
@@ -132,7 +132,7 @@ output:
 
 **Lead**: Jiawei Wei (Novartis)
 
-**Objective**: 
+**Objective**: We would like to bring the complex concept and methods about conditional and marginal treatment effect into a simplified and interpretable way. Potential topics including adjusted or unadjusted analysis; stratified vs unstratified hazard ratio; collapsibility and subgroup; p-values; etc. We will give clinically relevant opinions and recommendations based on our interpretation, and illustrate the idea using some case studies.
 
 
 |Firstname |Lastname     |Institution |Location |
