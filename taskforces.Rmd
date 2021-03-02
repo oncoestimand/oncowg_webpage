@@ -50,6 +50,7 @@ tod <- format(today, format = "%d %B %Y")
 
 ## subteams
 taskforces <- c("Clinical", "PS_switch", "PRO", "DOR", "FU", "RWD", "CondMarg", "T2E_sub")
+taskforces_names <- c("Clinical engagement", "Propensity scores for treatment switching", "Patient-reported outcomes", "Duration of responses", "Quantification of follow-up", "Real-world data and estimands", "Conditional vs. marginal effects", "Time to event endpoints with prognostic or predictive biomarker subgroups")
 ```
 
 [Back to main site](http://www.oncoestimand.org)

@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '28 Feb 2021'
+date: '02 Mar 2021'
 output:
   html_document:
     keep_md: true
@@ -61,7 +61,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 28 February 2021, the working group 
+As of 02 March 2021, the working group 
 
  + has 59 members (20 from Europe, 28 from US, and 6 from Asia) representing 32 companies,
  + regularly interacts with eight Health Authorities globally,
@@ -93,6 +93,10 @@ Beyond work in the task forces, the aim of the working group is to provide answe
 ## Become a member
 
 The general spirit of the working group is inclusive. If you'd like to contribute in one or the other way, we propose you first reach out to your company's representative(s) (if applicable) and align within your company who is best placed to contribute to which task force. After that is clarified reach out to Evgeny or Kaspar.
+
+# Task forces and members
+
+Objectives and member rosters of these task forces are available [here](taskforces.html).
 
 # Interactions with Health Authorities and the ICH E9(R1) working group
 

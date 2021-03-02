@@ -4,11 +4,11 @@
 i <- as.numeric('{{i}}')
 ```
 
-## Subteam: `r taskforces[i]`
+## `r taskforces_names[i]`
 
 **Lead**: `r lead(tolower(taskforces[i]))`
 
-**Objective**: `r obj(tolower(taskforces[i]))`
+**Objective**: `r obj(taskforces[i])`
 
 ```{r, echo = FALSE, results = 'asis', message = FALSE}
 t0 <- (email %>% filter(Type == "Industry" & Location %in% c("EU", "NorAm")) %>% arrange(Location, Institution))

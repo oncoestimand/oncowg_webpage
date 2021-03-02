@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: task forces"
 author: "A cross-industry international working group"
-date: '28 Feb 2021'
+date: '02 Mar 2021'
 output:
   html_document:
     keep_md: true
@@ -28,11 +28,11 @@ output:
 # Members {.tabset .tabset-fade .tabset-pills} 
 
 
-## Subteam: Clinical
+## Clinical engagement
 
 **Lead**: Stefan Englert (AbbVie)
 
-**Objective**: Develop basic introductory material that can be used by all study team members to educate themselves on Oncology Estimands. Translate key messages from the working group activities to a non-statistical audience, targeting especially clinical functions.
+**Objective**: 
 
 
 |Firstname |Lastname |Institution |Location |
@@ -45,22 +45,22 @@ output:
 |Rui       |Tang     |Servier     |NorAm    |
 
 
-## Subteam: PS_switch
+## Propensity scores for treatment switching
 
 **Lead**: character(0) character(0) (character(0))
 
-**Objective**: NA
+**Objective**: 
 
 
 |Firstname |Lastname |Institution |Location |
 |:---------|:--------|:-----------|:--------|
 
 
-## Subteam: PRO
+## Patient-reported outcomes
 
 **Lead**: Rachael Lawrence (Adelphi)
 
-**Objective**: Clarify what questions are we answering with typical analyses conducted on HRQoL endpoints in regulatory clinical trials. We are going to consider longitudinal mixed models and time to event analyses initially; "mapping" potential common questions into the estimand framework. The task force is also going to dig into the question of "how to handle death" in HRQoL analyses. We are keen to build collaborative approaches with statisticians and others active in this topic area, such as SISAQoL and ISOQoL working groups.
+**Objective**: 
 
 
 |Firstname |Lastname  |Institution |Location |
@@ -72,11 +72,11 @@ output:
 |Jonathan  |Siegel    |Bayer       |NorAm    |
 
 
-## Subteam: DOR
+## Duration of responses
 
 **Lead**: Hans-Jochen Weber (Novartis)
 
-**Objective**: Duration of response and also time to response are standard secondary endpoints in clinical studies in oncology. There are different approaches for analysis and often the clinical question to be addressed remains unclear. We contextualize the different approaches using the estimand framework and illustrate those with case studies. Finally we intend to present recommendations for analyses targeting relevant clinical questions.
+**Objective**: 
 
 
 |Firstname     |Lastname     |Institution |Location |
@@ -91,11 +91,11 @@ output:
 |Godwin        |Yung         |Roche       |NorAm    |
 
 
-## Subteam: FU
+## Quantification of follow-up
 
 **Lead**: Kaspar Rufibach (Roche)
 
-**Objective**: Follow up is very heterogeneously quantified in oncological clinical trials. Given the importance assigned to "amount of follow up" in general the objective of this task force is to describe various ways how follow up is typically quantified, study its properties and issue recommendations how to report follow up and how to interpret it.
+**Objective**: 
 
 
 |Firstname   |Lastname |Institution |Location |
@@ -109,11 +109,11 @@ output:
 |Cheng       |Zheng    |Sanofi      |NorAm    |
 
 
-## Subteam: RWD
+## Real-world data and estimands
 
 **Lead**: Evgeny Degtyarev (Novartis)
 
-**Objective**: NA
+**Objective**: 
 
 
 |Firstname |Lastname  |Institution |Location |
@@ -128,11 +128,11 @@ output:
 |Jianchang |Lin       |Takeda      |NorAm    |
 
 
-## Subteam: CondMarg
+## Conditional vs. marginal effects
 
 **Lead**: Jiawei Wei (Novartis)
 
-**Objective**: We would like to bring the complex concept and methods about conditional and marginal treatment effect into a simplified and interpretable way. Potential topics including adjusted or unadjusted analysis; stratified vs unstratified hazard ratio; collapsibility and subgroup; p-values; etc. We will give clinically relevant opinions and recommendations based on our interpretation, and illustrate the idea using some case studies.
+**Objective**: 
 
 
 |Firstname |Lastname     |Institution |Location |
@@ -143,7 +143,7 @@ output:
 |Satrajit  |Roychoudhury |Pfizer      |NorAm    |
 
 
-## Subteam: T2E_sub
+## Time to event endpoints with prognostic or predictive biomarker subgroups
 
 **Lead**: character(0) character(0) (character(0))
 

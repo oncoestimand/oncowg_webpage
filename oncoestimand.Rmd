@@ -51,10 +51,6 @@ com <- email[ind, "Institution"]
 today <- Sys.Date()
 tod <- format(today, format = "%d %B %Y")
 
-## subteams
-#subteams <- c("Causal", "Switching", "Censoring", "Solid", "Hematology")
-taskforces <- c("Clinical", "PS_switch", "PRO", "DOR", "FU", "RWD", "CondMarg", "T2E_sub")
-
 ## talks
 talks <- as.data.frame(read_excel(paste(path, "/data/conferences.xlsx", sep = ""), col_types = NULL))
 ```
@@ -129,6 +125,10 @@ Beyond work in the task forces, the aim of the working group is to provide answe
 ## Become a member
 
 The general spirit of the working group is inclusive. If you'd like to contribute in one or the other way, we propose you first reach out to your company's representative(s) (if applicable) and align within your company who is best placed to contribute to which task force. After that is clarified reach out to Evgeny or Kaspar.
+
+# Task forces and members
+
+Objectives and member rosters of these task forces are available [here](taskforces.html).
 
 # Interactions with Health Authorities and the ICH E9(R1) working group
 
