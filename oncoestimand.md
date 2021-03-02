@@ -96,7 +96,7 @@ The general spirit of the working group is inclusive. If you'd like to contribut
 
 # Task forces and members
 
-Objectives and member rosters of these task forces are available [here](taskforces.html).
+Objectives and member rosters of the current task forces are available [here](taskforces.html).
 
 # Interactions with Health Authorities and the ICH E9(R1) working group
 
