@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: task forces"
 author: "A cross-industry international working group"
-date: '02 Mar 2021'
+date: '03 Mar 2021'
 output:
   html_document:
     keep_md: true
@@ -41,8 +41,8 @@ output:
 |Feng      |Liu      |AstraZeneca |NorAm    |
 |Jonathan  |Siegel   |Bayer       |NorAm    |
 |Emily     |Butler   |GSK         |NorAm    |
-|Michelle  |Casey    |Pfizer      |NorAm    |
 |Rui       |Tang     |Servier     |NorAm    |
+|Paul      |Bycott   |US          |NorAm    |
 
 
 ## Propensity scores for treatment switching
@@ -122,10 +122,10 @@ output:
 |Lisa      |Hampson   |Novartis    |EU       |
 |Kaspar    |Rufibach  |Roche       |EU       |
 |Feng      |Xiao      |AstraZeneca |NorAm    |
-|Michelle  |Casey     |Pfizer      |NorAm    |
 |Cheng     |Zheng     |Sanofi      |NorAm    |
 |Rui       |Tang      |Servier     |NorAm    |
 |Jianchang |Lin       |Takeda      |NorAm    |
+|Paul      |Bycott    |US          |NorAm    |
 
 
 ## Conditional vs. marginal effects
@@ -145,12 +145,21 @@ output:
 
 ## Time to event endpoints with prognostic or predictive biomarker subgroups
 
-**Lead**: character(0) character(0) (character(0))
+**Lead**: Yi Liu (Nektar)
 
 **Objective**: 
 
 
-|Firstname |Lastname |Institution |Location |
-|:---------|:--------|:-----------|:--------|
-|Liwei     |Wang     |J&J         |NorAm    |
+|Firstname     |Lastname |Institution |Location |
+|:-------------|:--------|:-----------|:--------|
+|Martin-Oliver |Sailer   |Boehringer  |EU       |
+|Jonathan      |Siegel   |Bayer       |NorAm    |
+|Jiang         |Li       |Beigene     |NorAm    |
+|Shoubhik      |Mondal   |Boehringer  |NorAm    |
+|Hong          |Tian     |J&J         |NorAm    |
+|Liwei         |Wang     |J&J         |NorAm    |
+|Yue           |Shentu   |Merck       |NorAm    |
+|Yi            |Liu      |Nektar      |NorAm    |
+|Miao          |Yang     |Nektar      |NorAm    |
+|Godwin        |Yung     |Roche       |NorAm    |
 
