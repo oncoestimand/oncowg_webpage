@@ -147,7 +147,7 @@ output:
 
 **Lead**: Yi Liu (Nektar)
 
-**Objective**: 
+**Objective**: Our goal is to understand various efficacy estimands of biomarker subgroups and its relationship to the overall population for binary and time-to-event endpoints. For continuous outcomes with difference of means as efficacy estimand, Least Square estimates from the full model containing treatment, subgroup, and its interaction term enable an unbiased estimation of efficacy for the overall population by linearly combining estimands of the two subgroups. Following the same process for binary or time-to-event efficacy estimands such as hazard ratio or odds ratio, although guaranteeing logical inference in appearance, does not lead to the correct efficacy estimand of the overall population. In fact, the correct HR (or OR) may be outside of the interval of subgroup HRs (or ORs) leading to illogical interpretations. The task force will investigate which efficacy measures are logic respecting on the population level and make recommendations on how to analyze real clinical trial data so that analysis results based on these efficacy measures will always be logical for either prognostic or predictive biomarkers.
 
 
 |Firstname     |Lastname |Institution |Location |
