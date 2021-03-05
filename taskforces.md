@@ -1,24 +1,24 @@
 ---
 title: "Oncology estimand working group: task forces"
 author: "A cross-industry international working group"
-date: '03 Mar 2021'
+date: '05 Mar 2021'
 output:
   html_document:
     keep_md: true
-    toc: yes
+    toc: no
     toc_depth: 2
     toc_float:
       collapsed: yes
       smooth_scroll: yes
       number_sections: true
   github_document: 
-    toc: true
+    toc: no
     toc_depth: 2
   pdf_document:
-    toc: yes
+    toc: no
   word_document:
     fig_caption: yes
-    toc: yes
+    toc: no
 ---
 
 

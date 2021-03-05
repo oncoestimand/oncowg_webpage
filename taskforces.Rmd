@@ -5,20 +5,20 @@ date: '`r Sys.setlocale("LC_TIME", "C"); format(Sys.Date(), "%d %b %Y")`'
 output:
   html_document:
     keep_md: true
-    toc: yes
+    toc: no
     toc_depth: 2
     toc_float:
       collapsed: yes
       smooth_scroll: yes
       number_sections: true
   github_document: 
-    toc: true
+    toc: no
     toc_depth: 2
   pdf_document:
-    toc: yes
+    toc: no
   word_document:
     fig_caption: yes
-    toc: yes
+    toc: no
 ---
 
 ```{r setup, include=FALSE}

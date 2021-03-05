@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '03 Mar 2021'
+date: '05 Mar 2021'
 output:
   html_document:
     keep_md: true
@@ -27,6 +27,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org)
 
 # Latest news
 
+* 5th March: Two sessions with involvement of the WG at this year's [ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2021](https://ww2.amstat.org/meetings/biop/2021), see below for details.
 * 28th February: Added rosters and objectives of [task forces](taskforces.html).
 * 11th February: Added [slides](https://oncoestimand.github.io/oncowg_webpage/talks/20210211_DCTs_estimands.pdf) presented by Evgeny and Kaspar at ASA - FDA - LUNGevity symposium "Statistical considerations in Oncology clinical trials in the COVID-19 era".
 * 5th February: Papers on [principal stratification](https://arxiv.org/abs/2008.05406) and [hematology case studies](https://arxiv.org/abs/2010.00957) both accepted for publication by [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612). See [publication section](https://oncoestimand.github.io/oncowg_webpage/oncoestimand.html#publications).
@@ -61,7 +62,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 03 March 2021, the working group 
+As of 05 March 2021, the working group 
 
  + has 60 members (20 from Europe, 28 from US, and 7 from Asia) representing 33 companies,
  + regularly interacts with eight Health Authorities globally,
@@ -138,9 +139,13 @@ We appreciate any feedback on these documents! Please feel reach out to Evgeny o
 
 # Events
 
-## Upcoming events with involvement (contributions and/or co-organization) of the working group
+## Upcoming events with contributions of the working group
 
-* Currently none announced.
+### [ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2021](https://ww2.amstat.org/meetings/biop/2021)
+
+* _Clinical and Statistical Perspectives on Post-ICH E9 (R1) Addendum Estimand Use: Current Status and Future Directions_. Organizers: Kaspar Rufibach (Roche), Lei Nie (FDA), Shanti Gomatam (FDA). Frank Bretz (Novartis), Alexei Ionan (FDA). Presenters and panel discussion: Devan Mehrotra (Merck, ICH E9 (R1) Expert Working Group member, statistical), Sally Seymour (FDA, Division Director, clinical), David Lebwohl (Intellia Therapeutics, clinical), John Scott (FDA, CBER, statistical), Bohdana Ratitch (Bayer, statistical), Sylva Collins (FDA, CDER, statistical).
+
+* _Estimands in Oncology: White Papers from an Industry Working Group_. Organizer: Jonathan Siegel (Bayer). Presenters: Natalia Kan-Dobrosky (PPDI), Jonathan Siegel (Bayer), Satrajit Roychoudhury (Pfizer). Discussant: Qing Xu (FDA).
 
 ## Past events and and all presentation slide decks
 
