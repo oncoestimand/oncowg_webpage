@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '15 Mar 2021'
+date: '22 Mar 2021'
 output:
   html_document:
     keep_md: true
@@ -27,6 +27,8 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org)
 
 # Latest news
 
+* 22th March: Natalia Kan-Dobrosky will talk at the [Duke Industry Statistics Symposium](https://sites.duke.edu/diss/) on "Estimands in clinical trials with treatment switching
+".
 * 5th March: Two sessions with involvement of the WG at this year's [ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2021](https://ww2.amstat.org/meetings/biop/2021), see below for details.
 * 28th February: Added rosters and objectives of [task forces](taskforces.html).
 * 11th February: Added [slides](https://oncoestimand.github.io/oncowg_webpage/talks/20210211_DCTs_estimands.pdf) presented by Evgeny and Kaspar at ASA - FDA - LUNGevity symposium "Statistical considerations in Oncology clinical trials in the COVID-19 era".
@@ -62,7 +64,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 15 March 2021, the working group 
+As of 22 March 2021, the working group 
 
  + has 60 members (0 from Europe, 30 from US, and 7 from Asia) representing 33 companies,
  + regularly interacts with eight Health Authorities globally,

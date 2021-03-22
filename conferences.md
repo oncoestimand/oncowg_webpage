@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '02 Mar 2021'
+date: '22 Mar 2021'
 output:
   html_document:
     keep_md: true
@@ -609,6 +609,30 @@ output:
 |:-------------------------------------------------------------------------------------------------------------------|
 |Evgeny Degtyarev: [How can the estimand framework support decentralized trials?](talks/20210211_DCTs_estimands.pdf) |
 |Kaspar Rufibach: [How can the estimand framework support decentralized trials?](talks/20210211_DCTs_estimands.pdf)  |
+
+
+
+# Duke Industry Statistics Symposium {.tabset .tabset-fade .tabset-pills} 
+
+
+-----------------------------------------------
+   Start       City     Country       Type     
+------------ --------- --------- --------------
+ 2021-04-21   Virtual     USA     Invited talk 
+-----------------------------------------------
+
+## Program
+
+[Link to Program](https://sites.duke.edu/diss/)
+
+## Talks
+
+
+
+
+|Speaker (click on title to download slides)                                       |
+|:---------------------------------------------------------------------------------|
+|Natalia Kan-Dobrosky: [Estimands in clinical trials with treatment switching](NA) |
 
 
 
