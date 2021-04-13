@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: task forces"
 author: "A cross-industry international working group"
-date: '15 Mar 2021'
+date: '13 Apr 2021'
 output:
   html_document:
     keep_md: true
@@ -37,8 +37,7 @@ output:
 
 |Firstname |Lastname |Institution |Location |
 |:---------|:--------|:-----------|:--------|
-|Jiawei    |Wei      |Novartis    |Asia     |
-|Stefan    |Englert  |AbbVie      |Europe   |
+|Stefan    |Englert  |AbbVie      |EU       |
 |Feng      |Liu      |AstraZeneca |NorAm    |
 |Jonathan  |Siegel   |Bayer       |NorAm    |
 |Emily     |Butler   |GSK         |NorAm    |
@@ -66,16 +65,16 @@ output:
 
 |Firstname   |Lastname  |Institution    |Location |
 |:-----------|:---------|:--------------|:--------|
-|Rachael     |Lawrence  |Adelphi        |Europe   |
-|Xiangning   |Huang     |AstraZeneca    |Europe   |
+|Rachael     |Lawrence  |Adelphi        |EU       |
+|Xiangning   |Huang     |AstraZeneca    |EU       |
+|Evgeny      |Degtyarev |Novartis       |EU       |
+|Stephen     |Corson    |Phastar        |EU       |
 |Konstantina |Skaltsa   |IQVIA          |Europe   |
 |Antoine     |Regnault  |Modus Outcomes |Europe   |
-|Evgeny      |Degtyarev |Novartis       |Europe   |
-|Stephen     |Corson    |Phastar        |Europe   |
 |Johan       |Bring     |Statisticon    |Europe   |
 |Jonathan    |Siegel    |Bayer          |NorAm    |
-|Libby       |Floden    |Solutions      |NorAm    |
-|Stacie      |Hudgens   |Solutions      |NorAm    |
+|Libby       |Floden    |Solutions      |US       |
+|Stacie      |Hudgens   |Solutions      |US       |
 
 
 ## Duration of responses
@@ -87,10 +86,11 @@ output:
 
 |Firstname     |Lastname     |Institution |Location |
 |:-------------|:------------|:-----------|:--------|
-|Alex          |Todd         |AstraZeneca |Europe   |
-|Martin-Oliver |Sailer       |Boehringer  |Europe   |
-|Hans-Jochen   |Weber        |Novartis    |Europe   |
-|Stephen       |Corson       |Phastar     |Europe   |
+|Alex          |Todd         |AstraZeneca |EU       |
+|Martin-Oliver |Sailer       |Boehringer  |EU       |
+|Hans-Jochen   |Weber        |Novartis    |EU       |
+|Stephen       |Corson       |Phastar     |EU       |
+|Francois      |Mercier      |Roche       |EU       |
 |Jiang         |Li           |Beigene     |NorAm    |
 |Steven        |Sun          |J&J         |NorAm    |
 |Satrajit      |Roychoudhury |Pfizer      |NorAm    |
@@ -106,9 +106,9 @@ output:
 
 |Firstname   |Lastname |Institution |Location |
 |:-----------|:--------|:-----------|:--------|
-|Lynda       |Grinsted |AstraZeneca |Europe   |
-|Hans-Jochen |Weber    |Novartis    |Europe   |
-|Kaspar      |Rufibach |Roche       |Europe   |
+|Lynda       |Grinsted |AstraZeneca |EU       |
+|Hans-Jochen |Weber    |Novartis    |EU       |
+|Kaspar      |Rufibach |Roche       |EU       |
 |Jiang       |Li       |Beigene     |NorAm    |
 |Jiangxiu    |Zhou     |GSK         |NorAm    |
 |Yue         |Shentu   |Merck       |NorAm    |
@@ -124,9 +124,9 @@ output:
 
 |Firstname |Lastname  |Institution |Location |
 |:---------|:---------|:-----------|:--------|
-|Evgeny    |Degtyarev |Novartis    |Europe   |
-|Lisa      |Hampson   |Novartis    |Europe   |
-|Kaspar    |Rufibach  |Roche       |Europe   |
+|Evgeny    |Degtyarev |Novartis    |EU       |
+|Lisa      |Hampson   |Novartis    |EU       |
+|Kaspar    |Rufibach  |Roche       |EU       |
 |Feng      |Xiao      |AstraZeneca |NorAm    |
 |Cheng     |Zheng     |Sanofi      |NorAm    |
 |Rui       |Tang      |Servier     |NorAm    |
@@ -146,8 +146,8 @@ output:
 |Jiajun    |Xu           |J&J         |Asia     |
 |Jiawei    |Wei          |Novartis    |Asia     |
 |Ziqiang   |Zhao         |Novartis    |Asia     |
-|Björn     |Bornkamp     |Novartis    |Europe   |
-|Kaspar    |Rufibach     |Roche       |Europe   |
+|Björn     |Bornkamp     |Novartis    |EU       |
+|Kaspar    |Rufibach     |Roche       |EU       |
 |Hong      |Tian         |J&J         |NorAm    |
 |Satrajit  |Roychoudhury |Pfizer      |NorAm    |
 
@@ -162,7 +162,7 @@ output:
 |Firstname     |Lastname |Institution                |Location |
 |:-------------|:--------|:--------------------------|:--------|
 |Siyoen        |Kil      |LSK Global Pharma Services |Asia     |
-|Martin-Oliver |Sailer   |Boehringer                 |Europe   |
+|Martin-Oliver |Sailer   |Boehringer                 |EU       |
 |Jonathan      |Siegel   |Bayer                      |NorAm    |
 |Jiang         |Li       |Beigene                    |NorAm    |
 |Shoubhik      |Mondal   |Boehringer                 |NorAm    |
@@ -172,4 +172,18 @@ output:
 |Yi            |Liu      |Nektar                     |NorAm    |
 |Miao          |Yang     |Nektar                     |NorAm    |
 |Godwin        |Yung     |Roche                      |NorAm    |
+
+
+## Early development estimand nexus (EDEN)
+
+**Lead**: Francois Mercier (Roche)
+
+**Objective**: In oncology Phase 1a (dose-escalation) and Phase 1b (expansion cohort) studies, the designs are complex because the objectives are often multiple and ambitious. Defining estimands and the associated estimators in this setting can be difficult.
+In this WG, we intend to implement the ICH-E9 addendum and to reflect on the challenges it presents in early clinical development studies. Such challenges may include: (1) absence of control group (2) varying dose, but also dosing schedule across treatment arms (a.k.a. cohorts) (3) presence of anti-drug antibody (ADA) (4) prophylactic treatment or co-medication for toxicity mitigation (e.g. using steroids) (5) compassionate within-patient dose escalation. The taskforce will give clinically relevant opinions and recommendations based on our analysis and interpretation of the selected case studies. Contact to other task forces will be sought based on need.
+
+
+
+|Firstname |Lastname |Institution |Location |
+|:---------|:--------|:-----------|:--------|
+|Francois  |Mercier  |Roche       |EU       |
 
