@@ -59,6 +59,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org)
 
 # Latest news
 
+* 28th April: The WG offers a new webinar [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), targeted at Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians.
 * 13th April: Kickoff of EDEN (Early Development Estimand Nexus) task force.
 * 22th March: Natalia Kan-Dobrosky will talk at the [Duke Industry Statistics Symposium](https://sites.duke.edu/diss/) on "Estimands in clinical trials with treatment switching
 ".
@@ -175,6 +176,10 @@ We appreciate any feedback on these documents! Please feel reach out to Evgeny o
 # Events
 
 ## Upcoming events with contributions of the working group
+
+### [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why)
+
+Webinar targeted at Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians. Registration is free of charge.
 
 ### [ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2021](https://ww2.amstat.org/meetings/biop/2021)
 

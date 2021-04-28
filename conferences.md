@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '22 Mar 2021'
+date: '28 Apr 2021'
 output:
   html_document:
     keep_md: true
@@ -633,6 +633,35 @@ output:
 |Speaker (click on title to download slides)                                       |
 |:---------------------------------------------------------------------------------|
 |Natalia Kan-Dobrosky: [Estimands in clinical trials with treatment switching](NA) |
+
+
+
+# PSI EIWG Webinar: Estimands in Oncology - How and Why {.tabset .tabset-fade .tabset-pills} 
+
+
+-----------------------------------------------
+   Start       City     Country       Type     
+------------ --------- --------- --------------
+ 2021-06-01   Virtual     UK      Invited talk 
+-----------------------------------------------
+
+## Program
+
+[Link to Program](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why)
+
+## Talks
+
+
+
+
+|Speaker (click on title to download slides) |
+|:-------------------------------------------|
+|Stefan Englert: [NA](NA)                    |
+|Paul Bycott: [NA](NA)                       |
+|Feng Liu: [NA](NA)                          |
+|Jonathan Siegel: [NA](NA)                   |
+|Sammi Tang: [NA](NA)                        |
+|Jiawei Wei: [NA](NA)                        |
 
 
 

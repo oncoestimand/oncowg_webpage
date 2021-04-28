@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '13 Apr 2021'
+date: '28 Apr 2021'
 output:
   html_document:
     keep_md: true
@@ -27,6 +27,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org)
 
 # Latest news
 
+* 28th April: The WG offers a new webinar [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), targeted at Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians.
 * 13th April: Kickoff of EDEN (Early Development Estimand Nexus) task force.
 * 22th March: Natalia Kan-Dobrosky will talk at the [Duke Industry Statistics Symposium](https://sites.duke.edu/diss/) on "Estimands in clinical trials with treatment switching
 ".
@@ -65,7 +66,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 13 April 2021, the working group 
+As of 28 April 2021, the working group 
 
  + has 61 members (21 from Europe, 28 from US, and 7 from Asia) representing 33 companies,
  + regularly interacts with eight Health Authorities globally,
