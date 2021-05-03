@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '28 Apr 2021'
+date: '03 May 2021'
 output:
   html_document:
     keep_md: true
@@ -27,6 +27,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org)
 
 # Latest news
 
+* 3rd May: Added members of EDEN task force
 * 28th April: The WG offers a new webinar [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), targeted at Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians.
 * 13th April: Kickoff of EDEN (Early Development Estimand Nexus) task force.
 * 22th March: Natalia Kan-Dobrosky will talk at the [Duke Industry Statistics Symposium](https://sites.duke.edu/diss/) on "Estimands in clinical trials with treatment switching
@@ -66,9 +67,9 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 28 April 2021, the working group 
+As of 03 May 2021, the working group 
 
- + has 61 members (21 from Europe, 28 from US, and 7 from Asia) representing 33 companies,
+ + has 63 members (22 from Europe, 29 from US, and 7 from Asia) representing 33 companies,
  + regularly interacts with eight Health Authorities globally,
  + regularly organizes sessions and presents at conferences,
  + has started to interact with academic colleagues.
@@ -144,6 +145,10 @@ We appreciate any feedback on these documents! Please feel reach out to Evgeny o
 # Events
 
 ## Upcoming events with contributions of the working group
+
+### [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why)
+
+Webinar targeted at Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians. Registration is free of charge.
 
 ### [ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2021](https://ww2.amstat.org/meetings/biop/2021)
 

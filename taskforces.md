@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: task forces"
 author: "A cross-industry international working group"
-date: '13 Apr 2021'
+date: '03 May 2021'
 output:
   html_document:
     keep_md: true
@@ -45,7 +45,7 @@ output:
 |Paul      |Bycott   |US          |NorAm    |
 
 
-## Propensity scores for treatment switching
+## Principal stratification for treatment switching
 
 **Lead**: character(0) character(0) (character(0))
 
@@ -183,7 +183,11 @@ In this WG, we intend to implement the ICH-E9 addendum and to reflect on the cha
 
 
 
-|Firstname |Lastname |Institution |Location |
-|:---------|:--------|:-----------|:--------|
-|Francois  |Mercier  |Roche       |EU       |
+|Firstname |Lastname     |Institution |Location |
+|:---------|:------------|:-----------|:--------|
+|Stefan    |Englert      |AbbVie      |EU       |
+|Francois  |Mercier      |Roche       |EU       |
+|Frederic  |Dubois       |Servier     |EU       |
+|Junxian   |Geng         |Boehringer  |NorAm    |
+|Natalia   |Kan-Dobrosky |PPDI        |NorAm    |
 
