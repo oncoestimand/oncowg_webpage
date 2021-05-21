@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '03 May 2021'
+date: '21 May 2021'
 output:
   html_document:
     keep_md: true
@@ -67,9 +67,9 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 03 May 2021, the working group 
+As of 21 May 2021, the working group 
 
- + has 63 members (22 from Europe, 29 from US, and 7 from Asia) representing 33 companies,
+ + has 67 members (24 from Europe, 28 from US, and 7 from Asia) representing 34 companies,
  + regularly interacts with eight Health Authorities globally,
  + regularly organizes sessions and presents at conferences,
  + has started to interact with academic colleagues.

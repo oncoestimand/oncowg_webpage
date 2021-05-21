@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: task forces"
 author: "A cross-industry international working group"
-date: '03 May 2021'
+date: '21 May 2021'
 output:
   html_document:
     keep_md: true
@@ -37,10 +37,9 @@ output:
 
 |Firstname |Lastname |Institution |Location |
 |:---------|:--------|:-----------|:--------|
-|Stefan    |Englert  |AbbVie      |EU       |
+|Stefan    |Englert  |AbbVie      |Europe   |
 |Feng      |Liu      |AstraZeneca |NorAm    |
 |Jonathan  |Siegel   |Bayer       |NorAm    |
-|Emily     |Butler   |GSK         |NorAm    |
 |Rui       |Tang     |Servier     |NorAm    |
 |Paul      |Bycott   |US          |NorAm    |
 
@@ -65,12 +64,12 @@ output:
 
 |Firstname   |Lastname  |Institution    |Location |
 |:-----------|:---------|:--------------|:--------|
-|Rachael     |Lawrence  |Adelphi        |EU       |
-|Xiangning   |Huang     |AstraZeneca    |EU       |
-|Evgeny      |Degtyarev |Novartis       |EU       |
-|Stephen     |Corson    |Phastar        |EU       |
+|Rachael     |Lawrence  |Adelphi        |Europe   |
+|Xiangning   |Huang     |AstraZeneca    |Europe   |
 |Konstantina |Skaltsa   |IQVIA          |Europe   |
 |Antoine     |Regnault  |Modus Outcomes |Europe   |
+|Evgeny      |Degtyarev |Novartis       |Europe   |
+|Stephen     |Corson    |Phastar        |Europe   |
 |Johan       |Bring     |Statisticon    |Europe   |
 |Jonathan    |Siegel    |Bayer          |NorAm    |
 |Libby       |Floden    |Solutions      |US       |
@@ -86,11 +85,12 @@ output:
 
 |Firstname     |Lastname     |Institution |Location |
 |:-------------|:------------|:-----------|:--------|
-|Alex          |Todd         |AstraZeneca |EU       |
-|Martin-Oliver |Sailer       |Boehringer  |EU       |
-|Hans-Jochen   |Weber        |Novartis    |EU       |
-|Stephen       |Corson       |Phastar     |EU       |
-|Francois      |Mercier      |Roche       |EU       |
+|Alex          |Todd         |AstraZeneca |Europe   |
+|Martin-Oliver |Sailer       |Boehringer  |Europe   |
+|Monica        |Hadi         |Evidera     |Europe   |
+|Hans-Jochen   |Weber        |Novartis    |Europe   |
+|Stephen       |Corson       |Phastar     |Europe   |
+|Francois      |Mercier      |Roche       |Europe   |
 |Jiang         |Li           |Beigene     |NorAm    |
 |Steven        |Sun          |J&J         |NorAm    |
 |Satrajit      |Roychoudhury |Pfizer      |NorAm    |
@@ -106,9 +106,9 @@ output:
 
 |Firstname   |Lastname |Institution |Location |
 |:-----------|:--------|:-----------|:--------|
-|Lynda       |Grinsted |AstraZeneca |EU       |
-|Hans-Jochen |Weber    |Novartis    |EU       |
-|Kaspar      |Rufibach |Roche       |EU       |
+|Lynda       |Grinsted |AstraZeneca |Europe   |
+|Hans-Jochen |Weber    |Novartis    |Europe   |
+|Kaspar      |Rufibach |Roche       |Europe   |
 |Jiang       |Li       |Beigene     |NorAm    |
 |Jiangxiu    |Zhou     |GSK         |NorAm    |
 |Yue         |Shentu   |Merck       |NorAm    |
@@ -124,9 +124,9 @@ output:
 
 |Firstname |Lastname  |Institution |Location |
 |:---------|:---------|:-----------|:--------|
-|Evgeny    |Degtyarev |Novartis    |EU       |
-|Lisa      |Hampson   |Novartis    |EU       |
-|Kaspar    |Rufibach  |Roche       |EU       |
+|Evgeny    |Degtyarev |Novartis    |Europe   |
+|Lisa      |Hampson   |Novartis    |Europe   |
+|Kaspar    |Rufibach  |Roche       |Europe   |
 |Feng      |Xiao      |AstraZeneca |NorAm    |
 |Cheng     |Zheng     |Sanofi      |NorAm    |
 |Rui       |Tang      |Servier     |NorAm    |
@@ -146,8 +146,8 @@ output:
 |Jiajun    |Xu           |J&J         |Asia     |
 |Jiawei    |Wei          |Novartis    |Asia     |
 |Ziqiang   |Zhao         |Novartis    |Asia     |
-|Björn     |Bornkamp     |Novartis    |EU       |
-|Kaspar    |Rufibach     |Roche       |EU       |
+|Björn     |Bornkamp     |Novartis    |Europe   |
+|Kaspar    |Rufibach     |Roche       |Europe   |
 |Hong      |Tian         |J&J         |NorAm    |
 |Satrajit  |Roychoudhury |Pfizer      |NorAm    |
 
@@ -162,8 +162,7 @@ output:
 |Firstname     |Lastname |Institution                |Location |
 |:-------------|:--------|:--------------------------|:--------|
 |Siyoen        |Kil      |LSK Global Pharma Services |Asia     |
-|Martin-Oliver |Sailer   |Boehringer                 |EU       |
-|Jonathan      |Siegel   |Bayer                      |NorAm    |
+|Martin-Oliver |Sailer   |Boehringer                 |Europe   |
 |Jiang         |Li       |Beigene                    |NorAm    |
 |Shoubhik      |Mondal   |Boehringer                 |NorAm    |
 |Hong          |Tian     |J&J                        |NorAm    |
@@ -185,9 +184,13 @@ In this WG, we intend to implement the ICH-E9 addendum and to reflect on the cha
 
 |Firstname |Lastname     |Institution |Location |
 |:---------|:------------|:-----------|:--------|
-|Stefan    |Englert      |AbbVie      |EU       |
-|Francois  |Mercier      |Roche       |EU       |
-|Frederic  |Dubois       |Servier     |EU       |
+|Stefan    |Englert      |AbbVie      |Europe   |
+|Elizabeth |Pilling      |AstraZeneca |Europe   |
+|Anja      |Victor       |Merck       |Europe   |
+|Christina |Habermehl    |Merck       |Europe   |
+|Francois  |Mercier      |Roche       |Europe   |
+|Guillaume |Lecorps      |Sanofi      |Europe   |
+|Frederic  |Dubois       |Servier     |Europe   |
 |Junxian   |Geng         |Boehringer  |NorAm    |
 |Natalia   |Kan-Dobrosky |PPDI        |NorAm    |
 
