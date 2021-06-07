@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: task forces"
 author: "A cross-industry international working group"
-date: '21 May 2021'
+date: '07 Jun 2021'
 output:
   html_document:
     keep_md: true
@@ -72,8 +72,8 @@ output:
 |Stephen     |Corson    |Phastar        |Europe   |
 |Johan       |Bring     |Statisticon    |Europe   |
 |Jonathan    |Siegel    |Bayer          |NorAm    |
-|Libby       |Floden    |Solutions      |US       |
-|Stacie      |Hudgens   |Solutions      |US       |
+|Libby       |Floden    |Solutions      |NorAm    |
+|Stacie      |Hudgens   |Solutions      |NorAm    |
 
 
 ## Duration of responses
@@ -112,7 +112,7 @@ output:
 |Jiang       |Li       |Beigene     |NorAm    |
 |Jiangxiu    |Zhou     |GSK         |NorAm    |
 |Yue         |Shentu   |Merck       |NorAm    |
-|Cheng       |Zheng    |Sanofi      |NorAm    |
+|Cheng       |Zheng    |Zentalis    |NorAm    |
 
 
 ## Real-world data and estimands
@@ -128,10 +128,10 @@ output:
 |Lisa      |Hampson   |Novartis    |Europe   |
 |Kaspar    |Rufibach  |Roche       |Europe   |
 |Feng      |Xiao      |AstraZeneca |NorAm    |
-|Cheng     |Zheng     |Sanofi      |NorAm    |
 |Rui       |Tang      |Servier     |NorAm    |
 |Jianchang |Lin       |Takeda      |NorAm    |
 |Paul      |Bycott    |US          |NorAm    |
+|Cheng     |Zheng     |Zentalis    |NorAm    |
 
 
 ## Conditional vs. marginal effects
@@ -193,4 +193,5 @@ In this WG, we intend to implement the ICH-E9 addendum and to reflect on the cha
 |Frederic  |Dubois       |Servier     |Europe   |
 |Junxian   |Geng         |Boehringer  |NorAm    |
 |Natalia   |Kan-Dobrosky |PPDI        |NorAm    |
+|Guillaume |Lecorps      |Sanofi      |NorAm    |
 

@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '21 May 2021'
+date: '07 Jun 2021'
 output:
   html_document:
     keep_md: true
@@ -654,14 +654,15 @@ output:
 
 
 
-|Speaker (click on title to download slides) |
-|:-------------------------------------------|
-|Stefan Englert: [NA](NA)                    |
-|Paul Bycott: [NA](NA)                       |
-|Feng Liu: [NA](NA)                          |
-|Jonathan Siegel: [NA](NA)                   |
-|Sammi Tang: [NA](NA)                        |
-|Jiawei Wei: [NA](NA)                        |
+|Speaker (click on title to download slides)                                                                                       |
+|:---------------------------------------------------------------------------------------------------------------------------------|
+|Stefan Englert: [Bringing estimands to lifelifethrough real case studies through real case studies](talks/20210601_clin_eng.pdf)  |
+|Paul Bycott: [Bringing estimands to lifelifethrough real case studies through real case studies](talks/20210601_clin_eng.pdf)     |
+|Feng Liu: [Bringing estimands to lifelifethrough real case studies through real case studies](talks/20210601_clin_eng.pdf)        |
+|Jonathan Siegel: [Bringing estimands to lifelifethrough real case studies through real case studies](talks/20210601_clin_eng.pdf) |
+|Sammi Tang: [Bringing estimands to lifelifethrough real case studies through real case studies](talks/20210601_clin_eng.pdf)      |
+|Jiawei Wei: [Bringing estimands to lifelifethrough real case studies through real case studies](talks/20210601_clin_eng.pdf)      |
+|All: [Recording of the entire event](NA)                                                                                          |
 
 
 
