@@ -19,7 +19,7 @@ pander(t0)
 
 [Link to Program](`r (tab %>% select(Web))`)
 
-## Talks
+## Talks and/or recording
 
 ```{r echo = FALSE}
 tab2 <- data.frame(matrix(NA, ncol = 1, nrow = 5))

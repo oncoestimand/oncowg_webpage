@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group"
 author: "A cross-industry international working group"
-date: '08 Jun 2021'
+date: '09 Jun 2021'
 output:
   html_document:
     keep_md: true
@@ -27,7 +27,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org)
 
 # Latest news
 
-* 7th June: Added slidedeck from [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), updated team roster.
+* 7th June: Added [slidedeck](talks/20210601_clin_eng.pdf) and [recording](https://www.psiweb.org/vod/item/psi-eiwg-webinar-estimands-in-oncology---how-and-why) from [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), updated team roster.
 * 3rd May: Added members of EDEN task force.
 * 28th April: The WG offers a new webinar [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), targeted at Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians.
 * 13th April: Kickoff of EDEN (Early Development Estimand Nexus) task force.
@@ -68,7 +68,7 @@ Furthermore, increased transparency on the treatment effect of interest is consi
 
 ## Status
 
-As of 08 June 2021, the working group 
+As of 09 June 2021, the working group 
 
  + has 68 members (30 from Europe, 31 from US, and 7 from Asia) representing 35 companies,
  + regularly interacts with eight Health Authorities globally,

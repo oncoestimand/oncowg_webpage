@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '07 Jun 2021'
+date: '09 Jun 2021'
 output:
   html_document:
     keep_md: true
@@ -41,7 +41,7 @@ output:
 
 [Link to Program](https://www.efspi.org/documents/events/Events%202019/HTA_Feb_19/EFSPI%20HTA%20Flyer%20Feb%202019%20draft%20updated-converted.pdf)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -65,7 +65,7 @@ output:
 
 [Link to Program](https://www.conftool.org/dagstat2019/index.php?page=browseSessions&form_session=77#paperID316)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -93,7 +93,7 @@ output:
 
 [Link to Program](http://lids2019.pitt.edu/)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -120,7 +120,7 @@ output:
 
 [Link to Program](https://www.psiweb.org/psi-conference-2019)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -145,7 +145,7 @@ output:
 
 [Link to Program](https://www.diaglobal.org/en/flagship/dia-2019/about/conference)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -169,7 +169,7 @@ output:
 
 [Link to Program](https://kuleuvencongres.be/iscb40)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -193,7 +193,7 @@ output:
 
 [Link to Program](http://ww2.amstat.org/meetings/jsm/2019/)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -220,7 +220,7 @@ output:
 
 [Link to Program](https://www.efspi.org/EFSPI/Events/Regulatory_Meetings/4th_efspi_workshop_on_regulatory_statistics.aspx)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -245,7 +245,7 @@ output:
 
 [Link to Program](https://ww2.amstat.org/meetings/biop/2019/)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -271,7 +271,7 @@ output:
 
 [Link to Program](https://www.esmo.org/Conferences/ESMO-2019-Congress)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -296,7 +296,7 @@ output:
 
 [Link to Program](https://www.isoqol.org/wp-content/uploads/2019/09/ac19-FP-web.pdf)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -320,7 +320,7 @@ output:
 
 [Link to Program](http://bbs.ceb-institute.org/?p=1476)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -344,7 +344,7 @@ output:
 
 [Link to Program](https://www.cytel.com/webinar-replay-estimands-in-oncology?utm_campaign=2020%20Consulting%20EMAIL&utm_medium=email&_hsenc=p2ANqtz--WN5H59zPBQopCVp-byMemvtjmBivRttoe7iWN_pcetDWhMyrW_-UdxjqoY6Ggd6S8rgrUhTglXMMhThNVuFTnMbqx0g&_hsmi=88689056&utm_source=hs_email&utm_content=88689056&hsCtaTracking=3db4881a-8653-4be6-8b0f-2be87253acee%7C42deeaa9-95eb-4bb9-b67e-ed5709cbc6db)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -369,7 +369,7 @@ output:
 
 [Link to Program](https://www.psiweb.org/events/event-item/2020/06/11/default-calendar/psi-conference-webinar-impact-of-covid-19-to-estimands)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -393,7 +393,7 @@ output:
 
 [Link to Program](http://bbs.ceb-institute.org/?p=1453)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -424,7 +424,7 @@ output:
 
 [Link to Program](https://ww2.amstat.org/meetings/jsm/2020/)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -452,7 +452,7 @@ output:
 
 [Link to Program](http://bbs.ceb-institute.org/?p=1587)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -477,7 +477,7 @@ output:
 
 [Link to Program](https://ww2.amstat.org/meetings/biop/2020/)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -501,7 +501,7 @@ output:
 
 [Link to Program](https://www.psiweb.org/vod/item/joint-psi-efspi-asa-biop-webinar-estimands)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -525,7 +525,7 @@ output:
 
 [Link to Program](https://theeffectivestatistician.com/a-deep-dive-into-principal-stratification-and-causal-inference/)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -550,7 +550,7 @@ output:
 
 [Link to Program](http://www.biometrische-gesellschaft.de/fileadmin/AG_Daten/PharamzeutischeForschung/PDFs/Agenda_APF_74_virtuell_Nov_2020.pdf)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -575,7 +575,7 @@ output:
 
 [Link to Program](https://demingconference.org/topic/session-j/)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -600,7 +600,7 @@ output:
 
 [Link to Program](talks/lungevity_agenda.pdf)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -625,7 +625,7 @@ output:
 
 [Link to Program](https://sites.duke.edu/diss/)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -649,7 +649,7 @@ output:
 
 [Link to Program](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why)
 
-## Talks
+## Talks and/or recording
 
 
 
@@ -662,7 +662,7 @@ output:
 |Jonathan Siegel: [Bringing estimands to lifelifethrough real case studies through real case studies](talks/20210601_clin_eng.pdf) |
 |Sammi Tang: [Bringing estimands to lifelifethrough real case studies through real case studies](talks/20210601_clin_eng.pdf)      |
 |Jiawei Wei: [Bringing estimands to lifelifethrough real case studies through real case studies](talks/20210601_clin_eng.pdf)      |
-|All: [Recording of the entire event](NA)                                                                                          |
+|All: [Recording of the entire event](https://www.psiweb.org/vod/item/psi-eiwg-webinar-estimands-in-oncology---how-and-why)        |
 
 
 
