@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '09 Jun 2021'
+date: '10 Jun 2021'
 output:
   html_document:
     keep_md: true
@@ -573,7 +573,7 @@ output:
 
 ## Program
 
-[Link to Program](https://demingconference.org/topic/session-j/)
+[Link to Program](NA)
 
 ## Talks and/or recording
 
@@ -630,9 +630,9 @@ output:
 
 
 
-|Speaker (click on title to download slides)                                       |
-|:---------------------------------------------------------------------------------|
-|Natalia Kan-Dobrosky: [Estimands in clinical trials with treatment switching](NA) |
+|Speaker (click on title to download slides)                                                                 |
+|:-----------------------------------------------------------------------------------------------------------|
+|Natalia Kan-Dobrosky: [Estimands in clinical trials with treatment switching](talks/Dobrosky_2021_Duke.pdf) |
 
 
 
