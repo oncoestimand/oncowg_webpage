@@ -1,7 +1,7 @@
 ---
 title: "Oncology estimand working group: conferences and presentations"
 author: "A cross-industry international working group"
-date: '10 Jun 2021'
+date: '15 Jun 2021'
 output:
   html_document:
     keep_md: true
@@ -633,6 +633,34 @@ output:
 |Speaker (click on title to download slides)                                                                 |
 |:-----------------------------------------------------------------------------------------------------------|
 |Natalia Kan-Dobrosky: [Estimands in clinical trials with treatment switching](talks/Dobrosky_2021_Duke.pdf) |
+
+
+
+# Society for Clinical Trials: Estimand Addendum to the ICH E9 {.tabset .tabset-fade .tabset-pills} 
+
+
+------------------------------------------------------------
+   Start       City     Country             Type            
+------------ --------- --------- ---------------------------
+ 2021-05-20   Virtual     USA     Topic contributed session 
+------------------------------------------------------------
+
+## Program
+
+[Link to Program](https://www.sctweb.org/)
+
+## Talks and/or recording
+
+
+
+
+|Speaker (click on title to download slides)                                                                                                                                                                                                                                       |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Stefan Englert: [How the estimand addendum to the ICH E9 guideline helps structure clinical objectives, guideline helps structure clinical objectives, analyses, and conclusions analyses, and conclusions: A series of oncology case studies](talks/SCT 2021 estimand onco.pdf)  |
+|Jonathan Siegel: [How the estimand addendum to the ICH E9 guideline helps structure clinical objectives, guideline helps structure clinical objectives, analyses, and conclusions analyses, and conclusions: A series of oncology case studies](talks/SCT 2021 estimand onco.pdf) |
+|Juliane Manitz: [How the estimand addendum to the ICH E9 guideline helps structure clinical objectives, guideline helps structure clinical objectives, analyses, and conclusions analyses, and conclusions: A series of oncology case studies](talks/SCT 2021 estimand onco.pdf)  |
+|Feng Liu: [How the estimand addendum to the ICH E9 guideline helps structure clinical objectives, guideline helps structure clinical objectives, analyses, and conclusions analyses, and conclusions: A series of oncology case studies](talks/SCT 2021 estimand onco.pdf)        |
+|Steven Sun: [How the estimand addendum to the ICH E9 guideline helps structure clinical objectives, guideline helps structure clinical objectives, analyses, and conclusions analyses, and conclusions: A series of oncology case studies](talks/SCT 2021 estimand onco.pdf)      |
 
 
 
