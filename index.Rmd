@@ -20,7 +20,7 @@ Find on this webpage information on the working group on estimands in oncology.
 
 # Become a member
 
-The general spirit of the working group is inclusive. If you'd like to contribute in one or the other way, we propose you first reach out to your company's representative(s) (if applicable) and align within your company who is best placed to contribute to which task force. After that is clarified reach out to the WG leads - contact details available [here](https://oncoestimand.github.io/oncowg_webpage/organization.html).
+The general spirit of the working group is inclusive. If you'd like to contribute in one or the other way, we propose you first reach out to your company's representative(s) (if applicable) and align within your company who is best placed to contribute to which task force. After that is clarified reach out to the WG leads - contact details available [here](https://oncoestimand.github.io/oncowg_webpage/docs/organization.html).
 
 # Link to this page
 
