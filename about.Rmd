@@ -1,0 +1,8 @@
+---
+  title: "About This Website"
+---
+  
+- Website for successR.
+- Index file to build website is _site.yml.
+- Use rmarkdown::render_site() or click on "Build" --> "Build site" to build the website.
+- See https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html for background information.

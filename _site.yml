@@ -1,0 +1,35 @@
+name: "oncoestimand"
+output_dir: docs
+navbar:
+  title: "Oncology estimand WG"
+  type: inverse
+  left:
+    - text: "About"
+      menu:
+        - text: "About"
+          href: index.html
+        - text: "History"
+          href: history.html
+        - text: "Scope"
+          href: scope.html
+        - text: "Status"
+          href: status.html
+        - text: "Organization"
+          href: organization.html
+        - text: "Achievements per year"
+          href: achievements.html
+    - text: "Task forces"
+      href: taskforces.html
+    - text: "Health authority interactions"
+      href: ha.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Events"
+      href: events.html
+  output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css

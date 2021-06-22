@@ -1,24 +1,14 @@
 ---
 title: "Oncology estimand working group: achievements per year"
-author: "A cross-industry international working group"
-date: '`r Sys.setlocale("LC_TIME", "C"); format(Sys.Date(), "%d %b %Y")`'
-output:
-  html_document:
-    keep_md: true
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
     toc: yes
-    toc_depth: 2
-    toc_float:
-      collapsed: yes
-      smooth_scroll: yes
-      number_sections: true
-  github_document: 
-    toc: true
-    toc_depth: 2
-  pdf_document:
-    toc: yes
-  word_document:
-    fig_caption: yes
-    toc: yes
+    toc_depth: 3
+    toc_float: yes
 bibliography: biblio.bib
 ---
 
@@ -30,9 +20,7 @@ for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-[Back to main site](http://www.oncoestimand.org)
-
-## 2019
+# Achievements 2019
 
 The WG created a platform for sharing experience and ensuring common understanding of estimands in oncology trials across industry and continues to grow both in terms of members and companies. The discussions within the WG advanced in all subteams and several manuscripts are under preparation. As planned, the initial content was disseminated in 2019 via several statistical conferences in Europe and US. One publication was submitted in 2019 and several submissions are planned in 2020. The WG engaged with the Clinical community and submitted abstracts to several Clinical conferences in collaboration with key opinion leaders and industry clinicians, a poster was presented at ESMO. Similarly, the collaboration with Health Authorities is ongoing and expected to continue over several years. Furthermore, the SWG also had some initial discussions with academia statisticians on potential topics for collaboration in future.
 
@@ -50,11 +38,11 @@ The WG highlighted various estimand problems in Oncology and shared the view of 
 * talk at ISOQoL conference (San Diego, October 2019)
 * Poster on estimands in adjuvant renal cell carcinoma in collaboration with key opinion leaders and industry clinicians at ESMO  (September 2019)
 
-## 2020
+# Achievements 2020
 
 Despite the many challenges in 2020 the SIG was able to relevantly contribute to the implementation of the estimand addendum in drug development in oncology and beyond. Key achievements are:
 
-* The intercontinental team spirit that allowed to come up with a rapid response to COVID-19 pandemic: a [slidedeck](https://oncoestimand.github.io/oncowg_webpage/docs/onco_estimand_COVID-19_slidedeck_v1.pdf) discussing the impact of the pandemic on a trial's estimand was published on the webpage less than five weeks after WHO declared the pandemic. A [paper](https://doi.org/10.1080/19466315.2020.1785543) followed only a few weeks later.
+* The intercontinental team spirit that allowed to come up with a rapid response to COVID-19 pandemic: a [slidedeck](https://oncoestimand.github.io/oncowg_webpage/data/onco_estimand_COVID-19_slidedeck_v1.pdf) discussing the impact of the pandemic on a trial's estimand was published on the webpage less than five weeks after WHO declared the pandemic. A [paper](https://doi.org/10.1080/19466315.2020.1785543) followed only a few weeks later.
 * Several [publications](https://oncoestimand.github.io/oncowg_webpage/oncoestimand.html#publications) of the SIG were published this year, and several more are in their last rounds of revision.
 * The SIG organized two webinars that brought together drug developers, academics, and regulators to discuss topics around estimands in oncology and beyond:
   + [Estimands addendum is final: Anything new for oncology?](http://bbs.ceb-institute.org/?p=1453): The highlight here was that several clinical colleagues contributed as presenters and panelists.

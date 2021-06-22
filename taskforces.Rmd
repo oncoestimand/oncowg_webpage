@@ -1,25 +1,18 @@
 ---
-title: "Oncology estimand working group: task forces"
-author: "A cross-industry international working group"
-date: '`r Sys.setlocale("LC_TIME", "C"); format(Sys.Date(), "%d %b %Y")`'
-output:
-  html_document:
-    keep_md: true
-    toc: no
-    toc_depth: 2
-    toc_float:
-      collapsed: yes
-      smooth_scroll: yes
-      number_sections: true
-  github_document: 
-    toc: no
-    toc_depth: 2
-  pdf_document:
-    toc: no
-  word_document:
-    fig_caption: yes
-    toc: no
+title: "Task forces"
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+bibliography: biblio.bib
 ---
+
+After a first phase where five subteams have written several publications (see [publications](https://oncoestimand.github.io/oncowg_webpage/organization.html)) the working group now operates within seven task forces. Objectives and member rosters of these task forces are available below.
 
 ```{r setup, include=FALSE}
 ## load packages
@@ -52,10 +45,6 @@ tod <- format(today, format = "%d %B %Y")
 taskforces <- c("Clinical", "PS_switch", "PRO", "DOR", "FU", "RWD", "CondMarg", "T2E_sub", "early_dev_estimand_nexus")
 taskforces_names <- c("Clinical engagement", "Principal stratification for treatment switching", "Patient-reported outcomes", "Duration of responses", "Quantification of follow-up", "Real-world data and estimands", "Conditional vs. marginal effects", "Time to event endpoints with prognostic or predictive biomarker subgroups", "Early development estimand nexus (EDEN)")
 ```
-
-[Back to main site](http://www.oncoestimand.org)
-
-# Members {.tabset .tabset-fade .tabset-pills} 
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, results = "asis"}
 

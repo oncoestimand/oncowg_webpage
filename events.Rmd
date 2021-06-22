@@ -1,0 +1,58 @@
+---
+title: "Events"
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+bibliography: biblio.bib
+---
+
+```{r setup, include = FALSE, echo = FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+
+knitr::opts_chunk$set(echo = TRUE)
+
+## talks
+path <- getwd()
+talks <- as.data.frame(read_excel(paste(path, "/data/conferences.xlsx", sep = ""), col_types = NULL))
+talks <- (talks %>% filter(is.na(Speaker1) == FALSE))
+```
+
+
+# Upcoming events with contributions of the working group
+
+* [ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2021](https://ww2.amstat.org/meetings/biop/2021)
+  * _Clinical and Statistical Perspectives on Post-ICH E9 (R1) Addendum Estimand Use: Current Status and Future Directions_. Organizers: Kaspar Rufibach (Roche), Lei Nie (FDA), Shanti Gomatam (FDA). Frank Bretz (Novartis), Alexei Ionan (FDA). Presenters and panel discussion: Devan Mehrotra (Merck, ICH E9 (R1) Expert Working Group member, statistical), Sally Seymour (FDA, Division Director, clinical), David Lebwohl (Intellia Therapeutics, clinical), John Scott (FDA, CBER, statistical), Bohdana Ratitch (Bayer, statistical), Sylva Collins (FDA, CDER, statistical).
+  * _Estimands in Oncology: White Papers from an Industry Working Group_. Organizer: Jonathan Siegel (Bayer). Presenters: Natalia Kan-Dobrosky (PPDI), Jonathan Siegel (Bayer), Satrajit Roychoudhury (Pfizer). Discussant: Qing Xu (FDA).
+
+* [Joint Statistical Meetings 2021](https://ww2.amstat.org/meetings/jsm/2021/)
+  * Session [_Estimands in Oncology: Papers from an Industry Working Group_](https://ww2.amstat.org/meetings/jsm/2021/onlineprogram/ActivityDetails.cfm?SessionID=220598), organized by Jonathan Siegel.
+
+# Past events and and all presentation slide decks
+
+```{r echo = FALSE, message = FALSE, warning = FALSE, include = FALSE}
+
+# how to do this with child documents: https://gist.github.com/rmoff/a043676a2f084b81a434
+
+out1 <- NULL
+for (i in 1:nrow(talks)){
+  out1 <- c(out1, knit_expand('tools/conf1.Rmd'))
+}
+
+# the "knit" command somehow produces unwanted output, this is why I assign its output to a and use a separate chunk to display a
+a <- knit(text = unlist(paste(out1, collapse = '\n')), quiet = TRUE)
+```
+
+```{r conferences, echo = FALSE, message = FALSE, warning = FALSE, results = "asis"}
+cat(a)
+```
+
+
+

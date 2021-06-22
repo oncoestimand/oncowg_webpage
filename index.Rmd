@@ -1,0 +1,48 @@
+---
+title: "Oncology estimand working group"
+author: 
+- name: A cross-industry international working group
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+bibliography: biblio.bib
+---
+
+# Purpose
+
+Find on this webpage information on the working group on estimands in oncology.
+
+# Become a member
+
+The general spirit of the working group is inclusive. If you'd like to contribute in one or the other way, we propose you first reach out to your company's representative(s) (if applicable) and align within your company who is best placed to contribute to which task force. After that is clarified reach out to the WG leads - contact details available [here](https://oncoestimand.github.io/oncowg_webpage/organization.html).
+
+# Link to this page
+
+Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
+
+# Latest updates of this page
+
+* 22th June: New design of this webpage online.
+* 15th June: Added [slidedeck](talks/SCT 2021 estimand onco.pdf) that the clinical engagement subteam presented at the [Society for Clinical Trials](https://www.sctweb.org/
+) conference 2021.
+* 7th June: Added [slidedeck](talks/20210601_clin_eng.pdf) and [recording](https://www.psiweb.org/vod/item/psi-eiwg-webinar-estimands-in-oncology---how-and-why) from [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), updated team roster.
+* 3rd May: Added members of EDEN task force.
+* 28th April: The WG offers a new webinar [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), targeted at Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians.
+* 13th April: Kickoff of EDEN (Early Development Estimand Nexus) task force.
+* 22th March: Natalia Kan-Dobrosky will talk at the [Duke Industry Statistics Symposium](https://sites.duke.edu/diss/) on "Estimands in clinical trials with treatment switching
+".
+* 5th March: Two sessions with involvement of the WG at this year's [ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2021](https://ww2.amstat.org/meetings/biop/2021), see below for details.
+* 28th February: Added rosters and objectives of [task forces](taskforces.html).
+* 11th February: Added [slides](https://oncoestimand.github.io/oncowg_webpage/talks/20210211_DCTs_estimands.pdf) presented by Evgeny and Kaspar at ASA - FDA - LUNGevity symposium "Statistical considerations in Oncology clinical trials in the COVID-19 era".
+* 5th February: Papers on [principal stratification](https://arxiv.org/abs/2008.05406) and [hematology case studies](https://arxiv.org/abs/2010.00957) both accepted for publication by [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612). See [publication section](https://oncoestimand.github.io/oncowg_webpage/oncoestimand.html#publications).
+* 30th January: Kick-off of new task forces.
+
+
+
+

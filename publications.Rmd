@@ -1,41 +1,31 @@
 ---
-title: "Oncology estimand working group: relevant publications"
-author: "A cross-industry international working group"
-date: '`r Sys.setlocale("LC_TIME", "C"); format(Sys.Date(), "%d %b %Y")`'
-output:
-  html_document:
-    keep_md: true
+title: "Publications of the group"
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
     toc: yes
-    toc_depth: 2
-    toc_float:
-      collapsed: yes
-      smooth_scroll: yes
-      number_sections: true
-  github_document: 
-    toc: true
-    toc_depth: 2
-  pdf_document:
-    toc: yes
-  word_document:
-    fig_caption: yes
-    toc: yes
-nocite: '@*'
+    toc_depth: 3
+    toc_float: yes
 bibliography: biblio.bib
 ---
 
-```{r setup, include = FALSE, echo = FALSE}
-## load packages
-packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
-for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+Here we list the publications that the group has written or contributed to.
 
-knitr::opts_chunk$set(echo = TRUE)
-```
+# Accepted or published
 
-[Back to main site](http://www.oncoestimand.org)
+* Lawrence, R., Degtyarev, E., Griffiths, P., Trask, P., Lau, H., D'Alessio, D., Griebsch, I., Wallenstein, G., Cocks, K., Rufibach, K. _What is an estimand & how does it relate to quantifying the effect of treatment on patient-reported quality of life outcomes in clinical trials_ (2020). Journal of Patient-Reported Outcomes, 4(1):68. [doi](https://jpro.springeropen.com/track/pdf/10.1186/s41687-020-00218-5). 
+* Degtyarev, E., Rufibach, K., Shentu, Y., Yung, G., Casey, M., Englert, S., Liu, F., Liu, Y., Sailer, O., Siegel, J., Sun, S., Tang, R., Zhou, J. _Assessing the impact of COVID-19 on the objective and analysis of oncology clinical trials – application of the estimand framework_ (2020). Statistics in Biopharmaceutical Research. [doi](https://doi.org/10.1080/19466315.2020.1785543) | [arxiv](http://arxiv.org/abs/2006.04480)
+* Casey M., Degtyarev E., Lechuga M.J., Aimone P., Ravaud A., Motzer R., Liu F., Stalbovskaya V., Tang R., Butler E., Sailer O., Halabi S., George D. _Estimand framework: Are we   asking the right question? A case study in the solid tumor setting_ (2020). Pharmaceutical Statistics, accepted. [doi](https://doi.org/10.1002/pst.2079)
+* Sun, S., Weber, J., Butler, E., Rufibach, K., Roychoudhury, S. _Estimands in Hematology Trials_ (2021). Pharmaceutical Statistics, accepted. [arxiv](https://arxiv.org/abs/2010.00957)
+* Bornkamp, B., Rufibach, K., Lin, J., Liu, Y., Mehrotra, D., Roychoudhury, S., Schmidli, H., Shentu, Y., Wolbers, M. _Principal Stratum Strategy: Potential Role in Drug Development_ (2021). Pharmaceutical Statistics, accepted. [doi](https://doi.org/10.1002/pst.2104) | [arxiv](https://arxiv.org/abs/2008.05406) | [github](https://github.com/oncoestimand/princ_strat_drug_dev) | [markdown](https://oncoestimand.github.io/princ_strat_drug_dev/princ_strat_example.html)
 
-This site provides references that the working group considers relevant for the implementation of the ICH E9 addendum in drug development in pharma industry. The list is subjective and not exhaustive. If you would like to have a relevent reference added here please let us know.
- 
-# References
+# Under review
 
+* Manitz, J., Kan-Dobrosky, N., Buchner, H., Casadebaig, M.L., Degtyarev, E., Dey, J., Haddad, V., Fei, J., Martin, E., Mo, M., Rufibach, K., Shentu, Y., Stalbovskaya, V., Tang, R., Yung, G., Zhu, J. _Estimands in clinical trials with treatment switching_ (2020). Under revision.
+
+Several further publications are currently being written within the working group. Once available, these will be made available here.
 
 

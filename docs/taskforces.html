@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Task forces</title>
+
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Oncology estimand WG</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    About
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="index.html">About</a>
+    </li>
+    <li>
+      <a href="history.html">History</a>
+    </li>
+    <li>
+      <a href="scope.html">Scope</a>
+    </li>
+    <li>
+      <a href="status.html">Status</a>
+    </li>
+    <li>
+      <a href="organization.html">Organization</a>
+    </li>
+    <li>
+      <a href="achievements.html">Achievements per year</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="taskforces.html">Task forces</a>
+</li>
+<li>
+  <a href="ha.html">Health authority interactions</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="events.html">Events</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Task forces</h1>
+<h4 class="date">Last change: 22 Juni, 2021</h4>
+
+</div>
+
+
+<p>After a first phase where five subteams have written several publications (see <a href="https://oncoestimand.github.io/oncowg_webpage/organization.html">publications</a>) the working group now operates within seven task forces. Objectives and member rosters of these task forces are available below.</p>
+<div id="clinical-engagement" class="section level1" number="1">
+<h1 number="1"><span class="header-section-number">1</span> Clinical engagement</h1>
+<p><strong>Lead</strong>: Stefan Englert (AbbVie)</p>
+<p><strong>Objective</strong>: Develop basic introductory material that can be used by all study team members to educate themselves on Oncology Estimands. Translate key messages from the working group activities to a non-statistical audience, targeting especially clinical functions.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Firstname</th>
+<th align="left">Lastname</th>
+<th align="left">Institution</th>
+<th align="left">Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Stefan</td>
+<td align="left">Englert</td>
+<td align="left">AbbVie</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Feng</td>
+<td align="left">Liu</td>
+<td align="left">AstraZeneca</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Jonathan</td>
+<td align="left">Siegel</td>
+<td align="left">Bayer</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Rui</td>
+<td align="left">Tang</td>
+<td align="left">Servier</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Paul</td>
+<td align="left">Bycott</td>
+<td align="left">US</td>
+<td align="left">NorAm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="principal-stratification-for-treatment-switching" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> Principal stratification for treatment switching</h1>
+<p><strong>Lead</strong>: character(0) character(0) (character(0))</p>
+<p><strong>Objective</strong>: NA</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Firstname</th>
+<th align="left">Lastname</th>
+<th align="left">Institution</th>
+<th align="left">Location</th>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+</div>
+<div id="patient-reported-outcomes" class="section level1" number="3">
+<h1 number="3"><span class="header-section-number">3</span> Patient-reported outcomes</h1>
+<p><strong>Lead</strong>: Rachael Lawrence (Adelphi)</p>
+<p><strong>Objective</strong>: Clarify what questions are we answering with typical analyses conducted on HRQoL endpoints in regulatory clinical trials. We are going to consider longitudinal mixed models and time to event analyses initially; “mapping” potential common questions into the estimand framework. The task force is also going to dig into the question of “how to handle death” in HRQoL analyses. We are keen to build collaborative approaches with statisticians and others active in this topic area, such as SISAQoL and ISOQoL working groups.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Firstname</th>
+<th align="left">Lastname</th>
+<th align="left">Institution</th>
+<th align="left">Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Rachael</td>
+<td align="left">Lawrence</td>
+<td align="left">Adelphi</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Xiangning</td>
+<td align="left">Huang</td>
+<td align="left">AstraZeneca</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Konstantina</td>
+<td align="left">Skaltsa</td>
+<td align="left">IQVIA</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Antoine</td>
+<td align="left">Regnault</td>
+<td align="left">Modus Outcomes</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Evgeny</td>
+<td align="left">Degtyarev</td>
+<td align="left">Novartis</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Stephen</td>
+<td align="left">Corson</td>
+<td align="left">Phastar</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Johan</td>
+<td align="left">Bring</td>
+<td align="left">Statisticon</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Jonathan</td>
+<td align="left">Siegel</td>
+<td align="left">Bayer</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Libby</td>
+<td align="left">Floden</td>
+<td align="left">Solutions</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Stacie</td>
+<td align="left">Hudgens</td>
+<td align="left">Solutions</td>
+<td align="left">NorAm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="duration-of-responses" class="section level1" number="4">
+<h1 number="4"><span class="header-section-number">4</span> Duration of responses</h1>
+<p><strong>Lead</strong>: Hans-Jochen Weber (Novartis)</p>
+<p><strong>Objective</strong>: Duration of response and also time to response are standard secondary endpoints in clinical studies in oncology. There are different approaches for analysis and often the clinical question to be addressed remains unclear. We contextualize the different approaches using the estimand framework and illustrate those with case studies. Finally we intend to present recommendations for analyses targeting relevant clinical questions.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Firstname</th>
+<th align="left">Lastname</th>
+<th align="left">Institution</th>
+<th align="left">Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Alex</td>
+<td align="left">Todd</td>
+<td align="left">AstraZeneca</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Martin-Oliver</td>
+<td align="left">Sailer</td>
+<td align="left">Boehringer</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Monica</td>
+<td align="left">Hadi</td>
+<td align="left">Evidera</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Hans-Jochen</td>
+<td align="left">Weber</td>
+<td align="left">Novartis</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Stephen</td>
+<td align="left">Corson</td>
+<td align="left">Phastar</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Francois</td>
+<td align="left">Mercier</td>
+<td align="left">Roche</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Jiang</td>
+<td align="left">Li</td>
+<td align="left">Beigene</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Steven</td>
+<td align="left">Sun</td>
+<td align="left">J&amp;J</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Satrajit</td>
+<td align="left">Roychoudhury</td>
+<td align="left">Pfizer</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Godwin</td>
+<td align="left">Yung</td>
+<td align="left">Roche</td>
+<td align="left">NorAm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="quantification-of-follow-up" class="section level1" number="5">
+<h1 number="5"><span class="header-section-number">5</span> Quantification of follow-up</h1>
+<p><strong>Lead</strong>: Kaspar Rufibach (Roche)</p>
+<p><strong>Objective</strong>: Follow up is very heterogeneously quantified in oncological clinical trials. Given the importance assigned to “amount of follow up” in general the objective of this task force is to describe various ways how follow up is typically quantified, study its properties and issue recommendations how to report follow up and how to interpret it.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Firstname</th>
+<th align="left">Lastname</th>
+<th align="left">Institution</th>
+<th align="left">Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Lynda</td>
+<td align="left">Grinsted</td>
+<td align="left">AstraZeneca</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Hans-Jochen</td>
+<td align="left">Weber</td>
+<td align="left">Novartis</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Kaspar</td>
+<td align="left">Rufibach</td>
+<td align="left">Roche</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Jiang</td>
+<td align="left">Li</td>
+<td align="left">Beigene</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Jiangxiu</td>
+<td align="left">Zhou</td>
+<td align="left">GSK</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Yue</td>
+<td align="left">Shentu</td>
+<td align="left">Merck</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Cheng</td>
+<td align="left">Zheng</td>
+<td align="left">Zentalis</td>
+<td align="left">NorAm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="real-world-data-and-estimands" class="section level1" number="6">
+<h1 number="6"><span class="header-section-number">6</span> Real-world data and estimands</h1>
+<p><strong>Lead</strong>: Evgeny Degtyarev (Novartis)</p>
+<p><strong>Objective</strong>: Illustrate the value and promote the use of target trial framework and estimand framework for design of comparisons including real-world data. The frameworks allows to clarify the definition of the causal question of interest ensuring alignment between the research objective and analysis. Its application in submission documents would facilitate regulatory review in a transparent and structured way.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Firstname</th>
+<th align="left">Lastname</th>
+<th align="left">Institution</th>
+<th align="left">Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Evgeny</td>
+<td align="left">Degtyarev</td>
+<td align="left">Novartis</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Lisa</td>
+<td align="left">Hampson</td>
+<td align="left">Novartis</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Feng</td>
+<td align="left">Xiao</td>
+<td align="left">AstraZeneca</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Rui</td>
+<td align="left">Tang</td>
+<td align="left">Servier</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Jianchang</td>
+<td align="left">Lin</td>
+<td align="left">Takeda</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Paul</td>
+<td align="left">Bycott</td>
+<td align="left">US</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Cheng</td>
+<td align="left">Zheng</td>
+<td align="left">Zentalis</td>
+<td align="left">NorAm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="conditional-vs.-marginal-effects" class="section level1" number="7">
+<h1 number="7"><span class="header-section-number">7</span> Conditional vs. marginal effects</h1>
+<p><strong>Lead</strong>: Jiawei Wei (Novartis)</p>
+<p><strong>Objective</strong>: We would like to bring the complex concept and methods about conditional and marginal treatment effect into a simplified and interpretable way. Potential topics including adjusted or unadjusted analysis; stratified vs unstratified hazard ratio; collapsibility and subgroup; p-values; etc. We will give clinically relevant opinions and recommendations based on our interpretation, and illustrate the idea using some case studies.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Firstname</th>
+<th align="left">Lastname</th>
+<th align="left">Institution</th>
+<th align="left">Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Jiajun</td>
+<td align="left">Xu</td>
+<td align="left">J&amp;J</td>
+<td align="left">Asia</td>
+</tr>
+<tr class="even">
+<td align="left">Jiawei</td>
+<td align="left">Wei</td>
+<td align="left">Novartis</td>
+<td align="left">Asia</td>
+</tr>
+<tr class="odd">
+<td align="left">Ziqiang</td>
+<td align="left">Zhao</td>
+<td align="left">Novartis</td>
+<td align="left">Asia</td>
+</tr>
+<tr class="even">
+<td align="left">Björn</td>
+<td align="left">Bornkamp</td>
+<td align="left">Novartis</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Hong</td>
+<td align="left">Tian</td>
+<td align="left">Beigene</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Satrajit</td>
+<td align="left">Roychoudhury</td>
+<td align="left">Pfizer</td>
+<td align="left">NorAm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups" class="section level1" number="8">
+<h1 number="8"><span class="header-section-number">8</span> Time to event endpoints with prognostic or predictive biomarker subgroups</h1>
+<p><strong>Lead</strong>: Yi Liu (Nektar)</p>
+<p><strong>Objective</strong>: Our goal is to understand various efficacy estimands of biomarker subgroups and its relationship to the overall population for binary and time-to-event endpoints. For continuous outcomes with difference of means as efficacy estimand, Least Square estimates from the full model containing treatment, subgroup, and its interaction term enable an unbiased estimation of efficacy for the overall population by linearly combining estimands of the two subgroups. Following the same process for binary or time-to-event efficacy estimands such as hazard ratio or odds ratio, although guaranteeing logical inference in appearance, does not lead to the correct efficacy estimand of the overall population. In fact, the correct HR (or OR) may be outside of the interval of subgroup HRs (or ORs) leading to illogical interpretations. The task force will investigate which efficacy measures are logic respecting on the population level and make recommendations on how to analyze real clinical trial data so that analysis results based on these efficacy measures will always be logical for either prognostic or predictive biomarkers.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Firstname</th>
+<th align="left">Lastname</th>
+<th align="left">Institution</th>
+<th align="left">Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Siyoen</td>
+<td align="left">Kil</td>
+<td align="left">LSK Global Pharma Services</td>
+<td align="left">Asia</td>
+</tr>
+<tr class="even">
+<td align="left">Martin-Oliver</td>
+<td align="left">Sailer</td>
+<td align="left">Boehringer</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Jiang</td>
+<td align="left">Li</td>
+<td align="left">Beigene</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Hong</td>
+<td align="left">Tian</td>
+<td align="left">Beigene</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Shoubhik</td>
+<td align="left">Mondal</td>
+<td align="left">Boehringer</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Liwei</td>
+<td align="left">Wang</td>
+<td align="left">J&amp;J</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Yue</td>
+<td align="left">Shentu</td>
+<td align="left">Merck</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Yi</td>
+<td align="left">Liu</td>
+<td align="left">Nektar</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Miao</td>
+<td align="left">Yang</td>
+<td align="left">Nektar</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Godwin</td>
+<td align="left">Yung</td>
+<td align="left">Roche</td>
+<td align="left">NorAm</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="early-development-estimand-nexus-eden" class="section level1" number="9">
+<h1 number="9"><span class="header-section-number">9</span> Early development estimand nexus (EDEN)</h1>
+<p><strong>Lead</strong>: Francois Mercier (Roche)</p>
+<p><strong>Objective</strong>: In oncology Phase 1a (dose-escalation) and Phase 1b (expansion cohort) studies, the designs are complex because the objectives are often multiple and ambitious. Defining estimands and the associated estimators in this setting can be difficult. In this WG, we intend to implement the ICH-E9 addendum and to reflect on the challenges it presents in early clinical development studies. Such challenges may include: (1) absence of control group (2) varying dose, but also dosing schedule across treatment arms (a.k.a. cohorts) (3) presence of anti-drug antibody (ADA) (4) prophylactic treatment or co-medication for toxicity mitigation (e.g. using steroids) (5) compassionate within-patient dose escalation. The taskforce will give clinically relevant opinions and recommendations based on our analysis and interpretation of the selected case studies. Contact to other task forces will be sought based on need.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Firstname</th>
+<th align="left">Lastname</th>
+<th align="left">Institution</th>
+<th align="left">Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Stefan</td>
+<td align="left">Englert</td>
+<td align="left">AbbVie</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Elizabeth</td>
+<td align="left">Pilling</td>
+<td align="left">AstraZeneca</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Anja</td>
+<td align="left">Victor</td>
+<td align="left">Merck</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Christina</td>
+<td align="left">Habermehl</td>
+<td align="left">Merck</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Francois</td>
+<td align="left">Mercier</td>
+<td align="left">Roche</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Guillaume</td>
+<td align="left">Lecorps</td>
+<td align="left">Sanofi</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="odd">
+<td align="left">Frederic</td>
+<td align="left">Dubois</td>
+<td align="left">Servier</td>
+<td align="left">Europe</td>
+</tr>
+<tr class="even">
+<td align="left">Junxian</td>
+<td align="left">Geng</td>
+<td align="left">Boehringer</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="odd">
+<td align="left">Natalia</td>
+<td align="left">Kan-Dobrosky</td>
+<td align="left">PPDI</td>
+<td align="left">NorAm</td>
+</tr>
+<tr class="even">
+<td align="left">Guillaume</td>
+<td align="left">Lecorps</td>
+<td align="left">Sanofi</td>
+<td align="left">NorAm</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

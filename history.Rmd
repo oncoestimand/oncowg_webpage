@@ -1,0 +1,18 @@
+---
+title: "History of the working group"
+author:
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+bibliography: biblio.bib
+---
+
+The [draft addendum](https://www.ema.europa.eu/en/documents/scientific-guideline/draft-ich-e9-r1-addendum-estimands-sensitivity-analysis-clinical-trials-guideline-statistical_en.pdf) of the [ICH E9 guideline on Statistical Principles for Clinical Trials](https://database.ich.org/sites/default/files/E9_Guideline.pdf) was released in August 2017 and introduced an estimand framework. In February 2018, Evgeny Degtyarev from [Novartis](http://www.novartis.com) and [Kaspar Rufibach](https://www.kasparrufibach.ch) from [Roche](http://www.roche.com) started an informal working group to discuss how to implement the draft addendum in oncological clinical trials. 
+
+In November 2018, the working group was subsequently established more formally by [EFSPI](https://www.efspi.org) as [_European special interest group "Estimands in oncology", sponsored by PSI and EFSPI_](https://www.efspi.org/EFSPI/Special_Interest_Groups/Estimands_in_Oncology_Applications.aspx?&WebsiteKey=0b28fec8-fcd6-4283-b360-0c689a893140&hkey=956f9eca-da64-48a4-88e4-e77d796bb527) and in June 2019 the [_ASA biopharmaceutical section_](https://community.amstat.org/biop/home) has granted the official status as [ASA scientific working group](https://community.amstat.org/biop/workinggroups/eio).
+
+In December 2019, the final version of the [ICH E9 estimand addendum](https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf) was published.
+

@@ -1,0 +1,55 @@
+---
+title: "Status"
+author:
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+bibliography: biblio.bib
+---
+
+```{r setup, include=FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+
+knitr::opts_chunk$set(echo = TRUE)
+panderOptions('table.alignment.default', function(df){ifelse(sapply(df, is.numeric), 'right', 'left')})
+
+path <- getwd()
+
+## =================================================================
+## functions
+## =================================================================
+source(file = paste(path, "/tools/mydisp.r", sep = ""))
+source(file = paste(path, "/tools/lead.r", sep = ""))
+
+## =================================================================
+## member list
+## =================================================================
+email <- as.data.frame(read_excel(paste(path, "/data/members.xlsx", sep = ""), col_types = NULL))
+
+## function to display
+ind <- email[, "Type"] == "Industry" 
+loc <- email[ind, "Location"]
+com <- email[ind, "Institution"]
+
+## Current month
+today <- Sys.Date()
+tod <- format(today, format = "%d %B %Y")
+
+## talks
+talks <- as.data.frame(read_excel(paste(path, "/data/conferences.xlsx", sep = ""), col_types = NULL))
+```
+
+As of `r tod`, the working group 
+
+ + has `r length(loc)` members (`r sum(loc == "Europe")` from Europe, `r sum(loc == "NorAm")` from US, and `r sum(loc == "Asia")` from Asia) representing `r length(unique(com))` companies,
+ + regularly interacts with eight Health Authorities globally,
+ + regularly organizes sessions and presents at conferences,
+ + has started to interact with academic colleagues.
+
+![](data/companies.jpg)
+

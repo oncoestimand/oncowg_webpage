@@ -1,0 +1,68 @@
+---
+title: "Organization"
+author: 
+- name: A cross-industry international working group
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+bibliography: biblio.bib
+---
+
+```{r setup, include=FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+
+knitr::opts_chunk$set(echo = TRUE)
+panderOptions('table.alignment.default', function(df){ifelse(sapply(df, is.numeric), 'right', 'left')})
+
+path <- getwd()
+
+## =================================================================
+## functions
+## =================================================================
+source(file = paste(path, "/tools/mydisp.r", sep = ""))
+source(file = paste(path, "/tools/lead.r", sep = ""))
+
+## =================================================================
+## member list
+## =================================================================
+email <- as.data.frame(read_excel(paste(path, "/data/members.xlsx", sep = ""), col_types = NULL))
+
+## function to display
+ind <- email[, "Type"] == "Industry" 
+loc <- email[ind, "Location"]
+com <- email[ind, "Institution"]
+
+## Current month
+today <- Sys.Date()
+tod <- format(today, format = "%d %B %Y")
+
+## talks
+talks <- as.data.frame(read_excel(paste(path, "/data/conferences.xlsx", sep = ""), col_types = NULL))
+```
+
+# Leads
+
+Evgeny Degtyarev from [Novartis](http://www.novartis.com) and [Kaspar Rufibach](https://www.kasparrufibach.ch) from [Roche](http://www.roche.com), both located in Basel, Switzerland. Their email addresses are generic _firstname.lastname@employer.com_.
+
+# Task forces and members
+
+After a first phase where five subteams have written several publications (see below) the working group now operates within seven task forces. Objectives and member rosters of these task forces are available [here](taskforces.html).
+
+# Activities
+
+Beyond work in the task forces, the aim of the working group is to provide answers to the above questions through a variety of activities. These will include: 
+
+ + Collaborating with experts to refine and possibly extend available methods.
+ + Publishing reviews of the available methods, case studies, and white papers with recommendations, for statisticians and non-statisticians.
+ + Interacting with regulators and the broader clinical community to obtain a better understanding of their requirements. Work with them to agree on common definitions of estimands in oncology.
+ + Providing trainings, workshops and talks.
+ + Promoting good practice through templates for study protocols and statistical analysis plans.
+

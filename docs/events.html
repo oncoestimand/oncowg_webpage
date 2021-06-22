@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Events</title>
+
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Oncology estimand WG</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    About
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="index.html">About</a>
+    </li>
+    <li>
+      <a href="history.html">History</a>
+    </li>
+    <li>
+      <a href="scope.html">Scope</a>
+    </li>
+    <li>
+      <a href="status.html">Status</a>
+    </li>
+    <li>
+      <a href="organization.html">Organization</a>
+    </li>
+    <li>
+      <a href="achievements.html">Achievements per year</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="taskforces.html">Task forces</a>
+</li>
+<li>
+  <a href="ha.html">Health authority interactions</a>
+</li>
+<li>
+  <a href="publications.html">Publications</a>
+</li>
+<li>
+  <a href="events.html">Events</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Events</h1>
+<h4 class="date">Last change: 22 Juni, 2021</h4>
+
+</div>
+
+
+<div id="upcoming-events-with-contributions-of-the-working-group" class="section level1" number="1">
+<h1 number="1"><span class="header-section-number">1</span> Upcoming events with contributions of the working group</h1>
+<ul>
+<li><a href="https://ww2.amstat.org/meetings/biop/2021">ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2021</a>
+<ul>
+<li><em>Clinical and Statistical Perspectives on Post-ICH E9 (R1) Addendum Estimand Use: Current Status and Future Directions</em>. Organizers: Kaspar Rufibach (Roche), Lei Nie (FDA), Shanti Gomatam (FDA). Frank Bretz (Novartis), Alexei Ionan (FDA). Presenters and panel discussion: Devan Mehrotra (Merck, ICH E9 (R1) Expert Working Group member, statistical), Sally Seymour (FDA, Division Director, clinical), David Lebwohl (Intellia Therapeutics, clinical), John Scott (FDA, CBER, statistical), Bohdana Ratitch (Bayer, statistical), Sylva Collins (FDA, CDER, statistical).</li>
+<li><em>Estimands in Oncology: White Papers from an Industry Working Group</em>. Organizer: Jonathan Siegel (Bayer). Presenters: Natalia Kan-Dobrosky (PPDI), Jonathan Siegel (Bayer), Satrajit Roychoudhury (Pfizer). Discussant: Qing Xu (FDA).</li>
+</ul></li>
+<li><a href="https://ww2.amstat.org/meetings/jsm/2021/">Joint Statistical Meetings 2021</a>
+<ul>
+<li>Session <a href="https://ww2.amstat.org/meetings/jsm/2021/onlineprogram/ActivityDetails.cfm?SessionID=220598"><em>Estimands in Oncology: Papers from an Industry Working Group</em></a>, organized by Jonathan Siegel.</li>
+</ul></li>
+</ul>
+</div>
+<div id="past-events-and-and-all-presentation-slide-decks" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> Past events and and all presentation slide decks</h1>
+<div id="hta-efspi-sig-1-day-event" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-02-15: HTA EFSPI SIG 1-day event</h2>
+<table style="width:65%;">
+<colgroup>
+<col width="18%" />
+<col width="12%" />
+<col width="13%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-02-15</td>
+<td align="center">Berlin</td>
+<td align="center">Germany</td>
+<td align="center">Invited talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.efspi.org/documents/events/Events%202019/HTA_Feb_19/EFSPI%20HTA%20Flyer%20Feb%202019%20draft%20updated-converted.pdf">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Evgeny Degtyarev: <a href="talks/Estimands%20in%20Oncology_EFSPI_HTA_SIG_Berlin.pdf">Estimands in Oncology</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="dagstat-2019" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-03-18: DAGStat 2019</h2>
+<table style="width:72%;">
+<colgroup>
+<col width="18%" />
+<col width="12%" />
+<col width="13%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-03-18</td>
+<td align="center">Munich</td>
+<td align="center">Germany</td>
+<td align="center">Contributed talks</td>
+</tr>
+</tbody>
+</table>
+<div id="program-1" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.conftool.org/dagstat2019/index.php?page=browseSessions&amp;form_session=77#paperID316">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-1" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kaspar Rufibach: <a href="talks/Dagstat2019_1_Rufibach_Estimands_Oncology.pdf">Estimand framework in Oncology drug development – impact and opportunities</a></td>
+</tr>
+<tr class="even">
+<td align="left">Bjoern Bornkamp: <a href="talks/Dagstat2019_2_Bornkamp_PS.pdf">Estimation of Principal Stratum Effects, an Overview and Potential Applications in Oncology</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Viktoriya Stalbovskaya: <a href="talks/Dagstat2019_3_Stalbovskaya%20-%20Estimands%20in%20the%20presence%20of%20treatment%20switching.pdf">Estimands in the presence of treatment switching</a></td>
+</tr>
+<tr class="even">
+<td align="left">Hans-Jochen Weber: <a href="talks/Dagstat2019_4_Weber_estimand_heme.pdf">Implementation of the ICH E9 addendum: RATIFY -A case study in hematology</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="lids-2019" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-05-29: LIDS 2019</h2>
+<table style="width:92%;">
+<colgroup>
+<col width="18%" />
+<col width="18%" />
+<col width="13%" />
+<col width="41%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-05-29</td>
+<td align="center">Pittsburgh</td>
+<td align="center">USA</td>
+<td align="center">Contributed talks including EMA discussant</td>
+</tr>
+</tbody>
+</table>
+<div id="program-2" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="http://lids2019.pitt.edu/">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-2" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Jonathan Siegel: <a href="talks/Siegel%20(2019,%20talk)%20Survival%20Design%20Strategies%20in%20an%20Estimands%20Framework.pdf">Survival Design Strategies in an Estimands Framework</a></td>
+</tr>
+<tr class="even">
+<td align="left">Shoubhik Mondal: <a href="talks/Mondal%20(2019,%20LIDS%20talk)%20Censoring.pdf">Traditional sensitivity analyses in oncology clinical trials what questions are they answering?</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Feng Liu: <a href="talks/Liu%20(2019,%20LIDS%20talk)%20Estimands%20in%20oncology.pdf">Developing Estimands in Oncology Trials: Understand Scientific Questions of Interest</a></td>
+</tr>
+<tr class="even">
+<td align="left">Anja Schiel (EMA discussant): <a href="talks/Schiel%20(2019)%20ICH%20E9(R1)%20Addendum%20–%20Blessing%20or%20curse.pdf">ICH E9(R1) Addendum Blessing or curse?</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="psi-annual-conference-2019" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-06-02: PSI annual conference 2019</h2>
+<table style="width:72%;">
+<colgroup>
+<col width="18%" />
+<col width="12%" />
+<col width="13%" />
+<col width="27%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-06-02</td>
+<td align="center">London</td>
+<td align="center">UK</td>
+<td align="center">Contributed talks</td>
+</tr>
+</tbody>
+</table>
+<div id="program-3" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.psiweb.org/psi-conference-2019">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-3" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kaspar Rufibach: <a href="talks/Rufibach%20(2019,%20talk%20PSI)%20Estimands_Oncology.pdf">Estimand framework in Oncology drug development – impact and opportunities</a></td>
+</tr>
+<tr class="even">
+<td align="left">Bjoern Bornkamp: <a href="talks/Bornkamp%20(2019,%20talk%20PSI)%20causal%20in%20oncology.pdf">Estimation of Principal Stratum Effects, an Overview and Potential Applications in Oncology</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="dia-annual-meeting-2019" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-06-23: DIA Annual meeting 2019</h2>
+<table style="width:75%;">
+<colgroup>
+<col width="18%" />
+<col width="16%" />
+<col width="13%" />
+<col width="26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-06-23</td>
+<td align="center">San Diego</td>
+<td align="center">USA</td>
+<td align="center">Contributed talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-4" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.diaglobal.org/en/flagship/dia-2019/about/conference">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-4" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Yi Liu: <a href="talks/Liu%20(2019,%20DIA%20talk).pdf">Estimand Framework and its Impact on Oncology Drug Development: Findings From An Industry Wide Working Group</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="iscb-2019" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-07-14: ISCB 2019</h2>
+<table style="width:71%;">
+<colgroup>
+<col width="18%" />
+<col width="12%" />
+<col width="13%" />
+<col width="26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-07-14</td>
+<td align="center">Leuven</td>
+<td align="center">Belgium</td>
+<td align="center">Contributed talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-5" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://kuleuvencongres.be/iscb40">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-5" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Rui Tang: <a href="talks/Tang%20(2019,%20ISCB)%20Treatment%20Switching.pdf">Estimands in the Presence of Treatment Switching</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="joint-statistical-meetings-2019" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-07-27: Joint Statistical Meetings 2019</h2>
+<table style="width:83%;">
+<colgroup>
+<col width="18%" />
+<col width="12%" />
+<col width="13%" />
+<col width="38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-07-27</td>
+<td align="center">Denver</td>
+<td align="center">USA</td>
+<td align="center">Topic contributed session</td>
+</tr>
+</tbody>
+</table>
+<div id="program-6" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="http://ww2.amstat.org/meetings/jsm/2019/">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-6" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Evgeny Degtyarev: <a href="talks/JSM19_1_Degtyarev%20Estimands%20in%20oncology.pdf">Estimand framework in Oncology drug development impact and opportunities</a></td>
+</tr>
+<tr class="even">
+<td align="left">Jonathan Siegel: <a href="talks/JSM19_2%20Importance%20of%20censoring%20mechanisms%20in%20selecting%20appropriate%20estimands.pdf">Importance of censoring mechanisms in selecting appropriate estimands</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Steven Sun: <a href="talks/JSM19_3%20sensitivity%20analyses.pdf">Sensitivity Analysis vs Supportive Analysis under Estimand Framework: A Case Study in Hematological Malignancies</a></td>
+</tr>
+<tr class="even">
+<td align="left">Michelle Casey: <a href="talks/JSM19_4%20right%20questions.pdf">Estimand Framework - Are we asking the right questions? A case study in the solid tumor setting</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="efspi-regulatory-statistics-workshop-2019" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-09-23: EFSPI Regulatory Statistics Workshop 2019</h2>
+<table style="width:69%;">
+<colgroup>
+<col width="18%" />
+<col width="11%" />
+<col width="19%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-09-23</td>
+<td align="center">Basel</td>
+<td align="center">Switzerland</td>
+<td align="center">Invited talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-7" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.efspi.org/EFSPI/Events/Regulatory_Meetings/4th_efspi_workshop_on_regulatory_statistics.aspx">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-7" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Evgeny Degtyarev: <a href="talks/Degtyarev%20(2019,%20EFSPI)%20Estimand%20framework,%20opportunity%20to%20rethink.pdf">Estimand framework: opportunity to rethink some old (and new) problems in Oncology trials?</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="asa-biopharmaceutical-section-regulatory-industry-statistics-workshop-2019" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-09-23: ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2019</h2>
+<table style="width:93%;">
+<colgroup>
+<col width="18%" />
+<col width="18%" />
+<col width="13%" />
+<col width="43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-09-23</td>
+<td align="center">Washington</td>
+<td align="center">USA</td>
+<td align="center">Contributed talks (including FDA discussant)</td>
+</tr>
+</tbody>
+</table>
+<div id="program-8" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://ww2.amstat.org/meetings/biop/2019/">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-8" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Feng Liu: <a href="talks/Liu%20(2019,%20ASA%20biopharm)%20Causal%20Estimand%20and%20Principal%20Stratum.pdf">Causal Estimand and Principal Stratum, an Overview and Potential Applications in Oncology</a></td>
+</tr>
+<tr class="even">
+<td align="left">Jiangxiu Zhou: <a href="talks/Zhou%20(2019,%20ASA)%20Estimands%20PFS2.pdf">Estimands for PFS2</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Alexei C. Ionan (FDA discussant): <a href="talks/Ionan%20(2019,%20ASA%20biopharm)%20Estimand%20Framework%20in%20Oncology%20Drug%20Development,%20Challenges%20and%20Opportunities.pdf">Estimand Framework in Oncology Drug Development: Challenges and Opportunities</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="esmo-2019" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-09-27: ESMO 2019</h2>
+<table style="width:62%;">
+<colgroup>
+<col width="18%" />
+<col width="16%" />
+<col width="13%" />
+<col width="13%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-09-27</td>
+<td align="center">Barcelona</td>
+<td align="center">Spain</td>
+<td align="center">Poster</td>
+</tr>
+</tbody>
+</table>
+<div id="program-9" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.esmo.org/Conferences/ESMO-2019-Congress">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-9" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Daniel George: <a href="talks/George%20(2019,%20ESMO)%20renal.pdf">Impact of estimand selection on adjuvant treatment outcomes in renal cell carcinoma (RCC)</a></td>
+</tr>
+<tr class="even">
+<td align="left">Bryant Furlow: <a href="https://www.cancertherapyadvisor.com/home/cancer-topics/renal-cell-carcinoma/getting-more-specific-about-adjuvant-therapy-effects-in-kidney-cancer/2/">Commentary on poster</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="isoqol-2019" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2019-10-20: ISOQoL 2019</h2>
+<table style="width:75%;">
+<colgroup>
+<col width="18%" />
+<col width="16%" />
+<col width="13%" />
+<col width="26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2019-10-20</td>
+<td align="center">San Diego</td>
+<td align="center">USA</td>
+<td align="center">Contributed talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-10" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.isoqol.org/wp-content/uploads/2019/09/ac19-FP-web.pdf">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-10" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Rachael Lawrance: <a href="talks/Lawrance%20(2019,%20ISOQoL)%20Using%20PROs%20in%20clinical%20trials.pdf">Using PROs in clinical trials: what should I know about?</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="webinar-of-the-basel-biometrics-section-impact-of-covid-19-on-clinical-trials" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-05-06: Webinar of the Basel Biometrics Section: Impact of COVID-19 on clinical trials</h2>
+<table style="width:72%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="19%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-05-06</td>
+<td align="center">Webinar</td>
+<td align="center">Switzerland</td>
+<td align="center">Invited talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-11" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="http://bbs.ceb-institute.org/?p=1476">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-11" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Evgeny Degtyarev: <a href="http://bbs.ceb-institute.org/wp-content/uploads/2020/05/BBS-Webinar-covid19-onco-estimand-WG.pptx">Short overview on COVID-19 from the Cross-Industry Oncology Estimands Working Group</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="estimands-in-oncology-virtual-panel-discussion-organized-by-cytel" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-05-21: Estimands in Oncology Virtual Panel Discussion (organized by Cytel)</h2>
+<table style="width:85%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="13%" />
+<col width="38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-05-21</td>
+<td align="center">Webinar</td>
+<td align="center">USA</td>
+<td align="center">Invited talk and panelist</td>
+</tr>
+</tbody>
+</table>
+<div id="program-12" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.cytel.com/webinar-replay-estimands-in-oncology?utm_campaign=2020%20Consulting%20EMAIL&amp;utm_medium=email&amp;_hsenc=p2ANqtz--WN5H59zPBQopCVp-byMemvtjmBivRttoe7iWN_pcetDWhMyrW_-UdxjqoY6Ggd6S8rgrUhTglXMMhThNVuFTnMbqx0g&amp;_hsmi=88689056&amp;utm_source=hs_email&amp;utm_content=88689056&amp;hsCtaTracking=3db4881a-8653-4be6-8b0f-2be87253acee%7C42deeaa9-95eb-4bb9-b67e-ed5709cbc6db">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-12" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kaspar Rufibach: <a href="https://www.cytel.com/hubfs/Rufibach_estimands_oncology.pdf">Estimands in oncology</a></td>
+</tr>
+<tr class="even">
+<td align="left">Michelle Casey: <a href="NA">NA</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="psi-conference-webinar-impact-of-covid-19-to-estimands" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-06-11: PSI Conference Webinar: Impact of COVID-19 to estimands</h2>
+<table style="width:85%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="13%" />
+<col width="38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-06-11</td>
+<td align="center">Webinar</td>
+<td align="center">UK</td>
+<td align="center">Invited talk and panelist</td>
+</tr>
+</tbody>
+</table>
+<div id="program-13" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.psiweb.org/events/event-item/2020/06/11/default-calendar/psi-conference-webinar-impact-of-covid-19-to-estimands">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-13" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kaspar Rufibach: <a href="talks/Rufibach%20(2020,%20PSI)%20estimands_oncology_covid.pdf">Application of the estimand framework to assess the impact of COVID-19 on clinical trials</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="webinar-of-the-basel-biometrics-section-estimands-addendum-is-final-anything-new-for-oncology" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-06-29: Webinar of the Basel Biometrics Section: Estimands addendum is final: Anything new for oncology?</h2>
+<table style="width:72%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="19%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-06-29</td>
+<td align="center">Webinar</td>
+<td align="center">Switzerland</td>
+<td align="center">Invited talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-14" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="http://bbs.ceb-institute.org/?p=1453">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-14" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kaspar Rufibach: <a href="talks/0_Rufibach.pdf">Introduction</a></td>
+</tr>
+<tr class="even">
+<td align="left">Anja Schiel: <a href="talks/1_Schiel.pdf">Experiences with the estimand - the regulatory view</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Renaud Capdeville: <a href="talks/2_Capdeville_Weber_RATIFY.pdf">Challenges and open questions in hematology: Estimand aspects in the RATIFY trial</a></td>
+</tr>
+<tr class="even">
+<td align="left">Tina Nielsen: <a href="talks/3_Nielsen_GALLIUM.pdf">Challenges and open questions in hematology: Estimand aspects in the Gallium trial</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Hannes Buchner &amp; Ingolf Griebsch: <a href="talks/4_Griebsch_Buchner.pdf">Estimands in clinical trials with treatment switching</a></td>
+</tr>
+<tr class="even">
+<td align="left">Stefan Englert: <a href="talks/5_Englert.pdf">Commentary on previous talks taking COVID 19 into account</a></td>
+</tr>
+<tr class="odd">
+<td align="left">All: <a href="https://streamingmedia.roche.com/media/Joint+EFSPI+++BBS+SeminarA+Estimands+addendum+is+finalA+Anything+new+for+oncologyF/1_3wavzkyv">Recording of the entire event</a></td>
+</tr>
+<tr class="even">
+<td align="left">All: <a href="talks/6_Q_and_A.pdf">Q&amp;A document answering questions raised in chat during webinar</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="joint-statistical-meetings-2020" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-08-01: Joint Statistical Meetings 2020</h2>
+<table style="width:92%;">
+<colgroup>
+<col width="18%" />
+<col width="20%" />
+<col width="13%" />
+<col width="38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-08-01</td>
+<td align="center">Philadelphia</td>
+<td align="center">USA</td>
+<td align="center">Topic contributed session</td>
+</tr>
+</tbody>
+</table>
+<div id="program-15" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://ww2.amstat.org/meetings/jsm/2020/">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-15" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Jonathan Siegel: <a href="talks/JSM20_Siegel%20et%20a,%20panel%20discussion.pdf">Estimand Framework and Its Impact on Drug Development in Oncology</a></td>
+</tr>
+<tr class="even">
+<td align="left">Anja Schiel: <a href="NA">NA</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Kunthel By: <a href="NA">NA</a></td>
+</tr>
+<tr class="even">
+<td align="left">Catherine Njue: <a href="NA">NA</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Richard J. Cook: <a href="NA">NA</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="webinar-of-the-basel-biometrics-section-rcts-meeting-causal-inference-principal-stratum-strategy-and-beyond" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-09-07: Webinar of the Basel Biometrics Section: RCTs meeting causal inference: principal stratum strategy and beyond</h2>
+<table style="width:72%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="19%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-09-07</td>
+<td align="center">Webinar</td>
+<td align="center">Switzerland</td>
+<td align="center">Invited talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-16" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="http://bbs.ceb-institute.org/?p=1587">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-16" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kaspar Rufibach: <a href="http://bbs.ceb-institute.org/wp-content/uploads/2020/09/01-Rufibach.pdf">Introduction</a></td>
+</tr>
+<tr class="even">
+<td align="left">Bjoern Bornkamp: <a href="http://bbs.ceb-institute.org/wp-content/uploads/2020/09/05-Bornkamp.pdf">Principal Stratum Strategy: Potential Role in Drug Development</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="asa-biopharmaceutical-section-regulatory-industry-statistics-workshop-2020" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-09-22: ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2020</h2>
+<table style="width:67%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="13%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-09-22</td>
+<td align="center">Virtual</td>
+<td align="center">USA</td>
+<td align="center">Invited talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-17" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://ww2.amstat.org/meetings/biop/2020/">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-17" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Jonathan Siegel: <a href="talks/ASA20_Siegel_switching.pdf">Industry Perspective on Subsequent Therapy: An Estimands Approach</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="joint-psi-efspi-asa-biop-webinar-estimands" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-11-05: Joint PSI, EFSPI &amp; ASA BIOP Webinar: Estimands</h2>
+<table style="width:68%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="15%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-11-05</td>
+<td align="center">Virtual</td>
+<td align="center">UK / USA</td>
+<td align="center">Invited talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-18" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.psiweb.org/vod/item/joint-psi-efspi-asa-biop-webinar-estimands">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-18" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Evgeny Degtyarev: <a href="talks/Degtyarev_2020_asa_psi_efspi_webinar.pdf">Estimand framework: What are the opportunities in oncology?</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="the-effective-statistician-podcast-a-deep-dive-into-principal-stratification-and-causal-inference" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-11-17: The effective statistician podcast: A deep dive into principal stratification and causal inference</h2>
+<table style="width:71%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="19%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-11-17</td>
+<td align="center">Podcast</td>
+<td align="center">Switzerland</td>
+<td align="center">Discussion</td>
+</tr>
+</tbody>
+</table>
+<div id="program-19" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://theeffectivestatistician.com/a-deep-dive-into-principal-stratification-and-causal-inference/">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-19" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Kaspar Rufibach: <a href="https://theeffectivestatistician.com/a-deep-dive-into-principal-stratification-and-causal-inference/">Link to podcast</a></td>
+</tr>
+<tr class="even">
+<td align="left">Bjoern Bornkamp: <a href="https://theeffectivestatistician.com/a-deep-dive-into-principal-stratification-and-causal-inference/">Link to podcast</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="working-group-pharmaceutical-industry-of-the-german-region-of-the-ibs-apf" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-11-27: Working group “Pharmaceutical Industry” of the German Region of the IBS (APF)</h2>
+<table style="width:67%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="13%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-11-27</td>
+<td align="center">Virtual</td>
+<td align="center">Germany</td>
+<td align="center">Invited talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-20" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="http://www.biometrische-gesellschaft.de/fileadmin/AG_Daten/PharamzeutischeForschung/PDFs/Agenda_APF_74_virtuell_Nov_2020.pdf">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-20" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Hannes Buchner: <a href="talks/Buchner_Rufibach_HAinteractions_PS_switching.pdf">Estimands update: Summary of world-wide authority interaction</a></td>
+</tr>
+<tr class="even">
+<td align="left">Kaspar Rufibach: <a href="talks/Buchner_Rufibach_HAinteractions_PS_switching.pdf">Estimands update: Summary of world-wide authority interaction</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="the-76th-annual-deming-conference-on-applied-statistics" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2020-12-09: The 76th Annual Deming Conference on Applied Statistics</h2>
+<table style="width:65%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="13%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2020-12-09</td>
+<td align="center">Virtual</td>
+<td align="center">USA</td>
+<td align="center">Shortcourse</td>
+</tr>
+</tbody>
+</table>
+<div id="program-21" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="NA">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-21" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Evgeny Degtyarev: <a href="talks/Deming2020_ED_KR_estimands_oncology.pdf">Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology</a></td>
+</tr>
+<tr class="even">
+<td align="left">Kaspar Rufibach: <a href="talks/Deming2020_ED_KR_estimands_oncology.pdf">Answering Old Questions with New Tools: Application of the ICH E9 Addendum in Oncology</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="asa---fda---lungevity-symposium-statistical-considerations-in-oncology-clinical-trials-in-the-covid-19-era" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2021-02-11: ASA - FDA - LUNGevity symposium: Statistical considerations in Oncology clinical trials in the COVID-19 era</h2>
+<table style="width:62%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="13%" />
+<col width="16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2021-02-11</td>
+<td align="center">Virtual</td>
+<td align="center">USA</td>
+<td align="center">Symposium</td>
+</tr>
+</tbody>
+</table>
+<div id="program-22" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="talks/lungevity_agenda.pdf">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-22" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Evgeny Degtyarev: <a href="talks/20210211_DCTs_estimands.pdf">How can the estimand framework support decentralized trials?</a></td>
+</tr>
+<tr class="even">
+<td align="left">Kaspar Rufibach: <a href="talks/20210211_DCTs_estimands.pdf">How can the estimand framework support decentralized trials?</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="duke-industry-statistics-symposium" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2021-04-21: Duke Industry Statistics Symposium</h2>
+<table style="width:67%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="13%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2021-04-21</td>
+<td align="center">Virtual</td>
+<td align="center">USA</td>
+<td align="center">Invited talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-23" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://sites.duke.edu/diss/">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-23" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Natalia Kan-Dobrosky: <a href="talks/Dobrosky_2021_Duke.pdf">Estimands in clinical trials with treatment switching</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="society-for-clinical-trials-estimand-addendum-to-the-ich-e9" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2021-05-20: Society for Clinical Trials: Estimand Addendum to the ICH E9</h2>
+<table style="width:85%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="13%" />
+<col width="38%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2021-05-20</td>
+<td align="center">Virtual</td>
+<td align="center">USA</td>
+<td align="center">Topic contributed session</td>
+</tr>
+</tbody>
+</table>
+<div id="program-24" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.sctweb.org/">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-24" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Stefan Englert: <a href="talks/SCT%202021%20estimand%20onco.pdf">How the estimand addendum to the ICH E9 guideline helps structure clinical objectives, guideline helps structure clinical objectives, analyses, and conclusions analyses, and conclusions: A series of oncology case studies</a></td>
+</tr>
+<tr class="even">
+<td align="left">Jonathan Siegel: <a href="talks/SCT%202021%20estimand%20onco.pdf">How the estimand addendum to the ICH E9 guideline helps structure clinical objectives, guideline helps structure clinical objectives, analyses, and conclusions analyses, and conclusions: A series of oncology case studies</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Juliane Manitz: <a href="talks/SCT%202021%20estimand%20onco.pdf">How the estimand addendum to the ICH E9 guideline helps structure clinical objectives, guideline helps structure clinical objectives, analyses, and conclusions analyses, and conclusions: A series of oncology case studies</a></td>
+</tr>
+<tr class="even">
+<td align="left">Feng Liu: <a href="talks/SCT%202021%20estimand%20onco.pdf">How the estimand addendum to the ICH E9 guideline helps structure clinical objectives, guideline helps structure clinical objectives, analyses, and conclusions analyses, and conclusions: A series of oncology case studies</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Steven Sun: <a href="talks/SCT%202021%20estimand%20onco.pdf">How the estimand addendum to the ICH E9 guideline helps structure clinical objectives, guideline helps structure clinical objectives, analyses, and conclusions analyses, and conclusions: A series of oncology case studies</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="psi-eiwg-webinar-estimands-in-oncology---how-and-why" class="section level2 tabset tabset-fade tabset-pills unnumbered">
+<h2 class="tabset tabset-fade tabset-pills unnumbered">2021-06-01: PSI EIWG Webinar: Estimands in Oncology - How and Why</h2>
+<table style="width:67%;">
+<colgroup>
+<col width="18%" />
+<col width="13%" />
+<col width="13%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center">Start</th>
+<th align="center">City</th>
+<th align="center">Country</th>
+<th align="center">Type</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">2021-06-01</td>
+<td align="center">Virtual</td>
+<td align="center">UK</td>
+<td align="center">Invited talk</td>
+</tr>
+</tbody>
+</table>
+<div id="program-25" class="section level3 unnumbered">
+<h3 class="unnumbered">Program</h3>
+<p><a href="https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why">Link to Program</a></p>
+</div>
+<div id="talks-andor-recording-25" class="section level3 unnumbered">
+<h3 class="unnumbered">Talks and/or recording</h3>
+<table>
+<colgroup>
+<col width="100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Speaker (click on title to download slides)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Stefan Englert: <a href="talks/20210601_clin_eng.pdf">Bringing estimands to lifelifethrough real case studies through real case studies</a></td>
+</tr>
+<tr class="even">
+<td align="left">Paul Bycott: <a href="talks/20210601_clin_eng.pdf">Bringing estimands to lifelifethrough real case studies through real case studies</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Feng Liu: <a href="talks/20210601_clin_eng.pdf">Bringing estimands to lifelifethrough real case studies through real case studies</a></td>
+</tr>
+<tr class="even">
+<td align="left">Jonathan Siegel: <a href="talks/20210601_clin_eng.pdf">Bringing estimands to lifelifethrough real case studies through real case studies</a></td>
+</tr>
+<tr class="odd">
+<td align="left">Sammi Tang: <a href="talks/20210601_clin_eng.pdf">Bringing estimands to lifelifethrough real case studies through real case studies</a></td>
+</tr>
+<tr class="even">
+<td align="left">Jiawei Wei: <a href="talks/20210601_clin_eng.pdf">Bringing estimands to lifelifethrough real case studies through real case studies</a></td>
+</tr>
+<tr class="odd">
+<td align="left">All: <a href="https://www.psiweb.org/vod/item/psi-eiwg-webinar-estimands-in-oncology---how-and-why">Recording of the entire event</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
