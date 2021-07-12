@@ -28,6 +28,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
 
 # Latest updates of this page
 
+* 10th July: The paper on treatment switching has been accepted by Pharmaceutical statistics.
 * 22th June: New design of this webpage online.
 * 15th June: Added [slidedeck](talks/SCT 2021 estimand onco.pdf) that the clinical engagement subteam presented at the [Society for Clinical Trials](https://www.sctweb.org/
 ) conference 2021.
