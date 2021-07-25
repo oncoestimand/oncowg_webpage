@@ -66,3 +66,9 @@ Beyond work in the task forces, the aim of the working group is to provide answe
  + Providing trainings, workshops and talks.
  + Promoting good practice through templates for study protocols and statistical analysis plans.
 
+# Collaborations
+
+The working group closely collaborates with the [EFSPI/EFPIA Estimands Implementation WG (EIWG)](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx) to implement estimands in drug development by collaborating with non-statistical partner functions. Stefan Englert is a member of both working groups and leads that collaboration.
+
+
+
