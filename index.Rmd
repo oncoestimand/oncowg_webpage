@@ -20,7 +20,7 @@ Find on this webpage information on the working group on estimands in oncology.
 
 # Become a member
 
-The general spirit of the working group is inclusive. If you'd like to contribute in one or the other way, we propose you first reach out to your company's representative(s) (if applicable) and align within your company who is best placed to contribute to which task force. After that is clarified reach out to the WG leads - contact details available [here](https://oncoestimand.github.io/oncowg_webpage/docs/organization.html).
+The general spirit of the working group is inclusive. If you'd like to contribute in one or the other way, we propose you first reach out to your company's representative(s) (if applicable) and align within your company who is best placed to contribute to which task force. After that is clarified reach out to the WG leads - contact details available [here](organization.html).
 
 # Link to this page
 
@@ -29,7 +29,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
 # Latest updates of this page
 
 * 2nd September: Added announcement of _DIA webinar: Estimands How and Why - A Real Life Case Study in Oncology_ on [events page](events.html).
-* 25th July: Added a section on collaborations to the [organization tab](https://oncoestimand.github.io/oncowg_webpage/docs/organization.html).
+* 25th July: Added a section on collaborations to the [organization tab](organization.html).
 * 10th July: The paper on treatment switching has been accepted by Pharmaceutical statistics.
 * 22th June: New design of this webpage online.
 * 15th June: Added [slidedeck](talks/SCT 2021 estimand onco.pdf) that the clinical engagement subteam presented at the [Society for Clinical Trials](https://www.sctweb.org/
