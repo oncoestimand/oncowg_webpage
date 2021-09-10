@@ -46,7 +46,7 @@ talks <- as.data.frame(read_excel(paste(path, "/data/conferences.xlsx", sep = ""
 
 As of `r tod`, the working group 
 
- + has `r length(loc)` members (`r sum(loc == "Europe")` from Europe, `r sum(loc == "NorAm")` from US, and `r sum(loc == "Asia")` from Asia) representing `r length(unique(com))` companies,
+ + has `r length(loc)` members (`r sum(loc == "Europe")` from Europe, `r sum(loc == "NorAm")` from US, and `r sum(loc == "Asia")` from Asia) representing `r length(unique(com))` companies / institutions,
  + regularly interacts with eight Health Authorities globally,
  + regularly organizes sessions and presents at conferences,
  + has started to interact with academic colleagues.
