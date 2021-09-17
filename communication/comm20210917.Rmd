@@ -31,7 +31,7 @@ We hope this reaches you well! It has been a while since we last reached out to 
 - Last week a 1 1/2 page [paper](https://jamanetwork.com/journals/jama/article-abstract/2783611) introducing estimands using the PIONEER trials as an example appeared in JAMA. Having more and more such papers likely opens the door for publishing on estimand topics in clinical journals and interacting more with clinicians. Of note that personally (KR) I do not agree how they define ITT - they mix up estimand attributes and analysis sets.
 - Further past events of note where the [EFSPI regulatory statistics workshop](https://www.efspi.org/EFSPI/Events/Regulatory_Meetings/6th_efspi_workshop_on_regulatory_statistics.aspx) with a [talk](https://www.efspi.org/Documents/Events/Regulatory%20Meetings/2021/EFSPI%202021%20Day%202/21%20O'Kelly.pdf) by Michael O'Kelly on how to deal with multiple estimands per tial. Recordings will also be up soon! Several of our members were also involved in the discussion in the last FDA - lungevity meeting on NPH.
 - Finally - are there any new estimand topics where this group could potentially contribute its knowledge and network? If you have such topics please do not hesitate to get back to us!
-
+  
 To conclude, we invite you to regularly check out our webpage: [www.oncoestimand.org](http://www.oncoestimand.org).
 
 Kind Regards,<br>
