@@ -28,6 +28,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
 
 # Latest updates of this page
 
+* 17th September: Latest [newsletter](communication/comm20210917.html) to the group.
 * 2nd September: Added announcement of _DIA webinar: Estimands How and Why - A Real Life Case Study in Oncology_ on [events page](events.html).
 * 25th July: Added a section on collaborations to the [organization tab](organization.html).
 * 10th July: The paper on treatment switching has been accepted by Pharmaceutical statistics.
