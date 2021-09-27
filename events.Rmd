@@ -28,10 +28,6 @@ talks <- (talks %>% filter(is.na(Speaker1) == FALSE))
 
 # Upcoming events with contributions of the working group
 
-* [ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2021](https://ww2.amstat.org/meetings/biop/2021)
-  * _Clinical and Statistical Perspectives on Post-ICH E9 (R1) Addendum Estimand Use: Current Status and Future Directions_. Organizers: Kaspar Rufibach (Roche), Lei Nie (FDA), Shanti Gomatam (FDA). Frank Bretz (Novartis), Alexei Ionan (FDA). Presenters and panel discussion: Devan Mehrotra (Merck, ICH E9 (R1) Expert Working Group member, statistical), Sally Seymour (FDA, Division Director, clinical), David Lebwohl (Intellia Therapeutics, clinical), John Scott (FDA, CBER, statistical), Bohdana Ratitch (Bayer, statistical), Sylva Collins (FDA, CDER, statistical).
-  * _Estimands in Oncology: White Papers from an Industry Working Group_. Organizer: Jonathan Siegel (Bayer). Presenters: Natalia Kan-Dobrosky (PPDI), Jonathan Siegel (Bayer), Satrajit Roychoudhury (Pfizer). Discussant: Qing Xu (FDA).
-
 * [DIA webinar: Estimands How and Why - A Real Life Case Study in Oncology](https://diaglobal.zoom.us/webinar/register/WN_7KtHC7qtRRG78aJbZP9slg)
   * **Date and Time**: Sep 28th 2021, 10am - 11:30am EST
   * [**Registration**](https://diaglobal.zoom.us/webinar/register/WN_7KtHC7qtRRG78aJbZP9slg)
