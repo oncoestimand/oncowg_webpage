@@ -28,6 +28,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
 
 # Latest updates of this page
 
+* 13th October: Added remit of [Task Force 2](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#2_Principal_stratification_for_treatment_switching). 
 * 30th September: Added slidedeck from recent, under [events](events.html).
 * 22th September: Added new paper by Hampson et al. to [publications](publications.html).
 * 17th September: Latest [newsletter](communication/comm20210917.html) to the group.

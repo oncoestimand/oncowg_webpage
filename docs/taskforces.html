@@ -13,8 +13,8 @@
 
 <title>Task forces</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -283,12 +283,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -357,7 +357,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Task forces</h1>
-<h4 class="date">Last change: 05 Oktober, 2021</h4>
+<h4 class="date">Last change: 13 Oktober, 2021</h4>
 
 </div>
 
@@ -410,10 +410,11 @@ div.tocify {
 </tbody>
 </table>
 </div>
-<div id="principal-stratification-for-treatment-switching" class="section level1" number="2">
-<h1 number="2"><span class="header-section-number">2</span> Principal stratification for treatment switching</h1>
-<p><strong>Lead</strong>: character(0) character(0) (character(0))</p>
-<p><strong>Objective</strong>: NA</p>
+<div id="principal-stratification-in-clinical-trials" class="section level1" number="2">
+<h1 number="2"><span class="header-section-number">2</span> Principal stratification in clinical trials</h1>
+<p><strong>Lead</strong>: Yufei Wang (GSK)</p>
+<p><strong>Objective</strong>: This task force performs periodical literature reviews of principal stratum applied to treatment switching, focusing on the analysis of overall survival. It aims to evaluate and improve existing methods, develop new principal stratification models for treatment switching, e.g. through simulation studies to compare operating characteristics, relaxation/stress test of key assumptions, prior selection for Bayesian analysis, and software for implementation.</p>
+<p>Communication of results is intended to happen through publication(s) for peer-reviewed journals, presentations/round-table discussions/trainings at various forums (JSM, DIA, FDA workshop, ISCB, …).</p>
 <table>
 <thead>
 <tr class="header">
@@ -916,8 +917,8 @@ div.tocify {
 <td align="left">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Rong</td>
-<td align="left">Liu</td>
+<td align="left">Atalanta</td>
+<td align="left">Ghosh</td>
 <td align="left">BMS</td>
 <td align="left">NorAm</td>
 </tr>
@@ -987,6 +988,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

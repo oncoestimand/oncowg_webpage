@@ -43,7 +43,7 @@ tod <- format(today, format = "%d %B %Y")
 
 ## subteams
 taskforces <- c("Clinical", "PS_switch", "PRO", "DOR", "FU", "RWD", "CondMarg", "T2E_sub", "early_dev_estimand_nexus")
-taskforces_names <- c("Clinical engagement", "Principal stratification for treatment switching", "Patient-reported outcomes", "Duration of responses", "Quantification of follow-up", "Real-world data and estimands", "Conditional vs. marginal effects", "Time to event endpoints with prognostic or predictive biomarker subgroups", "Early development estimand nexus (EDEN)")
+taskforces_names <- c("Clinical engagement", "Principal stratification in clinical trials", "Patient-reported outcomes", "Duration of responses", "Quantification of follow-up", "Real-world data and estimands", "Conditional vs. marginal effects", "Time to event endpoints with prognostic or predictive biomarker subgroups", "Early development estimand nexus (EDEN)")
 ```
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, results = "asis"}
