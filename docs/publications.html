@@ -13,8 +13,8 @@
 
 <title>Publications of the group</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -283,12 +283,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -357,7 +357,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Publications of the group</h1>
-<h4 class="date">Last change: 05 Oktober, 2021</h4>
+<h4 class="date">Last change: 04 November, 2021</h4>
 
 </div>
 
@@ -371,8 +371,8 @@ div.tocify {
 <li>Casey M., Degtyarev E., Lechuga M.J., Aimone P., Ravaud A., Motzer R., Liu F., Stalbovskaya V., Tang R., Butler E., Sailer O., Halabi S., George D. <em>Estimand framework: Are we asking the right question? A case study in the solid tumor setting</em> (2020). Pharmaceutical Statistics, <strong>20</strong>, 324–334. <a href="https://doi.org/10.1002/pst.2079">doi</a></li>
 <li>Sun, S., Weber, J., Butler, E., Rufibach, K., Roychoudhury, S. <em>Estimands in Hematology Trials</em> (2021). Pharmaceutical Statistics, 20, 793-805. <a href="https://doi.org/10.1002/pst.2108">doi</a> | <a href="https://arxiv.org/abs/2010.00957">arxiv</a></li>
 <li>Bornkamp, B., Rufibach, K., Lin, J., Liu, Y., Mehrotra, D., Roychoudhury, S., Schmidli, H., Shentu, Y., Wolbers, M. <em>Principal Stratum Strategy: Potential Role in Drug Development</em> (2021). Pharmaceutical Statistics, <strong>20</strong>, 737-751. <a href="https://doi.org/10.1002/pst.2104">doi</a> | <a href="https://arxiv.org/abs/2008.05406">arxiv</a> | <a href="https://github.com/oncoestimand/princ_strat_drug_dev">github</a> | <a href="https://oncoestimand.github.io/princ_strat_drug_dev/princ_strat_example.html">markdown</a></li>
-<li>Manitz, J., Kan-Dobrosky, N., Buchner, H., Casadebaig, M.L., Degtyarev, E., Dey, J., Haddad, V., Fei, J., Martin, E., Mo, M., Rufibach, K., Shentu, Y., Stalbovskaya, V., Tang, R., Yung, G., Zhu, J. <em>Estimands for Overall Survival in Clinical Trials with Treatment Switching in Oncology</em> (2021). Pharmaceutical Statistics, accepted.</li>
-<li>Hampson, L.V., Degtyarev, E., Tang, R., Lin, J., Rufibach, K., Zheng, C. <em>Comment on <a href="https://doi.org/10.1080/19466315.2021.1883473">Biostatistical considerations when using RWD and RWE in clinical studies for regulatory purposes: A landscape assessment</a></em> (2021). Statistics in Biopharmaceutical Research, to appear.</li>
+<li>Manitz, J., Kan-Dobrosky, N., Buchner, H., Casadebaig, M.L., Degtyarev, E., Dey, J., Haddad, V., Fei, J., Martin, E., Mo, M., Rufibach, K., Shentu, Y., Stalbovskaya, V., Tang, R., Yung, G., Zhu, J. <em>Estimands for Overall Survival in Clinical Trials with Treatment Switching in Oncology</em> (2021). Pharmaceutical Statistics, accepted. <a href="https://doi.org/10.1002/pst.2158">doi</a>.</li>
+<li>Hampson, L.V., Degtyarev, E., Tang, R., Lin, J., Rufibach, K., Zheng, C. <em>Comment on <a href="https://doi.org/10.1080/19466315.2021.1883473">Biostatistical considerations when using RWD and RWE in clinical studies for regulatory purposes: A landscape assessment</a></em> (2021). Statistics in Biopharmaceutical Research, to appear. <a href="https://doi.org/10.1080/19466315.2021.1994459">doi</a>.</li>
 </ul>
 <p>Several further publications are currently being written within the working group. Once available, these will be made available here.</p>
 </div>
@@ -415,6 +415,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
