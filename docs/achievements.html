@@ -13,8 +13,8 @@
 
 <title>Oncology estimand working group: achievements per year</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -283,12 +283,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -357,7 +357,7 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">Oncology estimand working group: achievements per year</h1>
-<h4 class="date">Last change: 05 Oktober, 2021</h4>
+<h4 class="date">Last change: 24 November, 2021</h4>
 
 </div>
 
@@ -394,6 +394,22 @@ div.tocify {
 <li>The SIG organized sessions and was invited to speak at virtual US conferences (JSM, ASA-FDA workshop, Deming conference on applied statistics). Further <a href="https://oncoestimand.github.io/oncowg_webpage/conferences.html#webinar_of_the_basel_biometrics_section:_impact_of_covid-19_on_clinical_trials">talks</a> were given at several occasions.</li>
 <li>The SIG organized TCs with seven Health Authorities (FDA, HC, Swissmedic, China, Japan, Taiwan, MHRA) to share its work and get input on future directions.</li>
 <li>Set up a webpage (<a href="http://www.oncoestimand.org/">www.oncoestimand.org</a>) to foster sharing of information and generated content such as presentations and publications. As of today, the SIG has 54 members (20 from Europe, 29 from US, and 5 from Asia) representing 28 companies. Currently the SIG is regrouping in task forces dedicated to eight topics that are considered relevant to develop implementation of the addendum further in oncology clinical trials. So expect more output in 2021!</li>
+</ul>
+</div>
+<div id="achievements-2021" class="section level1" number="3">
+<h1 number="3"><span class="header-section-number">3</span> Achievements 2021</h1>
+<p>The group has evolved into a global network of statisticians in industry and regulatory agencies that continues to contribute to the implementation of the ICH E9 addendum. Key achievements are:</p>
+<ul>
+<li>Several <a href="https://oncoestimand.github.io/oncowg_webpage/oncoestimand.html#publications">publications</a> of the SIG were published this year.</li>
+<li>Together with the EFPIA estimands implementation working group the SIG organized two webinars targeted at a broad audience of Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians:
+<ul>
+<li>PSI EIWG Webinar: Estimands in Oncology - How and Why. <a href="https://oncoestimand.github.io/oncowg_webpage/docs/events.html#01062021:_PSI_EIWG_Webinar:_Estimands_in_Oncology_-_How_and_Why">Webinar 1 EU</a> | <a href="https://oncoestimand.github.io/oncowg_webpage/docs/events.html#28092021:_DIA_webinar:_Estimands_How_and_Why_-_A_Real_Life_Case_Study_in_Oncology">Webinar 2 US</a>.</li>
+</ul></li>
+<li>The SIG organized sessions and was invited to speak at conferences (Duke Industry Statistics Symposium, Society for clinicial trials, JSM, ASA-FDA workshop, Deming conference on applied statistics). Further <a href="https://oncoestimand.github.io/oncowg_webpage/conferences.html#webinar_of_the_basel_biometrics_section:_impact_of_covid-19_on_clinical_trials">talks</a> were given at several occasions.</li>
+<li>Members of the SIG were also invited to FDA OCE Project Significant TCs to talk about application of estimands to decentralized trials and comment on non-proportional hazards.</li>
+<li>As a higlight of 2021 nine task forces were kicked off who have started their work. Find them all, including rosters and objectives, <a href="taskforces.html">here</a>.</li>
+<li>As of November 2021, the SIG has has 77 members (30 from Europe, 38 from US, and 9 from Asia) representing 36 companies / institutions, see <a href="status.html">status</a>.</li>
+<li>As an outlook in 2022 we plan to organize webinars reporting on the content that the task forces have generated so far. We also plan to get involved with our Health Authority partners again.</li>
 </ul>
 </div>
 
@@ -435,6 +451,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
