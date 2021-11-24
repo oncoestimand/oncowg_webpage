@@ -57,13 +57,15 @@ Currently the SIG is regrouping in task forces dedicated to eight topics that ar
 The group has evolved into a global network of statisticians in industry and regulatory agencies that continues to contribute to the implementation of the ICH E9 addendum. Key achievements are:
 
 * Several [publications](publications.html) of the SIG appeared this year.
-* Together with the EFPIA estimands implementation working group the SIG organized two webinars targeted at a broad audience of Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians:
-  + PSI EIWG Webinar: Estimands in Oncology - How and Why. [Webinar 1 EU](events.html#01062021:_PSI_EIWG_Webinar:_Estimands_in_Oncology_-_How_and_Why) | [Webinar 2 US](events.html#28092021:_DIA_webinar:_Estimands_How_and_Why_-_A_Real_Life_Case_Study_in_Oncology).
+* Invited by the [EFSPI/EFPIA estimands implementation working group](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx) the SIG organized two webinars targeted at a broad audience of Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians:
+  + [PSI EIWG Webinars](events.html#01062021:_PSI_EIWG_Webinar:_Estimands_in_Oncology_-_How_and_Why) (2 events, one for EU and one for US): Estimands in Oncology - How and Why. 
+  + [DIA Webinar](events.html#28092021:_DIA_webinar:_Estimands_How_and_Why_-_A_Real_Life_Case_Study_in_Oncology), including FDA discussants.
+* Our SIG is also formally represented in the [EFSPI/EFPIA estimands implementation working group](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx).
 * The SIG organized sessions and was invited to speak at conferences (Duke Industry Statistics Symposium, Society for clinicial trials, JSM, ASA-FDA workshop, Deming conference on applied statistics). Further [talks](events.html) were given at several occasions.
 * Members of the SIG were also invited to FDA OCE Project Significant TCs to talk about application of estimands to decentralized trials and comment on non-proportional hazards.
 * As a higlight of 2021 nine task forces were kicked off who have started their work on new topics relevant to the implementation of the addendum, and applying the addendum to extended areas such as, e.g., real-worl data. Find them all, including rosters and objectives, [here](taskforces.html).
 * As of November 2021, the SIG has has 77 members (30 from Europe, 38 from US, and 9 from Asia) representing 36 companies / institutions, see [status](status.html).
-* As an outlook in 2022 we plan to organize webinars reporting on the content that the task forces have generated so far. We also plan to get involved with our Health Authority partners again.
+* As an outlook in 2022 we plan to organize webinars reporting on the content that the task forces have generated so far. One goal is also to broaden our outreach and present not only at statistical but also at clinical conferences. We also plan to get involved with our Health Authority partners again.
 
 
 
