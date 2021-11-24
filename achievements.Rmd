@@ -61,7 +61,7 @@ The group has evolved into a global network of statisticians in industry and reg
   + [PSI EIWG Webinars](events.html#01062021:_PSI_EIWG_Webinar:_Estimands_in_Oncology_-_How_and_Why) (2 events, one for EU and one for US): Estimands in Oncology - How and Why. 
   + [DIA Webinar](events.html#28092021:_DIA_webinar:_Estimands_How_and_Why_-_A_Real_Life_Case_Study_in_Oncology), including FDA discussants.
 * Our SIG is also formally represented in the [EFSPI/EFPIA estimands implementation working group](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx).
-* The SIG organized sessions and was invited to speak at conferences (Duke Industry Statistics Symposium, Society for clinicial trials, JSM, ASA-FDA workshop, Deming conference on applied statistics). Further [talks](events.html) were given at several occasions.
+* The SIG organized sessions and was invited to speak at conferences (Duke Industry Statistics Symposium, Society for clinicial trials, JSM, ASA-FDA workshop, ISOQoL). Further [talks](events.html) were given at several occasions.
 * Members of the SIG were also invited to FDA OCE Project Significant TCs to talk about application of estimands to decentralized trials and comment on non-proportional hazards.
 * As a higlight of 2021 nine task forces were kicked off who have started their work on new topics relevant to the implementation of the addendum, and applying the addendum to extended areas such as, e.g., real-worl data. Find them all, including rosters and objectives, [here](taskforces.html).
 * As of November 2021, the SIG has has 77 members (30 from Europe, 38 from US, and 9 from Asia) representing 36 companies / institutions, see [status](status.html).
