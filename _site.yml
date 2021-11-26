@@ -26,6 +26,8 @@ navbar:
       href: publications.html
     - text: "Events"
       href: events.html
+    - text: "Further resources"
+      href: resources.html
   output:
   html_document:
     theme: cosmo

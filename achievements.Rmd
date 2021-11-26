@@ -59,7 +59,7 @@ The group has evolved into a global network of statisticians in industry and reg
 * Several [publications](publications.html) of the SIG appeared this year.
 * Invited by the [EFSPI/EFPIA estimands implementation working group](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx) the SIG organized two webinars targeted at a broad audience of Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians:
   + [PSI EIWG Webinars](events.html#01062021:_PSI_EIWG_Webinar:_Estimands_in_Oncology_-_How_and_Why) (2 events, one for EU and one for US): Estimands in Oncology - How and Why. 
-  + [DIA Webinar](events.html#28092021:_DIA_webinar:_Estimands_How_and_Why_-_A_Real_Life_Case_Study_in_Oncology), including FDA discussants.
+* The WG also organized a [DIA Webinar](events.html#28092021:_DIA_webinar:_Estimands_How_and_Why_-_A_Real_Life_Case_Study_in_Oncology) with the same target audience, including FDA discussants.
 * Our SIG is also formally represented in the [EFSPI/EFPIA estimands implementation working group](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx).
 * The SIG organized sessions and was invited to speak at conferences (Duke Industry Statistics Symposium, Society for clinicial trials, JSM, ASA-FDA workshop, ISOQoL). Further [talks](events.html) were given at several occasions.
 * Members of the SIG were also invited to FDA OCE Project Significant TCs to talk about application of estimands to decentralized trials and comment on non-proportional hazards.
