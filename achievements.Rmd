@@ -57,6 +57,7 @@ Currently the SIG is regrouping in task forces dedicated to eight topics that ar
 The group has evolved into a global network of statisticians in industry and regulatory agencies that continues to contribute to the implementation of the ICH E9 addendum. Key achievements are:
 
 * Several [publications](publications.html) of the SIG appeared this year.
+* The SIG has built a network of individuals with expertise and credibility in the broader biostatistical and drug development community. Testament to that is the fact that SIG members are regularly invited to review and comment on scientific publications in the field.
 * Invited by the [EFSPI/EFPIA estimands implementation working group](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx) the SIG organized two webinars targeted at a broad audience of Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians:
   + [PSI EIWG Webinars](events.html#01062021:_PSI_EIWG_Webinar:_Estimands_in_Oncology_-_How_and_Why) (2 events, one for EU and one for US): Estimands in Oncology - How and Why. 
 * The WG also organized a [DIA Webinar](events.html#28092021:_DIA_webinar:_Estimands_How_and_Why_-_A_Real_Life_Case_Study_in_Oncology) with the same target audience, including FDA discussants.

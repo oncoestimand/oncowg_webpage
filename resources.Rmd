@@ -18,7 +18,7 @@ bibliography: biblio.bib
 
 - [EFSPI/PSI SIG on Estimands in Neuroscience](https://www.efspi.org/EFSPI/Special_Interest_Groups/Neuroscience_biostatistics_community.aspx).
 - [EFSPI/EFPIA Estimands Implementation WG (EIWG)](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx).
-- [International Society for Quality of Life Research (ISOQOL) statistics SIG](https://www.isoqol.org/sigs/#statistics) - oversees an estimand workstream.
+- [International Society for Quality of Life Research (ISOQOL) statistics SIG](https://www.isoqol.org/sigs/#statistics): this SIG also has a workstream that works on estimands for PRO.
 
 # I have never heard of estimands - where should I start?
 
