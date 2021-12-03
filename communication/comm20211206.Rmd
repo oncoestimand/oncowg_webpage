@@ -1,5 +1,5 @@
 ---
-title: "Oncology estimand working group: newsletter 30th November 2021"
+title: "Oncology estimand working group: newsletter 6th December 2021"
 date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
 output: 
   rmarkdown::html_document:
@@ -25,8 +25,8 @@ We hope this reaches you well! It has been a while since we last reached out to 
 
 - We have summarized our [achievements of 2021](https://oncoestimand.github.io/oncowg_webpage/docs/achievements.html#3_Achievements_2021) - please have a look. Feedback welcome, and please share any additional achievements of the group, we are more than happy to add them.
 - We contributed to several events with talks and sessions, see [events](https://oncoestimand.github.io/oncowg_webpage/docs/events.html).
-- We organize two sessions (one EU + Asia and one EU + North America) early next year where all the task forces will briefly share their work and future plans. We'd be excited if many of you joined!
-- We keep updating the group's webpage [www.oncoestimand.org](http://www.oncoestimand.org). It now features a tab [Further resources](https://oncoestimand.github.io/oncowg_webpage/docs/resources.html) with links to other estimand WGs and a section [I have never heard of estimands - where should I start?](https://oncoestimand.github.io/oncowg_webpage/docs/resources.html#2_I_have_never_heard_of_estimands_-_where_should_I_start).
+- We organize two sessions (one EU + Asia and one EU + North America) early next year where all the task forces will briefly share their work and future plans. Invites have been sent and we'd be excited if many of you joined!
+- We keep updating the group's webpage [www.oncoestimand.org](http://www.oncoestimand.org). It now features a tab [Further resources](https://oncoestimand.github.io/oncowg_webpage/docs/resources.html) with links to other estimand WGs and a section [I have never heard of estimands - where should I start?](https://oncoestimand.github.io/oncowg_webpage/docs/resources.html#2_I_have_never_heard_of_estimands_-_where_should_I_start). This might be a good landing page to point out to interested colleagues who'd like to learn more.
 - Finally - are there any new estimand topics where this group could potentially contribute its knowledge and network? If you have such topics please do not hesitate to get back to us!
   
 To conclude, we invite you to regularly check out our webpage: [www.oncoestimand.org](http://www.oncoestimand.org).
