@@ -32,6 +32,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
 
 # Latest updates of this page
 
+* 6th December: Latest [newsletter](communication/comm20211206.html) to the group.
 * 26th November: Added new page [Further resources](resources.html) with links to other estimand working groups (we are aware of) and a section with introductory estimand material.
 * 13th October: Added remit of [Task Force 2](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#2_Principal_stratification_in_clinical_trials). 
 * 30th September: Added slidedeck from recent, under [events](events.html).
