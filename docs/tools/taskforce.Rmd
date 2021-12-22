@@ -16,3 +16,4 @@ t1 <- (t0[is.na(t0[, taskforces[i]]) == FALSE, ] %>% select(Firstname, Lastname,
 rownames(t1) <- NULL
 kable(t1) 
 ```
+
