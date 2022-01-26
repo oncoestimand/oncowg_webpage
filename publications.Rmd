@@ -24,6 +24,13 @@ Here we list the publications that the group has written or contributed to.
 * Manitz, J., Kan-Dobrosky, N., Buchner, H., Casadebaig, M.L., Degtyarev, E., Dey, J., Haddad, V., Fei, J., Martin, E., Mo, M., Rufibach, K., Shentu, Y., Stalbovskaya, V., Tang, R., Yung, G., Zhu, J. _Estimands for Overall Survival in Clinical Trials with Treatment Switching in Oncology_ (2021). Pharmaceutical Statistics, accepted. [doi](https://doi.org/10.1002/pst.2158).
 * Hampson, L.V., Degtyarev, E., Tang, R., Lin, J., Rufibach, K., Zheng, C. _Comment on [Biostatistical considerations when using RWD and RWE in clinical studies for regulatory purposes: A landscape assessment](https://doi.org/10.1080/19466315.2021.1883473)_ (2021). Statistics in Biopharmaceutical Research, to appear. [doi](https://doi.org/10.1080/19466315.2021.1994459).
 
-Several further publications are currently being written within the working group. Once available, these will be made available here.
+# Submitted
+
+* Siegel, J.M., Grinsted, L., Liu, F., Weber, J., Englert, S., Casey, M. _Censoring and censoring mechanisms in oncology in light of the estimands framework_ (2022). Submitted.
+* Siegel, J.M. Weber, J., Englert, S. _The Role of Occlusion: Potential Extension of the ICH E9 (R1) Addendum on Estimands and Sensitivity Analysis for Time-to-Event Oncology Studies_ (2022).
+
+
+
+
 
 
