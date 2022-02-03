@@ -23,6 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 path <- getwd()
 talks <- as.data.frame(read_excel(paste(path, "/data/conferences.xlsx", sep = ""), col_types = NULL))
 talks <- (talks %>% filter(is.na(Speaker1) == FALSE))
+talks <- arrange(talks, desc(start_y), desc(start_m), desc(start_d))
 ```
 
 
