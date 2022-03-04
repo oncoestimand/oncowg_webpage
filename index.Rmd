@@ -34,6 +34,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
 
 ## 2022
 
+* 4th March: We have now officially started work in the [safety taskforce](). Many thanks to Jonathan Siegel for starting and leading this!
 * 3rd February: Congratulations to the authors of [Sun et al. and Bornkamp et al.](publications.html) - these papers were the 3rd and 4th most downloaded papers that appeared in 2021 in [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612).
 * 26nd January: The censoring subteam has submitted two papers, see [publications](publications.html).
 
