@@ -26,8 +26,8 @@ Here we list the publications that the group has written or contributed to.
 
 # Submitted
 
-* Siegel, J.M., Grinsted, L., Liu, F., Weber, J., Englert, S., Casey, M. _Censoring and censoring mechanisms in oncology in light of the estimands framework_ (2022). Submitted.
-* Siegel, J.M. Weber, J., Englert, S. _The Role of Occlusion: Potential Extension of the ICH E9 (R1) Addendum on Estimands and Sensitivity Analysis for Time-to-Event Oncology Studies_ (2022).
+* Siegel, J.M., Grinsted, L., Liu, F., Weber, J., Englert, S., Casey, M. _Censoring and censoring mechanisms in oncology in light of the estimands framework_ (2022). Submitted. | [arxiv](https://arxiv.org/abs/2203.01781).
+* Siegel, J.M. Weber, J., Englert, S. _The Role of Occlusion: Potential Extension of the ICH E9 (R1) Addendum on Estimands and Sensitivity Analysis for Time-to-Event Oncology Studies_ (2022). Submitted. | [arxiv](https://arxiv.org/abs/2203.02182).
 
 
 
