@@ -1,5 +1,5 @@
 ---
-title: "Events"
+title: "Events with contributions from the working group"
 date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
 output: 
   rmarkdown::html_document:
@@ -29,12 +29,7 @@ talks$date <- with(talks, paste(ifelse(start_d < 10, paste("0", start_d, sep = "
                                 ".20", start_y, sep = ""))
 ```
 
-
-# Upcoming events with contributions of the working group
-
-* Currently none planned.
-
-# Past events and and all presentation slide decks
+Below a list of past events with contributions of the WG, with links to slidedecks and recordings (where available).
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE, include = FALSE}
 

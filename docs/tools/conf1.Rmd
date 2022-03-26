@@ -5,8 +5,7 @@ i <- as.numeric('{{i}}')
 tab <- talks[i, ]
 ```
 
-
-## `r paste(as.character(tab$date), ": ", select(tab, Conference), sep = "")` {.tabset .tabset-fade .tabset-pills -} 
+# `r paste(as.character(tab$date), ": ", select(tab, Conference), sep = "")` {.tabset .tabset-fade .tabset-pills -} 
 
 ```{r, echo = FALSE, results = 'asis', message = FALSE, eval = TRUE}
 panderOptions('knitr.auto.asis', FALSE)
@@ -16,11 +15,11 @@ rownames(t0) <- NULL
 pander(t0)
 ```
 
-### Program {-}
+## Program {-}
 
 [Link to Program](`r (tab %>% select(Web))`)
 
-### Talks and/or recording {-}
+## Talks and/or recording {-}
 
 ```{r echo = FALSE}
 tab <- select(tab, -date)
