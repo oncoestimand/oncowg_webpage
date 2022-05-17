@@ -34,6 +34,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
 
 ## 2022
 
+* 17th May: updated [events page](events.html) with past and upcoming appearances of the WG.
 * 26th March: added slidedeck and recording of Graham Dunn Seminar to [events page](events.html).
 * 8th March: arxiv links added for the two submitted papers of the censoring subteam.
 * 4th March: We have now officially started work in the [safety taskforce](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#10_Estimands_for_Safety). Many thanks to Jonathan Siegel for starting and leading this!
