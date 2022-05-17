@@ -1,0 +1,36 @@
+---
+title: "Oncology estimand working group: newsletter XXX"
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: no
+    toc_depth: 3
+    toc_float: yes
+---
+
+```{r setup, include = FALSE, echo = FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hi all,
+
+We hope this reaches you well! It has been a while since we last reached out to the entire group. We would like to share some recent developments, events, and achievements.
+
+- We have updated the [events page](events.html) with our past and upcoming appearances. Please let us know of further presentations, workshops, webinars, etc that are not on the list yet.
+- Please also share slidedecks or links to other material that we can add to the [events page](events.html).
+- The [engagement task force](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#1_Estimands_engagement) has put together a nice poster that will be presented at conferences in [Europe](https://oncoestimand.github.io/oncowg_webpage/docs/talks/20220612_OncoEstimand-Poster-PSI-Final.pdf), [Asia](https://oncoestimand.github.io/oncowg_webpage/docs/talks/20220721_OncoEstimand-Poster-China-Final.pdf), and the [US](https://oncoestimand.github.io/oncowg_webpage/docs/talks/20220920_OncoEstimand-Poster-BIOP-Final.pdf). This may serve as a good resource if you'd like to present the WG.
+- EMA has issued [Advice to sponsors on managing the impact of the war in Ukraine on clinical trials](https://www.ema.europa.eu/en/news/advice-sponsors-managing-impact-war-ukraine-clinical-trials) which heavily uses the estimand framework. They call out the hypothetical estimand strategy specifically. 
+- The [EFSPI/EFPIA Estimands Implementation WG (EIWG)](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx) has published a paper [Marking 2-Years of New Thinking in Clinical Trials: The Estimand Journey](https://link.springer.com/article/10.1007/s43441-022-00402-3). The paper is well worth a read.
+- On June 28th & 29th we will again have full group TCs with regulators attending (you should have invites in your calendars). We plan to run these sessions as the last ones, i.e. each task force is asked to present the status of their work.
+
+To conclude, we invite you to regularly check out our webpage: [www.oncoestimand.org](http://www.oncoestimand.org).
+
+Kind Regards,<br>
+Evgeny & Kaspar
