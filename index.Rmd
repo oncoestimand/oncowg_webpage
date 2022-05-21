@@ -34,6 +34,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
 
 ## 2022
 
+* 23th May: Latest [newsletter](communication/comm20220523.html) to the group.
 * 17th May: updated [events page](events.html) with past and upcoming appearances of the WG.
 * 26th March: added slidedeck and recording of Graham Dunn Seminar to [events page](events.html).
 * 8th March: arxiv links added for the two submitted papers of the censoring subteam.
