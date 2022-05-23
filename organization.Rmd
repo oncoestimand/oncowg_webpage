@@ -50,7 +50,7 @@ talks <- as.data.frame(read_excel(paste(path, "/data/conferences.xlsx", sep = ""
 
 # Leads
 
-Evgeny Degtyarev from [Novartis](http://www.novartis.com) and [Kaspar Rufibach](https://www.kasparrufibach.ch) from [Roche](http://www.roche.com), both located in Basel, Switzerland. Their email addresses are generic _firstname.lastname@employer.com_.
+Evgeny Degtyarev from [Novartis](http://www.novartis.com) and [Kaspar Rufibach](http://www.kasparrufibach.ch) from [Roche](http://www.roche.com), both located in Basel, Switzerland. Their email addresses are generic _firstname.lastname@employer.com_.
 
 # Task forces and members
 
