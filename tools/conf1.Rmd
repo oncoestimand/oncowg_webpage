@@ -36,7 +36,7 @@ for (i in 1:ns){
 }
 
 # nonempty rows
-r <- sum((tab2 %in% c("NA: [NA](NA)", "NA: NA")) == FALSE)  
+r <- sum((tab2 == "NA: [NA](NA)" | tab2 == "NA: NA") == FALSE, na.rm = TRUE)  
 tab3 <- as.data.frame(tab2[1:r, ])
 colnames(tab3) <- "Speaker (available slidedecks are linked)"
 ```
