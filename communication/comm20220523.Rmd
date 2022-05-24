@@ -23,6 +23,7 @@ Hi all,
 
 We hope this reaches you well! It has been a while since we last reached out to the entire group. We would like to share some recent developments, events, and achievements.
 
+- Since the last newsletter one additional paper has been accepted ([Hampson et al., 2022](https://doi.org/10.1080/19466315.2021.1883473)) and two papers have been submitted ([Siegel et al., 2022a](https://arxiv.org/abs/2203.01781) and [Siegel et al., 2022b](https://arxiv.org/abs/2203.02182)), summarizing the work of the censoring subteam. See the [publications page](https://oncoestimand.github.io/oncowg_webpage/docs/publications.html) for details.
 - We have updated the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events.html) with our past and upcoming appearances. Here are some of the upcoming highlights where the WG will contribute:
   - Two WG talks at the [Society for Clinical Trials](https://www.sctweb.org/meeting/) conference.
   - [ASA biopharm section webinar](https://www.eventbrite.com/e/logic-respecting-efficacy-estimands-to-logic-ensuring-analysis-principle-tickets-336986344227).
