@@ -34,6 +34,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
 
 ## 2022
 
+* 1st July: Added [slidedeck and written updates](ha.html) of recent full group TC.
 * 29th June: After submission of its paper (see [publications](publications.html)) the [follow-up quantification task force](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#21_Quantification_of_follow-up) is now inactive.
 * 17th June: Added [talks](https://oncoestimand.github.io/oncowg_webpage/docs/events.html#12062022:_PSI_annual_conference) from our session at the PSI conference in Gothenburg.
 * 13th June: Paper from follow-up quantification task force posted on [arXiv](https://doi.org/10.48550/arxiv.2206.05216). See [publications](publications.html).

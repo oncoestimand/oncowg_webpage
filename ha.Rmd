@@ -11,7 +11,16 @@ output:
 We are grateful for ongoing collaboration and regular dialogue to statisticians from European Medicines Agency (EMA), 
 Medicines and Healthcare products Regulatory Agency (MHRA, UK), U.S. Food and Drug Administration (FDA), Pharmaceuticals and Medical Devices Agency (PMDA, Japan), Health Canada, Swissmedic, National Medical Products Administration (NMPA, China) and Center for Drug Evaluation (CDE, Taiwan). 
 
-In September 2020, the WG presented to all these regulatory agencies the results of the work that had been done within the WG until then. The slidedeck with a concise summary of all the submitted papers is available for [download](data/202009 Summary of Onco Estimand WG papers.pdf).
+Below you find the summaries of material presented at regular meetings with these stakeholders.
+
+```{r, include=TRUE, echo=FALSE}
+suppressWarnings(library("knitr"))
+suppressWarnings(library("readxl"))
+tab <- as.data.frame(read_excel("data/tc.xlsx"), col_types = rep("text", 5))
+tab[is.na(tab)] <- ""
+tab[, "Material"] <- paste("[Slidedecks and/or written updates](", tab[, "Material"], ")", sep = "")
+kable(tab)
+```
 
 We also thank Keaven Anderson (Merck) and Frank Bretz (Novartis) for their support.
 
