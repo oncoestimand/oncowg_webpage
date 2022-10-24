@@ -12,12 +12,13 @@ panderOptions('knitr.auto.asis', FALSE)
 t0 <- (tab %>% select(date, City, Country, Type))
 #t0[, "Link to program"] <- paste("[Link to Program](", (tab %>% select(Web)), ")", sep = "")
 rownames(t0) <- NULL
+t0[is.na(t0)] <- ""
 pander(t0)
 ```
 
 ## Program {-}
 
-[Link to Program](`r (tab %>% select(Web))`)
+`r ifelse(is.na(tab %>% select(Web)), "no program available", paste("[Link to Program](", tab %>% select(Web), ")", sep = ""))`
 
 ## Talks and/or recording {-}
 
