@@ -34,6 +34,7 @@ Link to this page: [http://www.oncoestimand.org](http://www.oncoestimand.org).
 
 ## 2022
 
+* 24th October: Added slides of the [conditional and marginal taskforce](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#16_Conditional_vs_marginal_effects) presented at a [DIA China webinar]().
 * 11th October: Latest [newsletter](communication/comm20221011.html) to the group.
 * 24th September: Added slidedecks from recent conferences.
 * 1st July: Added [slidedeck and written updates](ha.html) of recent full group TC.
