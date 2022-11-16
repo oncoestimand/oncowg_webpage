@@ -29,6 +29,13 @@ talks$date <- with(talks, paste(ifelse(start_d < 10, paste("", start_d, sep = ""
                                 ".20", start_y, sep = ""))
 ```
 
+# Upcoming events with WG involvement
+
+* 12th December 2022: Together with ASA NJ chapter the WG is co-organizing a webinar [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls](communication/20221202_ASA_NJ_TTF_estimands.pdf).
+* 29th-31st March 2023: Jonathan Siegel will give a presentation on estimands for time-to-event endpoints at the [Duke Industry Statistics Symposium 2023](https://sites.duke.edu/diss/).
+
+# Past events
+
 Below a list of past events with contributions of the WG, with links to slidedecks and recordings (where available).
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE, include = FALSE}
