@@ -34,30 +34,32 @@ Link to this page: <http://www.oncoestimand.org>.
 
 ## 2022
 
-- 25th November: Moved this page to [quarto](https://quarto.org/) implying a slightly different look.
+- 25th November: 
+  - Moved this page to [quarto](https://quarto.org/) implying a slightly different look.
+  - Added [2022 achievements](achievements.html).
 -   16th November: Jonathan Siegel will give a presentation on estimands for time-to-event endpoints at the [Duke Industry Statistics Symposium 2023](https://sites.duke.edu/diss/) in March 2023, see [events](events.html) for details.
 -   15th November: Together with ASA NJ chapter the WG is co-organizing a webinar, see [events](events.html) for details.
--   24th October: Added slides of the [conditional and marginal taskforce](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#16_Conditional_vs_marginal_effects) presented at a [DIA China webinar]().
+-   24th October: Added slides of the [conditional and marginal taskforce](taskforces.html#conditional-vs.-marginal-effects) presented at a [DIA China webinar](events.html#dia-china-webinar).
 -   11th October: Latest [newsletter](communication/comm20221011.html) to the group.
 -   24th September: Added slidedecks from recent conferences.
 -   1st July: Added [slidedeck and written updates](ha.html) of recent full group TC.
--   29th June: After submission of its paper (see [publications](publications.html)) the [follow-up quantification task force](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#21_Quantification_of_follow-up) is now inactive.
--   17th June: Added [talks](https://oncoestimand.github.io/oncowg_webpage/docs/events.html#12062022:_PSI_annual_conference) from our session at the PSI conference in Gothenburg.
+-   29th June: After submission of its paper (see [publications](publications.html)) the [follow-up quantification task force](taskforces.html#quantification-of-follow-up) is now inactive.
+-   17th June: Added [talks](events.html#psi-annual-conference) from our session at the PSI conference in Gothenburg.
 -   13th June: Paper from follow-up quantification task force posted on [arXiv](https://doi.org/10.48550/arxiv.2206.05216). See [publications](publications.html).
 -   23th May: Latest [newsletter](communication/comm20220523.html) to the group.
 -   17th May: updated [events page](events.html) with past and upcoming appearances of the WG.
 -   26th March: added slidedeck and recording of Graham Dunn Seminar to [events page](events.html).
 -   8th March: arxiv links added for the two submitted papers of the censoring subteam.
--   4th March: We have now officially started work in the [safety taskforce](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#10_Estimands_for_Safety). Many thanks to Jonathan Siegel for starting and leading this!
+-   4th March: We have now officially started work in the [safety taskforce](taskforces.html#estimands-for-safety). Many thanks to Jonathan Siegel for starting and leading this!
 -   3rd February: Congratulations to the authors of [Sun et al. and Bornkamp et al.](publications.html) - these papers were the 3rd and 4th most downloaded papers that appeared in 2021 in [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612).
 -   26nd January: The censoring subteam has submitted two papers, see [publications](publications.html).
 
 ## 2021
 
--   22nd December: Added [slidedeck on backfitting MMRM](talks/PRO%20TF%20(2021)%20Backfitting%20MMRM.pdf) of PRO task force, see their entry [here](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#3_Patient-reported_outcomes).
+-   22nd December: Added [slidedeck on backfitting MMRM](talks/PRO%20TF%20(2021)%20Backfitting%20MMRM.pdf) of PRO task force, see their entry [here](taskforces.html#3_Patient-reported_outcomes).
 -   6th December: Latest [newsletter](communication/comm20211206.html) to the group.
 -   26th November: Added new page [Further resources](resources.html) with links to other estimand working groups (we are aware of) and a section with introductory estimand material.
--   13th October: Added remit of [Task Force 2](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#2_Principal_stratification_in_clinical_trials).
+-   13th October: Added remit of [Task Force 2](taskforces.html#2_Principal_stratification_in_clinical_trials).
 -   30th September: Added slidedeck from recent, under [events](events.html).
 -   22th September: Added new paper by Hampson et al. to [publications](publications.html).
 -   17th September: Latest [newsletter](communication/comm20210917.html) to the group.
@@ -73,6 +75,6 @@ Link to this page: <http://www.oncoestimand.org>.
 -   22th March: Natalia Kan-Dobrosky will talk at the [Duke Industry Statistics Symposium](https://sites.duke.edu/diss/) on "Estimands in clinical trials with treatment switching".
 -   5th March: Two sessions with involvement of the WG at this year's [ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop 2021](https://ww2.amstat.org/meetings/biop/2021), see below for details.
 -   28th February: Added rosters and objectives of [task forces](taskforces.html).
--   11th February: Added [slides](https://oncoestimand.github.io/oncowg_webpage/talks/20210211_DCTs_estimands.pdf) presented by Evgeny and Kaspar at ASA - FDA - LUNGevity symposium "Statistical considerations in Oncology clinical trials in the COVID-19 era".
--   5th February: Papers on [principal stratification](https://arxiv.org/abs/2008.05406) and [hematology case studies](https://arxiv.org/abs/2010.00957) both accepted for publication by [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612). See [publication section](https://oncoestimand.github.io/oncowg_webpage/oncoestimand.html#publications).
+-   11th February: Added [slides](talks/20210211_DCTs_estimands.pdf) presented by Evgeny and Kaspar at ASA - FDA - LUNGevity symposium "Statistical considerations in Oncology clinical trials in the COVID-19 era".
+-   5th February: Papers on [principal stratification](https://arxiv.org/abs/2008.05406) and [hematology case studies](https://arxiv.org/abs/2010.00957) both accepted for publication by [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612). See [publication section](publications.html).
 -   30th January: Kick-off of new task forces.

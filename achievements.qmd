@@ -18,6 +18,24 @@ packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
 for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
 
 knitr::opts_chunk$set(echo = TRUE)
+panderOptions('table.alignment.default', function(df){ifelse(sapply(df, is.numeric), 'right', 'left')})
+
+path <- getwd()
+
+## =================================================================
+## functions
+## =================================================================
+source(file = paste(path, "/tools/mydisp.r", sep = ""))
+
+## =================================================================
+## member list
+## =================================================================
+email <- as.data.frame(read_excel(paste(path, "/data/members.xlsx", sep = ""), col_types = NULL))
+
+## function to display
+ind <- email[, "Type"] == "Industry" 
+loc <- email[ind, "Location"]
+com <- email[ind, "Institution"]
 ```
 
 # Achievements 2022
@@ -25,9 +43,16 @@ knitr::opts_chunk$set(echo = TRUE)
 The group continues to be an influential player in the global discussion on estimands between industry, regulators, and academia. Key achievements in 2022 are:
 
 - General activities listed as achievements in last years below are continued by the group.
--   Several [publications](publications.html) of the SIG appeared or have been submitted this year.
--   The SIG organized sessions and was invited to speak at conferences (Duke Industry Statistics Symposium, Society for clinicial trials, JSM, ASA-FDA workshop, ISOQoL). Further [talks](events.html) were given at several occasions.
--   As of November 2022, the SIG has has 77 members (30 from Europe, 38 from US, and 9 from Asia) representing 36 companies / institutions, see [status](status.html).
+- Several [publications](publications.html) of the SIG appeared or have been submitted this year.
+- The SIG gave many talks and organized sessions at conferences and webinars, see [events](events.html). Some highlights:
+  - An entire session organized by the SIG at the [PSI conference](events.html#psi-annual-conference).
+  - The SIG organized two sessions at the [ASA FDA workshop](https://ww2.amstat.org/meetings/biop/2022/) ("Adjusted and Unadjusted Estimate in Clinical Trials: Reward, Risk and Myth" and "Estimands in Oncology: A Topical Panel Discussion"), see [events page](events.html#asa-biopharmaceutical-section-regulatory-industry-statistics-workshop).
+  - DIA held a webinar in China, with a talk by Jiajun Xu from the [conditional and marginal effect force](taskforces.html#conditional-vs.-marginal-effects). With a peak attendance of 4460 colleagues this likely sets a new record for a talk by this WG!
+  - Together with ASA NJ chapter the WG is co-organizing a webinar [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls
+](communication/20221202_ASA_NJ_TTF_estimands.pdf).
+- On June 28th & 29th we had two full group TCs with regulators attending where we presented our work. Slidedecks are available [here](ha.html).
+- [eunethta](https://www.eunethta.eu/) is currently seeking comments for their set of guidelines for a joint clinical assessment of European HTA bodies. Several of the WG's papers were cited in [EFPIA's response to deliverable 4.5](https://www.eunethta.eu/d4-5/).
+- As of November 2022, the SIG has `r length(loc)` members (`r sum(loc == "Europe", na.rm = TRUE)` from Europe, `r sum(loc == "NorAm", na.rm = TRUE)` from US, and `r sum(loc == "Asia", na.rm = TRUE)` from Asia) representing `r length(unique(com))` companies / institutions, see [status](status.html).
 
 # Achievements 2021
 
@@ -36,8 +61,8 @@ The group has evolved into a global network of statisticians in industry and reg
 -   Several [publications](publications.html) of the SIG appeared this year.
 -   The SIG has built a network of individuals with expertise and credibility in the broader biostatistical and drug development community. Testament to that is the fact that SIG members are regularly invited to review and comment on scientific publications in the field.
 -   Invited by the [EFSPI/EFPIA estimands implementation working group](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx) the SIG organized two webinars targeted at a broad audience of Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians:
-    -   [PSI EIWG Webinars](events.html#psi-eiwg-webinar-estimands-in-oncology---how-and-why) (2 events, one for EU and one for US): Estimands in Oncology - How and Why.
--   The WG also organized a [DIA Webinar](events.html#dia-webinar-estimands-how-and-why---a-real-life-case-study-in-oncology) with the same target audience, including FDA discussants.
+    - [PSI EIWG Webinars](events.html#psi-eiwg-webinar-estimands-in-oncology---how-and-why) (2 events, one for EU and one for US): Estimands in Oncology - How and Why.
+    - The WG also organized a [DIA Webinar](events.html#dia-webinar-estimands-how-and-why---a-real-life-case-study-in-oncology) with the same target audience, including FDA discussants.
 -   Our SIG is also formally represented in the [EFSPI/EFPIA estimands implementation working group](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx).
 -   The SIG organized sessions and was invited to speak at conferences (Duke Industry Statistics Symposium, Society for clinicial trials, JSM, ASA-FDA workshop, ISOQoL). Further [talks](events.html) were given at several occasions.
 -   Members of the SIG were also invited to FDA OCE Project Significant TCs to talk about application of estimands to decentralized trials and comment on non-proportional hazards.
@@ -50,7 +75,7 @@ The group has evolved into a global network of statisticians in industry and reg
 Despite the many challenges in 2020 the SIG was able to relevantly contribute to the implementation of the estimand addendum in drug development in oncology and beyond. Key achievements are:
 
 -   The intercontinental team spirit that allowed to come up with a rapid response to COVID-19 pandemic: a [slidedeck](https://oncoestimand.github.io/oncowg_webpage/talks/onco_estimand_COVID-19_slidedeck_v1.pdf) discussing the impact of the pandemic on a trial's estimand was published on the webpage less than five weeks after WHO declared the pandemic. A [paper](https://doi.org/10.1080/19466315.2020.1785543) followed only a few weeks later.
--   Several [publications](publications) of the SIG were published this year, and several more are in their last rounds of revision.
+-   Several [publications](publications.html) of the SIG were published this year, and several more are in their last rounds of revision.
 -   The SIG organized two webinars that brought together drug developers, academics, and regulators to discuss topics around estimands in oncology and beyond:
     -   [Estimands addendum is final: Anything new for oncology?](https://baselbiometrics.github.io/home/docs/events_past.html#29062020:_Joint_EFSPI__BBS_Webinar:_Estimands_addendum_is_final:_Anything_new_for_oncology): The highlight here was that several clinical colleagues contributed as presenters and panelists.
     -   [RCTs meeting causal inference: principal stratum strategy and beyond.](https://baselbiometrics.github.io/home/docs/events_past.html#07092020:_BBS_Webinar_RCTs_meeting_causal_inference:_principal_stratum_strategy_and_beyond)
