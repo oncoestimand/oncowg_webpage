@@ -56,10 +56,10 @@ Link to this page: <http://www.oncoestimand.org>.
 
 ## 2021
 
--   22nd December: Added [slidedeck on backfitting MMRM](talks/PRO%20TF%20(2021)%20Backfitting%20MMRM.pdf) of PRO task force, see their entry [here](taskforces.html#3_Patient-reported_outcomes).
+-   22nd December: Added [slidedeck on backfitting MMRM](talks/PRO%20TF%20(2021)%20Backfitting%20MMRM.pdf) of PRO task force, see their entry [here](taskforces.html#patient-reported-outcomes).
 -   6th December: Latest [newsletter](communication/comm20211206.html) to the group.
 -   26th November: Added new page [Further resources](resources.html) with links to other estimand working groups (we are aware of) and a section with introductory estimand material.
--   13th October: Added remit of [Task Force 2](taskforces.html#2_Principal_stratification_in_clinical_trials).
+-   13th October: Added remit of [Task Force 2](taskforces.html#principal-stratification-in-clinical-trials).
 -   30th September: Added slidedeck from recent, under [events](events.html).
 -   22th September: Added new paper by Hampson et al. to [publications](publications.html).
 -   17th September: Latest [newsletter](communication/comm20210917.html) to the group.
@@ -68,7 +68,7 @@ Link to this page: <http://www.oncoestimand.org>.
 -   10th July: The paper on treatment switching has been accepted by Pharmaceutical statistics.
 -   22th June: New design of this webpage online.
 -   15th June: Added [slidedeck](talks/SCT%202021%20estimand%20onco.pdf) that the clinical engagement subteam presented at the [Society for Clinical Trials](https://www.sctweb.org/) conference 2021.
--   7th June: Added [slidedeck](talks/20210601_clin_eng.pdf) and [recording](https://www.psiweb.org/vod/item/psi-eiwg-webinar-estimands-in-oncology---how-and-why) from [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), updated team roster.
+-   7th June: Added [slidedeck](talks/20210601_clin_eng.pdf) and [recording](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why) from [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), updated team roster.
 -   3rd May: Added members of EDEN task force.
 -   28th April: The WG offers a new webinar [PSI EIWG Webinar: Estimands in Oncology - How and Why](https://www.psiweb.org/events/event-item/2021/06/01/default-calendar/psi-eiwg-webinar-estimands-in-oncology---how-and-why), targeted at Clinicians, Investigators, Regulatory Experts, Medical Writers, Ethics Committees, Statisticians.
 -   13th April: Kickoff of EDEN (Early Development Estimand Nexus) task force.
