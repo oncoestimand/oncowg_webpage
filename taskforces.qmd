@@ -1,0 +1,82 @@
+---
+title: "Task forces"
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+bibliography: biblio.bib
+---
+
+After a first phase where five subteams have written several publications (see [publications](publications.html)) the working group now operates within seven task forces. Objectives and member rosters of these task forces are available below.
+
+```{r setup, include=FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+
+knitr::opts_chunk$set(echo = TRUE)
+panderOptions('table.alignment.default', function(df){ifelse(sapply(df, is.numeric), 'right', 'left')})
+
+path <- getwd()
+
+## =================================================================
+## functions
+## =================================================================
+source(file = paste(path, "/tools/mydisp.r", sep = ""))
+source(file = paste(path, "/tools/lead.r", sep = ""))
+source(file = paste(path, "/tools/obj.r", sep = ""))
+
+## =================================================================
+## member list
+## =================================================================
+email <- as.data.frame(read_excel(paste(path, "/data/members.xlsx", sep = ""), col_types = NULL))
+objectives <- as.data.frame(read_excel(paste(path, "/data/objectives.xlsx", sep = ""), col_types = NULL))
+active <- objectives$active
+
+## Current month
+today <- Sys.Date()
+tod <- format(today, format = "%d %B %Y")
+
+## subteams
+taskforces <- c("Clinical", "PS_switch", "PRO", "DOR", "FU", "RWD", "CondMarg", "T2E_sub", "early_dev_estimand_nexus", "Safety")
+taskforces_names <- c("Estimands engagement", "Principal stratification in clinical trials", "Patient-reported outcomes", "Duration of responses", "Quantification of follow-up", "Real-world data and estimands", "Conditional vs. marginal effects", "Time to event endpoints with prognostic or predictive biomarker subgroups", "Early development estimand nexus (EDEN)", "Estimands for Safety")
+```
+
+# Active task forces
+
+```{r, label = "active", echo = FALSE, message = FALSE, warning = FALSE, results = "asis"}
+# how to do this with child documents: https://gist.github.com/rmoff/a043676a2f084b81a434
+out2 <- NULL
+for (i in 1:length(taskforces)){
+  
+  if (active[i] == 1){
+    out2 <- c(out2, knit_expand('tools/taskforce.Rmd'))
+    if (i == 3){out2[[3]] <- paste(knit_expand('tools/taskforce.Rmd'), "[2021 summary on backfitting MMRM](talks/PRO TF (2021) Backfitting MMRM.pdf)", sep = "")}
+  }
+}
+
+# the "knit" command somehow produces unwanted output, this is why I assign its output to a and use a separate chunk to display a
+cat(knit(text = unlist(paste(out2, collapse = '\n')), quiet = TRUE))
+```
+
+# Task forces that have concluded their work
+
+```{r, label = "inactive", echo = FALSE, message = FALSE, warning = FALSE, results = "asis"}
+# how to do this with child documents: https://gist.github.com/rmoff/a043676a2f084b81a434
+out2 <- NULL
+for (i in 1:length(taskforces)){
+  
+  if (active[i] == 0){
+    out2 <- c(out2, knit_expand('tools/taskforce.Rmd'))
+    if (i == 3){out2[[3]] <- paste(knit_expand('tools/taskforce.Rmd'), "[2021 summary on backfitting MMRM](talks/PRO TF (2021) Backfitting MMRM.pdf)", sep = "")}
+  }
+}
+
+# the "knit" command somehow produces unwanted output, this is why I assign its output to a and use a separate chunk to display a
+cat(knit(text = unlist(paste(out2, collapse = '\n')), quiet = TRUE))
+```

@@ -1,0 +1,49 @@
+---
+title: "Further resources"
+author: 
+- name: A cross-industry international working group
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+bibliography: biblio.bib
+---
+
+# Other estimand working groups
+
+- [EFSPI/PSI SIG on Estimands in Neuroscience](https://www.efspi.org/EFSPI/Special_Interest_Groups/Neuroscience_biostatistics_community.aspx).
+- [EFSPI/EFPIA Estimands Implementation WG (EIWG)](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx).
+- [International Society for Quality of Life Research (ISOQOL) statistics SIG](https://www.isoqol.org/sigs/#statistics): this SIG also has a workstream that works on estimands for PRO.
+
+# I have never heard of estimands - where should I start?
+
+## What is an estimand?
+
+From the glossary of the [ICH E9: estimands addendum](https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf):
+
+_A precise description of the treatment effect reflecting the clinical question posed by the trial objective. It summarises at a population-level what the outcomes would be in the same patients under different treatment conditions being compared._
+
+## Where should I start?
+
+This entire page is a starting point. Further,
+
+- [3min intro video](https://www.youtube.com/watch?v=oeoTOOlx37c): What is an estimand in a clinical trial: The PIONEER 1 example, based on [Aroda et al. [ -@aroda_19]](material/Aroda et al (2019) Incorporating and interpreting regulatory guidance on estimands in diabetes clinical trials.pdf).
+- [3min intro video](https://streamingmedia.roche.com/media/t/1_3wyvbi11): Why the addendum is needed and what it is about (Kaspar Rufibach).
+- [PSI EIWG Webinar: PIONEERing estimands in Clinical Research](https://www.psiweb.org/vod/item/psi-eiwg-webinar-pioneering-estimands-in-clinical-research): Introductory webinar that is intended for anyone working in clinical trials: Clinicians, Regulators, Investigators, Academics, Ethics Committees, Statisticians.
+- [Introductory session on endpoints and estimands for clinicians](https://www.youtube.com/watch?v=chUufn9OqOw), co-organized by [ANVISA](https://www.gov.br/anvisa/pt-br) (Brazilian Health Authority) and [interfarma](https://www.interfarma.org.br/).
+- Relevant publications that are to a large extent non-statistical and are a good starting point as well:
+  - @degtyarev_19: Example of putting the addendum into action in oncology, appeared in JCO.
+  - @aroda_19: Example of putting a continuous endpiont in the estimand framework. **Pre-addendum** (treatment attribute is missing), but still informative.
+  - @sun_20: Illustrates implementation of the framework in hematology.
+  - @casey_21: Illustrates implementation of the framework in solid tumors.
+  - @lawrance_20: Illustrates implementation of the framework for a PRO endpoint.
+  - @lynggaard_22: Recommendations how to implement estimands in protocol templates.
+See also the [publications tab](publications.html).
+
+# References
+

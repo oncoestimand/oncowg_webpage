@@ -1,1338 +1,1123 @@
 <!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<html>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.189">
 
-<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta charset="utf-8" />
-<meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<meta name="dcterms.date" content="2022-11-25">
 
-
-
-
-<title>Task forces</title>
-
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
-<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
-<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
-<script src="site_libs/navigation-1.1/tabsets.js"></script>
-
-<style type="text/css">
-  code{white-space: pre-wrap;}
-  span.smallcaps{font-variant: small-caps;}
-  span.underline{text-decoration: underline;}
-  div.column{display: inline-block; vertical-align: top; width: 50%;}
-  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-  ul.task-list{list-style: none;}
-    </style>
-
-
-
-
-
-
-
-
-
-<style type = "text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-img {
-  max-width:100%;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-.html-widget {
-  margin-bottom: 20px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-summary {
-  display: list-item;
-}
-pre code {
-  padding: 0;
+<title>Oncology Estimand WG - Task forces</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
 }
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
   }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
-
-<!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
-
-<!-- code folding -->
+}</script>
 
 
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
-
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body class="nav-fixed">
 
-
-<div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
-
-
-<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Oncology estimand WG</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    About
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="index.html">About</a>
-    </li>
-    <li>
-      <a href="history.html">History</a>
-    </li>
-    <li>
-      <a href="scope.html">Scope</a>
-    </li>
-    <li>
-      <a href="status.html">Status</a>
-    </li>
-    <li>
-      <a href="organization.html">Organization</a>
-    </li>
-    <li>
-      <a href="achievements.html">Achievements per year</a>
-    </li>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Oncology Estimand WG</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./index.html">
+ <span class="dropdown-text">About</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./history.html">
+ <span class="dropdown-text">History</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./scope.html">
+ <span class="dropdown-text">Scope</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./status.html">
+ <span class="dropdown-text">Status</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./organization.html">
+ <span class="dropdown-text">Organization</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./achievements.html">
+ <span class="dropdown-text">Achievements per year</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="./taskforces.html" aria-current="page">Task forces</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./ha.html">Health authority interactions</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html">Publications</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./events.html">Events</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./news.html">Newsletters</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./resources.html">Further resources</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#active-task-forces" id="toc-active-task-forces" class="nav-link active" data-scroll-target="#active-task-forces">Active task forces</a>
+  <ul class="collapse">
+  <li><a href="#estimands-engagement" id="toc-estimands-engagement" class="nav-link" data-scroll-target="#estimands-engagement">Estimands engagement</a></li>
+  <li><a href="#principal-stratification-in-clinical-trials" id="toc-principal-stratification-in-clinical-trials" class="nav-link" data-scroll-target="#principal-stratification-in-clinical-trials">Principal stratification in clinical trials</a></li>
+  <li><a href="#patient-reported-outcomes" id="toc-patient-reported-outcomes" class="nav-link" data-scroll-target="#patient-reported-outcomes">Patient-reported outcomes</a></li>
+  <li><a href="#duration-of-responses" id="toc-duration-of-responses" class="nav-link" data-scroll-target="#duration-of-responses">Duration of responses</a></li>
+  <li><a href="#real-world-data-and-estimands" id="toc-real-world-data-and-estimands" class="nav-link" data-scroll-target="#real-world-data-and-estimands">Real-world data and estimands</a></li>
+  <li><a href="#conditional-vs.-marginal-effects" id="toc-conditional-vs.-marginal-effects" class="nav-link" data-scroll-target="#conditional-vs.-marginal-effects">Conditional vs.&nbsp;marginal effects</a></li>
+  <li><a href="#time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups" id="toc-time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups" class="nav-link" data-scroll-target="#time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups">Time to event endpoints with prognostic or predictive biomarker subgroups</a></li>
+  <li><a href="#early-development-estimand-nexus-eden" id="toc-early-development-estimand-nexus-eden" class="nav-link" data-scroll-target="#early-development-estimand-nexus-eden">Early development estimand nexus (EDEN)</a></li>
+  <li><a href="#estimands-for-safety" id="toc-estimands-for-safety" class="nav-link" data-scroll-target="#estimands-for-safety">Estimands for Safety</a></li>
+  </ul></li>
+  <li><a href="#task-forces-that-have-concluded-their-work" id="toc-task-forces-that-have-concluded-their-work" class="nav-link" data-scroll-target="#task-forces-that-have-concluded-their-work">Task forces that have concluded their work</a>
+  <ul class="collapse">
+  <li><a href="#quantification-of-follow-up" id="toc-quantification-of-follow-up" class="nav-link" data-scroll-target="#quantification-of-follow-up">Quantification of follow-up</a></li>
+  </ul></li>
   </ul>
-</li>
-<li>
-  <a href="taskforces.html">Task forces</a>
-</li>
-<li>
-  <a href="ha.html">Health authority interactions</a>
-</li>
-<li>
-  <a href="publications.html">Publications</a>
-</li>
-<li>
-  <a href="events.html">Events</a>
-</li>
-<li>
-  <a href="news.html">Newsletters</a>
-</li>
-<li>
-  <a href="resources.html">Further resources</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
 
-<div id="header">
-
-
-
-<h1 class="title toc-ignore">Task forces</h1>
-<h4 class="date">Last change: 16 November, 2022</h4>
-
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Task forces</h1>
 </div>
 
 
-<p>After a first phase where five subteams have written several
-publications (see <a href="publications.html">publications</a>) the
-working group now operates within seven task forces. Objectives and
-member rosters of these task forces are available below.</p>
-<div id="active-task-forces" class="section level1" number="1">
-<h1><span class="header-section-number">1</span> Active task forces</h1>
-<div id="estimands-engagement" class="section level2" number="1.1">
-<h2><span class="header-section-number">1.1</span> Estimands
-engagement</h2>
+
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">November 25, 2022</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>After a first phase where five subteams have written several publications (see <a href="publications.html">publications</a>) the working group now operates within seven task forces. Objectives and member rosters of these task forces are available below.</p>
+<section id="active-task-forces" class="level1">
+<h1>Active task forces</h1>
+<div class="cell">
+
+</div>
+<section id="estimands-engagement" class="level2">
+<h2 class="anchored" data-anchor-id="estimands-engagement">Estimands engagement</h2>
 <p><strong>Lead</strong>: Stefan Englert (J&amp;J)</p>
-<p><strong>Objective</strong>: Develop basic introductory material that
-can be used by all study team members to educate themselves on Oncology
-Estimands. Translate key messages from the working group activities to a
-non-statistical audience, targeting especially clinical functions.</p>
-<table>
+<p><strong>Objective</strong>: Develop basic introductory material that can be used by all study team members to educate themselves on Oncology Estimands. Translate key messages from the working group activities to a non-statistical audience, targeting especially clinical functions.</p>
+<div class="cell-output-display">
+<table class="table">
 <thead>
 <tr class="header">
-<th align="left">Firstname</th>
-<th align="left">Lastname</th>
-<th align="left">Institution</th>
-<th align="left">Location</th>
+<th style="text-align: left;">Firstname</th>
+<th style="text-align: left;">Lastname</th>
+<th style="text-align: left;">Institution</th>
+<th style="text-align: left;">Location</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Jiawei</td>
-<td align="left">Wei</td>
-<td align="left">Novartis</td>
-<td align="left">Asia</td>
+<td style="text-align: left;">Jiawei</td>
+<td style="text-align: left;">Wei</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Asia</td>
 </tr>
 <tr class="even">
-<td align="left">Stefan</td>
-<td align="left">Englert</td>
-<td align="left">J&amp;J</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Stefan</td>
+<td style="text-align: left;">Englert</td>
+<td style="text-align: left;">J&amp;J</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Jonathan</td>
-<td align="left">Siegel</td>
-<td align="left">Bayer</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Jonathan</td>
+<td style="text-align: left;">Siegel</td>
+<td style="text-align: left;">Bayer</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Feng</td>
-<td align="left">Liu</td>
-<td align="left">Fate Therapeutics</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Feng</td>
+<td style="text-align: left;">Liu</td>
+<td style="text-align: left;">Fate Therapeutics</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Rui</td>
-<td align="left">Tang</td>
-<td align="left">Servier</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Rui</td>
+<td style="text-align: left;">Tang</td>
+<td style="text-align: left;">Servier</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="principal-stratification-in-clinical-trials"
-class="section level2" number="1.2">
-<h2><span class="header-section-number">1.2</span> Principal
-stratification in clinical trials</h2>
+<div class="cell">
+
+</div>
+</section>
+<section id="principal-stratification-in-clinical-trials" class="level2">
+<h2 class="anchored" data-anchor-id="principal-stratification-in-clinical-trials">Principal stratification in clinical trials</h2>
 <p><strong>Lead</strong>: Yufei Wang (GSK)</p>
-<p><strong>Objective</strong>: This task force performs periodical
-literature reviews of principal stratum applied to treatment switching,
-focusing on the analysis of overall survival. It aims to evaluate and
-improve existing methods, develop new principal stratification models
-for treatment switching, e.g. through simulation studies to compare
-operating characteristics, relaxation/stress test of key assumptions,
-prior selection for Bayesian analysis, and software for
-implementation.</p>
-<p>Communication of results is intended to happen through publication(s)
-for peer-reviewed journals, presentations/round-table
-discussions/trainings at various forums (JSM, DIA, FDA workshop, ISCB,
-…).</p>
-<table>
+<p><strong>Objective</strong>: This task force performs periodical literature reviews of principal stratum applied to treatment switching, focusing on the analysis of overall survival. It aims to evaluate and improve existing methods, develop new principal stratification models for treatment switching, e.g.&nbsp;through simulation studies to compare operating characteristics, relaxation/stress test of key assumptions, prior selection for Bayesian analysis, and software for implementation.</p>
+<p>Communication of results is intended to happen through publication(s) for peer-reviewed journals, presentations/round-table discussions/trainings at various forums (JSM, DIA, FDA workshop, ISCB, …).</p>
+<div class="cell-output-display">
+<table class="table">
 <thead>
 <tr class="header">
-<th align="left">Firstname</th>
-<th align="left">Lastname</th>
-<th align="left">Institution</th>
-<th align="left">Location</th>
+<th style="text-align: left;">Firstname</th>
+<th style="text-align: left;">Lastname</th>
+<th style="text-align: left;">Institution</th>
+<th style="text-align: left;">Location</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Yufei</td>
-<td align="left">Wang</td>
-<td align="left">GSK</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Yufei</td>
+<td style="text-align: left;">Wang</td>
+<td style="text-align: left;">GSK</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Songzi</td>
-<td align="left">Li</td>
-<td align="left">Beigene</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Songzi</td>
+<td style="text-align: left;">Li</td>
+<td style="text-align: left;">Beigene</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Kaifeng</td>
-<td align="left">Lu</td>
-<td align="left">Beigene</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Kaifeng</td>
+<td style="text-align: left;">Lu</td>
+<td style="text-align: left;">Beigene</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Mehreteab</td>
-<td align="left">Aregay</td>
-<td align="left">Daiichi Sankyo</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Mehreteab</td>
+<td style="text-align: left;">Aregay</td>
+<td style="text-align: left;">Daiichi Sankyo</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Satrajit</td>
-<td align="left">Roychoudhury</td>
-<td align="left">Pfizer</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Satrajit</td>
+<td style="text-align: left;">Roychoudhury</td>
+<td style="text-align: left;">Pfizer</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Natalia</td>
-<td align="left">Kan-Dobrosky</td>
-<td align="left">PPDI</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Natalia</td>
+<td style="text-align: left;">Kan-Dobrosky</td>
+<td style="text-align: left;">PPDI</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="patient-reported-outcomes" class="section level2" number="1.3">
-<h2><span class="header-section-number">1.3</span> Patient-reported
-outcomes</h2>
+<div class="cell">
+
+</div>
+</section>
+<section id="patient-reported-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="patient-reported-outcomes">Patient-reported outcomes</h2>
 <p><strong>Lead</strong>: Rachael Lawrance (Adelphi)</p>
-<p><strong>Objective</strong>: Clarify what questions are we answering
-with typical analyses conducted on HRQoL endpoints in regulatory
-clinical trials. We are going to consider longitudinal mixed models and
-time to event analyses initially; “mapping” potential common questions
-into the estimand framework. The task force is also going to dig into
-the question of “how to handle death” in HRQoL analyses. We are keen to
-build collaborative approaches with statisticians and others active in
-this topic area, such as SISAQoL and ISOQoL working groups.</p>
-<table>
+<p><strong>Objective</strong>: Clarify what questions are we answering with typical analyses conducted on HRQoL endpoints in regulatory clinical trials. We are going to consider longitudinal mixed models and time to event analyses initially; “mapping” potential common questions into the estimand framework. The task force is also going to dig into the question of “how to handle death” in HRQoL analyses. We are keen to build collaborative approaches with statisticians and others active in this topic area, such as SISAQoL and ISOQoL working groups.</p>
+<div class="cell-output-display">
+<table class="table">
 <thead>
 <tr class="header">
-<th align="left">Firstname</th>
-<th align="left">Lastname</th>
-<th align="left">Institution</th>
-<th align="left">Location</th>
+<th style="text-align: left;">Firstname</th>
+<th style="text-align: left;">Lastname</th>
+<th style="text-align: left;">Institution</th>
+<th style="text-align: left;">Location</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Rachael</td>
-<td align="left">Lawrance</td>
-<td align="left">Adelphi</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Rachael</td>
+<td style="text-align: left;">Lawrance</td>
+<td style="text-align: left;">Adelphi</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Rajat</td>
-<td align="left">Mukherjee</td>
-<td align="left">Alira Health</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Rajat</td>
+<td style="text-align: left;">Mukherjee</td>
+<td style="text-align: left;">Alira Health</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Xiangning</td>
-<td align="left">Huang</td>
-<td align="left">AstraZeneca</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Xiangning</td>
+<td style="text-align: left;">Huang</td>
+<td style="text-align: left;">AstraZeneca</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Konstantina</td>
-<td align="left">Skaltsa</td>
-<td align="left">IQVIA</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Konstantina</td>
+<td style="text-align: left;">Skaltsa</td>
+<td style="text-align: left;">IQVIA</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Antoine</td>
-<td align="left">Regnault</td>
-<td align="left">Modus Outcomes</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Antoine</td>
+<td style="text-align: left;">Regnault</td>
+<td style="text-align: left;">Modus Outcomes</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Evgeny</td>
-<td align="left">Degtyarev</td>
-<td align="left">Novartis</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Evgeny</td>
+<td style="text-align: left;">Degtyarev</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Stephen</td>
-<td align="left">Corson</td>
-<td align="left">Phastar</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Stephen</td>
+<td style="text-align: left;">Corson</td>
+<td style="text-align: left;">Phastar</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Jonathan</td>
-<td align="left">Siegel</td>
-<td align="left">Bayer</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Jonathan</td>
+<td style="text-align: left;">Siegel</td>
+<td style="text-align: left;">Bayer</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Libby</td>
-<td align="left">Floden</td>
-<td align="left">ClinOutSolutions</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Libby</td>
+<td style="text-align: left;">Floden</td>
+<td style="text-align: left;">ClinOutSolutions</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Dave</td>
-<td align="left">Andrae</td>
-<td align="left">Evidera</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Dave</td>
+<td style="text-align: left;">Andrae</td>
+<td style="text-align: left;">Evidera</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 </tbody>
 </table>
-<p><a href="talks/PRO%20TF%20(2021)%20Backfitting%20MMRM.pdf">2021
-summary on backfitting MMRM</a></p>
 </div>
-<div id="duration-of-responses" class="section level2" number="1.4">
-<h2><span class="header-section-number">1.4</span> Duration of
-responses</h2>
+<p><a href="talks/PRO%20TF%20(2021)%20Backfitting%20MMRM.pdf">2021 summary on backfitting MMRM</a> ::: {.cell}</p>
+<p>:::</p>
+</section>
+<section id="duration-of-responses" class="level2">
+<h2 class="anchored" data-anchor-id="duration-of-responses">Duration of responses</h2>
 <p><strong>Lead</strong>: Hans-Jochen Weber (Novartis)</p>
-<p><strong>Objective</strong>: Duration of response and also time to
-response are standard secondary endpoints in clinical studies in
-oncology. There are different approaches for analysis and often the
-clinical question to be addressed remains unclear. We contextualize the
-different approaches using the estimand framework and illustrate those
-with case studies. Finally we intend to present recommendations for
-analyses targeting relevant clinical questions.</p>
-<table>
+<p><strong>Objective</strong>: Duration of response and also time to response are standard secondary endpoints in clinical studies in oncology. There are different approaches for analysis and often the clinical question to be addressed remains unclear. We contextualize the different approaches using the estimand framework and illustrate those with case studies. Finally we intend to present recommendations for analyses targeting relevant clinical questions.</p>
+<div class="cell-output-display">
+<table class="table">
 <thead>
 <tr class="header">
-<th align="left">Firstname</th>
-<th align="left">Lastname</th>
-<th align="left">Institution</th>
-<th align="left">Location</th>
+<th style="text-align: left;">Firstname</th>
+<th style="text-align: left;">Lastname</th>
+<th style="text-align: left;">Institution</th>
+<th style="text-align: left;">Location</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Alex</td>
-<td align="left">Todd</td>
-<td align="left">AstraZeneca</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Alex</td>
+<td style="text-align: left;">Todd</td>
+<td style="text-align: left;">AstraZeneca</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Martin-Oliver</td>
-<td align="left">Sailer</td>
-<td align="left">Boehringer</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Martin-Oliver</td>
+<td style="text-align: left;">Sailer</td>
+<td style="text-align: left;">Boehringer</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Hans-Jochen</td>
-<td align="left">Weber</td>
-<td align="left">Novartis</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Hans-Jochen</td>
+<td style="text-align: left;">Weber</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Stephen</td>
-<td align="left">Corson</td>
-<td align="left">Phastar</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Stephen</td>
+<td style="text-align: left;">Corson</td>
+<td style="text-align: left;">Phastar</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Francois</td>
-<td align="left">Mercier</td>
-<td align="left">Roche</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Francois</td>
+<td style="text-align: left;">Mercier</td>
+<td style="text-align: left;">Roche</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Jiang</td>
-<td align="left">Li</td>
-<td align="left">Beigene</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Jiang</td>
+<td style="text-align: left;">Li</td>
+<td style="text-align: left;">Beigene</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Steven</td>
-<td align="left">Sun</td>
-<td align="left">J&amp;J</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Steven</td>
+<td style="text-align: left;">Sun</td>
+<td style="text-align: left;">J&amp;J</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Satrajit</td>
-<td align="left">Roychoudhury</td>
-<td align="left">Pfizer</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Satrajit</td>
+<td style="text-align: left;">Roychoudhury</td>
+<td style="text-align: left;">Pfizer</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Godwin</td>
-<td align="left">Yung</td>
-<td align="left">Roche</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Godwin</td>
+<td style="text-align: left;">Yung</td>
+<td style="text-align: left;">Roche</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="real-world-data-and-estimands" class="section level2"
-number="1.5">
-<h2><span class="header-section-number">1.5</span> Real-world data and
-estimands</h2>
+<div class="cell">
+
+</div>
+</section>
+<section id="real-world-data-and-estimands" class="level2">
+<h2 class="anchored" data-anchor-id="real-world-data-and-estimands">Real-world data and estimands</h2>
 <p><strong>Lead</strong>: Evgeny Degtyarev (Novartis)</p>
-<p><strong>Objective</strong>: Illustrate the value and promote the use
-of target trial framework and estimand framework for design of
-comparisons including real-world data. The frameworks allows to clarify
-the definition of the causal question of interest ensuring alignment
-between the research objective and analysis. Its application in
-submission documents would facilitate regulatory review in a transparent
-and structured way.</p>
-<table>
+<p><strong>Objective</strong>: Illustrate the value and promote the use of target trial framework and estimand framework for design of comparisons including real-world data. The frameworks allows to clarify the definition of the causal question of interest ensuring alignment between the research objective and analysis. Its application in submission documents would facilitate regulatory review in a transparent and structured way.</p>
+<div class="cell-output-display">
+<table class="table">
 <thead>
 <tr class="header">
-<th align="left">Firstname</th>
-<th align="left">Lastname</th>
-<th align="left">Institution</th>
-<th align="left">Location</th>
+<th style="text-align: left;">Firstname</th>
+<th style="text-align: left;">Lastname</th>
+<th style="text-align: left;">Institution</th>
+<th style="text-align: left;">Location</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Rajat</td>
-<td align="left">Mukherjee</td>
-<td align="left">Alira Health</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Rajat</td>
+<td style="text-align: left;">Mukherjee</td>
+<td style="text-align: left;">Alira Health</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Annette</td>
-<td align="left">Sauter</td>
-<td align="left">J&amp;J</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Annette</td>
+<td style="text-align: left;">Sauter</td>
+<td style="text-align: left;">J&amp;J</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Evgeny</td>
-<td align="left">Degtyarev</td>
-<td align="left">Novartis</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Evgeny</td>
+<td style="text-align: left;">Degtyarev</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Lisa</td>
-<td align="left">Hampson</td>
-<td align="left">Novartis</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Lisa</td>
+<td style="text-align: left;">Hampson</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Zhaohui</td>
-<td align="left">Wang</td>
-<td align="left">GSK</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Zhaohui</td>
+<td style="text-align: left;">Wang</td>
+<td style="text-align: left;">GSK</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Benjamin</td>
-<td align="left">Li</td>
-<td align="left">Pfizer</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Benjamin</td>
+<td style="text-align: left;">Li</td>
+<td style="text-align: left;">Pfizer</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Rui</td>
-<td align="left">Tang</td>
-<td align="left">Servier</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Rui</td>
+<td style="text-align: left;">Tang</td>
+<td style="text-align: left;">Servier</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Jianchang</td>
-<td align="left">Lin</td>
-<td align="left">Takeda</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Jianchang</td>
+<td style="text-align: left;">Lin</td>
+<td style="text-align: left;">Takeda</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Feng</td>
-<td align="left">Xiao</td>
-<td align="left">Vanda Pharma</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Feng</td>
+<td style="text-align: left;">Xiao</td>
+<td style="text-align: left;">Vanda Pharma</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Cheng</td>
-<td align="left">Zheng</td>
-<td align="left">Zentalis</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Cheng</td>
+<td style="text-align: left;">Zheng</td>
+<td style="text-align: left;">Zentalis</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Lei</td>
-<td align="left">Gao</td>
-<td align="left">NA</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Lei</td>
+<td style="text-align: left;">Gao</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="conditional-vs.-marginal-effects" class="section level2"
-number="1.6">
-<h2><span class="header-section-number">1.6</span> Conditional
-vs. marginal effects</h2>
+<div class="cell">
+
+</div>
+</section>
+<section id="conditional-vs.-marginal-effects" class="level2">
+<h2 class="anchored" data-anchor-id="conditional-vs.-marginal-effects">Conditional vs.&nbsp;marginal effects</h2>
 <p><strong>Lead</strong>: Jiawei Wei (Novartis)</p>
-<p><strong>Objective</strong>: We would like to bring the complex
-concept and methods about conditional and marginal treatment effect into
-a simplified and interpretable way. Potential topics including adjusted
-or unadjusted analysis; stratified vs unstratified hazard ratio;
-collapsibility and subgroup; p-values; etc. We will give clinically
-relevant opinions and recommendations based on our interpretation, and
-illustrate the idea using some case studies.</p>
-<table>
+<p><strong>Objective</strong>: We would like to bring the complex concept and methods about conditional and marginal treatment effect into a simplified and interpretable way. Potential topics including adjusted or unadjusted analysis; stratified vs unstratified hazard ratio; collapsibility and subgroup; p-values; etc. We will give clinically relevant opinions and recommendations based on our interpretation, and illustrate the idea using some case studies.</p>
+<div class="cell-output-display">
+<table class="table">
 <thead>
 <tr class="header">
-<th align="left">Firstname</th>
-<th align="left">Lastname</th>
-<th align="left">Institution</th>
-<th align="left">Location</th>
+<th style="text-align: left;">Firstname</th>
+<th style="text-align: left;">Lastname</th>
+<th style="text-align: left;">Institution</th>
+<th style="text-align: left;">Location</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Jiajun</td>
-<td align="left">Xu</td>
-<td align="left">J&amp;J</td>
-<td align="left">Asia</td>
+<td style="text-align: left;">Jiajun</td>
+<td style="text-align: left;">Xu</td>
+<td style="text-align: left;">J&amp;J</td>
+<td style="text-align: left;">Asia</td>
 </tr>
 <tr class="even">
-<td align="left">Bingying</td>
-<td align="left">Xie</td>
-<td align="left">Junshi Pharma</td>
-<td align="left">Asia</td>
+<td style="text-align: left;">Bingying</td>
+<td style="text-align: left;">Xie</td>
+<td style="text-align: left;">Junshi Pharma</td>
+<td style="text-align: left;">Asia</td>
 </tr>
 <tr class="odd">
-<td align="left">Jiawei</td>
-<td align="left">Wei</td>
-<td align="left">Novartis</td>
-<td align="left">Asia</td>
+<td style="text-align: left;">Jiawei</td>
+<td style="text-align: left;">Wei</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Asia</td>
 </tr>
 <tr class="even">
-<td align="left">Ziqiang</td>
-<td align="left">Zhao</td>
-<td align="left">Novartis</td>
-<td align="left">Asia</td>
+<td style="text-align: left;">Ziqiang</td>
+<td style="text-align: left;">Zhao</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Asia</td>
 </tr>
 <tr class="odd">
-<td align="left">Xin</td>
-<td align="left">Zhang</td>
-<td align="left">Pfizer</td>
-<td align="left">Asia</td>
+<td style="text-align: left;">Xin</td>
+<td style="text-align: left;">Zhang</td>
+<td style="text-align: left;">Pfizer</td>
+<td style="text-align: left;">Asia</td>
 </tr>
 <tr class="even">
-<td align="left">Liming</td>
-<td align="left">Li</td>
-<td align="left">Roche</td>
-<td align="left">Asia</td>
+<td style="text-align: left;">Liming</td>
+<td style="text-align: left;">Li</td>
+<td style="text-align: left;">Roche</td>
+<td style="text-align: left;">Asia</td>
 </tr>
 <tr class="odd">
-<td align="left">Björn</td>
-<td align="left">Bornkamp</td>
-<td align="left">Novartis</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Björn</td>
+<td style="text-align: left;">Bornkamp</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Hong</td>
-<td align="left">Tian</td>
-<td align="left">Beigene</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Hong</td>
+<td style="text-align: left;">Tian</td>
+<td style="text-align: left;">Beigene</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Dong</td>
-<td align="left">Xi</td>
-<td align="left">Gilead</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Dong</td>
+<td style="text-align: left;">Xi</td>
+<td style="text-align: left;">Gilead</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Satrajit</td>
-<td align="left">Roychoudhury</td>
-<td align="left">Pfizer</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Satrajit</td>
+<td style="text-align: left;">Roychoudhury</td>
+<td style="text-align: left;">Pfizer</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Ray</td>
-<td align="left">Lin</td>
-<td align="left">Roche</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Ray</td>
+<td style="text-align: left;">Lin</td>
+<td style="text-align: left;">Roche</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div
-id="time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups"
-class="section level2" number="1.7">
-<h2><span class="header-section-number">1.7</span> Time to event
-endpoints with prognostic or predictive biomarker subgroups</h2>
+<div class="cell">
+
+</div>
+</section>
+<section id="time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups" class="level2">
+<h2 class="anchored" data-anchor-id="time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups">Time to event endpoints with prognostic or predictive biomarker subgroups</h2>
 <p><strong>Lead</strong>: Hong Tian (Beigene), Miao Yang (Seagen)</p>
-<p><strong>Objective</strong>: Our goal is to understand various
-efficacy estimands of biomarker subgroups and its relationship to the
-overall population for binary and time-to-event endpoints. For
-continuous outcomes with difference of means as efficacy estimand, Least
-Square estimates from the full model containing treatment, subgroup, and
-its interaction term enable an unbiased estimation of efficacy for the
-overall population by linearly combining estimands of the two subgroups.
-Following the same process for binary or time-to-event efficacy
-estimands such as hazard ratio or odds ratio, although guaranteeing
-logical inference in appearance, does not lead to the correct efficacy
-estimand of the overall population. In fact, the correct HR (or OR) may
-be outside of the interval of subgroup HRs (or ORs) leading to illogical
-interpretations. The task force will investigate which efficacy measures
-are logic respecting on the population level and make recommendations on
-how to analyze real clinical trial data so that analysis results based
-on these efficacy measures will always be logical for either prognostic
-or predictive biomarkers.</p>
-<table>
+<p><strong>Objective</strong>: Our goal is to understand various efficacy estimands of biomarker subgroups and its relationship to the overall population for binary and time-to-event endpoints. For continuous outcomes with difference of means as efficacy estimand, Least Square estimates from the full model containing treatment, subgroup, and its interaction term enable an unbiased estimation of efficacy for the overall population by linearly combining estimands of the two subgroups. Following the same process for binary or time-to-event efficacy estimands such as hazard ratio or odds ratio, although guaranteeing logical inference in appearance, does not lead to the correct efficacy estimand of the overall population. In fact, the correct HR (or OR) may be outside of the interval of subgroup HRs (or ORs) leading to illogical interpretations. The task force will investigate which efficacy measures are logic respecting on the population level and make recommendations on how to analyze real clinical trial data so that analysis results based on these efficacy measures will always be logical for either prognostic or predictive biomarkers.</p>
+<div class="cell-output-display">
+<table class="table">
 <thead>
 <tr class="header">
-<th align="left">Firstname</th>
-<th align="left">Lastname</th>
-<th align="left">Institution</th>
-<th align="left">Location</th>
+<th style="text-align: left;">Firstname</th>
+<th style="text-align: left;">Lastname</th>
+<th style="text-align: left;">Institution</th>
+<th style="text-align: left;">Location</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Siyoen</td>
-<td align="left">Kil</td>
-<td align="left">LSK Global Pharma Services</td>
-<td align="left">Asia</td>
+<td style="text-align: left;">Siyoen</td>
+<td style="text-align: left;">Kil</td>
+<td style="text-align: left;">LSK Global Pharma Services</td>
+<td style="text-align: left;">Asia</td>
 </tr>
 <tr class="even">
-<td align="left">Rajat</td>
-<td align="left">Mukherjee</td>
-<td align="left">Alira Health</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Rajat</td>
+<td style="text-align: left;">Mukherjee</td>
+<td style="text-align: left;">Alira Health</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Shoubhik</td>
-<td align="left">Mondal</td>
-<td align="left">AstraZeneca</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Shoubhik</td>
+<td style="text-align: left;">Mondal</td>
+<td style="text-align: left;">AstraZeneca</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Jiang</td>
-<td align="left">Li</td>
-<td align="left">Beigene</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Jiang</td>
+<td style="text-align: left;">Li</td>
+<td style="text-align: left;">Beigene</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Hong</td>
-<td align="left">Tian</td>
-<td align="left">Beigene</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Hong</td>
+<td style="text-align: left;">Tian</td>
+<td style="text-align: left;">Beigene</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Yue</td>
-<td align="left">Shentu</td>
-<td align="left">Daiichi Sankyo</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Yue</td>
+<td style="text-align: left;">Shentu</td>
+<td style="text-align: left;">Daiichi Sankyo</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Liwei</td>
-<td align="left">Wang</td>
-<td align="left">Genmab</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Liwei</td>
+<td style="text-align: left;">Wang</td>
+<td style="text-align: left;">Genmab</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Yi</td>
-<td align="left">Liu</td>
-<td align="left">Nektar</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Yi</td>
+<td style="text-align: left;">Liu</td>
+<td style="text-align: left;">Nektar</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Godwin</td>
-<td align="left">Yung</td>
-<td align="left">Roche</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Godwin</td>
+<td style="text-align: left;">Yung</td>
+<td style="text-align: left;">Roche</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Miao</td>
-<td align="left">Yang</td>
-<td align="left">Seagen</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Miao</td>
+<td style="text-align: left;">Yang</td>
+<td style="text-align: left;">Seagen</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="early-development-estimand-nexus-eden" class="section level2"
-number="1.8">
-<h2><span class="header-section-number">1.8</span> Early development
-estimand nexus (EDEN)</h2>
+<div class="cell">
+
+</div>
+</section>
+<section id="early-development-estimand-nexus-eden" class="level2">
+<h2 class="anchored" data-anchor-id="early-development-estimand-nexus-eden">Early development estimand nexus (EDEN)</h2>
 <p><strong>Lead</strong>: Francois Mercier (Roche)</p>
-<p><strong>Objective</strong>: In oncology Phase 1a (dose-escalation)
-and Phase 1b (expansion cohort) studies, the designs are complex because
-the objectives are often multiple and ambitious. Defining estimands and
-the associated estimators in this setting can be difficult. In this WG,
-we intend to implement the ICH-E9 addendum and to reflect on the
-challenges it presents in early clinical development studies. Such
-challenges may include: (1) absence of control group (2) varying dose,
-but also dosing schedule across treatment arms (a.k.a. cohorts) (3)
-presence of anti-drug antibody (ADA) (4) prophylactic treatment or
-co-medication for toxicity mitigation (e.g. using steroids) (5)
-compassionate within-patient dose escalation. The taskforce will give
-clinically relevant opinions and recommendations based on our analysis
-and interpretation of the selected case studies. Contact to other task
-forces will be sought based on need.</p>
-<table>
+<p><strong>Objective</strong>: In oncology Phase 1a (dose-escalation) and Phase 1b (expansion cohort) studies, the designs are complex because the objectives are often multiple and ambitious. Defining estimands and the associated estimators in this setting can be difficult. In this WG, we intend to implement the ICH-E9 addendum and to reflect on the challenges it presents in early clinical development studies. Such challenges may include: (1) absence of control group (2) varying dose, but also dosing schedule across treatment arms (a.k.a. cohorts) (3) presence of anti-drug antibody (ADA) (4) prophylactic treatment or co-medication for toxicity mitigation (e.g.&nbsp;using steroids) (5) compassionate within-patient dose escalation. The taskforce will give clinically relevant opinions and recommendations based on our analysis and interpretation of the selected case studies. Contact to other task forces will be sought based on need.</p>
+<div class="cell-output-display">
+<table class="table">
 <thead>
 <tr class="header">
-<th align="left">Firstname</th>
-<th align="left">Lastname</th>
-<th align="left">Institution</th>
-<th align="left">Location</th>
+<th style="text-align: left;">Firstname</th>
+<th style="text-align: left;">Lastname</th>
+<th style="text-align: left;">Institution</th>
+<th style="text-align: left;">Location</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Elizabeth</td>
-<td align="left">Pilling</td>
-<td align="left">AstraZeneca</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Elizabeth</td>
+<td style="text-align: left;">Pilling</td>
+<td style="text-align: left;">AstraZeneca</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Stefan</td>
-<td align="left">Englert</td>
-<td align="left">J&amp;J</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Stefan</td>
+<td style="text-align: left;">Englert</td>
+<td style="text-align: left;">J&amp;J</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Christina</td>
-<td align="left">Habermehl</td>
-<td align="left">Merck</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Christina</td>
+<td style="text-align: left;">Habermehl</td>
+<td style="text-align: left;">Merck</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Anja</td>
-<td align="left">Victor</td>
-<td align="left">Merck</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Anja</td>
+<td style="text-align: left;">Victor</td>
+<td style="text-align: left;">Merck</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Francois</td>
-<td align="left">Mercier</td>
-<td align="left">Roche</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Francois</td>
+<td style="text-align: left;">Mercier</td>
+<td style="text-align: left;">Roche</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Atalanta</td>
-<td align="left">Ghosh</td>
-<td align="left">BMS</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Atalanta</td>
+<td style="text-align: left;">Ghosh</td>
+<td style="text-align: left;">BMS</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Junxian</td>
-<td align="left">Geng</td>
-<td align="left">Boehringer</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Junxian</td>
+<td style="text-align: left;">Geng</td>
+<td style="text-align: left;">Boehringer</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Hongtao</td>
-<td align="left">Zhang</td>
-<td align="left">Merck</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Hongtao</td>
+<td style="text-align: left;">Zhang</td>
+<td style="text-align: left;">Merck</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Natalia</td>
-<td align="left">Kan-Dobrosky</td>
-<td align="left">PPDI</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Natalia</td>
+<td style="text-align: left;">Kan-Dobrosky</td>
+<td style="text-align: left;">PPDI</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Guillaume</td>
-<td align="left">Lecorps</td>
-<td align="left">Sanofi</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Guillaume</td>
+<td style="text-align: left;">Lecorps</td>
+<td style="text-align: left;">Sanofi</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Xiaojiang</td>
-<td align="left">Zhan</td>
-<td align="left">Servier</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Xiaojiang</td>
+<td style="text-align: left;">Zhan</td>
+<td style="text-align: left;">Servier</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 </tbody>
 </table>
 </div>
-<div id="estimands-for-safety" class="section level2" number="1.9">
-<h2><span class="header-section-number">1.9</span> Estimands for
-Safety</h2>
+<div class="cell">
+
+</div>
+</section>
+<section id="estimands-for-safety" class="level2">
+<h2 class="anchored" data-anchor-id="estimands-for-safety">Estimands for Safety</h2>
 <p><strong>Lead</strong>: Jonathan Siegel (Bayer)</p>
-<p><strong>Objective</strong>: Key issues of interest for this task
-force are: (1) Estimands for safety-focused studies (2) Safety estimands
-within the context of a conventional efficacy study (3) Implementing
-estimands principles in general safety reporting and analysis (including
-what to change and what to leave in place) (4) Implementing estimands
-principles in associated CRF and data standards. The mission of the
-group is up for discussion and I would appreciate your interest.</p>
-<p>The envisioned output for the group would be white papers, one
-focused on study design and statistical methodological considerations in
-safety estimands, and one focused on more nuts-and-bolts implementation
-issues including recommendations for general safety reporting, visit
-schedule and withdrawal criteria issues, monitoring, CRF considerations,
-data considerations and changes in data standards etc. In addition, the
-TF plans to involve itself in WG discussions with and recommendations to
-regulatory authorities, conference presentations, outreach webinars and
-workshops, etc.</p>
-<table>
+<p><strong>Objective</strong>: Key issues of interest for this task force are: (1) Estimands for safety-focused studies (2) Safety estimands within the context of a conventional efficacy study (3) Implementing estimands principles in general safety reporting and analysis (including what to change and what to leave in place) (4) Implementing estimands principles in associated CRF and data standards. The mission of the group is up for discussion and I would appreciate your interest.</p>
+<p>The envisioned output for the group would be white papers, one focused on study design and statistical methodological considerations in safety estimands, and one focused on more nuts-and-bolts implementation issues including recommendations for general safety reporting, visit schedule and withdrawal criteria issues, monitoring, CRF considerations, data considerations and changes in data standards etc. In addition, the TF plans to involve itself in WG discussions with and recommendations to regulatory authorities, conference presentations, outreach webinars and workshops, etc.</p>
+<div class="cell-output-display">
+<table class="table">
 <thead>
 <tr class="header">
-<th align="left">Firstname</th>
-<th align="left">Lastname</th>
-<th align="left">Institution</th>
-<th align="left">Location</th>
+<th style="text-align: left;">Firstname</th>
+<th style="text-align: left;">Lastname</th>
+<th style="text-align: left;">Institution</th>
+<th style="text-align: left;">Location</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Jiawei</td>
-<td align="left">Wei</td>
-<td align="left">Novartis</td>
-<td align="left">Asia</td>
+<td style="text-align: left;">Jiawei</td>
+<td style="text-align: left;">Wei</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Asia</td>
 </tr>
 <tr class="even">
-<td align="left">Alexander</td>
-<td align="left">Stemke</td>
-<td align="left">Boehringer Ingelheim</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Alexander</td>
+<td style="text-align: left;">Stemke</td>
+<td style="text-align: left;">Boehringer Ingelheim</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Alan</td>
-<td align="left">Phillips</td>
-<td align="left">ICON</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Alan</td>
+<td style="text-align: left;">Phillips</td>
+<td style="text-align: left;">ICON</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Marie-Laure</td>
-<td align="left">Casadebaig</td>
-<td align="left">Incyte</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Marie-Laure</td>
+<td style="text-align: left;">Casadebaig</td>
+<td style="text-align: left;">Incyte</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Anja-Helena</td>
-<td align="left">Loos</td>
-<td align="left">Merck</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Anja-Helena</td>
+<td style="text-align: left;">Loos</td>
+<td style="text-align: left;">Merck</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Pedro</td>
-<td align="left">Lopez Romero</td>
-<td align="left">Novartis</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Pedro</td>
+<td style="text-align: left;">Lopez Romero</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Remi</td>
-<td align="left">Aprahamian</td>
-<td align="left">Servier</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Remi</td>
+<td style="text-align: left;">Aprahamian</td>
+<td style="text-align: left;">Servier</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Jonathan</td>
-<td align="left">Siegel</td>
-<td align="left">Bayer</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Jonathan</td>
+<td style="text-align: left;">Siegel</td>
+<td style="text-align: left;">Bayer</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">James</td>
-<td align="left">Buchanan</td>
-<td align="left">Covilance</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">James</td>
+<td style="text-align: left;">Buchanan</td>
+<td style="text-align: left;">Covilance</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Philip</td>
-<td align="left">He</td>
-<td align="left">DSI</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Philip</td>
+<td style="text-align: left;">He</td>
+<td style="text-align: left;">DSI</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Shayami</td>
-<td align="left">Thanabalasundrum</td>
-<td align="left">Exelis</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Shayami</td>
+<td style="text-align: left;">Thanabalasundrum</td>
+<td style="text-align: left;">Exelis</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Steven</td>
-<td align="left">Sun</td>
-<td align="left">J&amp;J</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Steven</td>
+<td style="text-align: left;">Sun</td>
+<td style="text-align: left;">J&amp;J</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Mary</td>
-<td align="left">Nilsson</td>
-<td align="left">Lilly</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Mary</td>
+<td style="text-align: left;">Nilsson</td>
+<td style="text-align: left;">Lilly</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Hongtao</td>
-<td align="left">Zhang</td>
-<td align="left">Merck</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Hongtao</td>
+<td style="text-align: left;">Zhang</td>
+<td style="text-align: left;">Merck</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Yi</td>
-<td align="left">Lan</td>
-<td align="left">Novartis</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Yi</td>
+<td style="text-align: left;">Lan</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Greg</td>
-<td align="left">Ball</td>
-<td align="left">Novavax</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Greg</td>
+<td style="text-align: left;">Ball</td>
+<td style="text-align: left;">Novavax</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Natalia</td>
-<td align="left">Kan-Dobrosky</td>
-<td align="left">PPDI</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Natalia</td>
+<td style="text-align: left;">Kan-Dobrosky</td>
+<td style="text-align: left;">PPDI</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Rui</td>
-<td align="left">Tang</td>
-<td align="left">Servier</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Rui</td>
+<td style="text-align: left;">Tang</td>
+<td style="text-align: left;">Servier</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Craig</td>
-<td align="left">Mallinckrodt</td>
-<td align="left">NA</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Craig</td>
+<td style="text-align: left;">Mallinckrodt</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Isabel</td>
-<td align="left">Huang</td>
-<td align="left">ICON</td>
-<td align="left">NA</td>
+<td style="text-align: left;">Isabel</td>
+<td style="text-align: left;">Huang</td>
+<td style="text-align: left;">ICON</td>
+<td style="text-align: left;">NA</td>
 </tr>
 </tbody>
 </table>
 </div>
+</section>
+</section>
+<section id="task-forces-that-have-concluded-their-work" class="level1">
+<h1>Task forces that have concluded their work</h1>
+<div class="cell">
+
 </div>
-<div id="task-forces-that-have-concluded-their-work"
-class="section level1" number="2">
-<h1><span class="header-section-number">2</span> Task forces that have
-concluded their work</h1>
-<div id="quantification-of-follow-up" class="section level2"
-number="2.1">
-<h2><span class="header-section-number">2.1</span> Quantification of
-follow-up</h2>
+<section id="quantification-of-follow-up" class="level2">
+<h2 class="anchored" data-anchor-id="quantification-of-follow-up">Quantification of follow-up</h2>
 <p><strong>Lead</strong>: Kaspar Rufibach (Roche)</p>
-<p><strong>Objective</strong>: This task force has submitted a paper
-entitled <em>Quantification of Follow-up Time in Oncology Clinical
-Trials with a Time-to-Event Endpoint: Asking the Right Questions</em>,
-find the link on the <a href="publications.html">publications</a> page.
-All questions initially asked have been discussed in this paper and the
-task force is therefore currently inactive.</p>
-<table>
+<p><strong>Objective</strong>: This task force has submitted a paper entitled <em>Quantification of Follow-up Time in Oncology Clinical Trials with a Time-to-Event Endpoint: Asking the Right Questions</em>, find the link on the <a href="publications.html">publications</a> page. All questions initially asked have been discussed in this paper and the task force is therefore currently inactive.</p>
+<div class="cell-output-display">
+<table class="table">
 <thead>
 <tr class="header">
-<th align="left">Firstname</th>
-<th align="left">Lastname</th>
-<th align="left">Institution</th>
-<th align="left">Location</th>
+<th style="text-align: left;">Firstname</th>
+<th style="text-align: left;">Lastname</th>
+<th style="text-align: left;">Institution</th>
+<th style="text-align: left;">Location</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Lynda</td>
-<td align="left">Grinsted</td>
-<td align="left">AstraZeneca</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Lynda</td>
+<td style="text-align: left;">Grinsted</td>
+<td style="text-align: left;">AstraZeneca</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Hans-Jochen</td>
-<td align="left">Weber</td>
-<td align="left">Novartis</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Hans-Jochen</td>
+<td style="text-align: left;">Weber</td>
+<td style="text-align: left;">Novartis</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="odd">
-<td align="left">Kaspar</td>
-<td align="left">Rufibach</td>
-<td align="left">Roche</td>
-<td align="left">Europe</td>
+<td style="text-align: left;">Kaspar</td>
+<td style="text-align: left;">Rufibach</td>
+<td style="text-align: left;">Roche</td>
+<td style="text-align: left;">Europe</td>
 </tr>
 <tr class="even">
-<td align="left">Jiang</td>
-<td align="left">Li</td>
-<td align="left">Beigene</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Jiang</td>
+<td style="text-align: left;">Li</td>
+<td style="text-align: left;">Beigene</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Yue</td>
-<td align="left">Shentu</td>
-<td align="left">Daiichi Sankyo</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Yue</td>
+<td style="text-align: left;">Shentu</td>
+<td style="text-align: left;">Daiichi Sankyo</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="even">
-<td align="left">Jiangxiu</td>
-<td align="left">Zhou</td>
-<td align="left">J&amp;J</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Jiangxiu</td>
+<td style="text-align: left;">Zhou</td>
+<td style="text-align: left;">J&amp;J</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 <tr class="odd">
-<td align="left">Cheng</td>
-<td align="left">Zheng</td>
-<td align="left">Zentalis</td>
-<td align="left">NorAm</td>
+<td style="text-align: left;">Cheng</td>
+<td style="text-align: left;">Zheng</td>
+<td style="text-align: left;">Zentalis</td>
+<td style="text-align: left;">NorAm</td>
 </tr>
 </tbody>
 </table>
 </div>
-</div>
 
 
+</section>
+</section>
 
-</div>
-</div>
-
-</div>
-
-<script>
-
-// add bootstrap table styles to pandoc tables
-function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
-}
-$(document).ready(function () {
-  bootstrapStylePandocTables();
-});
-
-
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
   });
-});
-</script>
-
-<!-- code folding -->
-
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
       },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
     };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
 });
 </script>
+</div> <!-- /content -->
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
-</body>
-</html>
+
+</body></html>
