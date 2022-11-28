@@ -1,5 +1,5 @@
 ---
-title: "Oncology estimand working group"
+title: "Latest updates of this page"
 author: 
 - name: A cross-industry international working group
 date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
@@ -14,25 +14,7 @@ output:
 bibliography: biblio.bib
 ---
 
-# Purpose
-
-Find on this webpage information on the working group on estimands in oncology.
-
-# Become a member
-
-The general spirit of the working group is inclusive. If you'd like to contribute in one or the other way, we propose you first reach out to your company's representative(s) (if applicable) and align within your company who is best placed to contribute to which task force. After that is clarified reach out to the WG leads - contact details available [here](organization.html).
-
-# Membership in professional organizations
-
-In November 2018, the working group was established by [EFSPI](https://www.efspi.org) as [*European special interest group "Estimands in oncology", sponsored by PSI and EFSPI*](https://www.efspi.org/EFSPI/Special_Interest_Groups/Estimands_in_Oncology_Applications.aspx?&WebsiteKey=0b28fec8-fcd6-4283-b360-0c689a893140&hkey=956f9eca-da64-48a4-88e4-e77d796bb527) and in June 2019 the [*ASA biopharmaceutical section*](https://community.amstat.org/biop/home) has granted the official status as [ASA scientific working group](https://community.amstat.org/biop/workinggroups/eio).
-
-# Link to this page
-
-Link to this page: <http://www.oncoestimand.org>.
-
-# Latest updates of this page
-
-## 2022
+# 2022
 
 - 25th November: 
   - Moved this page to [quarto](https://quarto.org/) implying a slightly different look.
@@ -54,7 +36,7 @@ Link to this page: <http://www.oncoestimand.org>.
 -   3rd February: Congratulations to the authors of [Sun et al. and Bornkamp et al.](publications.html) - these papers were the 3rd and 4th most downloaded papers that appeared in 2021 in [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612).
 -   26nd January: The censoring subteam has submitted two papers, see [publications](publications.html).
 
-## 2021
+# 2021
 
 -   22nd December: Added [slidedeck on backfitting MMRM](talks/PRO%20TF%20(2021)%20Backfitting%20MMRM.pdf) of PRO task force, see their entry [here](taskforces.html#patient-reported-outcomes).
 -   6th December: Latest [newsletter](communication/comm20211206.html) to the group.
@@ -78,5 +60,3 @@ Link to this page: <http://www.oncoestimand.org>.
 -   11th February: Added [slides](talks/20210211_DCTs_estimands.pdf) presented by Evgeny and Kaspar at ASA - FDA - LUNGevity symposium "Statistical considerations in Oncology clinical trials in the COVID-19 era".
 -   5th February: Papers on [principal stratification](https://arxiv.org/abs/2008.05406) and [hematology case studies](https://arxiv.org/abs/2010.00957) both accepted for publication by [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612). See [publication section](publications.html).
 -   30th January: Kick-off of new task forces.
-
-

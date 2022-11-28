@@ -3,6 +3,7 @@ project:
   output-dir: docs
   render:
     - about.qmd
+    - updates.qmd
     - index.qmd
     - achievements.qmd
     - events.qmd
@@ -26,6 +27,8 @@ website:
       menu:
         - text: "About"
           href: index.html
+        - text: "Updates of this page"
+          href: updates.html
         - text: "History"
           href: history.html
         - text: "Scope"
