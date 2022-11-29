@@ -43,7 +43,8 @@ com <- email[ind, "Institution"]
 The group continues to be an influential player in the global discussion on estimands between industry, regulators, and academia. Key achievements in 2022 are:
 
 - General activities listed as achievements in last years below are continued by the group.
-- Several [publications](publications.html) of the SIG appeared or have been submitted this year.
+- Several [publications](publications.html) of the SIG appeared or have been submitted this year. 
+- Two SIG papers published in 2021 were among the five most downloaded in Pharmaceutical statistics in 2021, see [publications](publications.html).
 - The SIG gave many talks and organized sessions at conferences and webinars, see [events](events.html). Some highlights:
   - An entire session organized by the SIG at the [PSI conference](events.html#psi-annual-conference).
   - The SIG organized two sessions at the [ASA FDA workshop](https://ww2.amstat.org/meetings/biop/2022/) ("Adjusted and Unadjusted Estimate in Clinical Trials: Reward, Risk and Myth" and "Estimands in Oncology: A Topical Panel Discussion"), see [events page](events.html#asa-biopharmaceutical-section-regulatory-industry-statistics-workshop).
