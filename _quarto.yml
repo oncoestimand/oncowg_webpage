@@ -6,7 +6,8 @@ project:
     - updates.qmd
     - index.qmd
     - achievements.qmd
-    - events.qmd
+    - events_upcoming.qmd
+    - events_past.qmd
     - ha.qmd
     - history.qmd
     - news.qmd
@@ -46,7 +47,11 @@ website:
     - text: "Publications"
       href: publications.html
     - text: "Events"
-      href: events.html
+      menu:
+        - text: "Upcoming events"
+          href: events_upcoming.html
+        - text: "Past events"
+          href: events_past.html
     - text: "Newsletters"
       href: news.html
     - text: "Further resources"

@@ -1,0 +1,19 @@
+---
+title: "Upcoming events with contributions from the working group"
+date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+bibliography: biblio.bib
+---
+
+# Upcoming events
+
+-   12th December 2022: Together with ASA NJ chapter the WG is co-organizing a webinar [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls](communication/20221202_ASA_NJ_TTF_estimands.pdf).
+-   29th-31st March 2023: Jonathan Siegel will give a presentation on estimands for time-to-event endpoints at the [Duke Industry Statistics Symposium 2023](https://sites.duke.edu/diss/).
+
