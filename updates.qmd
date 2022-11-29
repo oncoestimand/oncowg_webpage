@@ -16,6 +16,7 @@ bibliography: biblio.bib
 
 # 2022
 
+- 29th November: Updated roster of [Time to event endpoints with prognostic or predictive biomarker subgroups task force](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups).
 - 25th November: 
   - Moved this page to [quarto](https://quarto.org/) implying a slightly different look.
   - Added [2022 achievements](achievements.html).
