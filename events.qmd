@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## talks
 path <- getwd()
 talks <- as.data.frame(read_excel(paste(path, "/data/conferences.xlsx", sep = ""), col_types = NULL))
-talks <- (talks %>% filter(is.na(Speaker1) == FALSE))
+talks <- (talks %>% filter(include == 1))
 talks <- arrange(talks, desc(start_y), desc(start_m), desc(start_d))
 talks$date <- with(talks, paste(ifelse(start_d < 10, paste("", start_d, sep = ""), start_d), ".", 
                                 ifelse(start_m < 10, paste("", start_m, sep = ""), start_m), 
