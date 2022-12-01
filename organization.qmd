@@ -1,7 +1,5 @@
 ---
 title: "Organization"
-author: 
-- name: A cross-industry international working group
 output: 
   rmarkdown::html_document:
     highlight: pygments
