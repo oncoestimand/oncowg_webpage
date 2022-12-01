@@ -2,7 +2,6 @@
 title: "Oncology estimand working group"
 author: 
 - name: A cross-industry international working group
-date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
 output: 
   rmarkdown::html_document:
     highlight: pygments
