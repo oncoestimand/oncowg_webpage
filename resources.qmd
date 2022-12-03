@@ -40,6 +40,8 @@ This entire page is a starting point. Further,
   - @casey_21: Illustrates implementation of the framework in solid tumors.
   - @lawrance_20: Illustrates implementation of the framework for a PRO endpoint.
   - @lynggaard_22: Recommendations how to implement estimands in protocol templates.
+  - @ionan_22: Joint paper by FDA and industry authors summarizing the (positive!) experiences with implementing the estimands framework, especially discussing FDA experience. See also [this linkedin article](https://www.linkedin.com/posts/kasparrufibach_collaboration-fda-biostatistics-activity-7004509255789596672-icgX?utm_source=share&utm_medium=member_desktop) for a brief summary.
+  
 See also the [publications tab](publications.html).
 
 # References
