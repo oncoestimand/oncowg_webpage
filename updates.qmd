@@ -13,23 +13,23 @@ bibliography: biblio.bib
 
 # 2022
 
-- 3rd December: Added slidedecks and link to recording of [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls](talks/20221202_ASA_NJ_TTF_estimands.pdf) to [events](events.html).
+- 3rd December: Added slidedecks and link to recording of [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls](talks/20221202_ASA_NJ_TTF_estimands.pdf) to [events](events_past.html).
 - 29th November: Updated roster of [Time to event endpoints with prognostic or predictive biomarker subgroups task force](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups).
 - 25th November: 
   - Moved this page to [quarto](https://quarto.org/) implying a slightly different look.
   - Added [2022 achievements](achievements.html).
--   16th November: Jonathan Siegel will give a presentation on estimands for time-to-event endpoints at the [Duke Industry Statistics Symposium 2023](https://sites.duke.edu/diss/) in March 2023, see [events](events.html) for details.
--   15th November: Together with ASA NJ chapter the WG is co-organizing a webinar, see [events](events.html) for details.
--   24th October: Added slides of the [conditional and marginal taskforce](taskforces.html#conditional-vs.-marginal-effects) presented at a [DIA China webinar](events.html#dia-china-webinar).
+-   16th November: Jonathan Siegel will give a presentation on estimands for time-to-event endpoints at the [Duke Industry Statistics Symposium 2023](https://sites.duke.edu/diss/) in March 2023, see [events](events_past.html) for details.
+-   15th November: Together with ASA NJ chapter the WG is co-organizing a webinar, see [events](events_past.html) for details.
+-   24th October: Added slides of the [conditional and marginal taskforce](taskforces.html#conditional-vs.-marginal-effects) presented at a [DIA China webinar](events_past.html#dia-china-webinar).
 -   11th October: Latest [newsletter](communication/comm20221011.html) to the group.
 -   24th September: Added slidedecks from recent conferences.
 -   1st July: Added [slidedeck and written updates](ha.html) of recent full group TC.
 -   29th June: After submission of its paper (see [publications](publications.html)) the [follow-up quantification task force](taskforces.html#quantification-of-follow-up) is now inactive.
--   17th June: Added [talks](events.html#psi-annual-conference) from our session at the PSI conference in Gothenburg.
+-   17th June: Added [talks](events_past.html#psi-annual-conference) from our session at the PSI conference in Gothenburg.
 -   13th June: Paper from follow-up quantification task force posted on [arXiv](https://doi.org/10.48550/arxiv.2206.05216). See [publications](publications.html).
 -   23th May: Latest [newsletter](communication/comm20220523.html) to the group.
--   17th May: updated [events page](events.html) with past and upcoming appearances of the WG.
--   26th March: added slidedeck and recording of Graham Dunn Seminar to [events page](events.html).
+-   17th May: updated [events page](events_past.html) with past and upcoming appearances of the WG.
+-   26th March: added slidedeck and recording of Graham Dunn Seminar to [events page](events_past.html).
 -   8th March: arxiv links added for the two submitted papers of the censoring subteam.
 -   4th March: We have now officially started work in the [safety taskforce](taskforces.html#estimands-for-safety). Many thanks to Jonathan Siegel for starting and leading this!
 -   3rd February: Congratulations to the authors of [Sun et al. and Bornkamp et al.](publications.html) - these papers were the 3rd and 4th most downloaded papers that appeared in 2021 in [Pharmaceutical Statistics](https://onlinelibrary.wiley.com/journal/15391612).
@@ -41,10 +41,10 @@ bibliography: biblio.bib
 -   6th December: Latest [newsletter](communication/comm20211206.html) to the group.
 -   26th November: Added new page [Further resources](resources.html) with links to other estimand working groups (we are aware of) and a section with introductory estimand material.
 -   13th October: Added remit of [Task Force 2](taskforces.html#principal-stratification-in-clinical-trials).
--   30th September: Added slidedeck from recent, under [events](events.html).
+-   30th September: Added slidedeck from recent, under [events](events_past.html).
 -   22th September: Added new paper by Hampson et al. to [publications](publications.html).
 -   17th September: Latest [newsletter](communication/comm20210917.html) to the group.
--   2nd September: Added announcement of *DIA webinar: Estimands How and Why - A Real Life Case Study in Oncology* on [events page](events.html).
+-   2nd September: Added announcement of *DIA webinar: Estimands How and Why - A Real Life Case Study in Oncology* on [events page](events_past.html).
 -   25th July: Added a section on collaborations to the [organization tab](organization.html).
 -   10th July: The paper on treatment switching has been accepted by Pharmaceutical statistics.
 -   22th June: New design of this webpage online.

@@ -1,6 +1,5 @@
 ---
 title: "Oncology estimand working group: newsletter 6th December 2021"
-date: "Last change: `r format(Sys.time(), '%d %B, %Y')`"
 output: 
   rmarkdown::html_document:
     highlight: pygments
@@ -24,7 +23,7 @@ Hi all,
 We hope this reaches you well! It has been a while since we last reached out to the entire group. We would like to share some recent developments, events, and achievements.
 
 - We have summarized our [achievements of 2021](../achievements.html#3_Achievements_2021) - please have a look. Feedback welcome, and please share any additional achievements of the group, we are more than happy to add them.
-- We contributed to several events with talks and sessions, see [events](../events.html).
+- We contributed to several events with talks and sessions, see [events](../events_past.html).
 - We organize two sessions (one EU + Asia and one EU + North America) early next year where all the task forces will briefly share their work and future plans. Invites have been sent and we'd be excited if many of you joined!
 - We keep updating the group's webpage [www.oncoestimand.org](http://www.oncoestimand.org). It now features a tab [Further resources](../resources.html) with links to other estimand WGs and a section [I have never heard of estimands - where should I start?](../resources.html#2_I_have_never_heard_of_estimands_-_where_should_I_start). This might be a good landing page to point out to interested colleagues who'd like to learn more.
 - Finally - are there any new estimand topics where this group could potentially contribute its knowledge and network? If you have such topics please do not hesitate to get back to us!
