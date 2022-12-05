@@ -21,7 +21,7 @@ The general spirit of the working group is inclusive. If you'd like to contribut
 
 # Membership in professional organizations
 
-In November 2018, the working group was established by [EFSPI](https://www.efspi.org) as [*European special interest group "Estimands in oncology", sponsored by PSI and EFSPI*](https://www.efspi.org/EFSPI/Special_Interest_Groups/Estimands_in_Oncology_Applications.aspx?&WebsiteKey=0b28fec8-fcd6-4283-b360-0c689a893140&hkey=956f9eca-da64-48a4-88e4-e77d796bb527) and in June 2019 the [*ASA biopharmaceutical section*](https://community.amstat.org/biop/home) has granted the official status as [ASA scientific working group](https://community.amstat.org/biop/workinggroups/eio).
+In November 2018, the working group was established by [EFSPI](https://www.efspi.org) as [*European special interest group "Estimands in oncology", sponsored by PSI and EFSPI*](https://efspi.org/EFSPI/SIGS/EFSPI/Special_Interest_Groups/Special_Interest_Groups.aspx?hkey=4ba906dc-003a-4b71-b14b-7ea694a9b445) and in June 2019 the [*ASA biopharmaceutical section*](https://community.amstat.org/biop/home) has granted the official status as [ASA scientific working group](https://community.amstat.org/biop/workinggroups/eio).
 
 # Link to this page
 

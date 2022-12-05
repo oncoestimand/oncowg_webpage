@@ -36,13 +36,6 @@ email <- as.data.frame(read_excel(paste(path, "/data/members.xlsx", sep = ""), c
 ind <- email[, "Type"] == "Industry" 
 loc <- email[ind, "Location"]
 com <- email[ind, "Institution"]
-
-## Current month
-today <- Sys.Date()
-tod <- format(today, format = "%d %B %Y")
-
-## talks
-talks <- as.data.frame(read_excel(paste(path, "/data/conferences.xlsx", sep = ""), col_types = NULL))
 ```
 
 # Leads
