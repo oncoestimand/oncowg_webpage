@@ -11,7 +11,53 @@ output:
 bibliography: biblio.bib
 ---
 
-# Upcoming events
+```{r setup, include = FALSE, echo = FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
 
--   29th-31st March 2023: Jonathan Siegel will give a presentation on estimands for time-to-event endpoints at the [Duke Industry Statistics Symposium 2023](https://sites.duke.edu/diss/).
+knitr::opts_chunk$set(echo = TRUE)
 
+## talks
+path <- getwd()
+talks <- as.data.frame(read_excel(paste(path, "/data/seminars.xlsx", sep = ""), col_types = NULL))
+
+# prepare date strings
+d <- substr(talks$date, 1, 2)
+m <- substr(talks$date, 4, 5)
+y <- substr(talks$date, 7, 11)
+
+rdate <- paste(y, m, d, sep = "")
+talks$rdate <- rdate
+
+# select talks with past date
+talks <- (talks %>% filter(rdate > gsub("-", "", as.character(Sys.Date()))))
+
+talks <- (talks %>% group_by(rdate, talknr)  %>% 
+        arrange(
+            rdate, 
+            talknr
+        ))
+talks <- as.data.frame(talks)
+rdate <- unique(talks$rdate)
+dates <- unique(select(talks, date))[, 1]
+```
+
+Below a list of past events with contributions of the WG, with links to slidedecks and recordings (where available).
+
+```{r echo = FALSE, message = FALSE, warning = FALSE, include = FALSE}
+
+# how to do this with child documents: https://gist.github.com/rmoff/a043676a2f084b81a434
+
+out1 <- NULL
+for (i in 1:length(dates)){
+  out1 <- c(out1, knit_expand('tools/seminars1.Rmd'))
+}
+
+# the "knit" command somehow produces unwanted output, this is why I assign its output to a and use a separate chunk to display a
+a <- knit(text = unlist(paste(out1, collapse = '\n')), quiet = TRUE)
+```
+
+```{r conferences, echo = FALSE, message = FALSE, warning = FALSE, results = "asis"}
+cat(a)
+```
