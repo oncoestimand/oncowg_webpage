@@ -20,15 +20,20 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hi all,
 
-We hope this reaches you well! It has been a while since we last reached out to the entire group. We would like to share some recent developments, events, and achievements.
+We hope this reaches you well! Before the end of the year we would like to share again some recent developments, events, and achievements.
 
 # Updates
 
-- Since the last newsletter three additional paper have been submitted ([Rufibach et al., 2022](https://arxiv.org/abs/2206.05216), Englert et al., 2022, Mercier et al., 2022). See the [publications page](https://oncoestimand.github.io/oncowg_webpage/docs/publications.html) for details. With submission of this paper (and the work on the revision) the [follow-up quantification task force](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#21_Quantification_of_follow-up) has concluded its work.
 - We have updated the [events page](events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
 - On 21st October DIA held a webinar in China, with a talk by Jiajun Xu from the [conditional and marginal effect force](taskforces.html#conditional-vs.-marginal-effects). With a peak attendance of 4460 this likely sets a new record for a talk by this WG!
-- 15th November: Together with ASA NJ chapter the WG is co-organizing a webinar [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls
-](communication/20221202_ASA_NJ_TTF_estimands.pdf).
+- 2nd December: Together with ASA NJ chapter the WG co-organized a webinar [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls
+](communication/20221202_ASA_NJ_TTF_estimands.pdf). See also [Evgeny's linkedin post](https://www.linkedin.com/posts/evgeny-degtyarev-b149507b_drugdevelopment-epidemiology-estimand-activity-7004960385795506176-D9Vy?utm_source=share&utm_medium=member_desktop).
+- In December, the [Basel Biometrics Society](https://baselbiometrics.github.io/home/docs/) organized two half-day seminars on [Addressing intercurrent events: Treatment policy and hypothetical strategies](https://baselbiometrics.github.io/home/docs/events_past.html#joint-efspi-bbs-virtual-event---addressing-intercurrent-events-treatment-policy-and-hypothetical-strategies). Slides and recordings are available under this link.
+
+# Plans for 2023
+
+- Continue the work in the task forces.
+- We are also again planning check-in TCs with our global regulatory partners and will reach out to task forces in due time.
 
 # Action items for WG members
 - Please also share slidedecks or links to other material that we can add to the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html).
