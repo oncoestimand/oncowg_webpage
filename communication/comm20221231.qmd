@@ -24,11 +24,11 @@ We hope this reaches you well! Before the end of the year we would like to share
 
 # Updates
 
-- We have updated the [events page](events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
-- On 21st October DIA held a webinar in China, with a talk by Jiajun Xu from the [conditional and marginal effect force](taskforces.html#conditional-vs.-marginal-effects). With a peak attendance of 4460 this likely sets a new record for a talk by this WG!
+- We have updated the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/communication/events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
+- On 21st October DIA held a webinar in China, with a talk by Jiajun Xu from the [conditional and marginal effect force](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#conditional-vs.-marginal-effects). With a peak attendance of 4460 this likely sets a new record for a talk by this WG!
 - 2nd December: Together with ASA NJ chapter the WG co-organized a webinar [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls
-](communication/20221202_ASA_NJ_TTF_estimands.pdf). See also [Evgeny's linkedin post](https://www.linkedin.com/posts/evgeny-degtyarev-b149507b_drugdevelopment-epidemiology-estimand-activity-7004960385795506176-D9Vy?utm_source=share&utm_medium=member_desktop).
-- In December, the [Basel Biometrics Society](https://baselbiometrics.github.io/home/docs/) organized two half-day seminars on [Addressing intercurrent events: Treatment policy and hypothetical strategies](https://baselbiometrics.github.io/home/docs/events_past.html#joint-efspi-bbs-virtual-event---addressing-intercurrent-events-treatment-policy-and-hypothetical-strategies). Slides and recordings are available under this link.
+](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#asa-new-jersey-chapter-webinar-series-getting-the-question-right-applying-the-estimand-and-target-trial-frameworks-with-external-controls). See also [Evgeny's linkedin post](https://www.linkedin.com/posts/evgeny-degtyarev-b149507b_drugdevelopment-epidemiology-estimand-activity-7004960385795506176-D9Vy?utm_source=share&utm_medium=member_desktop).
+- In December, the [Basel Biometrics Society](https://baselbiometrics.github.io/home/docs/) organized two half-day seminars on "Addressing intercurrent events: Treatment policy and hypothetical strategies"]" Slides and recordings are available [day 1](https://baselbiometrics.github.io/home/docs/events_past.html#joint-efspi-bbs-virtual-event---addressing-intercurrent-events-treatment-policy-and-hypothetical-strategies) and [day 2]().
 
 # Plans for 2023
 
