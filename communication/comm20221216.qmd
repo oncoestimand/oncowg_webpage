@@ -34,6 +34,9 @@ We hope this reaches you well! Before the end of the year we would like to share
 
 - Continue the work in the task forces.
 - We are also again planning check-in TCs with our global regulatory partners and will reach out to task forces in due time.
+- At least two conference appearances are already planned:
+  - Talk at the [Duke Industry statistics symposium](https://oncoestimand.github.io/oncowg_webpage/docs/events_upcoming.html#duke-industry-statistics-symposium-2023).
+  - Entire invited session at the [PSI conference](https://oncoestimand.github.io/oncowg_webpage/docs/events_upcoming.html#psi-conference).
 
 # Action items for WG members
 - Please routinely share slidedecks or links to other material that we can add to the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html).
