@@ -1,5 +1,5 @@
 ---
-title: "Oncology estimand working group: newsletter December 2022"
+title: "Oncology estimand working group: newsletter 16th December 2022"
 output: 
   rmarkdown::html_document:
     highlight: pygments

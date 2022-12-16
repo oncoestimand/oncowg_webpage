@@ -13,6 +13,7 @@ bibliography: biblio.bib
 
 # 2022
 
+- 16th December: Latest [newsletter](communication/comm20221216.html) to the group.
 - 15th December: The WG has been granted an entire session at the [2023 PSI Conference](https://www.psiweb.org/conferences/about-the-conference) in London, see [here](events_upcoming.html#psi-conference) for the agenda.
 - 3rd December: Added slidedecks and link to recording of [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls](talks/20221202_ASA_NJ_TTF_estimands.pdf) to [events](events_past.html).
 - 29th November: Updated roster of [Time to event endpoints with prognostic or predictive biomarker subgroups task force](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups).
