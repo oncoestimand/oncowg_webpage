@@ -8,6 +8,7 @@ format:
     toc-location: left
     number-sections: true
     number-depth: 2
+bibliography: ../biblio.bib
 ---
 
 ```{r setup, include = FALSE, echo = FALSE}

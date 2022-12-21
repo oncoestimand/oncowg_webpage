@@ -1,0 +1,246 @@
+% Encoding: UTF-8
+
+@Article{rufibach_19,
+  author   = {Rufibach, Kaspar},
+  title    = {Treatment effect quantification for time-to-event endpoints -- Estimands, analysis strategies, and beyond},
+  journal  = {Pharmaceutical Statistics},
+  year     = {2019},
+  volume   = {18},
+  pages    = {144--164},
+  doi      = {10.1002/pst.1917},
+  eprint   = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/pst.1917},
+  keywords = {causal inference, censoring, estimand, randomized clinical trial, sensitivity analysis, time-to-event},
+  url      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/pst.1917},
+}
+
+@Article{ionan_22,
+  author    = {Alexei C. Ionan and Miya Paterniti and Devan V. Mehrotra and John Scott and Bohdana Ratitch and Sylva Collins and Shanti Gomatam and Lei Nie and Kaspar Rufibach and Frank Bretz},
+  journal   = {Statistics in Biopharmaceutical Research},
+  title     = {Clinical and Statistical Perspectives on the ICH E9(R1) Estimand Framework Implementation},
+  year      = {2022},
+  number    = {ja},
+  pages     = {1-12},
+  volume    = {0},
+  doi       = {10.1080/19466315.2022.2081601},
+  eprint    = {https://doi.org/10.1080/19466315.2022.2081601},
+  publisher = {Taylor & Francis},
+  url       = {https://doi.org/10.1080/19466315.2022.2081601},
+}
+
+@Article{lynggaard_22,
+  author  = {Lynggaard, Helle and Bell, James and L{\"o}sch, Christian and Besseghir, Amel and Rantell, Khadija and Schoder, Volker and Lanius, Vivian},
+  journal = {Trials},
+  title   = {Principles and recommendations for incorporating estimands into clinical study protocol templates},
+  year    = {2022},
+  issn    = {1745-6215},
+  month   = {Aug},
+  number  = {1},
+  pages   = {685},
+  volume  = {23},
+  day     = {19},
+  doi     = {10.1186/s13063-022-06515-2},
+  url     = {https://doi.org/10.1186/s13063-022-06515-2},
+}
+
+
+@Article{degtyarev_19,
+  author   = {Degtyarev, Evgeny and Zhang, Yiyun and Sen, Kapildeb and Lebwohl, David and Akacha, Mouna and Hampson, Lisa V. and Bornkamp, Bjoern and Maniero, Antonella and Bretz, Frank and Zuber, Emmanuel},
+  journal  = {JCO Precision Oncology},
+  title    = {Estimands and the Patient Journey: Addressing the Right Question in Oncology Clinical Trials},
+  year     = {2019},
+  number   = {3},
+  pages    = {1-10},
+  abstract = {The diversity of patient journeys can raise fundamental questions regarding the evaluation of drug effects in clinical trials to inform clinical practice. When defining the treatment effect of interest in a trial, the researcher needs to account for events occurring after treatment initiation, such as the start of a new therapy, before observing the end point. We review the newly introduced estimand framework to structure discussions on the relationship between patient journeys and the treatment effect of interest in oncology trials. In 2017, the International Council for Harmonization of Technical Requirements for Pharmaceuticals for Human Use released a draft addendum to its E9 guideline. The addendum introduces the concept of an estimand to precisely describe the treatment effect of interest. This estimand framework provides a structured approach to discuss how to account for intercurrent events that occur after random assignment and may affect the assessment or interpretation of the treatment effect. The framework is expected to improve coherence between trial objectives, design, analysis, and interpretation, as illustrated by examples in oncology disease settings. The estimand framework was applied to design a trial for a chimeric antigen receptor T-cell therapy. The treatment effect of interest was carefully defined considering the range of patient journeys expected for this particular indication and treatment. The trial design was developed accordingly to assess that treatment effect. All parties involved in the design of clinical trials need to consider possible patient journeys to define appropriate treatment effects and corresponding trial designs and analysis strategies. The estimand framework provides a common language to address the complexity introduced by varied patient journeys.},
+  doi      = {10.1200/PO.18.00381},
+  eprint   = {https://doi.org/10.1200/PO.18.00381},
+  url      = {https://doi.org/10.1200/PO.18.00381},
+}
+
+@Article{bornkamp_19,
+  author    = {Bornkamp, Bj{\"o}rn and Bermann, Georgina},
+  title     = {Estimating the treatment effect in a subgroup defined by an early post-baseline biomarker measurement in randomized clinical trials with time-to-event endpoint},
+  journal   = {Statistics in Biopharmaceutical Research},
+  year      = {2019},
+  pages     = {1--17},
+  publisher = {Taylor \& Francis},
+}
+
+@Article{magnusson_19,
+  author   = {Magnusson, Baldur P. and Schmidli, Heinz and Rouyrre, Nicolas and Scharfstein, Daniel O.},
+  title    = {Bayesian inference for a principal stratum estimand to assess the treatment effect in a subgroup characterized by postrandomization event occurrence},
+  journal  = {Statistics in Medicine},
+  year     = {2019},
+  volume   = {38},
+  number   = {23},
+  pages    = {4761-4771},
+  abstract = {The treatment effect in subgroups of patients is often of interest in randomized controlled clinical trials, as this may provide useful information on how to treat which patients best. When a specific subgroup is characterized by the absence of certain events that happen postrandomization, a naive analysis on the subset of patients without these events may be misleading. The principal stratification framework allows one to define an appropriate causal estimand in such settings. Statistical inference for the principal stratum estimand hinges on scientifically justified assumptions, which can be included with Bayesian methods through prior distributions. Our motivating example is a large randomized placebo-controlled trial of siponimod in patients with secondary progressive multiple sclerosis. The primary objective of this trial was to demonstrate the efficacy of siponimod relative to placebo in delaying disability progression for the whole study population. However, the treatment effect in the subgroup of patients who would not relapse during the trial is relevant from both a scientific and patient perspective. Assessing this subgroup treatment effect is challenging as there is strong evidence that siponimod reduces relapses. We describe in detail the scientific question of interest, the principal stratum estimand, the corresponding analysis method for binary endpoints, and sensitivity analyses. Although our work is motivated by a randomized clinical trial, the approach has broader appeal and could be adapted for observational studies.},
+  doi      = {10.1002/sim.8333},
+  eprint   = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.8333},
+  keywords = {Bayesian analysis, causal inference, clinical trial, estimand, identification, subgroup},
+  url      = {https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.8333},
+}
+
+@Article{akacha_17,
+  author  = {Akacha, M. and Bretz, F. and Ruberg, S.},
+  title   = {{{E}stimands in clinical trials - broadening the perspective}},
+  journal = {Stat Med},
+  year    = {2017},
+  volume  = {36},
+  number  = {1},
+  pages   = {5--19},
+  month   = {Jan},
+}
+
+@Article{holzhauer_15,
+  author    = {Holzhauer, B. and Akacha, M. and Bermann, G.},
+  title     = {Choice of estimand and analysis methods in diabetes trials with rescue medication},
+  journal   = {Pharm. Stat.},
+  year      = {2015},
+  volume    = {14},
+  number    = {6},
+  pages     = {433--447},
+  issn      = {1539-1612},
+  owner     = {rufiback},
+  timestamp = {2015.10.08},
+}
+
+@Article{leuchs_15,
+  author  = {Leuchs, Ann-Kristin and Zinserling, Jörg and Brandt, Andreas and Wirtz, Dorothee and Benda, Norbert},
+  title   = {Choosing Appropriate Estimands in Clinical Trials},
+  journal = {Therapeutic Innovation \& Regulatory Science},
+  year    = {2015},
+}
+
+@Article{leuchs_17,
+  author  = {Leuchs, A. K. and Brandt, A. and Zinserling, J. and Benda, N.},
+  title   = {{{D}isentangling estimands and the intention-to-treat principle}},
+  journal = {Pharm Stat},
+  year    = {2017},
+  volume  = {16},
+  number  = {1},
+  pages   = {12--19},
+  month   = {Jan},
+}
+
+@Article{mallinckrodt_12,
+  author    = {Mallinckrodt, C. H. and Lin, Q. and Lipkovich, I. and Molenberghs, G.},
+  title     = {{{A} structured approach to choosing estimands and estimators in longitudinal clinical trials}},
+  journal   = {Pharm. Stat.},
+  year      = {2012},
+  volume    = {11},
+  number    = {6},
+  pages     = {456--461},
+  owner     = {rufiback},
+  timestamp = {2015.08.19},
+}
+
+@Electronic{iche9r1,
+  author       = {{ICH E9 working group}},
+  month        = {8},
+  year         = {2019},
+  title        = {{ICH E9 (R1): addendum on estimands and sensitivity analysis in clinical trials to the guideline on statistical principles for clinical trials}},
+  organization = {International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use},
+  url          = {https://database.ich.org/sites/default/files/E9_Guideline.pdf},
+}
+
+@Article{mehrotra_16,
+  author  = {Mehrotra, D. V. and Hemmings, R. J. and Russek-Cohen, E.},
+  title   = {{{S}eeking harmony: estimands and sensitivity analyses for confirmatory clinical trials}},
+  journal = {Clin Trials},
+  year    = {2016},
+  volume  = {13},
+  number  = {4},
+  pages   = {456--458},
+  month   = {Aug},
+}
+
+@Article{scharfstein_19,
+  author          = {Scharfstein, Daniel O},
+  title           = {A constructive critique of the draft ICH E9 Addendum.},
+  journal         = {Clinical trials (London, England)},
+  year            = {2019},
+  volume          = {16},
+  pages           = {375--380},
+  month           = aug,
+  issn            = {1740-7753},
+  abstract        = {In this article, I review the key elements of the proposed International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use E9 Addendum, present a constructive critique, and provide recommendations of how it can be improved. To highlight ideas, I present a case study involving a confirmatory trial for a chronic pain medication.},
+  citation-subset = {IM},
+  country         = {England},
+  doi             = {10.1177/1740774519853566},
+  issn-linking    = {1740-7745},
+  issue           = {4},
+  keywords        = {Estimand; intention-to-treat; pain; sensitivity analysis; treatment strategy},
+  nlm-id          = {101197451},
+  owner           = {NLM},
+  pmid            = {31184495},
+  pubmodel        = {Print-Electronic},
+  pubstatus       = {ppublish},
+  revised         = {2019-07-29},
+}
+
+@Article{hernan_18,
+  author  = {Hernan, M. A. and Scharfstein, D.},
+  title   = {{{C}autions as {R}egulators {M}ove to {E}nd {E}xclusive {R}eliance on {I}ntention to {T}reat}},
+  journal = {Ann. Intern. Med.},
+  year    = {2018},
+  month   = {Mar},
+}
+
+
+
+@Article{aroda_19,
+  author       = {Aroda, V. R. and Saugstrup, T. and Buse, J. B. and Donsmark, M. and Zacho, J. and Davies, M. J.},
+  title        = {{{I}ncorporating and interpreting regulatory guidance on estimands in diabetes clinical trials: {T}he {P}{I}{O}{N}{E}{E}{R} 1 randomized clinical trial as an example}},
+  number       = {10},
+  pages        = {2203--2210},
+  volume       = {21},
+  date         = {2019},
+  journaltitle = {Diabetes Obes Metab},
+}
+
+
+
+
+@Article{sun_20,
+  author  = {Sun, S. and Weber, J. and Butler, E. and Rufibach, K. and Roychoudhury, S.},
+  title   = {Estimands in Hematology Trials},
+  journal = {Pharm. Stat., to appear.},
+  year    = {2021},
+  url     = {https://arxiv.org/abs/2010.00957},
+}
+
+
+
+
+@Article{casey_21,
+  author       = {Casey, Michelle and Degtyarev, Evgeny and Lechuga, Maria Jose and Aimone, Paola and Ravaud, Alain and Motzer, Robert J. and Liu, Feng and Stalbovskaya, Viktoriya and Tang, Rui and Butler, Emily and Sailer, Oliver and Halabi, Susan and George, Daniel},
+  title        = {Estimand framework: Are we asking the right questions? A case study in the solid tumor setting},
+  number       = {2},
+  pages        = {324-334},
+  volume       = {20},
+  date         = {2021},
+  doi          = {https://doi.org/10.1002/pst.2079},
+  journaltitle = {Pharmaceutical Statistics},
+}
+
+
+
+@Article{lawrance_20,
+  author  = {Lawrance, Rachael and Degtyarev, Evgeny and Griffiths, Philip and Trask, Peter and Lau, Helen and D'Alessio, Denise and Griebsch, Ingolf and Wallenstein, Gudrun and Cocks, Kim and Rufibach, Kaspar},
+  title   = {What is an estimand \& how does it relate to quantifying the effect of treatment on patient-reported quality of life outcomes in clinical trials?},
+  doi     = {10.1186/s41687-020-00218-5},
+  issue   = {1},
+  pages   = {68},
+  volume  = {4},
+  journal = {J Patient Rep Outcomes},
+  year    = {2020},
+}
+
+@Article{Weber_2023a,
+  author  = {Weber, H.J. and Corson, S. and Li, J. and Mercier, F. and Roychoudhury, S. and Sailer, M.O. and Sun, S. and Todd, A. and Yung, G.},
+  journal = {Submitted},
+  title   = {Duration of and time to response in oncology clinical trials from the perspective of the estimand framework},
+  year    = {2023},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
