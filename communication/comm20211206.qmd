@@ -1,13 +1,13 @@
 ---
 title: "Oncology estimand working group: newsletter 6th December 2021"
-output: 
-  rmarkdown::html_document:
-    highlight: pygments
-    number_sections: yes
-    self_contained: yes
-    toc: no
-    toc_depth: 3
-    toc_float: yes
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-title: Contents
+    toc-location: left
+    number-sections: true
+    number-depth: 2
 ---
 
 ```{r setup, include = FALSE, echo = FALSE}

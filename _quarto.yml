@@ -18,6 +18,7 @@ project:
     - status.qmd
     - taskforces.qmd
     - communication/
+    - code.qmd
 
 website:
   title: "Oncology Estimand WG"
@@ -46,6 +47,8 @@ website:
       href: ha.html
     - text: "Publications"
       href: publications.html
+    - text: "Code"
+      href: code.html
     - text: "Events"
       menu:
         - text: "Upcoming events"

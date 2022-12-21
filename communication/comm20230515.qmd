@@ -1,0 +1,39 @@
+---
+title: "Oncology estimand working group: newsletter DATE"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-title: Contents
+    toc-location: left
+    number-sections: true
+    number-depth: 2
+---
+
+```{r setup, include = FALSE, echo = FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hi all,
+
+We hope this reaches you well! Before the end of the year we would like to share again some recent developments, events, and achievements.
+
+# Updates
+
+- Since the last newsletter the following publications have been submitted:
+  - @weber_23, including [code](https://oncoestimand.github.io/dor/dor.html).
+- We have updated the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
+
+# Action items for WG members
+- Please routinely share slidedecks or links to other material that we can add to the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html).
+ 
+You are invited to share the link to this newsletter broadly. To conclude, we invite you to regularly check out our webpage: [www.oncoestimand.org](http://www.oncoestimand.org).
+
+Kind Regards,<br>
+Evgeny & Kaspar
+
+# References
