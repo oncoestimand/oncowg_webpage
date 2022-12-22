@@ -32,6 +32,4 @@ Here we list the publications that the group has written or contributed to.
 * Liu, Y., Yang, M., Kil, S., Li, J., Mondal, S., Shentu, Y., Tian, H., Wang, L., Yung, G. _From logic-respecting efficacy estimands to logic-ensuring analysis principle for time-to-event endpoint in randomized clinical trials with subgroups._ (2022). Submitted. 
 * Englert, S., Mercier, F., Pilling, E. A., Homer, V., Habermehl, C., Kan-Dobrosky, N. _Defining estimands for efficacy assessment in single arm Phase 1b or Phase 2 clinical trials in oncology early development._ (2022). Submitted.
 * Mercier, F., Homer, V., Geng, J., Zhang, H., Englert, S., Kan-Dobrosky, N. _Estimands in oncology early clinical development: Assessing the impact of intercurrent events on the dose-toxicity relationship._ (2022). Submitted.
-* Weber, H. J., S. Corson, J. Li, F. Mercier, S. Roychoudhury, M. O. Sailer, S. Sun, A. Todd, and G. Yung. _Duration of and Time to Response in Oncology Clinical Trials from the Perspective of the Estimand Framework._ (2023). Submitted. | [github](https://github.com/oncoestimand/dor) | [markdown](https://oncoestimand.github.io/dor/dor.html) |
-
-
+* Weber, H. J., Corson, S., Li, J., Mercier, F., Roychoudhury, S., Sailer, M. O., Sun, S., Todd, A., Yung, G. _Duration of and time to response in oncology clinical trials from the perspective of the estimand framework._ (2023). Submitted. | [arXiv](https://arxiv.org/abs/2212.10911) | [github](https://github.com/oncoestimand/dor) | [markdown](https://oncoestimand.github.io/dor/dor.html) |
