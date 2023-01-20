@@ -48,7 +48,7 @@ The group continues to be an influential player in the global discussion on esti
   - An entire session organized by the SIG at the [PSI conference](events_past.html#psi-annual-conference).
   - The SIG organized two sessions at the [ASA FDA workshop](https://ww2.amstat.org/meetings/biop/2022/) ("Adjusted and Unadjusted Estimate in Clinical Trials: Reward, Risk and Myth" and "Estimands in Oncology: A Topical Panel Discussion"), see [events page](events_past.html#asa-biopharmaceutical-section-regulatory-industry-statistics-workshop).
   - DIA held a webinar in China, with a talk by Jiajun Xu from the [conditional and marginal effect force](taskforces.html#conditional-vs.-marginal-effects). With a peak attendance of 4460 colleagues this likely sets a new record for a talk by this WG!
-  - Together with ASA NJ chapter the WG is co-organizing a webinar [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls
+  - Together with ASA NJ chapter the WG co-organized a webinar [ASA New Jersey Chapter Webinar Series: Getting the question right: Applying the Estimand and Target Trial Frameworks with External Controls
 ](communication/20221202_ASA_NJ_TTF_estimands.pdf).
 - On June 28th & 29th we had two full group TCs with regulators attending where we presented our work. Slidedecks are available [here](ha.html).
 - [eunethta](https://www.eunethta.eu/) is currently seeking comments for their set of guidelines for a joint clinical assessment of European HTA bodies. Several of the WG's papers were cited in [EFPIA's response to deliverable 4.5](https://www.eunethta.eu/d4-5/).
