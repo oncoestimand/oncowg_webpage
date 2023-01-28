@@ -46,7 +46,23 @@ taskforces <- c("Clinical", "PS_switch", "PRO", "DOR", "FU", "RWD", "CondMarg", 
 taskforces_names <- c("Estimands engagement", "Principal stratification in clinical trials", "Patient-reported outcomes", "Duration of responses", "Quantification of follow-up", "Real-world data and estimands", "Conditional vs. marginal effects", "Time to event endpoints with prognostic or predictive biomarker subgroups", "Early development estimand nexus (EDEN)", "Estimands for Safety")
 ```
 
-# Active task forces
+# Task forces that are active and take new members
+
+```{r, label = "activenew", echo = FALSE, message = FALSE, warning = FALSE, results = "asis"}
+# how to do this with child documents: https://gist.github.com/rmoff/a043676a2f084b81a434
+out2 <- NULL
+for (i in 1:length(taskforces)){
+  
+  if (active[i] == 2){
+    out2 <- c(out2, knit_expand('tools/taskforce.Rmd'))
+  }
+}
+
+# the "knit" command somehow produces unwanted output, this is why I assign its output to a and use a separate chunk to display a
+cat(knit(text = unlist(paste(out2, collapse = '\n')), quiet = TRUE))
+```
+
+# Task forces that are active but do not take any new members
 
 ```{r, label = "active", echo = FALSE, message = FALSE, warning = FALSE, results = "asis"}
 # how to do this with child documents: https://gist.github.com/rmoff/a043676a2f084b81a434
@@ -55,7 +71,6 @@ for (i in 1:length(taskforces)){
   
   if (active[i] == 1){
     out2 <- c(out2, knit_expand('tools/taskforce.Rmd'))
-    if (i == 3){out2[[3]] <- paste(knit_expand('tools/taskforce.Rmd'), "[2021 summary on backfitting MMRM](talks/other/PRO TF (2021) Backfitting MMRM.pdf)", sep = "")}
   }
 }
 
@@ -63,7 +78,7 @@ for (i in 1:length(taskforces)){
 cat(knit(text = unlist(paste(out2, collapse = '\n')), quiet = TRUE))
 ```
 
-# Task forces that have concluded their work
+# Task forces that have concluded their work (apart from ongoing paper revisions)
 
 ```{r, label = "inactive", echo = FALSE, message = FALSE, warning = FALSE, results = "asis"}
 # how to do this with child documents: https://gist.github.com/rmoff/a043676a2f084b81a434

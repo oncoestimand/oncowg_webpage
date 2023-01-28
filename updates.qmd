@@ -11,6 +11,12 @@ output:
 bibliography: biblio.bib
 ---
 
+# 2023
+
+- 30th January: 
+  - Updated status of [task forces](taskforces.html).
+  - The group will give an invited talk around the topic of estimands at the [Nordic lymphoma meeting](http://www.nordic-lymphoma.org/plenary-meeting/) in November. 
+
 # 2022
 
 - 21th December: The [duration of response](https://oncoestimand.github.io/oncowg_webpage/docs/taskforces.html#duration-of-responses) has submitted a paper including [code](https://oncoestimand.github.io/dor/dor.html). See [publications](publications.html#submitted).
