@@ -11,7 +11,7 @@ i <- as.numeric('{{i}}')
 **Objective**: `r obj(tolower(taskforces[i]))`
 
 ```{r, echo = FALSE, results = 'asis', message = FALSE}
-t0 <- (email %>% filter(Type == "Industry") %>% arrange(Location, Institution))
+t0 <- (email %>% filter(Type %in% c("Industry", "Regulator")) %>% arrange(Location, Institution))
 t1 <- (t0[is.na(t0[, taskforces[i]]) == FALSE, ] %>% select(Firstname, Lastname, Institution, Location))
 rownames(t1) <- NULL
 kable(t1) 
