@@ -1,0 +1,49 @@
+---
+title: "Collaborations"
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+bibliography: biblio.bib
+---
+
+```{r setup, include=FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+
+knitr::opts_chunk$set(echo = TRUE)
+panderOptions('table.alignment.default', function(df){ifelse(sapply(df, is.numeric), 'right', 'left')})
+
+path <- getwd()
+```
+
+# Membership in scientific organizations
+
+See [here](https://oncoestimand.github.io/oncowg_webpage/docs/#membership-in-professional-organizations).
+
+# Collaboration with Health Authorities
+
+See [here](ha.html).
+
+# Estimand implementation working group
+
+The working group closely collaborates with the [EFSPI/EFPIA Estimands Implementation WG (EIWG)](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx) to implement estimands in drug development by collaborating with non-statistical partner functions. Stefan Englert is a member of both working groups and leads that collaboration.
+
+# PHUSE
+
+The [safety taskforce](taskforces.html#estimands-for-safety) is a formal joint venture between the working group and [PHUSE](https://phuse.global/), and the [safety taskforce](taskforces.html#estimands-for-safety) is a formal part of the [PHUSE](https://phuse.global/) organizational structure, see [here](https://advance.phuse.global/pages/viewpage.action?pageId=37226675). Jonathan Siegel is leading this collaboration.
+
+# ASA LIDS section
+
+The [censoring mechanism subteam](taskforces.html#censoring) with the [ASA LIDS section](https://community.amstat.org/lids/home). Although the oncology estimand WG is as a whole affiliated with the [BIOP section](https://community.amstat.org/biop/home), the [censoring mechanism subteam](taskforces.html#censoring) had previously established a relationship with the [ASA LIDS section](https://community.amstat.org/lids/home). Jonathan Siegel is leading this collaboration.
+
+
+The collaboration continues to bear fruit. For example, the “Time-to-event Estimands in Oncology” session at the upcoming LIDS 2023 conference is a direct result of the collaboration, as is Richard Cook’s periodic involvement in various EOI conference sessions and panels over the years. (Richard will be the discussant for our session at LIDS).
+
+
+

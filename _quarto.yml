@@ -19,6 +19,7 @@ project:
     - taskforces.qmd
     - communication/
     - code.qmd
+    - collaborations.qmd
 
 website:
   title: "Oncology Estimand WG"
@@ -39,6 +40,8 @@ website:
           href: status.html
         - text: "Organization"
           href: organization.html
+        - text: "Collaborations"
+          href: collaborations.html
         - text: "Achievements per year"
           href: achievements.html
     - text: "Task forces"
