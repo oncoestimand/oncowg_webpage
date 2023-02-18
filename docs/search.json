@@ -109,7 +109,7 @@
     "href": "status.html",
     "title": "Status",
     "section": "",
-    "text": "has 98 members (37 from Europe, 51 from US, and 10 from Asia) representing 48 companies / institutions,\nregularly interacts with eight Health Authorities globally,\nregularly organizes sessions and presents at conferences,\nhas started to interact with academic colleagues."
+    "text": "has 99 members (37 from Europe, 52 from US, and 10 from Asia) representing 48 companies / institutions,\nregularly interacts with eight Health Authorities globally,\nregularly organizes sessions and presents at conferences,\nhas started to interact with academic colleagues."
   },
   {
     "objectID": "taskforces.html",
@@ -151,7 +151,7 @@
     "href": "taskforces.html#time-to-event-endpoints-with-prognostic-or-predictive-biomarker-subgroups",
     "title": "Task forces",
     "section": "Time to event endpoints with prognostic or predictive biomarker subgroups",
-    "text": "Time to event endpoints with prognostic or predictive biomarker subgroups\nLead: Hong Tian (Beigene), Miao Yang (Seagen)\nObjective: Our goal is to understand various efficacy estimands of biomarker subgroups and its relationship to the overall population for binary and time-to-event endpoints. For continuous outcomes with difference of means as efficacy estimand, Least Square estimates from the full model containing treatment, subgroup, and its interaction term enable an unbiased estimation of efficacy for the overall population by linearly combining estimands of the two subgroups. Following the same process for binary or time-to-event efficacy estimands such as hazard ratio or odds ratio, although guaranteeing logical inference in appearance, does not lead to the correct efficacy estimand of the overall population. In fact, the correct HR (or OR) may be outside of the interval of subgroup HRs (or ORs) leading to illogical interpretations. The task force will investigate which efficacy measures are logic respecting on the population level and make recommendations on how to analyze real clinical trial data so that analysis results based on these efficacy measures will always be logical for either prognostic or predictive biomarkers.\n\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nSiyoen\nKil\nLSK Global Pharma Services\nAsia\n\n\nHong\nSun\nBMS\nEurope\n\n\nMin-Hua\nJen\nLilly\nEurope\n\n\nShoubhik\nMondal\nAstraZeneca\nNorAm\n\n\nHong\nTian\nBeigene\nNorAm\n\n\nYue\nShentu\nDaiichi Sankyo\nNorAm\n\n\nLiwei\nWang\nGenmab\nNorAm\n\n\nYi\nLiu\nNektar\nNorAm\n\n\nWenchuan\nGuo\nSeagen\nNorAm\n\n\nMiao\nYang\nSeagen\nNorAm"
+    "text": "Time to event endpoints with prognostic or predictive biomarker subgroups\nLead: Hong Tian (Beigene), Miao Yang (Seagen)\nObjective: Our goal is to understand various efficacy estimands of biomarker subgroups and its relationship to the overall population for binary and time-to-event endpoints. For continuous outcomes with difference of means as efficacy estimand, Least Square estimates from the full model containing treatment, subgroup, and its interaction term enable an unbiased estimation of efficacy for the overall population by linearly combining estimands of the two subgroups. Following the same process for binary or time-to-event efficacy estimands such as hazard ratio or odds ratio, although guaranteeing logical inference in appearance, does not lead to the correct efficacy estimand of the overall population. In fact, the correct HR (or OR) may be outside of the interval of subgroup HRs (or ORs) leading to illogical interpretations. The task force will investigate which efficacy measures are logic respecting on the population level and make recommendations on how to analyze real clinical trial data so that analysis results based on these efficacy measures will always be logical for either prognostic or predictive biomarkers.\n\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nSiyoen\nKil\nLSK Global Pharma Services\nAsia\n\n\nHong\nSun\nBMS\nEurope\n\n\nMin-Hua\nJen\nLilly\nEurope\n\n\nFrancois\nMercier\nRoche\nEurope\n\n\nShoubhik\nMondal\nAstraZeneca\nNorAm\n\n\nHong\nTian\nBeigene\nNorAm\n\n\nYue\nShentu\nDaiichi Sankyo\nNorAm\n\n\nHaiming\nZhou\nDaiichi Sankyo\nNorAm\n\n\nLiwei\nWang\nGenmab\nNorAm\n\n\nYi\nLiu\nNektar\nNorAm\n\n\nWenchuan\nGuo\nSeagen\nNorAm\n\n\nMiao\nYang\nSeagen\nNorAm"
   },
   {
     "objectID": "taskforces.html#real-world-data-and-estimands",
@@ -187,6 +187,41 @@
     "title": "Task forces",
     "section": "Early development estimand nexus (EDEN)",
     "text": "Early development estimand nexus (EDEN)\nLead: Francois Mercier (Roche)\nObjective: In oncology Phase 1a (dose-escalation) and Phase 1b (expansion cohort) studies, the designs are complex because the objectives are often multiple and ambitious. Defining estimands and the associated estimators in this setting can be difficult. In this WG, we intend to implement the ICH-E9 addendum and to reflect on the challenges it presents in early clinical development studies. Such challenges may include: (1) absence of control group (2) varying dose, but also dosing schedule across treatment arms (a.k.a. cohorts) (3) presence of anti-drug antibody (ADA) (4) prophylactic treatment or co-medication for toxicity mitigation (e.g. using steroids) (5) compassionate within-patient dose escalation. The taskforce will give clinically relevant opinions and recommendations based on our analysis and interpretation of the selected case studies. Contact to other task forces will be sought based on need.\n\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nElizabeth\nPilling\nAstraZeneca\nEurope\n\n\nStefan\nEnglert\nJ&J\nEurope\n\n\nChristina\nHabermehl\nMerck\nEurope\n\n\nAnja\nVictor\nMerck\nEurope\n\n\nFrancois\nMercier\nRoche\nEurope\n\n\nNatalia\nKan-Dobrosky\nAbbvie\nNorAm\n\n\nAtalanta\nGhosh\nBMS\nNorAm\n\n\nJunxian\nGeng\nBoehringer\nNorAm\n\n\nHongtao\nZhang\nMerck\nNorAm\n\n\nGuillaume\nLecorps\nSanofi\nNorAm\n\n\nXiaojiang\nZhan\nServier\nNorAm"
+  },
+  {
+    "objectID": "taskforces.html#treatment-switching",
+    "href": "taskforces.html#treatment-switching",
+    "title": "Task forces",
+    "section": "Treatment Switching",
+    "text": "Treatment Switching\nLead: Viktoriya Stalbovskaya (Merus)\nObjective: Subteam that looked into treatment switching. Published paper, see publications.\n\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nJianhong\nPan\nChina\nAsia\n\n\nJun\nWang\nChina\nAsia\n\n\nYuki\nAndo\nJapan\nAsia\n\n\nAyako\nHara\nJapan\nAsia\n\n\nNaoto\nKotani\nJapan\nAsia\n\n\nXin\nZhang\nPfizer\nAsia\n\n\nGuei-Feng\nTsai\nTaiwan\nAsia\n\n\nHong\nSun\nBMS\nEurope\n\n\nMarie-Laure\nCasadebaig\nIncyte\nEurope\n\n\nMin-Hua\nJen\nLilly\nEurope\n\n\nViktoriya\nStalbovskaya\nMerus\nEurope\n\n\nAnja\nSchiel\nNorway\nEurope\n\n\nEvgeny\nDegtyarev\nNovartis\nEurope\n\n\nHannes\nBuchner\nStaburo\nEurope\n\n\nNatalia\nKan-Dobrosky\nAbbvie\nNorAm\n\n\nCatherine\nNjue\nCanada\nNorAm\n\n\nYue\nShentu\nDaiichi Sankyo\nNorAm\n\n\nJuliane\nManitz\nEMD Serono\nNorAm\n\n\nEmily\nMartin\nEMD Serono\nNorAm\n\n\nJiangxiu\nZhou\nJ&J\nNorAm\n\n\nGodwin\nYung\nRoche\nNorAm\n\n\nWenchuan\nGuo\nSeagen\nNorAm\n\n\nRui\nTang\nServier\nNorAm"
+  },
+  {
+    "objectID": "taskforces.html#causal-estimands",
+    "href": "taskforces.html#causal-estimands",
+    "title": "Task forces",
+    "section": "Causal estimands",
+    "text": "Causal estimands\nLead: Kaspar Rufibach (Roche)\nObjective: Subteam that looked into how to merge causal inference with the ICH E9 addendum. Published a paper on the principal stratum strategy, see publications.\n\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nJianhong\nPan\nChina\nAsia\n\n\nJun\nWang\nChina\nAsia\n\n\nYuki\nAndo\nJapan\nAsia\n\n\nAyako\nHara\nJapan\nAsia\n\n\nNaoto\nKotani\nJapan\nAsia\n\n\nGuei-Feng\nTsai\nTaiwan\nAsia\n\n\nAndreas\nBrandt\nGermany\nEurope\n\n\nAlan\nPhillips\nICON\nEurope\n\n\nMarie-Laure\nCasadebaig\nIncyte\nEurope\n\n\nAn\nVandebosch\nJ&J\nEurope\n\n\nAnja\nSchiel\nNorway\nEurope\n\n\nBjörn\nBornkamp\nNovartis\nEurope\n\n\nKaspar\nRufibach\nRoche\nEurope\n\n\nCatherine\nNjue\nCanada\nNorAm\n\n\nYue\nShentu\nDaiichi Sankyo\nNorAm\n\n\nEmily\nMartin\nEMD Serono\nNorAm\n\n\nFeng\nLiu\nFate Therapeutics\nNorAm\n\n\nDevan\nMehrotra\nMerck\nNorAm\n\n\nYi\nLiu\nNektar\nNorAm\n\n\nSatrajit\nRoychoudhury\nPfizer\nNorAm\n\n\nAudrey\nBoruvka\nRoche\nNorAm\n\n\nJianchang\nLin\nTakeda\nNorAm"
+  },
+  {
+    "objectID": "taskforces.html#censoring",
+    "href": "taskforces.html#censoring",
+    "title": "Task forces",
+    "section": "Censoring",
+    "text": "Censoring\nLead: Jonathan Siegel (Bayer)\nObjective: Subteam that looked into how to embed censoring into the ICH E9 addendum framework. Two papers currently under review, see publications.\n\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nJianhong\nPan\nChina\nAsia\n\n\nJun\nWang\nChina\nAsia\n\n\nYuki\nAndo\nJapan\nAsia\n\n\nAyako\nHara\nJapan\nAsia\n\n\nNaoto\nKotani\nJapan\nAsia\n\n\nXin\nZhang\nPfizer\nAsia\n\n\nGuei-Feng\nTsai\nTaiwan\nAsia\n\n\nLynda\nGrinsted\nAstraZeneca\nEurope\n\n\nAndreas\nBrandt\nGermany\nEurope\n\n\nStefan\nEnglert\nJ&J\nEurope\n\n\nAnja\nSchiel\nNorway\nEurope\n\n\nHans-Jochen\nWeber\nNovartis\nEurope\n\n\nKaspar\nRufibach\nRoche\nEurope\n\n\nNatalia\nKan-Dobrosky\nAbbvie\nNorAm\n\n\nShoubhik\nMondal\nAstraZeneca\nNorAm\n\n\nJonathan\nSiegel\nBayer\nNorAm\n\n\nCatherine\nNjue\nCanada\nNorAm\n\n\nSteven\nSun\nJ&J\nNorAm\n\n\nJiangxiu\nZhou\nJ&J\nNorAm"
+  },
+  {
+    "objectID": "taskforces.html#hematology",
+    "href": "taskforces.html#hematology",
+    "title": "Task forces",
+    "section": "Hematology",
+    "text": "Hematology\nLead: Evgeny Degtyarev (Novartis)\nObjective: Subteam that looked into estimands for solid tumors. Published paper, see publications.\n\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nJianhong\nPan\nChina\nAsia\n\n\nJun\nWang\nChina\nAsia\n\n\nYuki\nAndo\nJapan\nAsia\n\n\nAyako\nHara\nJapan\nAsia\n\n\nNaoto\nKotani\nJapan\nAsia\n\n\nGuei-Feng\nTsai\nTaiwan\nAsia\n\n\nMartin-Oliver\nSailer\nBoehringer\nEurope\n\n\nViktoriya\nStalbovskaya\nMerus\nEurope\n\n\nAnja\nSchiel\nNorway\nEurope\n\n\nEvgeny\nDegtyarev\nNovartis\nEurope\n\n\nCatherine\nNjue\nCanada\nNorAm\n\n\nFeng\nLiu\nFate Therapeutics\nNorAm\n\n\nRui\nTang\nServier\nNorAm"
+  },
+  {
+    "objectID": "taskforces.html#solid-tumors",
+    "href": "taskforces.html#solid-tumors",
+    "title": "Task forces",
+    "section": "Solid tumors",
+    "text": "Solid tumors\nLead: Steven Sun (J&J)\nObjective: Subteam that looked into estimands in hematology indications. Published paper, see publications.\n\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nJianhong\nPan\nChina\nAsia\n\n\nJun\nWang\nChina\nAsia\n\n\nYuki\nAndo\nJapan\nAsia\n\n\nAyako\nHara\nJapan\nAsia\n\n\nNaoto\nKotani\nJapan\nAsia\n\n\nGuei-Feng\nTsai\nTaiwan\nAsia\n\n\nLucy\nDeCosta\nAmgen\nEurope\n\n\nViktoriya\nStalbovskaya\nMerus\nEurope\n\n\nAnja\nSchiel\nNorway\nEurope\n\n\nHans-Jochen\nWeber\nNovartis\nEurope\n\n\nKaspar\nRufibach\nRoche\nEurope\n\n\nCatherine\nNjue\nCanada\nNorAm\n\n\nSteven\nSun\nJ&J\nNorAm\n\n\nSatrajit\nRoychoudhury\nPfizer\nNorAm"
   },
   {
     "objectID": "communication/comm20210917.html",

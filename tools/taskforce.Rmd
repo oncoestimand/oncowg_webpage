@@ -6,7 +6,7 @@ i <- as.numeric('{{i}}')
 
 ## `r taskforces_names[i]`
 
-**Lead**: `r lead(tolower(taskforces[i]))`
+**Lead**: `r lead(tolower(taskforces[i]), active = active[i])`
 
 **Objective**: `r obj(tolower(taskforces[i]))`
 
