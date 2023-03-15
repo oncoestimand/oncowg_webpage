@@ -13,6 +13,7 @@ bibliography: biblio.bib
 
 # 2023
 
+- 15th March: The [paper on quantification of follow-up](https://arxiv.org/abs/2206.05216) has been accepted by Pharmaceutical statistics.
 - 30th January: 
   - Updated status of [task forces](taskforces.html).
   - The group will give an invited talk around the topic of estimands at the [Nordic lymphoma meeting](http://www.nordic-lymphoma.org/plenary-meeting/) in November. 
