@@ -1,5 +1,6 @@
 ---
 title: "Interactions with Health Authorities and the ICH E9(R1) working group"
+date: last-modified
 output: 
   rmarkdown::html_document:
     highlight: pygments

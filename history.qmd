@@ -1,5 +1,6 @@
 ---
 title: "History of the working group"
+date: last-modified
 output: 
   rmarkdown::html_document:
     highlight: pygments
