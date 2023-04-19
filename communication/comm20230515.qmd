@@ -25,8 +25,11 @@ We hope this reaches you well! Before the end of the year we would like to share
 
 # Updates
 
-- Since the last newsletter the following publications have been submitted:
+- Since the last newsletter the following publications have been **submitted**:
   - @weber_23, including [code](https://oncoestimand.github.io/dor/dor.html).
+- Since the last newsletter the following publications have been **accepted**:
+  - @rufibach_23fu .
+  - @liu_23logic .
 - We have updated the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
 
 # Action items for WG members
