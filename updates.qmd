@@ -14,6 +14,7 @@ bibliography: biblio.bib
 
 # 2023
 
+- 21th April: Added slides and recordings of BBS seminar [Quantification of risk: ask the right questions or time to apply the estimand framework to safety!](https://baselbiometrics.github.io/home/docs/events_past.html#quantification-of-risk-ask-the-right-questions-or-time-to-apply-the-estimand-framework-to-safety) to [past events page](events_past.html).
 - 19th April: The [paper on Logic-Respecting Efficacy Estimands](https://doi.org/10.1080/19466315.2023.2186945) has been accepted by Statistics in Biopharmaceutical Research.
 - 15th March: The [paper on quantification of follow-up](https://arxiv.org/abs/2206.05216) has been accepted by Pharmaceutical Statistics.
 - 30th January: 
