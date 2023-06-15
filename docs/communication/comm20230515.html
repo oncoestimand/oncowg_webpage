@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -93,91 +93,93 @@ div.csl-indent {
     <span class="navbar-title">Oncology Estimand WG</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../index.html">
+    <a class="dropdown-item" href="../index.html" rel="" target="">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../updates.html">
+    <a class="dropdown-item" href="../updates.html" rel="" target="">
  <span class="dropdown-text">Updates of this page</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../history.html">
+    <a class="dropdown-item" href="../history.html" rel="" target="">
  <span class="dropdown-text">History</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../scope.html">
+    <a class="dropdown-item" href="../scope.html" rel="" target="">
  <span class="dropdown-text">Scope</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../status.html">
+    <a class="dropdown-item" href="../status.html" rel="" target="">
  <span class="dropdown-text">Status</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../organization.html">
+    <a class="dropdown-item" href="../organization.html" rel="" target="">
  <span class="dropdown-text">Organization</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../collaborations.html">
+    <a class="dropdown-item" href="../collaborations.html" rel="" target="">
  <span class="dropdown-text">Collaborations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../achievements.html">
+    <a class="dropdown-item" href="../achievements.html" rel="" target="">
  <span class="dropdown-text">Achievements per year</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../taskforces.html">
+    <a class="nav-link" href="../taskforces.html" rel="" target="">
  <span class="menu-text">Task forces</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../ha.html">
+    <a class="nav-link" href="../ha.html" rel="" target="">
  <span class="menu-text">Health authority interactions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../publications.html">
+    <a class="nav-link" href="../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../code.html">
+    <a class="nav-link" href="../code.html" rel="" target="">
  <span class="menu-text">Code</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-events" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-events" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Events</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-events">    
         <li>
-    <a class="dropdown-item" href="../events_upcoming.html">
+    <a class="dropdown-item" href="../events_upcoming.html" rel="" target="">
  <span class="dropdown-text">Upcoming events</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../events_past.html">
+    <a class="dropdown-item" href="../events_past.html" rel="" target="">
  <span class="dropdown-text">Past events</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../news.html">
+    <a class="nav-link" href="../news.html" rel="" target="">
  <span class="menu-text">Newsletters</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../resources.html">
+    <a class="nav-link" href="../resources.html" rel="" target="">
  <span class="menu-text">Further resources</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -185,17 +187,19 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
   <ul class="collapse">
-  <li><a href="#updates" id="toc-updates" class="nav-link active" data-scroll-target="#updates"><span class="toc-section-number">1</span>  Updates</a></li>
-  <li><a href="#action-items-for-wg-members" id="toc-action-items-for-wg-members" class="nav-link" data-scroll-target="#action-items-for-wg-members"><span class="toc-section-number">2</span>  Action items for WG members</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">3</span>  References</a></li>
+  <li><a href="#updates" id="toc-updates" class="nav-link active" data-scroll-target="#updates"><span class="header-section-number">1</span> Updates</a></li>
+  <li><a href="#meet-up-at-jsm-in-toronto" id="toc-meet-up-at-jsm-in-toronto" class="nav-link" data-scroll-target="#meet-up-at-jsm-in-toronto"><span class="header-section-number">2</span> Meet-up at JSM in Toronto</a></li>
+  <li><a href="#action-items-for-wg-members" id="toc-action-items-for-wg-members" class="nav-link" data-scroll-target="#action-items-for-wg-members"><span class="header-section-number">3</span> Action items for WG members</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">4</span> References</a></li>
   </ul>
 </nav>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     </div>
@@ -236,29 +240,32 @@ div.csl-indent {
 <li>We have updated the <a href="https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html">events page</a> with our past and upcoming appearances, including posting of presented slidedecks. <strong>Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!</strong></li>
 </ul>
 </section>
-<section id="action-items-for-wg-members" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Action items for WG members</h1>
+<section id="meet-up-at-jsm-in-toronto" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Meet-up at JSM in Toronto</h1>
+</section>
+<section id="action-items-for-wg-members" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Action items for WG members</h1>
 <ul>
 <li>Please routinely share slidedecks or links to other material that we can add to the <a href="https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html">events page</a>.</li>
 </ul>
 <p>You are invited to share the link to this newsletter broadly. To conclude, we invite you to regularly check out our webpage: <a href="http://www.oncoestimand.org">www.oncoestimand.org</a>.</p>
 <p>Kind Regards,<br> Evgeny &amp; Kaspar</p>
 </section>
-<section id="references" class="level1" data-number="3">
+<section id="references" class="level1" data-number="4">
 
 
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">3 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-liu_23logic" class="csl-entry" role="doc-biblioentry">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">4 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-liu_23logic" class="csl-entry" role="listitem">
 Liu, Yi, Miao Yang, Siyoen Kil, Jiang Li, Shoubhik Mondal, Yue Shentu, Hong Tian, Liwei Wang, and Godwin Yung. 2023. <span>“From Logic-Respecting Efficacy Estimands to Logic-Ensuring Analysis Principle for Time-to-Event Endpoint in Randomized Clinical Trials with Subgroups.”</span> <em>Statistics in Biopharmaceutical Research</em> 0 (0): 1–14. <a href="https://doi.org/10.1080/19466315.2023.2186945">https://doi.org/10.1080/19466315.2023.2186945</a>.
 </div>
-<div id="ref-rufibach_23fu" class="csl-entry" role="doc-biblioentry">
+<div id="ref-rufibach_23fu" class="csl-entry" role="listitem">
 Rufibach, Kaspar, Lynda Grinsted, Jiang Li, Hans Jochen Weber, Cheng Zheng, and Jiangxiu Zhou. 2023. <span>“Quantification of Follow-up Time in Oncology Clinical Trials with a Time-to-Event Endpoint: Asking the Right Questions.”</span> <em>Pharmaceutical Statistics</em> n/a (n/a). https://doi.org/<a href="https://doi.org/10.1002/pst.2300">https://doi.org/10.1002/pst.2300</a>.
 </div>
-<div id="ref-weber_23" class="csl-entry" role="doc-biblioentry">
+<div id="ref-weber_23" class="csl-entry" role="listitem">
 Weber, H. J., S. Corson, J. Li, F. Mercier, S. Roychoudhury, M. O. Sailer, S. Sun, A. Todd, and G. Yung. 2023. <span>“Duration of and Time to Response in Oncology Clinical Trials from the Perspective of the Estimand Framework.”</span> <em>Submitted</em>.
 </div>
 </div></section></div></main> <!-- /main -->
@@ -289,9 +296,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -356,6 +377,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

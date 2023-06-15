@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -18,14 +18,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -39,8 +40,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -94,91 +94,93 @@ div.csl-indent {
     <span class="navbar-title">Oncology Estimand WG</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./index.html">
+    <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">About</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./updates.html">
+    <a class="dropdown-item" href="./updates.html" rel="" target="">
  <span class="dropdown-text">Updates of this page</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./history.html">
+    <a class="dropdown-item" href="./history.html" rel="" target="">
  <span class="dropdown-text">History</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./scope.html">
+    <a class="dropdown-item" href="./scope.html" rel="" target="">
  <span class="dropdown-text">Scope</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./status.html">
+    <a class="dropdown-item" href="./status.html" rel="" target="">
  <span class="dropdown-text">Status</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./organization.html">
+    <a class="dropdown-item" href="./organization.html" rel="" target="">
  <span class="dropdown-text">Organization</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./collaborations.html">
+    <a class="dropdown-item" href="./collaborations.html" rel="" target="">
  <span class="dropdown-text">Collaborations</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./achievements.html">
+    <a class="dropdown-item" href="./achievements.html" rel="" target="">
  <span class="dropdown-text">Achievements per year</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./taskforces.html">
+    <a class="nav-link" href="./taskforces.html" rel="" target="">
  <span class="menu-text">Task forces</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./ha.html">
+    <a class="nav-link" href="./ha.html" rel="" target="">
  <span class="menu-text">Health authority interactions</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html">
+    <a class="nav-link" href="./publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./code.html">
+    <a class="nav-link" href="./code.html" rel="" target="">
  <span class="menu-text">Code</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-events" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-events" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
  <span class="menu-text">Events</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-events">    
         <li>
-    <a class="dropdown-item" href="./events_upcoming.html">
+    <a class="dropdown-item" href="./events_upcoming.html" rel="" target="">
  <span class="dropdown-text">Upcoming events</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./events_past.html">
+    <a class="dropdown-item" href="./events_past.html" rel="" target="">
  <span class="dropdown-text">Past events</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./news.html">
+    <a class="nav-link" href="./news.html" rel="" target="">
  <span class="menu-text">Newsletters</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./resources.html" aria-current="page">
+    <a class="nav-link active" href="./resources.html" rel="" target="" aria-current="page">
  <span class="menu-text">Further resources</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -247,7 +249,7 @@ div.csl-indent {
 <h2 class="anchored" data-anchor-id="where-should-i-start">Where should I start?</h2>
 <p>This entire page is a starting point. Further,</p>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=oeoTOOlx37c">3min intro video</a>: What is an estimand in a clinical trial: The PIONEER 1 example, based on <a href="material/Aroda et al (2019) Incorporating and interpreting regulatory guidance on estimands in diabetes clinical trials.pdf">Aroda et al. <span class="citation" data-cites="aroda_19">(</span></a><a href="#ref-aroda_19" role="doc-biblioref">2019</a>).</li>
+<li><a href="https://www.youtube.com/watch?v=oeoTOOlx37c">3min intro video</a>: What is an estimand in a clinical trial: The PIONEER 1 example, based on <a href="material/Aroda et al (2019) Incorporating and interpreting regulatory guidance on estimands in diabetes clinical trials.pdf">Aroda et al. <span class="citation" data-cites="aroda_19">(<span>2019</span>)</span></a>.</li>
 <li><a href="https://streamingmedia.roche.com/media/t/1_3wyvbi11">3min intro video</a>: Why the addendum is needed and what it is about (Kaspar Rufibach).</li>
 <li><a href="https://www.psiweb.org/vod/item/psi-eiwg-webinar-pioneering-estimands-in-clinical-research">PSI EIWG Webinar: PIONEERing estimands in Clinical Research</a>: Introductory webinar that is intended for anyone working in clinical trials: Clinicians, Regulators, Investigators, Academics, Ethics Committees, Statisticians.</li>
 <li><a href="https://www.youtube.com/watch?v=chUufn9OqOw">Introductory session on endpoints and estimands for clinicians</a>, co-organized by <a href="https://www.gov.br/anvisa/pt-br">ANVISA</a> (Brazilian Health Authority) and <a href="https://www.interfarma.org.br/">interfarma</a>.</li>
@@ -272,27 +274,27 @@ div.csl-indent {
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-aroda_19" class="csl-entry" role="doc-biblioentry">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-aroda_19" class="csl-entry" role="listitem">
 Aroda, V. R., T. Saugstrup, J. B. Buse, M. Donsmark, J. Zacho, and M. J. Davies. 2019. <span>“<span class="nocase"><span>I</span>ncorporating and interpreting regulatory guidance on estimands in diabetes clinical trials: <span>T</span>he <span>P</span><span>I</span><span>O</span><span>N</span><span>E</span><span>E</span><span>R</span> 1 randomized clinical trial as an example</span>.”</span> <em>Diabetes Obes Metab</em> 21 (10): 2203–10.
 </div>
-<div id="ref-casey_21" class="csl-entry" role="doc-biblioentry">
+<div id="ref-casey_21" class="csl-entry" role="listitem">
 Casey, Michelle, Evgeny Degtyarev, Maria Jose Lechuga, Paola Aimone, Alain Ravaud, Robert J. Motzer, Feng Liu, et al. 2021. <span>“Estimand Framework: Are We Asking the Right Questions? A Case Study in the Solid Tumor Setting.”</span> <em>Pharmaceutical Statistics</em> 20 (2): 324–34. https://doi.org/<a href="https://doi.org/10.1002/pst.2079">https://doi.org/10.1002/pst.2079</a>.
 </div>
-<div id="ref-degtyarev_19" class="csl-entry" role="doc-biblioentry">
+<div id="ref-degtyarev_19" class="csl-entry" role="listitem">
 Degtyarev, Evgeny, Yiyun Zhang, Kapildeb Sen, David Lebwohl, Mouna Akacha, Lisa V. Hampson, Bjoern Bornkamp, Antonella Maniero, Frank Bretz, and Emmanuel Zuber. 2019. <span>“Estimands and the Patient Journey: Addressing the Right Question in Oncology Clinical Trials.”</span> <em>JCO Precision Oncology</em>, no. 3: 1–10. <a href="https://doi.org/10.1200/PO.18.00381">https://doi.org/10.1200/PO.18.00381</a>.
 </div>
-<div id="ref-ionan_22" class="csl-entry" role="doc-biblioentry">
+<div id="ref-ionan_22" class="csl-entry" role="listitem">
 Ionan, Alexei C., Miya Paterniti, Devan V. Mehrotra, John Scott, Bohdana Ratitch, Sylva Collins, Shanti Gomatam, Lei Nie, Kaspar Rufibach, and Frank Bretz. 2022. <span>“Clinical and Statistical Perspectives on the ICH E9(R1) Estimand Framework Implementation.”</span> <em>Statistics in Biopharmaceutical Research</em> 0 (ja): 1–12. <a href="https://doi.org/10.1080/19466315.2022.2081601">https://doi.org/10.1080/19466315.2022.2081601</a>.
 </div>
-<div id="ref-lawrance_20" class="csl-entry" role="doc-biblioentry">
+<div id="ref-lawrance_20" class="csl-entry" role="listitem">
 Lawrance, Rachael, Evgeny Degtyarev, Philip Griffiths, Peter Trask, Helen Lau, Denise D’Alessio, Ingolf Griebsch, Gudrun Wallenstein, Kim Cocks, and Kaspar Rufibach. 2020. <span>“What Is an Estimand &amp; How Does It Relate to Quantifying the Effect of Treatment on Patient-Reported Quality of Life Outcomes in Clinical Trials?”</span> <em>J Patient Rep Outcomes</em> 4: 68. <a href="https://doi.org/10.1186/s41687-020-00218-5">https://doi.org/10.1186/s41687-020-00218-5</a>.
 </div>
-<div id="ref-lynggaard_22" class="csl-entry" role="doc-biblioentry">
+<div id="ref-lynggaard_22" class="csl-entry" role="listitem">
 Lynggaard, Helle, James Bell, Christian Lösch, Amel Besseghir, Khadija Rantell, Volker Schoder, and Vivian Lanius. 2022. <span>“Principles and Recommendations for Incorporating Estimands into Clinical Study Protocol Templates.”</span> <em>Trials</em> 23 (1): 685. <a href="https://doi.org/10.1186/s13063-022-06515-2">https://doi.org/10.1186/s13063-022-06515-2</a>.
 </div>
-<div id="ref-sun_20" class="csl-entry" role="doc-biblioentry">
-Sun, S., J. Weber, E. Butler, K. Rufibach, and S. Roychoudhury. 2021. <span>“Estimands in Hematology Trials.”</span> <em>Pharm. Stat., To Appear.</em> <a href="https://arxiv.org/abs/2010.00957">https://arxiv.org/abs/2010.00957</a>.
+<div id="ref-sun_20" class="csl-entry" role="listitem">
+Sun, S., J. Weber, E. Butler, K. Rufibach, and S. Roychoudhury. 2021. <span>“Estimands in Hematology Trials.”</span> <em>Pharm. Stat., to Appear.</em> <a href="https://arxiv.org/abs/2010.00957">https://arxiv.org/abs/2010.00957</a>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -322,9 +324,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -389,6 +405,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
