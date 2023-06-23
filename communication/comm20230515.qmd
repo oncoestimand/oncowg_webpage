@@ -30,6 +30,7 @@ We hope this reaches you well! Before the end of the year we would like to share
 - Since the last newsletter the following publications have been **accepted**:
   - @rufibach_23fu .
   - @liu_23logic .
+  - 23th June: The paper on _Defining estimands for efficacy assessment in single arm Phase 1b or Phase 2 clinical trials in oncology early development._ has been accepted by Pharmaceutical Statistics.
 - We have updated the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
 - PSI conference: The working group contributed a session to the PSI 2023 conference in London. Hong Tian, Konstantina Skaltsa, Stefan Englert, Lynda Grinsted, Elizabeth Pilling, and Yufei Wang presented outcomes from various taskforces to a completely full room.
 
