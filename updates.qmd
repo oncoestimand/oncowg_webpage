@@ -14,8 +14,9 @@ bibliography: biblio.bib
 
 # 2023
 
+- 6th July: Added more slidedecks of [LIDS conference](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#lifetime-data-science-conference-lids).
 - 23th June: The paper on _Defining estimands for efficacy assessment in single arm Phase 1b or Phase 2 clinical trials in oncology early development._ has been accepted by Pharmaceutical Statistics.
-- 7th June: Added titles of talks and for some of them slides of [LIDS conference](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#lifetime-data-science-conference-lids).
+- 7th June: Added titles of talks and for some of them slidedecks of [LIDS conference](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#lifetime-data-science-conference-lids).
 - 21th April: Added slides and recordings of BBS seminar [Quantification of risk: ask the right questions or time to apply the estimand framework to safety!](https://baselbiometrics.github.io/home/docs/events_past.html#quantification-of-risk-ask-the-right-questions-or-time-to-apply-the-estimand-framework-to-safety) to [past events page](events_past.html).
 - 19th April: The [paper on Logic-Respecting Efficacy Estimands](https://doi.org/10.1080/19466315.2023.2186945) has been accepted by Statistics in Biopharmaceutical Research.
 - 15th March: The [paper on quantification of follow-up](https://arxiv.org/abs/2206.05216) has been accepted by Pharmaceutical Statistics.
