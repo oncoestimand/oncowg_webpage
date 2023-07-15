@@ -39,8 +39,6 @@ We hope this reaches you well! Before we all leave for summer vacation we would 
   - co-organized and contributed to a BBS seminar on [Quantification of risk: ask the right questions or time to apply the estimand framework to safety!](https://baselbiometrics.github.io/home/docs/events_past.html#quantification-of-risk-ask-the-right-questions-or-time-to-apply-the-estimand-framework-to-safety).
   - Jonathan gave an invited talk at the [Duke industry statistics symposium 2023](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#duke-industry-statistics-symposium-2023).
   
-  
-  
 # Meet-up at JSM in Toronto
 
 If there is interest I am happy to organize a get together for dinner at JSM. Please reach out to [Kaspar Rufibach](mailto:kaspar.rufibach@roche.com) in case you are interested and provide the nights you'd be available.
