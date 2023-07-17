@@ -14,6 +14,7 @@ bibliography: biblio.bib
 
 # 2023
 
+- 17th July: Latest [newsletter](communication/comm20230717.html) to the group.
 - 6th July: Added more slidedecks of [LIDS conference](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#lifetime-data-science-conference-lids).
 - 23th June: The paper on _Defining estimands for efficacy assessment in single arm Phase 1b or Phase 2 clinical trials in oncology early development._ has been accepted by Pharmaceutical Statistics.
 - 7th June: Added titles of talks and for some of them slidedecks of [LIDS conference](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#lifetime-data-science-conference-lids).
