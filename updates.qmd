@@ -14,6 +14,7 @@ bibliography: biblio.bib
 
 # 2023
 
+- 13th September: [Poster](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#efspi-regulatory-statistics-workshop) presented by the conditional vs. marginal taskforce at the [8th EFSPI regulatory statistics workshop](https://efspiworkshop.github.io/efspiworkshop/docs/).
 - 11th September: Updated [roster](taskforces).
 - 7th August: Added Jonathan's [JSM talk](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#joint-statistical-meetings).
 - 17th July: Latest [newsletter](communication/comm20230717.html) to the group.
