@@ -1,6 +1,6 @@
 ---
 title: "Publications of the group"
-date: last-modified
+date-modified: last-modified
 output: 
   rmarkdown::html_document:
     highlight: pygments
