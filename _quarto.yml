@@ -20,6 +20,7 @@ project:
     - communication/
     - code.qmd
     - collaborations.qmd
+    - nalt_9862938.qmd
 
 website:
   title: "Oncology Estimand WG"
