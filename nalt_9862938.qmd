@@ -16,7 +16,7 @@ bibliography: biblio.bib
 
 # Context
 
-New anti-lymphoma (NALT) therapy before progression (PD) for progression-free survival (PFS) in lymphoma trials can be considered an intercurrent event (ICE) in the framework of the [ICH E9 addendum](https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf) addendum.
+New anti-lymphoma (NALT) therapy before progression (PD) for progression-free survival (PFS) in lymphoma trials can be considered an intercurrent event (ICE) in the framework of the [ICH E9 addendum](https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf) addendum. This raises the following questions:
 
 - What clinical question are we interested in?
 - Which of the five estimand strategies in the [ICH E9 addendum](https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf) help answering the clinical question of interest?
@@ -28,7 +28,7 @@ In the 00's, i.e. in the pre-estimand addendum era, there already was a debate w
 
 > ...in studies in which failure to respond without progression is considered an indication for another therapy, such patients should be censored at that point for the progression analysis.
 
-This estimator, i.e. censoring at start of NALT, (implicitly) corresponds to applying a **hypothetical** strategy for the ICE of NALT. 
+This estimator, i.e. censoring at start of NALT, (implicitly) corresponds to applying a **hypothetical** strategy for the ICE of NALT. This means it specifies interest in a treatment effect in a world where NALT would not exist.
 
 ## (implicit) Treatment policy strategy for the ICE of NALT
 
@@ -40,6 +40,12 @@ This corresponds to a **treatment policy** estimand. This is also implicitly the
 
 > The time of the progression or recurrence event is determined using the first date when there is documented evidence that the
 criteria have been met, even in situations where progression is observed after one or more missed visits, treatment discontinuation, or **new anti-cancer treatment**.
+
+A treatment policy strategy for the ICE of NALT can be interpreted as treatment effect for the **treatment strategy** 
+
+start with therapy at randomization + switch to approved NALT before PD according to investigator's choice.
+
+This appears to come closest to the treatment effect that will be observed in the "real world" once the drug is approved, because approved NALTs will be available.
 
 A treatment policy strategy for start of 2nd line therapy for an endpoint of PFS has, e.g., been implemented in all pivotal Roche Gazyva trials (Gadolin, Gallium, Goya).
 
