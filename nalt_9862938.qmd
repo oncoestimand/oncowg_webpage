@@ -28,7 +28,7 @@ In the 00's, i.e. in the pre-estimand addendum era, there already was a debate w
 
 > ...in studies in which failure to respond without progression is considered an indication for another therapy, such patients should be censored at that point for the progression analysis.
 
-This estimator, i.e. censoring at start of NALT, (implicitly) corresponds to applying a **hypothetical** strategy for the ICE of NALT. This means it specifies interest in a treatment effect in a world where NALT would not exist.
+This estimator, i.e. censoring at start of NALT, (implicitly) corresponds to applying a **hypothetical** strategy for the ICE of NALT. **This means it specifies interest in a treatment effect in a world where NALT would not exist.**
 
 ## (implicit) Treatment policy strategy for the ICE of NALT
 
@@ -41,11 +41,11 @@ This corresponds to a **treatment policy** estimand. This is also implicitly the
 > The time of the progression or recurrence event is determined using the first date when there is documented evidence that the
 criteria have been met, even in situations where progression is observed after one or more missed visits, treatment discontinuation, or **new anti-cancer treatment**.
 
-A treatment policy strategy for the ICE of NALT can be interpreted as treatment effect for the **treatment strategy** 
+**A treatment policy strategy for the ICE of NALT can be interpreted as treatment effect for the treatment strategy**
 
-start with therapy at randomization + switch to approved NALT before PD according to investigator's choice.
+_start with therapy at randomization + switch to approved NALT before PD according to investigator's choice._
 
-This appears to come closest to the treatment effect that will be observed in the "real world" once the drug is approved, because approved NALTs will be available.
+**This appears to come closest to the treatment effect that will be observed in the "real world" once the drug is approved, because approved NALTs will be available.**
 
 A treatment policy strategy for start of 2nd line therapy for an endpoint of PFS has, e.g., been implemented in all pivotal Roche Gazyva trials (Gadolin, Gallium, Goya).
 
