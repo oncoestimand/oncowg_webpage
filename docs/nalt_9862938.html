@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Estimands SME network">
+<meta name="author" content="Kaspar Rufibach">
 
 <title>Oncology Estimand WG - New-anti lymphoma treatment (NALT) as intercurrent event for PFS in lymphoma</title>
 <style>
@@ -197,18 +197,31 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#context" id="toc-context" class="nav-link active" data-scroll-target="#context">Context</a></li>
+  <li><a href="#context" id="toc-context" class="nav-link active" data-scroll-target="#context">Context</a>
+  <ul class="collapse">
+  <li><a href="#implicit-hypothetical-strategy-for-the-ice-of-nalt" id="toc-implicit-hypothetical-strategy-for-the-ice-of-nalt" class="nav-link" data-scroll-target="#implicit-hypothetical-strategy-for-the-ice-of-nalt">(implicit) Hypothetical strategy for the ICE of NALT</a></li>
+  <li><a href="#implicit-treatment-policy-strategy-for-the-ice-of-nalt" id="toc-implicit-treatment-policy-strategy-for-the-ice-of-nalt" class="nav-link" data-scroll-target="#implicit-treatment-policy-strategy-for-the-ice-of-nalt">(implicit) Treatment policy strategy for the ICE of NALT</a></li>
+  </ul></li>
+  <li><a href="#fda-view-on-hypothetical-strategy-in-general" id="toc-fda-view-on-hypothetical-strategy-in-general" class="nav-link" data-scroll-target="#fda-view-on-hypothetical-strategy-in-general">FDA view on hypothetical strategy in general</a></li>
+  <li><a href="#publicly-available-comments-on-molecules" id="toc-publicly-available-comments-on-molecules" class="nav-link" data-scroll-target="#publicly-available-comments-on-molecules">Publicly available comments on molecules</a>
+  <ul class="collapse">
+  <li><a href="#polarix-odac" id="toc-polarix-odac" class="nav-link" data-scroll-target="#polarix-odac">Polarix ODAC</a>
+  <ul class="collapse">
+  <li><a href="#relation-between-treatment-policy-and-hypothetical-strategy-for-an-ice-of-nalt" id="toc-relation-between-treatment-policy-and-hypothetical-strategy-for-an-ice-of-nalt" class="nav-link" data-scroll-target="#relation-between-treatment-policy-and-hypothetical-strategy-for-an-ice-of-nalt">Relation between treatment policy and hypothetical strategy for an ICE of NALT</a></li>
+  <li><a href="#consistency-between-estimates-for-two-different-estimands" id="toc-consistency-between-estimates-for-two-different-estimands" class="nav-link" data-scroll-target="#consistency-between-estimates-for-two-different-estimands">Consistency between estimates for two different estimands</a></li>
+  </ul></li>
+  <li><a href="#qing-xus-presentation-at-asa-biopharmaceutical-section-regulatory-industry-statistics-workshop" id="toc-qing-xus-presentation-at-asa-biopharmaceutical-section-regulatory-industry-statistics-workshop" class="nav-link" data-scroll-target="#qing-xus-presentation-at-asa-biopharmaceutical-section-regulatory-industry-statistics-workshop">Qing Xu’s presentation at ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop</a>
+  <ul class="collapse">
+  <li><a href="#non-random-censoring" id="toc-non-random-censoring" class="nav-link" data-scroll-target="#non-random-censoring">Non-random censoring</a></li>
+  <li><a href="#different-estimands-to-quantify-the-effect" id="toc-different-estimands-to-quantify-the-effect" class="nav-link" data-scroll-target="#different-estimands-to-quantify-the-effect">Different estimands to quantify the effect:</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#fda-lungevity-statistical-forum-12th-october-impact-of-cross-over-in-the-evaluation-of-overall-survival-in-randomized-cancer-clinical-trials" id="toc-fda-lungevity-statistical-forum-12th-october-impact-of-cross-over-in-the-evaluation-of-overall-survival-in-randomized-cancer-clinical-trials" class="nav-link" data-scroll-target="#fda-lungevity-statistical-forum-12th-october-impact-of-cross-over-in-the-evaluation-of-overall-survival-in-randomized-cancer-clinical-trials">FDA / Lungevity statistical forum 12th October: Impact of Cross-over in the Evaluation of Overall Survival in Randomized Cancer Clinical Trials</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a></li>
   <li><a href="#why-is-censoring-of-subjects-in-the-estimator-for-a-time-to-event-endpoint-implementing-a-hypothetical-strategy" id="toc-why-is-censoring-of-subjects-in-the-estimator-for-a-time-to-event-endpoint-implementing-a-hypothetical-strategy" class="nav-link" data-scroll-target="#why-is-censoring-of-subjects-in-the-estimator-for-a-time-to-event-endpoint-implementing-a-hypothetical-strategy">Why is censoring of subjects in the estimator for a time-to-event endpoint implementing a hypothetical strategy?</a></li>
   <li><a href="#what-are-other-estimators-of-a-hypothetical-estimand-strategy-than-simply-using-censoring" id="toc-what-are-other-estimators-of-a-hypothetical-estimand-strategy-than-simply-using-censoring" class="nav-link" data-scroll-target="#what-are-other-estimators-of-a-hypothetical-estimand-strategy-than-simply-using-censoring">What are other estimators of a hypothetical estimand strategy than simply using censoring?</a></li>
   <li><a href="#if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" id="toc-if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" class="nav-link" data-scroll-target="#if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd">If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?</a></li>
-  <li><a href="#for-an-endpoint-of-pfs-should-we-censor-at-start-of-new-anticancer-therapy-nact-before-progression-and-what-estimand-does-either-approach-estimate" id="toc-for-an-endpoint-of-pfs-should-we-censor-at-start-of-new-anticancer-therapy-nact-before-progression-and-what-estimand-does-either-approach-estimate" class="nav-link" data-scroll-target="#for-an-endpoint-of-pfs-should-we-censor-at-start-of-new-anticancer-therapy-nact-before-progression-and-what-estimand-does-either-approach-estimate">For an endpoint of PFS, should we censor at start of new anticancer therapy (NACT) before progression? And what estimand does either approach estimate?</a>
-  <ul class="collapse">
-  <li><a href="#context-1" id="toc-context-1" class="nav-link" data-scroll-target="#context-1">Context</a></li>
-  <li><a href="#implicit-hypothetical-strategy" id="toc-implicit-hypothetical-strategy" class="nav-link" data-scroll-target="#implicit-hypothetical-strategy">(implicit) Hypothetical strategy</a></li>
-  <li><a href="#implicit-treatment-policy-strategy" id="toc-implicit-treatment-policy-strategy" class="nav-link" data-scroll-target="#implicit-treatment-policy-strategy">(implicit) Treatment policy strategy</a></li>
-  <li><a href="#recommendation" id="toc-recommendation" class="nav-link" data-scroll-target="#recommendation">Recommendation</a></li>
-  <li><a href="#polarix-odac" id="toc-polarix-odac" class="nav-link" data-scroll-target="#polarix-odac">Polarix ODAC</a></li>
-  </ul></li>
+  <li><a href="#for-an-endpoint-of-pfs-should-we-censor-at-start-of-new-anticancer-therapy-nalt-before-progression-and-what-estimand-does-either-approach-estimate" id="toc-for-an-endpoint-of-pfs-should-we-censor-at-start-of-new-anticancer-therapy-nalt-before-progression-and-what-estimand-does-either-approach-estimate" class="nav-link" data-scroll-target="#for-an-endpoint-of-pfs-should-we-censor-at-start-of-new-anticancer-therapy-nalt-before-progression-and-what-estimand-does-either-approach-estimate">For an endpoint of PFS, should we censor at start of new anticancer therapy (NALT) before progression? And what estimand does either approach estimate?</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -227,11 +240,11 @@ div.csl-indent {
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Estimands SME network </p>
+    <p class="author">Kaspar Rufibach </p>
   </div>
     <div class="quarto-title-meta-contents">
         <p class="affiliation">
-            PD Data and Statistical Sciences
+            Methods, Collaboration, and Outreach (MCO) Group, Roche
           </p>
       </div>
     </div>
@@ -248,58 +261,23 @@ div.csl-indent {
 
 <section id="context" class="level1">
 <h1>Context</h1>
-<p>In FDA interactions on several Roche trials ()</p>
-</section>
-<section id="why-is-censoring-of-subjects-in-the-estimator-for-a-time-to-event-endpoint-implementing-a-hypothetical-strategy" class="level1">
-<h1>Why is censoring of subjects in the estimator for a time-to-event endpoint implementing a hypothetical strategy?</h1>
-<p>Assume you have a trial with 100 patients and primary endpoint PFS. (In a frequentist world) This trial is a sample drawn from a metaphysical population, where the latter is our primary interest and one of the attributes of the estimand defintion. In the population PFS has a true survival function <span class="math inline">\(S\)</span>.</p>
-<p>In a first scenario, assume you observe PFS for all the 100 patients. Then, an unbiased estimator <span class="math inline">\(\hat S_1\)</span>, such as e.g.&nbsp;Kaplan-Meier (which in this case is nothing else than 1 - CDF), estimates <span class="math inline">\(S\)</span>.</p>
-<p>Now assume a second scenario where 20 patients are <strong>randomly censored</strong> (following the terminology in <a href="material/Unkel et al (2019) On estimands and the analysis of AE with varying FU times.pdf">Unkel et al. <span class="citation" data-cites="unkel_19">(<span><strong>unkel_19?</strong></span>)</span></a>, based on <span class="citation" data-cites="aalen_08">(<a href="#ref-aalen_08" role="doc-biblioref"><strong>aalen_08?</strong></a>)</span>). If we now estimate <span class="math inline">\(S\)</span> using an unbiased estimator <span class="math inline">\(\hat S_2\)</span>, e.g.&nbsp;Kaplan-Meier, again then we are “correctly” using the information of the 20 censored patients, i.e.&nbsp;for these 20 patients “…outcome after <span class="math inline">\(x\)</span> number of months is imputed by using the longer term outcomes of other patients in their treatment group who also are free of the outcome at <span class="math inline">\(x\)</span> number of months and remain under follow-up beyond <span class="math inline">\(x\)</span> number of months.” (terminology used in <a href="material/Fleming et al (2009) Issues in Using PFS When Evaluating Oncology Products.pdf">Fleming et al. <span class="citation" data-cites="fleming_09">(<span><strong>fleming_09?</strong></span>)</span></a>). So indeed, the estimand we are targeting (namely the function <span class="math inline">\(S\)</span>) remains the same as in the hypothetical world where censoring would not happen.</p>
-<p>It is important to note that censoring alone is only sufficient for implementing a hypothetical strategy if censoring is, e.g., <strong>random</strong> in the sense described in, e.g., <a href="material/Unkel et al (2019) On estimands and the analysis of AE with varying FU times.pdf">Unkel et al. <span class="citation" data-cites="unkel_19">(<span><strong>unkel_19?</strong></span>)</span></a>. This is essentially equivalent to the “missing-at-random” assumption for longitudinal outcomes.</p>
-</section>
-<section id="what-are-other-estimators-of-a-hypothetical-estimand-strategy-than-simply-using-censoring" class="level1">
-<h1>What are other estimators of a hypothetical estimand strategy than simply using censoring?</h1>
-<p>Sometimes it might be plausible that subjects who discontinued treatment early would have done worse than those who did not, <strong>even in a hypothetical world where they had stayed on treatment</strong>. One method for imputing T2E endpoints in this case is the method by <a href="material/Jackson et al (2014) Relaxing the independent censoring assumption in the Cox proportional hazards model using multiple imputation.pdf">Jackson et al. <span class="citation" data-cites="jackson_14">(<span><strong>jackson_14?</strong></span>)</span></a> which is implemented in the <a href="https://cran.r-project.org/package=InformativeCensoring">InformativeCensoring</a> <a href="https://cran.r-project.org">R</a> package. At Roche, the Satralizumab team used this to answer EMA concerns about non-random / non-informative censoring in one of their trials, see <a href="BN40898.html">this case study</a> that also includes the original program code based on <a href="https://cran.r-project.org/package=InformativeCensoring">InformativeCensoring</a>.</p>
-<p>Alternatively, <a href="https://pages.github.roche.com/estimand/estimand/docs/switching.html#inverse-probability-of-censoring-weights-ipcw">inverse-probability of censoring weights</a> (IPCW) has also been proposed. Here, patients who do not have the intercurrent event serve as proxies for those who do. For estimation we need covariates that make PFS and the intercurrent event conditionally independent. This has been used e.g.&nbsp;in the <a href="switching.html#inverse-probability-of-censoring-weights-ipcw">Polarix trial</a>.</p>
-</section>
-<section id="if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" class="level1">
-<h1>If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?</h1>
-<p>Yes, generally treatment switches are often informative (which does not mean censoring is informative, see <a href="material/Andersen (2005, encyclopedia) Censored data.pdf">Andersen <span class="citation" data-cites="andersen_05">(<span><strong>andersen_05?</strong></span>)</span></a>) as people are switching because their current treatment is not working. However, you could also imagine some scenarios where the reason for switching may not carry information about a patient, e.g.&nbsp;a region may limit the availability of a certain treatment to a limited number of cycles for cost-effectiveness reasons.</p>
-<p>Find more resources on treatment switching on this <a href="switching.html">dedicated page</a>.</p>
-</section>
-<section id="for-an-endpoint-of-pfs-should-we-censor-at-start-of-new-anticancer-therapy-nact-before-progression-and-what-estimand-does-either-approach-estimate" class="level1">
-<h1>For an endpoint of PFS, should we censor at start of new anticancer therapy (NACT) before progression? And what estimand does either approach estimate?</h1>
-<section id="context-1" class="level2">
-<h2 class="anchored" data-anchor-id="context-1">Context</h2>
-<p>For an endpoint of PFS, start of NACT before PD or death is an <strong>intercurrent event</strong>. The questions then are:</p>
+<p>New anti-lymphoma (NALT) therapy before progression (PD) for progression-free survival (PFS) in lymphoma trials can be considered an intercurrent event (ICE) in the framework of the <a href="https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf">ICH E9 addendum</a> addendum.</p>
 <ul>
-<li>Which of the five estimand strategies in the <a href="https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf">ICH E9 addendum</a> should we use?</li>
+<li>What clinical question are we interested in?</li>
+<li>Which of the five estimand strategies in the <a href="https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf">ICH E9 addendum</a> help answering the clinical question of interest?</li>
 <li>How should we estimate the chosen estimand?</li>
 </ul>
-</section>
-<section id="implicit-hypothetical-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="implicit-hypothetical-strategy">(implicit) Hypothetical strategy</h2>
-<p>In the 00’s there was a lively debate whether one should censor at start of NACT in lymphoma indications, and this debates appears to go on until today. The FDA guidance <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics"><em>Guidance for industry clinical trial endpoints for the approval of cancer drugs and biologics</em></a> <span class="citation" data-cites="fda_endpoints">(<a href="#ref-fda_endpoints" role="doc-biblioref"><strong>fda_endpoints?</strong></a>)</span> recommends to censor at date of “new anticancer treatment”. This is in line with <a href="material/Cheson et al (2007) Revised response criteria for malignant lymphoma.pdf">Cheson et al. <span class="citation" data-cites="cheson_07">(<span><strong>cheson_07?</strong></span>)</span></a> who writes</p>
+<section id="implicit-hypothetical-strategy-for-the-ice-of-nalt" class="level2">
+<h2 class="anchored" data-anchor-id="implicit-hypothetical-strategy-for-the-ice-of-nalt">(implicit) Hypothetical strategy for the ICE of NALT</h2>
+<p>In the 00’s, i.e.&nbsp;in the pre-estimand addendum era, there already was a debate whether one should censor at start of NALT in lymphoma indications, and this debates appears to go on until today. The FDA guidance <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics"><em>Guidance for industry clinical trial endpoints for the approval of cancer drugs and biologics</em></a> <span class="citation" data-cites="fda_endpoints">U.S. Food and Drug Administration (<a href="#ref-fda_endpoints" role="doc-biblioref">2007</a>)</span> recommends to censor at date of “new anticancer treatment”. This is in line with <a href="papers/Cheson et al (2007) Revised response criteria for malignant lymphoma.pdf">Cheson et al. <span class="citation" data-cites="cheson_07">(<span>2007</span>)</span></a> who writes</p>
 <blockquote class="blockquote">
 <p>…in studies in which failure to respond without progression is considered an indication for another therapy, such patients should be censored at that point for the progression analysis.</p>
 </blockquote>
-<p>This estimator, i.e.&nbsp;censoring at start of 2nd line therapy, corresponds to a <strong>hypothetical</strong> estimand. That the FDA is still recommending that approach is interesting, given the FDA’s reluctance to hypothetical estimands in general. For example, in <a href="papers/Ionan et al (2023), Clinical and Statistical Perspectives on the Estimand Framework Implementation.pdf">Ionan et al <span class="citation" data-cites="ionan_22">(<span>2022</span>)</span></a> (FDA 1st author, paper written together with industry statisticians)</p>
-<blockquote class="blockquote">
-<p>For example, in the case of a hypothetical strategy, it is necessary to describe precisely the nature of the hypothetical scenario under which estimation of treatment effect is of interest and why the actual scenario in which the intercurrent event occurs is problematic for the interpretation of the treatment effect. It is important to justify the relevance of the corresponding treatment effect to be estimated, and the statistical model that accurately captures the specific chosen hypothetical scenario.</p>
-</blockquote>
-<p>and</p>
-<blockquote class="blockquote">
-<p>The clinical and regulatory interest of such hypotheticals is limited and would usually depend on a clear understanding of why and how the intercurrent event, or its consequences, would be expected to be different in clinical practice than in the clinical trial.</p>
-</blockquote>
-<p>So, applied to NACT a hypothetical estimand corresponds to interest in a treatment effect in a world where <strong>such NACT would not exist!</strong> Typically, that seems not a plausible estimand.</p>
-<p>Similarly, <a href="papers/Mayo and Kim (2023) What can be Achieved with the Estimand Framework.pdf">Mayo and Kim <span class="citation" data-cites="mayo_23">(<span><strong>mayo_23?</strong></span>)</span></a> (both FDA authors) discourage use of hypothetical estimands:</p>
-<blockquote class="blockquote">
-<p>More precisely defining the clinical question and corresponding estimand has led to some challenges and differences in perspectives. For example, it is uncommon that we have found a hypothetical strategy to be the most relevant one for the primary clinical question used in regulatory decision-making (with exceptions, e.g., a pandemic leading to temporary site closures that are not expected to occur in general clinical practice in the future).</p>
-</blockquote>
+<p>This estimator, i.e.&nbsp;censoring at start of NALT, (implicitly) corresponds to applying a <strong>hypothetical</strong> strategy for the ICE of NALT.</p>
 </section>
-<section id="implicit-treatment-policy-strategy" class="level2">
-<h2 class="anchored" data-anchor-id="implicit-treatment-policy-strategy">(implicit) Treatment policy strategy</h2>
-<p>Interestingly, in another highly cited paper by Fleming et al.&nbsp;<a href="material/Fleming et al (2009) Issues in Using PFS When Evaluating Oncology Products.pdf">Fleming et al. <span class="citation" data-cites="fleming_09">(<span><strong>fleming_09?</strong></span>)</span></a>, it is recommended that</p>
+<section id="implicit-treatment-policy-strategy-for-the-ice-of-nalt" class="level2">
+<h2 class="anchored" data-anchor-id="implicit-treatment-policy-strategy-for-the-ice-of-nalt">(implicit) Treatment policy strategy for the ICE of NALT</h2>
+<p>Interestingly, in another highly cited paper by Fleming et al.&nbsp;<a href="material/Fleming et al (2009) Issues in Using PFS When Evaluating Oncology Products.pdf">Fleming et al. <span class="citation" data-cites="fleming_09">(<span>2009</span>)</span></a>, it is recommended that</p>
 <blockquote class="blockquote">
 <p>…patients should not be censored at the time other treatments are initiated when analyzing the PFS end point…</p>
 </blockquote>
@@ -307,22 +285,98 @@ div.csl-indent {
 <blockquote class="blockquote">
 <p>The time of the progression or recurrence event is determined using the first date when there is documented evidence that the criteria have been met, even in situations where progression is observed after one or more missed visits, treatment discontinuation, or <strong>new anti-cancer treatment</strong>.</p>
 </blockquote>
-<p>A treatment policy strategy for start of 2nd line therapy for an endpoint of PFS has, e.g., been implemented in:</p>
-<ul>
-<li>All pivotal Gazyva trials (Gadolin, Gallium, Goya).</li>
-<li>All Phase 3 lung cancer trial at J&amp;J (informal communication, no public source available so far).</li>
-<li>In a published Phase 2 oncology trial from Bayer: Search for “policy” in <a href="material/Kindler et al (2022) ARCS-M.pdf">Kindler et al. <span class="citation" data-cites="kindler_22">(<span><strong>kindler_22?</strong></span>)</span></a>.</li>
-</ul>
+<p>A treatment policy strategy for start of 2nd line therapy for an endpoint of PFS has, e.g., been implemented in all pivotal Roche Gazyva trials (Gadolin, Gallium, Goya).</p>
 </section>
-<section id="recommendation" class="level2">
-<h2 class="anchored" data-anchor-id="recommendation">Recommendation</h2>
-<p>In general, we recommend to have the discussion “whether to censor or not” not on the estimator level, but rather discuss which estimand - hypothetical or treatment policy - we are interested in.</p>
-<p>Given the above considerations it appears that a treatment policy estimand is typically what seems of most interest to decision makers.</p>
 </section>
+<section id="fda-view-on-hypothetical-strategy-in-general" class="level1">
+<h1>FDA view on hypothetical strategy in general</h1>
+<p><a href="papers/Ionan et al (2023), Clinical and Statistical Perspectives on the Estimand Framework Implementation.pdf">Ionan et al <span class="citation" data-cites="ionan_22">(<span>2022</span>)</span></a> comment:</p>
+<blockquote class="blockquote">
+<p>For example, in the case of a hypothetical strategy, it is necessary to describe precisely the nature of the hypothetical scenario under which estimation of treatment effect is of interest and why the actual scenario in which the intercurrent event occurs is problematic for the interpretation of the treatment effect. It is important to justify the relevance of the corresponding treatment effect to be estimated, and the statistical model that accurately captures the specific chosen hypothetical scenario.</p>
+</blockquote>
+<p>and</p>
+<blockquote class="blockquote">
+<p>The clinical and regulatory interest of such hypotheticals is limited and would usually depend on a clear understanding of why and how the intercurrent event, or its consequences, would be expected to be different in clinical practice than in the clinical trial.</p>
+</blockquote>
+<p>So, using a hypothetical strategy for the ICE of NALT corresponds to interest in a treatment effect in a world where <strong>such NALT would not exist</strong>.</p>
+<p>Similarly, FDA colleagues <a href="papers/Mayo and Kim (2023) What can be Achieved with the Estimand Framework.pdf">Mayo and Kim <span class="citation" data-cites="mayo_23">(<span>2023</span>)</span></a> discourage use of hypothetical estimands:</p>
+<blockquote class="blockquote">
+<p>More precisely defining the clinical question and corresponding estimand has led to some challenges and differences in perspectives. For example, it is uncommon that we have found a hypothetical strategy to be the most relevant one for the primary clinical question used in regulatory decision-making (with exceptions, e.g., a pandemic leading to temporary site closures that are not expected to occur in general clinical practice in the future).</p>
+</blockquote>
+</section>
+<section id="publicly-available-comments-on-molecules" class="level1">
+<h1>Publicly available comments on molecules</h1>
 <section id="polarix-odac" class="level2">
 <h2 class="anchored" data-anchor-id="polarix-odac">Polarix ODAC</h2>
-<p>Whether to censor at NACT or not was actually a key question in the Polarix ODAC: <a href="https://glob.1sharepoint.roche.com/team/Roche-Stats-Workshop/Meetings/20230628_Yan_Rufibach_Polarix_estimand.pdf?d=w257a70c7592340e2bebb53bb06979973">slides</a> and <a href="https://streamingmedia.roche.com/media/Basel+Biostatistics+Community+Forum+%282023-06-28%29/1_pflao31k">recording</a> of a presentation by Mark Yan and Kaspar Rufibach to the Basel Biostatistics Community Forum on 28th June 2023.</p>
+<p>Whether to censor at NALT or not was a question in the <a href="https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03092023">Polarix ODAC</a>.</p>
+<p>FDA’s comments are available in Appendix 2 (p.&nbsp;95ff) of <a href="https://www.fda.gov/media/165961/download">Genentech’s briefing package</a>. Here, we summarize our view on some of FDA’s comments.</p>
+<section id="relation-between-treatment-policy-and-hypothetical-strategy-for-an-ice-of-nalt" class="level3">
+<h3 class="anchored" data-anchor-id="relation-between-treatment-policy-and-hypothetical-strategy-for-an-ice-of-nalt">Relation between treatment policy and hypothetical strategy for an ICE of NALT</h3>
+<p>FDA comments:</p>
+<blockquote class="blockquote">
+<p>When comparing the treatment policy approach and the hypothetical approach, there are advantages and caveats to both.</p>
+</blockquote>
+<p>First and foremost, they answer <strong>different</strong> clinical question, in our opionion which question is of most interest should guide the discussion.</p>
 </section>
+<section id="consistency-between-estimates-for-two-different-estimands" class="level3">
+<h3 class="anchored" data-anchor-id="consistency-between-estimates-for-two-different-estimands">Consistency between estimates for two different estimands</h3>
+<p>FDA commented that</p>
+<blockquote class="blockquote">
+<p>Therefore, neither approach is perfect and both strategies are important to characterize the effect of treatment. Ideally, they should be consistent and come to the same conclusion to demonstrate a robust PFS benefit.</p>
+</blockquote>
+<p>That view surprises as: different handling of NALT corresponds to different estimands and we do not see a need that the answer to different scientific questions must necessarily be consistent.</p>
+</section>
+</section>
+<section id="qing-xus-presentation-at-asa-biopharmaceutical-section-regulatory-industry-statistics-workshop" class="level2">
+<h2 class="anchored" data-anchor-id="qing-xus-presentation-at-asa-biopharmaceutical-section-regulatory-industry-statistics-workshop">Qing Xu’s presentation at ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop</h2>
+<p><a href="https://oncoestimand.github.io/oncowg_webpage/docs/talks/20230929/1_Xu.pdf">Slidedeck</a>.</p>
+<section id="non-random-censoring" class="level3">
+<h3 class="anchored" data-anchor-id="non-random-censoring">Non-random censoring</h3>
+<p>We would argue that foremost, a discussion of the estimand is needed before discussing estimation methods.</p>
+</section>
+<section id="different-estimands-to-quantify-the-effect" class="level3">
+<h3 class="anchored" data-anchor-id="different-estimands-to-quantify-the-effect">Different estimands to quantify the effect:</h3>
+<p>Summary comment:</p>
+<blockquote class="blockquote">
+<p>Different methods with different Estimand strategies should be conducted to ensure robustness. No single Estimand that fits all needs.</p>
+</blockquote>
+<p>We agree to the general concept that multiple estimands will help quantify the treatment effect. However, that raises the question about whether and how to pick the primary estimand and how to decide about “success” of the trial.</p>
+</section>
+</section>
+</section>
+<section id="fda-lungevity-statistical-forum-12th-october-impact-of-cross-over-in-the-evaluation-of-overall-survival-in-randomized-cancer-clinical-trials" class="level1">
+<h1>FDA / Lungevity statistical forum 12th October: Impact of Cross-over in the Evaluation of Overall Survival in Randomized Cancer Clinical Trials</h1>
+<p>Speakers:</p>
+<ul>
+<li>Prof.&nbsp;Nicholas R Latimer, University of Sheffield, UK</li>
+<li>Prof.&nbsp;Cheng Zheng, University of Nebraska, US</li>
+<li>Dr.&nbsp;Kaspar Rufibach, Roche Pharma, Switzerland</li>
+</ul>
+<p>Slides Kaspar’s presentation is available <a href="https://numbersman77.github.io/kasparrufibach/files/talks/20231012_Rufibach_Lungevity_crossover.pdf">here</a>.</p>
+<p>Many of the above topics were raised in Kaspar’s presentation, sharing Roche’s experience in FDA interactions on Glofitamab. An additional point was that FDA suggested a hypothetical strategy for NALT for PFS, but discouraged a similar hypothetical strategy for crossover for OS.</p>
+</section>
+<section id="appendix" class="level1">
+<h1>Appendix</h1>
+</section>
+<section id="why-is-censoring-of-subjects-in-the-estimator-for-a-time-to-event-endpoint-implementing-a-hypothetical-strategy" class="level1">
+<h1>Why is censoring of subjects in the estimator for a time-to-event endpoint implementing a hypothetical strategy?</h1>
+<p>Assume you have a trial with 100 patients and primary endpoint PFS. (In a frequentist world) This trial is a sample drawn from a metaphysical population, where the latter is our primary interest and one of the attributes of the estimand defintion. In the population PFS has a true survival function <span class="math inline">\(S\)</span>.</p>
+<p>In a first scenario, assume you observe PFS for all the 100 patients. Then, an unbiased estimator <span class="math inline">\(\hat S_1\)</span>, such as e.g.&nbsp;Kaplan-Meier (which in this case is nothing else than 1 - CDF), estimates <span class="math inline">\(S\)</span>.</p>
+<p>Now assume a second scenario where 20 patients are <strong>randomly censored</strong> (following the terminology in <a href="material/Unkel et al (2019) On estimands and the analysis of AE with varying FU times.pdf">Unkel et al. <span class="citation" data-cites="unkel_19">(<span>2019</span>)</span></a>, based on <span class="citation" data-cites="aalen_08">Aalen, Borgan, and Gjessing (<a href="#ref-aalen_08" role="doc-biblioref">2008</a>)</span>). If we now estimate <span class="math inline">\(S\)</span> using an unbiased estimator <span class="math inline">\(\hat S_2\)</span>, e.g.&nbsp;Kaplan-Meier, again then we are “correctly” using the information of the 20 censored patients, i.e.&nbsp;for these 20 patients “…outcome after <span class="math inline">\(x\)</span> number of months is imputed by using the longer term outcomes of other patients in their treatment group who also are free of the outcome at <span class="math inline">\(x\)</span> number of months and remain under follow-up beyond <span class="math inline">\(x\)</span> number of months.” (terminology used in <a href="material/Fleming et al (2009) Issues in Using PFS When Evaluating Oncology Products.pdf">Fleming et al. <span class="citation" data-cites="fleming_09">(<span>2009</span>)</span></a>). So indeed, the estimand we are targeting (namely the function <span class="math inline">\(S\)</span>) remains the same as in the hypothetical world where censoring would not happen.</p>
+<p>It is important to note that censoring alone is only sufficient for implementing a hypothetical strategy if censoring is, e.g., <strong>random</strong> in the sense described in, e.g., <a href="material/Unkel et al (2019) On estimands and the analysis of AE with varying FU times.pdf">Unkel et al. <span class="citation" data-cites="unkel_19">(<span>2019</span>)</span></a>. This is essentially equivalent to the “missing-at-random” assumption for longitudinal outcomes.</p>
+</section>
+<section id="what-are-other-estimators-of-a-hypothetical-estimand-strategy-than-simply-using-censoring" class="level1">
+<h1>What are other estimators of a hypothetical estimand strategy than simply using censoring?</h1>
+<p>Sometimes it might be plausible that subjects who discontinued treatment early would have done worse than those who did not, <strong>even in a hypothetical world where they had stayed on treatment</strong>. One method for imputing T2E endpoints in this case is the method by <a href="material/Jackson et al (2014) Relaxing the independent censoring assumption in the Cox proportional hazards model using multiple imputation.pdf">Jackson et al. <span class="citation" data-cites="jackson_14">(<span>2014</span>)</span></a> which is implemented in the <a href="https://cran.r-project.org/package=InformativeCensoring">InformativeCensoring</a> <a href="https://cran.r-project.org">R</a> package. At Roche, the Satralizumab team used this to answer EMA concerns about non-random / non-informative censoring in one of their trials, see <a href="BN40898.html">this case study</a> that also includes the original program code based on <a href="https://cran.r-project.org/package=InformativeCensoring">InformativeCensoring</a>.</p>
+<p>Alternatively, <a href="https://pages.github.roche.com/estimand/estimand/docs/switching.html#inverse-probability-of-censoring-weights-ipcw">inverse-probability of censoring weights</a> (IPCW) has also been proposed. Here, patients who do not have the intercurrent event serve as proxies for those who do. For estimation we need covariates that make PFS and the intercurrent event conditionally independent. This has been used e.g.&nbsp;in the <a href="switching.html#inverse-probability-of-censoring-weights-ipcw">Polarix trial</a>.</p>
+</section>
+<section id="if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" class="level1">
+<h1>If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?</h1>
+<p>Yes, generally treatment switches are often informative (which does not mean censoring is informative, see <a href="material/Andersen (2005, encyclopedia) Censored data.pdf">Andersen <span class="citation" data-cites="andersen_05">(<span>2005</span>)</span></a>) as people are switching because their current treatment is not working. However, you could also imagine some scenarios where the reason for switching may not carry information about a patient, e.g.&nbsp;a region may limit the availability of a certain treatment to a limited number of cycles for cost-effectiveness reasons.</p>
+<p>Find more resources on treatment switching on this <a href="switching.html">dedicated page</a>.</p>
+</section>
+<section id="for-an-endpoint-of-pfs-should-we-censor-at-start-of-new-anticancer-therapy-nalt-before-progression-and-what-estimand-does-either-approach-estimate" class="level1">
+<h1>For an endpoint of PFS, should we censor at start of new anticancer therapy (NALT) before progression? And what estimand does either approach estimate?</h1>
 </section>
 <section id="references" class="level1">
 
@@ -332,8 +386,32 @@ div.csl-indent {
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-aalen_08" class="csl-entry" role="listitem">
+Aalen, Odd, Ørnulf Borgan, and Haakon Gjessing. 2008. <em>Sur.vival and Event History Analysis: A Process Point of View</em>. Springer Science &amp; Business Media.
+</div>
+<div id="ref-andersen_05" class="csl-entry" role="listitem">
+Andersen, Per Kragh. 2005. <span>“Censored Data.”</span> In <em>Encyclopedia of Biostatistics</em>. John Wiley &amp; Sons, Ltd. <a href="https://doi.org/10.1002/0470011815.b2a11008">https://doi.org/10.1002/0470011815.b2a11008</a>.
+</div>
+<div id="ref-cheson_07" class="csl-entry" role="listitem">
+Cheson, B. D., B. Pfistner, M. E. Juweid, R. D. Gascoyne, L. Specht, S. J. Horning, B. Coiffier, et al. 2007. <span>“<span class="nocase"><span>R</span>evised response criteria for malignant lymphoma</span>.”</span> <em>J. Clin. Oncol.</em> 25 (5): 579–86.
+</div>
+<div id="ref-fleming_09" class="csl-entry" role="listitem">
+Fleming, T. R., M. D. Rothmann, and H. L. Lu. 2009. <span>“<span class="nocase"><span>I</span>ssues in using progression-free survival when evaluating oncology products</span>.”</span> <em>J. Clin. Oncol.</em> 27 (17): 2874–80.
+</div>
 <div id="ref-ionan_22" class="csl-entry" role="listitem">
 Ionan, Alexei C., Miya Paterniti, Devan V. Mehrotra, John Scott, Bohdana Ratitch, Sylva Collins, Shanti Gomatam, Lei Nie, Kaspar Rufibach, and Frank Bretz. 2022. <span>“Clinical and Statistical Perspectives on the ICH E9(R1) Estimand Framework Implementation.”</span> <em>Statistics in Biopharmaceutical Research</em> 0 (ja): 1–12. <a href="https://doi.org/10.1080/19466315.2022.2081601">https://doi.org/10.1080/19466315.2022.2081601</a>.
+</div>
+<div id="ref-jackson_14" class="csl-entry" role="listitem">
+Jackson, Dan, Ian R. White, Shaun Seaman, Hannah Evans, Kathy Baisley, and James Carpenter. 2014. <span>“Relaxing the Independent Censoring Assumption in the Cox Proportional Hazards Model Using Multiple Imputation.”</span> <em>Statistics in Medicine</em> 33 (27): 4681–94. https://doi.org/<a href="https://doi.org/10.1002/sim.6274">https://doi.org/10.1002/sim.6274</a>.
+</div>
+<div id="ref-mayo_23" class="csl-entry" role="listitem">
+Mayo, Susan, and Yongman Kim. 2023. <span>“What Can Be Achieved with the Estimand Framework?”</span> <em>Statistics in Biopharmaceutical Research</em> 0 (ja): 1–8. <a href="https://doi.org/10.1080/19466315.2023.2173645">https://doi.org/10.1080/19466315.2023.2173645</a>.
+</div>
+<div id="ref-unkel_19" class="csl-entry" role="listitem">
+Unkel, Steffen, Marjan Amiri, Norbert Benda, Jan Beyersmann, Dietrich Knoerzer, Katrin Kupas, Frank Langer, et al. 2019. <span>“On Estimands and the Analysis of Adverse Events in the Presence of Varying Follow-up Times Within the Benefit Assessment of Therapies.”</span> <em>Pharmaceutical Statistics</em> 18 (March): 166–83.
+</div>
+<div id="ref-fda_endpoints" class="csl-entry" role="listitem">
+U.S. Food and Drug Administration. 2007. <em><span class="nocase">Guidance for Industry: Clinical Trial Endpoints for the Approval of Cancer Drugs and Biologics</span></em>. <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics">https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics</a>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

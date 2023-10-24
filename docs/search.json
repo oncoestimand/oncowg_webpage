@@ -4,7 +4,7 @@
     "href": "nalt_9862938.html",
     "title": "New-anti lymphoma treatment (NALT) as intercurrent event for PFS in lymphoma",
     "section": "",
-    "text": "In FDA interactions on several Roche trials ()"
+    "text": "New anti-lymphoma (NALT) therapy before progression (PD) for progression-free survival (PFS) in lymphoma trials can be considered an intercurrent event (ICE) in the framework of the ICH E9 addendum addendum.\n\nWhat clinical question are we interested in?\nWhich of the five estimand strategies in the ICH E9 addendum help answering the clinical question of interest?\nHow should we estimate the chosen estimand?\n\n\n\nIn the 00’s, i.e. in the pre-estimand addendum era, there already was a debate whether one should censor at start of NALT in lymphoma indications, and this debates appears to go on until today. The FDA guidance Guidance for industry clinical trial endpoints for the approval of cancer drugs and biologics U.S. Food and Drug Administration (2007) recommends to censor at date of “new anticancer treatment”. This is in line with Cheson et al. (2007) who writes\n\n…in studies in which failure to respond without progression is considered an indication for another therapy, such patients should be censored at that point for the progression analysis.\n\nThis estimator, i.e. censoring at start of NALT, (implicitly) corresponds to applying a hypothetical strategy for the ICE of NALT.\n\n\n\nInterestingly, in another highly cited paper by Fleming et al. Fleming et al. (2009), it is recommended that\n\n…patients should not be censored at the time other treatments are initiated when analyzing the PFS end point…\n\nThis corresponds to a treatment policy estimand. This is also implicitly the recommendation in the EMA guidance Appendix 1 to the guideline on the evaluation of anticancer medicinal products in man:\n\nThe time of the progression or recurrence event is determined using the first date when there is documented evidence that the criteria have been met, even in situations where progression is observed after one or more missed visits, treatment discontinuation, or new anti-cancer treatment.\n\nA treatment policy strategy for start of 2nd line therapy for an endpoint of PFS has, e.g., been implemented in all pivotal Roche Gazyva trials (Gadolin, Gallium, Goya)."
   },
   {
     "objectID": "nalt_9862938.html#context-1",
@@ -24,8 +24,8 @@
     "objectID": "nalt_9862938.html#implicit-treatment-policy-strategy",
     "href": "nalt_9862938.html#implicit-treatment-policy-strategy",
     "title": "New-anti lymphoma treatment (NALT) as intercurrent event for PFS in lymphoma",
-    "section": "(implicit) Treatment policy strategy",
-    "text": "(implicit) Treatment policy strategy\nInterestingly, in another highly cited paper by Fleming et al. Fleming et al. (fleming_09?), it is recommended that\n\n…patients should not be censored at the time other treatments are initiated when analyzing the PFS end point…\n\nThis corresponds to a treatment policy estimand. This is also implicitly the recommendation in the EMA guidance Appendix 1 to the guideline on the evaluation of anticancer medicinal products in man:\n\nThe time of the progression or recurrence event is determined using the first date when there is documented evidence that the criteria have been met, even in situations where progression is observed after one or more missed visits, treatment discontinuation, or new anti-cancer treatment.\n\nA treatment policy strategy for start of 2nd line therapy for an endpoint of PFS has, e.g., been implemented in:\n\nAll pivotal Gazyva trials (Gadolin, Gallium, Goya).\nAll Phase 3 lung cancer trial at J&J (informal communication, no public source available so far).\nIn a published Phase 2 oncology trial from Bayer: Search for “policy” in Kindler et al. (kindler_22?)."
+    "section": "",
+    "text": "Interestingly, in another highly cited paper by Fleming et al. Fleming et al. (2009), it is recommended that\n\n…patients should not be censored at the time other treatments are initiated when analyzing the PFS end point…\n\nThis corresponds to a treatment policy estimand. This is also implicitly the recommendation in the EMA guidance Appendix 1 to the guideline on the evaluation of anticancer medicinal products in man:\n\nThe time of the progression or recurrence event is determined using the first date when there is documented evidence that the criteria have been met, even in situations where progression is observed after one or more missed visits, treatment discontinuation, or new anti-cancer treatment.\n\nA treatment policy strategy for start of 2nd line therapy for an endpoint of PFS has, e.g., been implemented in: all pivotal Roche Gazyva trials (Gadolin, Gallium, Goya)."
   },
   {
     "objectID": "nalt_9862938.html#recommendation",
@@ -39,7 +39,7 @@
     "href": "nalt_9862938.html#polarix-odac",
     "title": "New-anti lymphoma treatment (NALT) as intercurrent event for PFS in lymphoma",
     "section": "Polarix ODAC",
-    "text": "Polarix ODAC\nWhether to censor at NACT or not was actually a key question in the Polarix ODAC: slides and recording of a presentation by Mark Yan and Kaspar Rufibach to the Basel Biostatistics Community Forum on 28th June 2023."
+    "text": "Polarix ODAC\nWhether to censor at NALT or not was a question in the Polarix ODAC.\nFDA’s comments are available in Appendix 2 (p. 95ff) of Genentech’s briefing package. Here, we summarize our view on some of FDA’s comments.\n\nRelation between treatment policy and hypothetical strategy for an ICE of NALT\nFDA comments:\n\nWhen comparing the treatment policy approach and the hypothetical approach, there are advantages and caveats to both.\n\nFirst and foremost, they answer different clinical question, in our opionion which question is of most interest should guide the discussion.\n\n\nConsistency between estimates for two different estimands\nFDA commented that\n\nTherefore, neither approach is perfect and both strategies are important to characterize the effect of treatment. Ideally, they should be consistent and come to the same conclusion to demonstrate a robust PFS benefit.\n\nThat view surprises as: different handling of NALT corresponds to different estimands and we do not see a need that the answer to different scientific questions must necessarily be consistent."
   },
   {
     "objectID": "code.html",
@@ -355,5 +355,33 @@
     "title": "Collaborations",
     "section": "",
     "text": "Membership in scientific organizations\nSee here.\n\n\nCollaboration with Health Authorities\nSee here.\n\n\nEstimand implementation working group\nThe working group closely collaborates with the EFSPI/EFPIA Estimands Implementation WG (EIWG) to implement estimands in drug development by collaborating with non-statistical partner functions. Stefan Englert is a member of both working groups and leads that collaboration.\n\n\nPHUSE\nThe safety taskforce is a formal joint venture between the working group and PHUSE, and the safety taskforce is a formal part of the PHUSE organizational structure, see here. Jonathan Siegel is leading this collaboration.\n\n\nASA LIDS section\nThe censoring mechanism subteam with the ASA LIDS section. Although the oncology estimand WG is as a whole affiliated with the BIOP section, the censoring mechanism subteam had previously established a relationship with the ASA LIDS section. Jonathan Siegel is leading this collaboration.\nThe collaboration continues to bear fruit. For example, the “Time-to-event Estimands in Oncology” session at the upcoming LIDS 2023 conference is a direct result of the collaboration, as is Richard Cook’s periodic involvement in various EOI conference sessions and panels over the years. (Richard will be the discussant for our session at LIDS)."
+  },
+  {
+    "objectID": "nalt_9862938.html#implicit-estimand-strategies",
+    "href": "nalt_9862938.html#implicit-estimand-strategies",
+    "title": "New-anti lymphoma treatment (NALT) as intercurrent event for PFS in lymphoma",
+    "section": "",
+    "text": "In the 00’s, i.e. in the pre-estimand addendum era, there already was a debate whether one should censor at start of NALT in lymphoma indications, and this debates appears to go on until today. The FDA guidance Guidance for industry clinical trial endpoints for the approval of cancer drugs and biologics U.S. Food and Drug Administration (2007) recommends to censor at date of “new anticancer treatment”. This is in line with Cheson et al. (2007) who writes\n\n…in studies in which failure to respond without progression is considered an indication for another therapy, such patients should be censored at that point for the progression analysis.\n\nThis estimator, i.e. censoring at start of NALT, (implicitly) corresponds to applying a hypothetical strategy for the ICE of NALT."
+  },
+  {
+    "objectID": "nalt_9862938.html#implicit-hypothetical-strategy-for-the-ice-of-nalt",
+    "href": "nalt_9862938.html#implicit-hypothetical-strategy-for-the-ice-of-nalt",
+    "title": "New-anti lymphoma treatment (NALT) as intercurrent event for PFS in lymphoma",
+    "section": "",
+    "text": "In the 00’s, i.e. in the pre-estimand addendum era, there already was a debate whether one should censor at start of NALT in lymphoma indications, and this debates appears to go on until today. The FDA guidance Guidance for industry clinical trial endpoints for the approval of cancer drugs and biologics U.S. Food and Drug Administration (2007) recommends to censor at date of “new anticancer treatment”. This is in line with Cheson et al. (2007) who writes\n\n…in studies in which failure to respond without progression is considered an indication for another therapy, such patients should be censored at that point for the progression analysis.\n\nThis estimator, i.e. censoring at start of NALT, (implicitly) corresponds to applying a hypothetical strategy for the ICE of NALT."
+  },
+  {
+    "objectID": "nalt_9862938.html#implicit-treatment-policy-strategy-for-the-ice-of-nalt",
+    "href": "nalt_9862938.html#implicit-treatment-policy-strategy-for-the-ice-of-nalt",
+    "title": "New-anti lymphoma treatment (NALT) as intercurrent event for PFS in lymphoma",
+    "section": "",
+    "text": "Interestingly, in another highly cited paper by Fleming et al. Fleming et al. (2009), it is recommended that\n\n…patients should not be censored at the time other treatments are initiated when analyzing the PFS end point…\n\nThis corresponds to a treatment policy estimand. This is also implicitly the recommendation in the EMA guidance Appendix 1 to the guideline on the evaluation of anticancer medicinal products in man:\n\nThe time of the progression or recurrence event is determined using the first date when there is documented evidence that the criteria have been met, even in situations where progression is observed after one or more missed visits, treatment discontinuation, or new anti-cancer treatment.\n\nA treatment policy strategy for start of 2nd line therapy for an endpoint of PFS has, e.g., been implemented in all pivotal Roche Gazyva trials (Gadolin, Gallium, Goya)."
+  },
+  {
+    "objectID": "nalt_9862938.html#qing-xus-presentation-at-asa-biopharmaceutical-section-regulatory-industry-statistics-workshop",
+    "href": "nalt_9862938.html#qing-xus-presentation-at-asa-biopharmaceutical-section-regulatory-industry-statistics-workshop",
+    "title": "New-anti lymphoma treatment (NALT) as intercurrent event for PFS in lymphoma",
+    "section": "Qing Xu’s presentation at ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop",
+    "text": "Qing Xu’s presentation at ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop\nSlidedeck.\n\nNon-random censoring\nWe would argue that foremost, a discussion of the estimand is needed before discussing estimation methods.\n\n\nDifferent estimands to quantify the effect:\nSummary comment:\n\nDifferent methods with different Estimand strategies should be conducted to ensure robustness. No single Estimand that fits all needs.\n\nWe agree to the general concept that multiple estimands will help quantify the treatment effect. However, that raises the question about whether and how to pick the primary estimand and how to decide about “success” of the trial."
   }
 ]

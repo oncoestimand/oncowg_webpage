@@ -1,8 +1,8 @@
 ---
 title: "New-anti lymphoma treatment (NALT) as intercurrent event for PFS in lymphoma"
 author: 
-- name: Estimands SME network
-  affiliation: PD Data and Statistical Sciences
+- name: Kaspar Rufibach
+  affiliation: Methods, Collaboration, and Outreach (MCO) Group, Roche
 output: 
   rmarkdown::html_document:
     highlight: pygments
@@ -16,7 +16,102 @@ bibliography: biblio.bib
 
 # Context
 
-In FDA interactions on several Roche trials ()
+New anti-lymphoma (NALT) therapy before progression (PD) for progression-free survival (PFS) in lymphoma trials can be considered an intercurrent event (ICE) in the framework of the [ICH E9 addendum](https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf) addendum.
+
+- What clinical question are we interested in?
+- Which of the five estimand strategies in the [ICH E9 addendum](https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf) help answering the clinical question of interest?
+- How should we estimate the chosen estimand?
+
+## (implicit) Hypothetical strategy for the ICE of NALT
+
+In the 00's, i.e. in the pre-estimand addendum era, there already was a debate whether one should censor at start of NALT in lymphoma indications, and this debates appears to go on until today. The FDA guidance [*Guidance for industry clinical trial endpoints for the approval of cancer drugs and biologics*](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics) @fda_endpoints recommends to censor at date of "new anticancer treatment". This is in line with [Cheson et al. [-@cheson_07]](papers/Cheson%20et%20al%20(2007)%20Revised%20response%20criteria%20for%20malignant%20lymphoma.pdf) who writes 
+
+> ...in studies in which failure to respond without progression is considered an indication for another therapy, such patients should be censored at that point for the progression analysis.
+
+This estimator, i.e. censoring at start of NALT, (implicitly) corresponds to applying a **hypothetical** strategy for the ICE of NALT. 
+
+## (implicit) Treatment policy strategy for the ICE of NALT
+
+Interestingly, in another highly cited paper by Fleming et al. [Fleming et al. [-@fleming_09]](material/Fleming%20et%20al%20(2009)%20Issues%20in%20Using%20PFS%20When%20Evaluating%20Oncology%20Products.pdf), it is recommended that
+
+> ...patients should not be censored at the time other treatments are initiated when analyzing the PFS end point...
+
+This corresponds to a **treatment policy** estimand. This is also implicitly the recommendation in the EMA guidance [Appendix 1 to the guideline on the evaluation of anticancer medicinal products in man](https://www.ema.europa.eu/en/documents/scientific-guideline/appendix-1-guideline-evaluation-anticancer-medicinal-products-man-methodological-consideration-using_en.pdf):
+
+> The time of the progression or recurrence event is determined using the first date when there is documented evidence that the
+criteria have been met, even in situations where progression is observed after one or more missed visits, treatment discontinuation, or **new anti-cancer treatment**.
+
+A treatment policy strategy for start of 2nd line therapy for an endpoint of PFS has, e.g., been implemented in all pivotal Roche Gazyva trials (Gadolin, Gallium, Goya).
+
+# FDA view on hypothetical strategy in general
+
+[Ionan et al [-@ionan_22]](papers/Ionan et al (2023), Clinical and Statistical Perspectives on the Estimand Framework Implementation.pdf) comment:
+
+> For example, in the case of a hypothetical strategy, it is necessary to describe precisely the nature of the hypothetical scenario under which estimation of treatment effect is of interest and why the actual scenario in which the intercurrent event occurs is problematic for the interpretation of the treatment effect. It is important to justify the relevance of the corresponding treatment effect to be estimated, and the statistical model that accurately captures the specific chosen hypothetical scenario. 
+
+and
+
+> The clinical and regulatory interest of such hypotheticals is limited and would usually depend on a clear understanding of why and how the intercurrent event, or its consequences, would be expected to be different in clinical practice than in the clinical trial.
+
+So, using a hypothetical strategy for the ICE of NALT corresponds to interest in a treatment effect in a world where **such NALT would not exist**.
+
+Similarly, FDA colleagues [Mayo and Kim [-@mayo_23]](papers/Mayo and Kim (2023) What can be Achieved with the Estimand Framework.pdf) discourage use of hypothetical estimands:
+
+> More precisely defining the clinical question and corresponding estimand has led to some challenges and differences in perspectives. For example, it is uncommon that we have found a hypothetical strategy to be the most relevant one for the primary clinical question used in regulatory decision-making (with exceptions, e.g., a pandemic leading to temporary site closures that are not expected to occur in general clinical practice in the future).
+
+# Publicly available comments on molecules
+
+## Polarix ODAC
+
+Whether to censor at NALT or not was a question in the [Polarix ODAC](https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03092023).
+
+FDA's comments are available in Appendix 2 (p. 95ff) of [Genentech's briefing package](https://www.fda.gov/media/165961/download). Here, we summarize our view on some of FDA's comments.
+
+### Relation between treatment policy and hypothetical strategy for an ICE of NALT
+
+FDA comments:
+
+> When comparing the treatment policy approach and the hypothetical approach, there are advantages and caveats to both. 
+
+First and foremost, they answer **different** clinical question, in our opionion which question is of most interest should guide the discussion.
+
+### Consistency between estimates for two different estimands
+
+FDA commented that 
+
+> Therefore, neither approach is perfect and both strategies are important to characterize the effect of treatment. Ideally, they should be consistent and come to the same conclusion to demonstrate a robust PFS benefit.
+
+That view surprises as: different handling of NALT corresponds to different estimands and we do not see a need that the answer to different scientific questions must necessarily be consistent.
+
+## Qing Xu's presentation at ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop
+
+[Slidedeck](https://oncoestimand.github.io/oncowg_webpage/docs/talks/20230929/1_Xu.pdf).
+
+### Non-random censoring
+
+We would argue that foremost, a discussion of the estimand is needed before discussing estimation methods.
+
+### Different estimands to quantify the effect: 
+
+Summary comment:
+
+> Different methods with different Estimand strategies should be conducted to ensure robustness. No single Estimand that fits all needs.
+
+We agree to the general concept that multiple estimands will help quantify the treatment effect. However, that raises the question about whether and how to pick the primary estimand and how to decide about "success" of the trial.
+
+# FDA / Lungevity statistical forum 12th October: Impact of Cross-over in the Evaluation of Overall Survival in Randomized Cancer Clinical Trials
+
+Speakers:
+
+- Prof. Nicholas R Latimer, University of Sheffield, UK
+- Prof. Cheng Zheng, University of Nebraska, US
+- Dr. Kaspar Rufibach, Roche Pharma, Switzerland
+
+Slides Kaspar's presentation is available [here](https://numbersman77.github.io/kasparrufibach/files/talks/20231012_Rufibach_Lungevity_crossover.pdf).
+
+Many of the above topics were raised in Kaspar's presentation, sharing Roche's experience in FDA interactions on Glofitamab. An additional point was that FDA suggested a hypothetical strategy for NALT for PFS, but discouraged a similar hypothetical strategy for crossover for OS. 
+
+# Appendix 
 
 # Why is censoring of subjects in the estimator for a time-to-event endpoint implementing a hypothetical strategy?
 
@@ -27,6 +122,8 @@ In a first scenario, assume you observe PFS for all the 100 patients. Then, an u
 Now assume a second scenario where 20 patients are **randomly censored** (following the terminology in [Unkel et al. [-@unkel_19]](material/Unkel%20et%20al%20(2019)%20On%20estimands%20and%20the%20analysis%20of%20AE%20with%20varying%20FU%20times.pdf), based on @aalen_08). If we now estimate $S$ using an unbiased estimator $\hat S_2$, e.g. Kaplan-Meier, again then we are "correctly" using the information of the 20 censored patients, i.e. for these 20 patients "...outcome after $x$ number of months is imputed by using the longer term outcomes of other patients in their treatment group who also are free of the outcome at $x$ number of months and remain under follow-up beyond $x$ number of months." (terminology used in [Fleming et al. [-@fleming_09]](material/Fleming%20et%20al%20(2009)%20Issues%20in%20Using%20PFS%20When%20Evaluating%20Oncology%20Products.pdf)). So indeed, the estimand we are targeting (namely the function $S$) remains the same as in the hypothetical world where censoring would not happen.
 
 It is important to note that censoring alone is only sufficient for implementing a hypothetical strategy if censoring is, e.g., **random** in the sense described in, e.g., [Unkel et al. [-@unkel_19]](material/Unkel%20et%20al%20(2019)%20On%20estimands%20and%20the%20analysis%20of%20AE%20with%20varying%20FU%20times.pdf). This is essentially equivalent to the "missing-at-random" assumption for longitudinal outcomes.
+
+
 
 # What are other estimators of a hypothetical estimand strategy than simply using censoring?
 
@@ -40,62 +137,9 @@ Yes, generally treatment switches are often informative (which does not mean cen
 
 Find more resources on treatment switching on this [dedicated page](switching.html).
 
-# For an endpoint of PFS, should we censor at start of new anticancer therapy (NACT) before progression? And what estimand does either approach estimate?
-
-## Context 
-
-For an endpoint of PFS, start of NACT before PD or death is an **intercurrent event**. The questions then are:
-
-- Which of the five estimand strategies in the [ICH E9 addendum](https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf) should we use?
-- How should we estimate the chosen estimand?
-
-## (implicit) Hypothetical strategy 
-
-In the 00's there was a lively debate whether one should censor at start of NACT in lymphoma indications, and this debates appears to go on until today. The FDA guidance [*Guidance for industry clinical trial endpoints for the approval of cancer drugs and biologics*](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics) @fda_endpoints recommends to censor at date of "new anticancer treatment". This is in line with [Cheson et al. [-@cheson_07]](material/Cheson%20et%20al%20(2007)%20Revised%20response%20criteria%20for%20malignant%20lymphoma.pdf) who writes 
-
-> ...in studies in which failure to respond without progression is considered an indication for another therapy, such patients should be censored at that point for the progression analysis.
-
-This estimator, i.e. censoring at start of 2nd line therapy, corresponds to a **hypothetical** estimand. That the FDA is still recommending that approach is interesting, given the FDA's reluctance to hypothetical estimands in general. For example, in [Ionan et al [-@ionan_22]](papers/Ionan et al (2023), Clinical and Statistical Perspectives on the Estimand Framework Implementation.pdf) (FDA 1st author, paper written together with industry statisticians)
-
-> For example, in the case of a hypothetical strategy, it is necessary to describe precisely the nature of the hypothetical scenario under which estimation of treatment effect is of interest and why the actual scenario in which the intercurrent event occurs is problematic for the interpretation of the treatment effect. It is important to justify the relevance of the corresponding treatment effect to be estimated, and the statistical model that accurately captures the specific chosen hypothetical scenario. 
-
-and
-
-> The clinical and regulatory interest of such hypotheticals is limited and would usually depend on a clear understanding of why and how the intercurrent event, or its consequences, would be expected to be different in clinical practice than in the clinical trial.
-
-So, applied to NACT a hypothetical estimand corresponds to interest in a treatment effect in a world where **such NACT would not exist!** Typically, that seems not a plausible estimand.
-
-Similarly, [Mayo and Kim [-@mayo_23]](papers/Mayo and Kim (2023) What can be Achieved with the Estimand Framework.pdf) (both FDA authors) discourage use of hypothetical estimands:
-
-> More precisely defining the clinical question and corresponding estimand has led to some challenges and differences in perspectives. For example, it is uncommon that we have found a hypothetical strategy to be the most relevant one for the primary clinical question used in regulatory decision-making (with exceptions, e.g., a pandemic leading to temporary site closures that are not expected to occur in general clinical practice in the future).
-
-## (implicit) Treatment policy strategy
-
-Interestingly, in another highly cited paper by Fleming et al. [Fleming et al. [-@fleming_09]](material/Fleming%20et%20al%20(2009)%20Issues%20in%20Using%20PFS%20When%20Evaluating%20Oncology%20Products.pdf), it is recommended that
-
-> ...patients should not be censored at the time other treatments are initiated when analyzing the PFS end point...
-
-This corresponds to a **treatment policy** estimand. This is also implicitly the recommendation in the EMA guidance [Appendix 1 to the guideline on the evaluation of anticancer medicinal products in man](https://www.ema.europa.eu/en/documents/scientific-guideline/appendix-1-guideline-evaluation-anticancer-medicinal-products-man-methodological-consideration-using_en.pdf):
-
-> The time of the progression or recurrence event is determined using the first date when there is documented evidence that the
-criteria have been met, even in situations where progression is observed after one or more missed visits, treatment discontinuation, or **new anti-cancer treatment**.
-
-A treatment policy strategy for start of 2nd line therapy for an endpoint of PFS has, e.g., been implemented in:
-
-- All pivotal Gazyva trials (Gadolin, Gallium, Goya).
-- All Phase 3 lung cancer trial at J&J (informal communication, no public source available so far).
-- In a published Phase 2 oncology trial from Bayer: Search for "policy" in [Kindler et al. [-@kindler_22]](material/Kindler et al (2022) ARCS-M.pdf).
-
-## Recommendation
-
-In general, we recommend to have the discussion "whether to censor or not" not on the estimator level, but rather discuss which estimand - hypothetical or treatment policy - we are interested in. 
-
-Given the above considerations it appears that a treatment policy estimand is typically what seems of most interest to decision makers.
-
-## Polarix ODAC
-
-Whether to censor at NACT or not was actually a key question in the Polarix ODAC: [slides](https://glob.1sharepoint.roche.com/team/Roche-Stats-Workshop/Meetings/20230628_Yan_Rufibach_Polarix_estimand.pdf?d=w257a70c7592340e2bebb53bb06979973) and [recording](https://streamingmedia.roche.com/media/Basel+Biostatistics+Community+Forum+%282023-06-28%29/1_pflao31k) of a presentation by Mark Yan and Kaspar Rufibach to the Basel Biostatistics Community Forum on 28th June 2023.
+# For an endpoint of PFS, should we censor at start of new anticancer therapy (NALT) before progression? And what estimand does either approach estimate?
 
 
 
 # References
+
