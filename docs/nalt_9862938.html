@@ -197,12 +197,19 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#context" id="toc-context" class="nav-link active" data-scroll-target="#context">Context</a>
+  <li><a href="#context" id="toc-context" class="nav-link active" data-scroll-target="#context">Context</a></li>
+  <li><a href="#estimand" id="toc-estimand" class="nav-link" data-scroll-target="#estimand">Estimand</a>
   <ul class="collapse">
   <li><a href="#implicit-hypothetical-strategy-for-the-ice-of-nalt" id="toc-implicit-hypothetical-strategy-for-the-ice-of-nalt" class="nav-link" data-scroll-target="#implicit-hypothetical-strategy-for-the-ice-of-nalt">(implicit) Hypothetical strategy for the ICE of NALT</a></li>
   <li><a href="#implicit-treatment-policy-strategy-for-the-ice-of-nalt" id="toc-implicit-treatment-policy-strategy-for-the-ice-of-nalt" class="nav-link" data-scroll-target="#implicit-treatment-policy-strategy-for-the-ice-of-nalt">(implicit) Treatment policy strategy for the ICE of NALT</a></li>
   </ul></li>
   <li><a href="#fda-view-on-hypothetical-strategy-in-general" id="toc-fda-view-on-hypothetical-strategy-in-general" class="nav-link" data-scroll-target="#fda-view-on-hypothetical-strategy-in-general">FDA view on hypothetical strategy in general</a></li>
+  <li><a href="#estimation-methods" id="toc-estimation-methods" class="nav-link" data-scroll-target="#estimation-methods">Estimation methods</a>
+  <ul class="collapse">
+  <li><a href="#censoring" id="toc-censoring" class="nav-link" data-scroll-target="#censoring">Censoring</a></li>
+  <li><a href="#other-estimators-of-an-estimand-with-a-hypothetical-strategy-for-an-ice" id="toc-other-estimators-of-an-estimand-with-a-hypothetical-strategy-for-an-ice" class="nav-link" data-scroll-target="#other-estimators-of-an-estimand-with-a-hypothetical-strategy-for-an-ice">Other estimators of an estimand with a hypothetical strategy for an ICE</a></li>
+  <li><a href="#if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" id="toc-if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" class="nav-link" data-scroll-target="#if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd">If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?</a></li>
+  </ul></li>
   <li><a href="#publicly-available-comments-on-molecules" id="toc-publicly-available-comments-on-molecules" class="nav-link" data-scroll-target="#publicly-available-comments-on-molecules">Publicly available comments on molecules</a>
   <ul class="collapse">
   <li><a href="#polarix-odac" id="toc-polarix-odac" class="nav-link" data-scroll-target="#polarix-odac">Polarix ODAC</a>
@@ -219,8 +226,6 @@ div.csl-indent {
   <li><a href="#fda-lungevity-statistical-forum-12th-october-impact-of-cross-over-in-the-evaluation-of-overall-survival-in-randomized-cancer-clinical-trials" id="toc-fda-lungevity-statistical-forum-12th-october-impact-of-cross-over-in-the-evaluation-of-overall-survival-in-randomized-cancer-clinical-trials" class="nav-link" data-scroll-target="#fda-lungevity-statistical-forum-12th-october-impact-of-cross-over-in-the-evaluation-of-overall-survival-in-randomized-cancer-clinical-trials">FDA / Lungevity statistical forum 12th October: Impact of Cross-over in the Evaluation of Overall Survival in Randomized Cancer Clinical Trials</a></li>
   <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a></li>
   <li><a href="#why-is-censoring-of-subjects-in-the-estimator-for-a-time-to-event-endpoint-implementing-a-hypothetical-strategy" id="toc-why-is-censoring-of-subjects-in-the-estimator-for-a-time-to-event-endpoint-implementing-a-hypothetical-strategy" class="nav-link" data-scroll-target="#why-is-censoring-of-subjects-in-the-estimator-for-a-time-to-event-endpoint-implementing-a-hypothetical-strategy">Why is censoring of subjects in the estimator for a time-to-event endpoint implementing a hypothetical strategy?</a></li>
-  <li><a href="#what-are-other-estimators-of-a-hypothetical-estimand-strategy-than-simply-using-censoring" id="toc-what-are-other-estimators-of-a-hypothetical-estimand-strategy-than-simply-using-censoring" class="nav-link" data-scroll-target="#what-are-other-estimators-of-a-hypothetical-estimand-strategy-than-simply-using-censoring">What are other estimators of a hypothetical estimand strategy than simply using censoring?</a></li>
-  <li><a href="#if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" id="toc-if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" class="nav-link" data-scroll-target="#if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd">If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul>
 </nav>
@@ -266,6 +271,9 @@ div.csl-indent {
 <li>Which of the five estimand strategies in the <a href="https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf">ICH E9 addendum</a> help answering the clinical question of interest?</li>
 <li>How should we estimate the chosen estimand?</li>
 </ul>
+</section>
+<section id="estimand" class="level1">
+<h1>Estimand</h1>
 <section id="implicit-hypothetical-strategy-for-the-ice-of-nalt" class="level2">
 <h2 class="anchored" data-anchor-id="implicit-hypothetical-strategy-for-the-ice-of-nalt">(implicit) Hypothetical strategy for the ICE of NALT</h2>
 <p>In the 00’s, i.e.&nbsp;in the pre-estimand addendum era, there already was a debate whether one should censor at start of NALT in lymphoma indications, and this debates appears to go on until today. The FDA guidance <a href="https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics"><em>Guidance for industry clinical trial endpoints for the approval of cancer drugs and biologics</em></a> <span class="citation" data-cites="fda_endpoints">U.S. Food and Drug Administration (<a href="#ref-fda_endpoints" role="doc-biblioref">2007</a>)</span> recommends to censor at date of “new anticancer treatment”. This is in line with <a href="papers/Cheson et al (2007) Revised response criteria for malignant lymphoma.pdf">Cheson et al. <span class="citation" data-cites="cheson_07">(<span>2007</span>)</span></a> who writes</p>
@@ -306,6 +314,22 @@ div.csl-indent {
 <p>More precisely defining the clinical question and corresponding estimand has led to some challenges and differences in perspectives. For example, it is uncommon that we have found a hypothetical strategy to be the most relevant one for the primary clinical question used in regulatory decision-making (with exceptions, e.g., a pandemic leading to temporary site closures that are not expected to occur in general clinical practice in the future).</p>
 </blockquote>
 </section>
+<section id="estimation-methods" class="level1">
+<h1>Estimation methods</h1>
+<section id="censoring" class="level2">
+<h2 class="anchored" data-anchor-id="censoring">Censoring</h2>
+<p>Some of the estimand aspects have been mingled into the, what we now call “estimand discussion” in the past. Most specifically, the question about “censoring”. Censoring is a statistical technique to estimate an estimand with a hypothetical strategy for an ICE. As such, “censoring” cannot be part of the <em>estimand</em> definition, rather it pertains to the <em>estimation method</em>.</p>
+</section>
+<section id="other-estimators-of-an-estimand-with-a-hypothetical-strategy-for-an-ice" class="level2">
+<h2 class="anchored" data-anchor-id="other-estimators-of-an-estimand-with-a-hypothetical-strategy-for-an-ice">Other estimators of an estimand with a hypothetical strategy for an ICE</h2>
+<p>Sometimes it might be plausible that subjects who discontinued treatment early would have done worse than those who did not, <strong>even in a hypothetical world where they had stayed on treatment</strong>. One method for imputing T2E endpoints in this case is the method by Jackson et al. <span class="citation" data-cites="jackson_14">(<a href="#ref-jackson_14" role="doc-biblioref">2014</a>)</span> which is implemented in the <a href="https://cran.r-project.org/package=InformativeCensoring">InformativeCensoring</a> <a href="https://cran.r-project.org">R</a> package.</p>
+<p>Alternatively, inverse-probability of censoring weights (IPCW) has also been proposed. Here, patients who do not have the intercurrent event serve as proxies for those who do. For estimation we need covariates that make PFS and the intercurrent event conditionally independent.</p>
+</section>
+<section id="if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" class="level2">
+<h2 class="anchored" data-anchor-id="if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd">If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?</h2>
+<p>Yes, generally treatment switches are often informative (which does not mean censoring is informative, see Andersen <span class="citation" data-cites="andersen_05">(<a href="#ref-andersen_05" role="doc-biblioref">2005</a>)</span>) as people are switching because their current treatment is not working. However, you could also imagine some scenarios where the reason for switching may not carry information about a patient, e.g.&nbsp;a region may limit the availability of a certain treatment to a limited number of cycles for cost-effectiveness reasons.</p>
+</section>
+</section>
 <section id="publicly-available-comments-on-molecules" class="level1">
 <h1>Publicly available comments on molecules</h1>
 <section id="polarix-odac" class="level2">
@@ -318,7 +342,7 @@ div.csl-indent {
 <blockquote class="blockquote">
 <p>When comparing the treatment policy approach and the hypothetical approach, there are advantages and caveats to both.</p>
 </blockquote>
-<p>First and foremost, they answer <strong>different</strong> clinical question, in our opionion which question is of most interest should guide the discussion.</p>
+<p>First and foremost, they answer <strong>different</strong> clinical questions, in our opionion which question is of most interest should guide the discussion.</p>
 </section>
 <section id="consistency-between-estimates-for-two-different-estimands" class="level3">
 <h3 class="anchored" data-anchor-id="consistency-between-estimates-for-two-different-estimands">Consistency between estimates for two different estimands</h3>
@@ -326,7 +350,7 @@ div.csl-indent {
 <blockquote class="blockquote">
 <p>Therefore, neither approach is perfect and both strategies are important to characterize the effect of treatment. Ideally, they should be consistent and come to the same conclusion to demonstrate a robust PFS benefit.</p>
 </blockquote>
-<p>That view surprises as: different handling of NALT corresponds to different estimands and we do not see a need that the answer to different scientific questions must necessarily be consistent.</p>
+<p>Different handling of NALT corresponds to different estimands and we do not see a need that the answer to different scientific questions must necessarily be consistent.</p>
 </section>
 </section>
 <section id="qing-xus-presentation-at-asa-biopharmaceutical-section-regulatory-industry-statistics-workshop" class="level2">
@@ -366,15 +390,6 @@ div.csl-indent {
 <p>In a first scenario, assume you observe PFS for all the 100 patients. Then, an unbiased estimator <span class="math inline">\(\hat S_1\)</span>, such as e.g.&nbsp;Kaplan-Meier (which in this case is nothing else than 1 - CDF), estimates <span class="math inline">\(S\)</span>.</p>
 <p>Now assume a second scenario where 20 patients are <strong>randomly censored</strong> (following the terminology in Unkel et al. <span class="citation" data-cites="unkel_19">(<a href="#ref-unkel_19" role="doc-biblioref">2019</a>)</span>, based on <span class="citation" data-cites="aalen_08">Aalen, Borgan, and Gjessing (<a href="#ref-aalen_08" role="doc-biblioref">2008</a>)</span>). If we now estimate <span class="math inline">\(S\)</span> using an unbiased estimator <span class="math inline">\(\hat S_2\)</span>, e.g.&nbsp;Kaplan-Meier, again then we are “correctly” using the information of the 20 censored patients, i.e.&nbsp;for these 20 patients “…outcome after <span class="math inline">\(x\)</span> number of months is imputed by using the longer term outcomes of other patients in their treatment group who also are free of the outcome at <span class="math inline">\(x\)</span> number of months and remain under follow-up beyond <span class="math inline">\(x\)</span> number of months.” (terminology used in <a href="material/Fleming et al (2009) Issues in Using PFS When Evaluating Oncology Products.pdf">Fleming et al. <span class="citation" data-cites="fleming_09">(<span>2009</span>)</span></a>). So indeed, the estimand we are targeting (namely the function <span class="math inline">\(S\)</span>) remains the same as in the hypothetical world where censoring would not happen.</p>
 <p>It is important to note that censoring alone is only sufficient for implementing a hypothetical strategy if censoring is, e.g., <strong>random</strong> in the sense described in, e.g., Unkel et al. <span class="citation" data-cites="unkel_19">(<a href="#ref-unkel_19" role="doc-biblioref">2019</a>)</span>. This is essentially equivalent to the “missing-at-random” assumption for longitudinal outcomes.</p>
-</section>
-<section id="what-are-other-estimators-of-a-hypothetical-estimand-strategy-than-simply-using-censoring" class="level1">
-<h1>What are other estimators of a hypothetical estimand strategy than simply using censoring?</h1>
-<p>Sometimes it might be plausible that subjects who discontinued treatment early would have done worse than those who did not, <strong>even in a hypothetical world where they had stayed on treatment</strong>. One method for imputing T2E endpoints in this case is the method by Jackson et al. <span class="citation" data-cites="jackson_14">(<a href="#ref-jackson_14" role="doc-biblioref">2014</a>)</span> which is implemented in the <a href="https://cran.r-project.org/package=InformativeCensoring">InformativeCensoring</a> <a href="https://cran.r-project.org">R</a> package.</p>
-<p>Alternatively, inverse-probability of censoring weights (IPCW) has also been proposed. Here, patients who do not have the intercurrent event serve as proxies for those who do. For estimation we need covariates that make PFS and the intercurrent event conditionally independent.</p>
-</section>
-<section id="if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" class="level1">
-<h1>If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?</h1>
-<p>Yes, generally treatment switches are often informative (which does not mean censoring is informative, see Andersen <span class="citation" data-cites="andersen_05">(<a href="#ref-andersen_05" role="doc-biblioref">2005</a>)</span>) as people are switching because their current treatment is not working. However, you could also imagine some scenarios where the reason for switching may not carry information about a patient, e.g.&nbsp;a region may limit the availability of a certain treatment to a limited number of cycles for cost-effectiveness reasons.</p>
 </section>
 <section id="references" class="level1">
 

@@ -22,6 +22,8 @@ New anti-lymphoma (NALT) therapy before progression (PD) for progression-free su
 - Which of the five estimand strategies in the [ICH E9 addendum](https://database.ich.org/sites/default/files/E9-R1_Step4_Guideline_2019_1203.pdf) help answering the clinical question of interest?
 - How should we estimate the chosen estimand?
 
+# Estimand 
+
 ## (implicit) Hypothetical strategy for the ICE of NALT
 
 In the 00's, i.e. in the pre-estimand addendum era, there already was a debate whether one should censor at start of NALT in lymphoma indications, and this debates appears to go on until today. The FDA guidance [*Guidance for industry clinical trial endpoints for the approval of cancer drugs and biologics*](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-trial-endpoints-approval-cancer-drugs-and-biologics) @fda_endpoints recommends to censor at date of "new anticancer treatment". This is in line with [Cheson et al. [-@cheson_07]](papers/Cheson%20et%20al%20(2007)%20Revised%20response%20criteria%20for%20malignant%20lymphoma.pdf) who writes 
@@ -65,6 +67,23 @@ Similarly, FDA colleagues [Mayo and Kim [-@mayo_23]](papers/Mayo and Kim (2023) 
 
 > More precisely defining the clinical question and corresponding estimand has led to some challenges and differences in perspectives. For example, it is uncommon that we have found a hypothetical strategy to be the most relevant one for the primary clinical question used in regulatory decision-making (with exceptions, e.g., a pandemic leading to temporary site closures that are not expected to occur in general clinical practice in the future).
 
+# Estimation methods
+
+## Censoring 
+
+Some of the estimand aspects have been mingled into the, what we now call "estimand discussion" in the past. Most specifically, the question about "censoring". Censoring is a statistical technique to estimate an estimand with a hypothetical strategy for an ICE. As such, "censoring" cannot be part of the _estimand_ definition, rather it pertains to the _estimation method_.
+
+## Other estimators of an estimand with a hypothetical strategy for an ICE
+
+Sometimes it might be plausible that subjects who discontinued treatment early would have done worse than those who did not, **even in a hypothetical world where they had stayed on treatment**. One method for imputing T2E endpoints in this case is the method by Jackson et al. [-@jackson_14] which is implemented in the [InformativeCensoring](https://cran.r-project.org/package=InformativeCensoring) [R](https://cran.r-project.org) package. 
+
+Alternatively, inverse-probability of censoring weights (IPCW) has also been proposed. Here, patients who do not have the intercurrent event serve as proxies for those who do. For estimation we need covariates that make PFS and the intercurrent event conditionally independent. 
+
+## If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?
+
+Yes, generally treatment switches are often informative (which does not mean censoring is informative, see Andersen [-@andersen_05]) as people are switching because their current treatment is not working. However, you could also imagine some scenarios where the reason for switching may not carry information about a patient, e.g. a region may limit the availability of a certain treatment to a limited number of cycles for cost-effectiveness reasons.
+
+
 # Publicly available comments on molecules
 
 ## Polarix ODAC
@@ -79,7 +98,7 @@ FDA comments:
 
 > When comparing the treatment policy approach and the hypothetical approach, there are advantages and caveats to both. 
 
-First and foremost, they answer **different** clinical question, in our opionion which question is of most interest should guide the discussion.
+First and foremost, they answer **different** clinical questions, in our opionion which question is of most interest should guide the discussion.
 
 ### Consistency between estimates for two different estimands
 
@@ -87,7 +106,7 @@ FDA commented that
 
 > Therefore, neither approach is perfect and both strategies are important to characterize the effect of treatment. Ideally, they should be consistent and come to the same conclusion to demonstrate a robust PFS benefit.
 
-That view surprises as: different handling of NALT corresponds to different estimands and we do not see a need that the answer to different scientific questions must necessarily be consistent.
+Different handling of NALT corresponds to different estimands and we do not see a need that the answer to different scientific questions must necessarily be consistent.
 
 ## Qing Xu's presentation at ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop
 
@@ -128,18 +147,6 @@ In a first scenario, assume you observe PFS for all the 100 patients. Then, an u
 Now assume a second scenario where 20 patients are **randomly censored** (following the terminology in Unkel et al. [-@unkel_19], based on @aalen_08). If we now estimate $S$ using an unbiased estimator $\hat S_2$, e.g. Kaplan-Meier, again then we are "correctly" using the information of the 20 censored patients, i.e. for these 20 patients "...outcome after $x$ number of months is imputed by using the longer term outcomes of other patients in their treatment group who also are free of the outcome at $x$ number of months and remain under follow-up beyond $x$ number of months." (terminology used in [Fleming et al. [-@fleming_09]](material/Fleming%20et%20al%20(2009)%20Issues%20in%20Using%20PFS%20When%20Evaluating%20Oncology%20Products.pdf)). So indeed, the estimand we are targeting (namely the function $S$) remains the same as in the hypothetical world where censoring would not happen.
 
 It is important to note that censoring alone is only sufficient for implementing a hypothetical strategy if censoring is, e.g., **random** in the sense described in, e.g., Unkel et al. [-@unkel_19]. This is essentially equivalent to the "missing-at-random" assumption for longitudinal outcomes.
-
-
-
-# What are other estimators of a hypothetical estimand strategy than simply using censoring?
-
-Sometimes it might be plausible that subjects who discontinued treatment early would have done worse than those who did not, **even in a hypothetical world where they had stayed on treatment**. One method for imputing T2E endpoints in this case is the method by Jackson et al. [-@jackson_14] which is implemented in the [InformativeCensoring](https://cran.r-project.org/package=InformativeCensoring) [R](https://cran.r-project.org) package. 
-
-Alternatively, inverse-probability of censoring weights (IPCW) has also been proposed. Here, patients who do not have the intercurrent event serve as proxies for those who do. For estimation we need covariates that make PFS and the intercurrent event conditionally independent. 
-
-# If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?
-
-Yes, generally treatment switches are often informative (which does not mean censoring is informative, see Andersen [-@andersen_05]) as people are switching because their current treatment is not working. However, you could also imagine some scenarios where the reason for switching may not carry information about a patient, e.g. a region may limit the availability of a certain treatment to a limited number of cycles for cost-effectiveness reasons.
 
 
 # References
