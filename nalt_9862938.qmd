@@ -34,7 +34,7 @@ This estimator, i.e. censoring at start of NALT, (implicitly) corresponds to app
 
 ## (implicit) Treatment policy strategy for the ICE of NALT
 
-Interestingly, in another highly cited paper by Fleming et al. [Fleming et al. [-@fleming_09]](material/Fleming%20et%20al%20(2009)%20Issues%20in%20Using%20PFS%20When%20Evaluating%20Oncology%20Products.pdf), it is recommended that
+Interestingly, in another highly cited paper by [Fleming et al. [-@fleming_09]](papers/Fleming et al (2009) Issues in Using PFS When Evaluating Oncology Products.pdf), it is recommended that
 
 > ...patients should not be censored at the time other treatments are initiated when analyzing the PFS end point...
 
@@ -73,8 +73,7 @@ Similarly, FDA colleagues [Mayo and Kim [-@mayo_23]](papers/Mayo and Kim (2023) 
 
 Some of the estimand aspects have been mingled into the, what we now call "estimand discussion" in the past. Most specifically, the question about "censoring". Censoring is a statistical technique to estimate an estimand with a hypothetical strategy for an ICE. As such, "censoring" cannot be part of the _estimand_ definition, rather it pertains to the _estimation method_.
 
-
-Furthermore, for an estimator based on censoring to give an unbiased estimate of the targeted estimand which uses a hypothetical strategy for the ICE of interest one needs to make quite strong assumptions, either that censoring is **random** or at least **independent**. The latter is a slightly weaker assumption, see [Andersen [-@andersen_05]](papers/Andersen (2005, encyclopedia) Censored data.pdf).
+Furthermore, for an estimator based on censoring to give an unbiased estimate of the targeted estimand which uses a hypothetical strategy for the ICE of interest one needs to make quite strong assumptions, either that censoring is **random** or at least **independent**. The latter is a slightly weaker assumption, see [Andersen [-@andersen_05]](papers/Andersen (2005, encyclopedia) Censored data.pdf). Not that **informative censoring** is yet another concept -- although often used in pharmaceutical statistician's discussions (in the sense of "non-informative") it is actually mathematically not the correct term for what we are talking about here, see [Andersen [-@andersen_05]](papers/Andersen (2005, encyclopedia) Censored data.pdf).
 
 ## Other estimators of an estimand with a hypothetical strategy for an ICE
 
@@ -95,13 +94,17 @@ Whether to censor at NALT or not was a question in the [Polarix ODAC](https://ww
 
 FDA's comments are available in Appendix 2 (p. 95ff) of [Genentech's briefing package](https://www.fda.gov/media/165961/download). Here, we summarize our view on some of FDA's comments.
 
+### What is the primary question of interest?
+
+FDA's proposed analysis of censoring at NALT, implying a hypothetical strategy for the ICE of NALT, insinuates interest in a treatment effect in a world where NALT would not exist. However, if Polivy is approved NALT will be available for patients.
+
 ### Relation between treatment policy and hypothetical strategy for an ICE of NALT
 
 FDA comments:
 
 > When comparing the treatment policy approach and the hypothetical approach, there are advantages and caveats to both. 
 
-First and foremost, they answer **different** clinical questions, in our opionion which question is of most interest should guide the discussion.
+First and foremost, they answer **different** clinical questions. In our opinion which question is of most interest should guide the discussion.
 
 ### Consistency between estimates for two different estimands
 
@@ -110,6 +113,16 @@ FDA commented that
 > Therefore, neither approach is perfect and both strategies are important to characterize the effect of treatment. Ideally, they should be consistent and come to the same conclusion to demonstrate a robust PFS benefit.
 
 Different handling of NALT corresponds to different estimands and we do not see a need that the answer to different scientific questions must necessarily be consistent.
+
+### Further trials where Roche received similar feedback
+
+- Polivy: [Polarix](https://www.clinicaltrials.gov/study/NCT03274492?distance=50&titles=polarix&rank=1), [Polargo](https://www.clinicaltrials.gov/study/NCT04182204?rank=1&limit=10&titles=polargo).
+- Mosunetuzumab: [Sunmo](https://www.clinicaltrials.gov/study/NCT05171647?rank=1&limit=10&titles=Sunmo), [Celestimo](https://www.clinicaltrials.gov/study/NCT04712097?rank=1&limit=10&titles=Celestimo).
+- Glofitamab: [Starglo](https://clinicaltrials.gov/study/NCT04408638), [Skyglo](https://www.clinicaltrials.gov/study/NCT06047080?titles=NCT06047080&rank=1).
+
+## Sotorasib ODAC
+
+[Briefing document](https://www.fda.gov/media/172696/download).
 
 ## Qing Xu's presentation at ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop
 
@@ -135,9 +148,13 @@ Speakers:
 - Prof. Cheng Zheng, University of Nebraska, US
 - Dr. Kaspar Rufibach, Roche Pharma, Switzerland
 
-Slides Kaspar's presentation is available [here](https://numbersman77.github.io/kasparrufibach/files/talks/20231012_Rufibach_Lungevity_crossover.pdf).
+Slides of Kaspar Rufibach's presentation are available [here](https://numbersman77.github.io/kasparrufibach/files/talks/20231012_Rufibach_Lungevity_crossover.pdf).
 
 Many of the above topics were raised in Kaspar's presentation, sharing Roche's experience in FDA interactions on Glofitamab. An additional point was that FDA suggested a hypothetical strategy for NALT for PFS, but discouraged a similar hypothetical strategy for crossover for OS. 
+
+# Patient participation
+
+We mention here [Rubin et al. [-@rubin_17]](papers/Rubin et al (2017) Strategies to Maximize Patient Participation in Clinical Trials.pdf).
 
 # Appendix 
 
@@ -147,7 +164,7 @@ Assume you have a trial with 100 patients and primary endpoint PFS. (In a freque
 
 In a first scenario, assume you observe PFS for all the 100 patients. Then, an unbiased estimator $\hat S_1$, such as e.g. Kaplan-Meier (which in this case is nothing else than 1 - CDF), estimates $S$.
 
-Now assume a second scenario where 20 patients are **randomly censored** (following the terminology in Unkel et al. [-@unkel_19], based on @aalen_08). If we now estimate $S$ using an unbiased estimator $\hat S_2$, e.g. Kaplan-Meier, again then we are "correctly" using the information of the 20 censored patients, i.e. for these 20 patients "...outcome after $x$ number of months is imputed by using the longer term outcomes of other patients in their treatment group who also are free of the outcome at $x$ number of months and remain under follow-up beyond $x$ number of months." (terminology used in [Fleming et al. [-@fleming_09]](material/Fleming%20et%20al%20(2009)%20Issues%20in%20Using%20PFS%20When%20Evaluating%20Oncology%20Products.pdf)). So indeed, the estimand we are targeting (namely the function $S$) remains the same as in the hypothetical world where censoring would not happen.
+Now assume a second scenario where 20 patients are **randomly censored** (following the terminology in Unkel et al. [-@unkel_19], based on @aalen_08). If we now estimate $S$ using an unbiased estimator $\hat S_2$, e.g. Kaplan-Meier, again then we are "correctly" using the information of the 20 censored patients, i.e. for these 20 patients "...outcome after $x$ number of months is imputed by using the longer term outcomes of other patients in their treatment group who also are free of the outcome at $x$ number of months and remain under follow-up beyond $x$ number of months." (terminology used in [Fleming et al. [-@fleming_09]](papers/Fleming et al (2009) Issues in Using PFS When Evaluating Oncology Products.pdf)). So indeed, the estimand we are targeting (namely the function $S$) remains the same as in the hypothetical world where censoring would not happen.
 
 It is important to note that censoring alone is only sufficient for implementing a hypothetical strategy if censoring is, e.g., **random** in the sense described in, e.g., Unkel et al. [-@unkel_19]. This is essentially equivalent to the "missing-at-random" assumption for longitudinal outcomes.
 
