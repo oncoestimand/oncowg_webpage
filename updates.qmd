@@ -14,6 +14,7 @@ bibliography: biblio.bib
 
 # 2023
 
+- 1st November: Anja Victor and Stefan Englert will present at [APF Workshop](events_upcoming.html#apf-workshop-early-phase-clinical-development-estimands-biomarkers-and-decision-making) in Darmstadt.
 - 7th October: The paper on _Duration of and time to response in oncology clinical trials from the perspective of the estimand framework._ has been accepted by Pharmaceutical Statistics, see [publications](publications.html).
 - 6th October: Added [slides of panel discussion](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#asa-biopharmaceutical-section-regulatory-industry-statistics-workshop) on "Estimands in Oncology: New Directions" at [ASA Biopharmaceutical Section Regulatory-Industry Statistics Workshop]().
 - 13th September: [Poster](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#efspi-regulatory-statistics-workshop) presented by the conditional vs. marginal taskforce at the [8th EFSPI regulatory statistics workshop](https://efspiworkshop.github.io/efspiworkshop/docs/).

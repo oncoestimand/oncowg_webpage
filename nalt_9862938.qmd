@@ -73,6 +73,9 @@ Similarly, FDA colleagues [Mayo and Kim [-@mayo_23]](papers/Mayo and Kim (2023) 
 
 Some of the estimand aspects have been mingled into the, what we now call "estimand discussion" in the past. Most specifically, the question about "censoring". Censoring is a statistical technique to estimate an estimand with a hypothetical strategy for an ICE. As such, "censoring" cannot be part of the _estimand_ definition, rather it pertains to the _estimation method_.
 
+
+Furthermore, for an estimator based on censoring to give an unbiased estimate of the targeted estimand which uses a hypothetical strategy for the ICE of interest one needs to make quite strong assumptions, either that censoring is **random** or at least **independent**. The latter is a slightly weaker assumption, see [Andersen [-@andersen_05]](papers/Andersen (2005, encyclopedia) Censored data.pdf).
+
 ## Other estimators of an estimand with a hypothetical strategy for an ICE
 
 Sometimes it might be plausible that subjects who discontinued treatment early would have done worse than those who did not, **even in a hypothetical world where they had stayed on treatment**. One method for imputing T2E endpoints in this case is the method by Jackson et al. [-@jackson_14] which is implemented in the [InformativeCensoring](https://cran.r-project.org/package=InformativeCensoring) [R](https://cran.r-project.org) package. 
@@ -81,7 +84,7 @@ Alternatively, inverse-probability of censoring weights (IPCW) has also been pro
 
 ## If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?
 
-Yes, generally treatment switches are often informative (which does not mean censoring is informative, see Andersen [-@andersen_05]) as people are switching because their current treatment is not working. However, you could also imagine some scenarios where the reason for switching may not carry information about a patient, e.g. a region may limit the availability of a certain treatment to a limited number of cycles for cost-effectiveness reasons.
+Yes, generally treatment switches are often informative (which does not mean censoring is informative, see [Andersen [-@andersen_05]](papers/Andersen (2005, encyclopedia) Censored data.pdf)) as people are switching because their current treatment is not working. However, you could also imagine some scenarios where the reason for switching may not carry information about a patient, e.g. a region may limit the availability of a certain treatment to a limited number of cycles for cost-effectiveness reasons.
 
 
 # Publicly available comments on molecules
