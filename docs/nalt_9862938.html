@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Kaspar Rufibach">
+<meta name="author" content="Kaspar Rufibach (input and review of Roche colleagues, especially Marcel Wolbers, gratefully acknowledged)">
 
 <title>Oncology Estimand WG - New-anti lymphoma treatment (NALT) as intercurrent event for PFS in lymphoma</title>
 <style>
@@ -248,7 +248,7 @@ div.csl-indent {
   <div class="quarto-title-meta-heading">Affiliation</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Kaspar Rufibach </p>
+    <p class="author">Kaspar Rufibach (input and review of Roche colleagues, especially Marcel Wolbers, gratefully acknowledged) </p>
   </div>
     <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -327,8 +327,8 @@ div.csl-indent {
 </section>
 <section id="other-estimators-of-an-estimand-with-a-hypothetical-strategy-for-an-ice" class="level2">
 <h2 class="anchored" data-anchor-id="other-estimators-of-an-estimand-with-a-hypothetical-strategy-for-an-ice">Other estimators of an estimand with a hypothetical strategy for an ICE</h2>
-<p>Sometimes it might be plausible that subjects who discontinued treatment early would have done worse than those who did not, <strong>even in a hypothetical world where they had stayed on treatment</strong>. One method for imputing T2E endpoints in this case is the method by Jackson et al. <span class="citation" data-cites="jackson_14">(<a href="#ref-jackson_14" role="doc-biblioref">2014</a>)</span> which is implemented in the <a href="https://cran.r-project.org/package=InformativeCensoring">InformativeCensoring</a> <a href="https://cran.r-project.org">R</a> package.</p>
-<p>Alternatively, inverse-probability of censoring weights (IPCW) has also been proposed. Here, patients who do not have the intercurrent event serve as proxies for those who do. For estimation we need covariates that make PFS and the intercurrent event conditionally independent.</p>
+<p>Sometimes it might be plausible that subjects who discontinued treatment early would have done worse than those who did not, <strong>even in a hypothetical world where they had stayed on treatment</strong>. One method for imputing T2E endpoints in this case is the method by Jackson et al. <span class="citation" data-cites="jackson_14">(<a href="#ref-jackson_14" role="doc-biblioref">2014</a>)</span> which is implemented in the <a href="https://cran.r-project.org/package=InformativeCensoring">InformativeCensoring</a> <a href="https://cran.r-project.org">R</a> package. A caveat of this method is that it depends on <span class="math inline">\(\gamma\)</span>, the hypothesized size of the step change in the log hazard at censoring. This makes it not easy to have this approach as a primary analysis, but potentially as sensitivity analysis.</p>
+<p>Alternatively, inverse-probability of censoring weights (IPCW) has also been proposed. Here, patients who do not have the intercurrent event serve as proxies for those who do. For estimation we need covariates that make PFS and the intercurrent event conditionally independent. An advantage of IPCW is that you can include updated time-varying covariates in the <em>probability of censoring</em> model, which might make the required assumptions more plausible. One practical issue with the approach are unstable weights. Again, this can most likely be positioned as sensitivity analysis.</p>
 </section>
 <section id="if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd" class="level2">
 <h2 class="anchored" data-anchor-id="if-you-censor-treatment-switches-are-you-somehow-inducing-non-random-non-independent-censoring-especially-in-the-context-of-external-controls-where-cross-over-is-more-limited-in-trials-and-switches-are-more-common-in-rwd">If you censor treatment switches, are you somehow inducing non-random / non-independent censoring, especially in the context of external controls where cross-over is more limited in trials and switches are more common in RWD?</h2>
