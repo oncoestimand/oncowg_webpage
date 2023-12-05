@@ -26,40 +26,14 @@ We hope this reaches you well! Before we all leave for end-of-year vacation we w
 # Updates
 
 - Since the last newsletter the following publications have been **submitted**:
+  - @siegel2023timetoevent .
 - Since the last newsletter the following publications have been **accepted** or already **appeared**:
-  - @rufibach_23fu, including [code](https://oncoestimand.github.io/quantFU/quantFU.html).
-  - @liu_23logic .
-  - @englert_23 .
   - @weber_23 .
 
-- We have updated the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
-- Conferences: the working group contributed
-  - a session to the [PSI 2023 conference](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#psi-conference) in London. Hong Tian, Konstantina Skaltsa, Stefan Englert, Lynda Grinsted, Elizabeth Pilling, and Yufei Wang presented outcomes from various taskforces to a completely full room.
-  - even organized two sessions at the [LIDS 2023 conference](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#lifetime-data-science-conference-lids) in Raleigh.
-  - co-organized and contributed to a BBS seminar on [Quantification of risk: ask the right questions or time to apply the estimand framework to safety!](https://baselbiometrics.github.io/home/docs/events_past.html#quantification-of-risk-ask-the-right-questions-or-time-to-apply-the-estimand-framework-to-safety).
-  - Jonathan gave an invited talk at the [Duke industry statistics symposium 2023](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#duke-industry-statistics-symposium-2023).
-  
-# Upcoming events and potential meet-up
-
-## JSM in Toronto
-
-If there is interest we are happy to organize a get together, e.g. dinner. Please reach out to [Kaspar Rufibach](mailto:kaspar.rufibach@roche.com) in case you are interested and provide the nights you'd be available.
-
-## ISCB in Milan
-
-Kaspar will participate, feel free to reach out (I will only be there Mon - Wed and very busy, but happy to catch up during coffee break).
-
-## CEN in Basel
-
-If there is interest we are happy to organize a get together, e.g. dinner. Please reach out to [Kaspar Rufibach](mailto:kaspar.rufibach@roche.com) in case you are interested and provide the nights you'd be available.
-
-## EFSPI regulatory statistics workshop
-
-If there is interest we are happy to organize a get together, e.g. dinner. Please reach out to [Kaspar Rufibach](mailto:kaspar.rufibach@roche.com) in case you are interested and provide the nights you'd be available.
- 
-## ASA FDA workshop
-
-I invite our US colleagues to also organize a get together there.
+- We keep updating the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
+- Conferences: 
+  - 
+  - Submission of a [proposal](talks/20240616/2024 PSI Amsterdam oncology estimand.pdf) for an entire session to the [PSI 2024 conference in Amsterdam](https://www.psiweb.org/conferences/about-the-conference).
 
 # Action items for WG members
 

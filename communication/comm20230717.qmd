@@ -29,7 +29,6 @@ We hope this reaches you well! Before we all leave for summer vacation we would 
   - @rufibach_23fu, including [code](https://oncoestimand.github.io/quantFU/quantFU.html).
   - @liu_23logic .
   - @englert_23 .
-  - @weber_23 .
 
 - We have updated the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
 - Conferences: the working group contributed
