@@ -38,6 +38,25 @@ loc <- email[ind, "Location"]
 com <- email[ind, "Institution"]
 ```
 
+# Achievements 2023
+
+The group continues to be an influential player in the global discussion on estimands between industry, regulators, and academia. Key achievements in 2023 are:
+
+- General activities listed as achievements in last years below are continued by the group.
+- Several [publications](publications.html) of the SIG appeared or have been submitted this year. In total, (at least) 12 published papers and numerous talks meanwhile come out of this group.
+- The SIG gave many talks and organized sessions at conferences and webinars, see [events](events_past.html). Some highlights:
+  - Jonathan gave an invited talk at the [Duke industry statistics symposium 2023](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#duke-industry-statistics-symposium-2023).
+  - Co-organized and contributed to a BBS seminar on [Quantification of risk: ask the right questions or time to apply the estimand framework to safety!](https://baselbiometrics.github.io/home/docs/events_past.html#quantification-of-risk-ask-the-right-questions-or-time-to-apply-the-estimand-framework-to-safety)
+  - Organized two sessions at the [LIDS 2023 conference](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#lifetime-data-science-conference-lids) in Raleigh.
+  - An entire session organized by the SIG at the [PSI 2023 conference](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#psi-conference) in London. Hong Tian, Konstantina Skaltsa, Stefan Englert, Lynda Grinsted, Elizabeth Pilling, and Yufei Wang presented outcomes from various taskforces to a completely full room.
+  - Invited talk and pre-conference course on "Causal Inference in Randomized Controlled Trials" at [JSM in Toronto](events_past.html#joint-statistical-meetings).
+  - Panel discussion at [ASA Biopharmaceutical Section Regulatory Industry Statistics Workshop](events_past.html#asa-biopharmaceutical-section-regulatory-industry-statistics-workshop).
+  - Stefan and Francois contributed talks to a [BBS seminar](events_past.html#seminar-of-the-basel-biometric-society-estimands-in-early-development-ed-across-therapeutic-areas) on _Estimands in Early Development (ED) across Therapeutic Areas_.
+  - Kaspar was invited to present in an FDA / Lungevity TC within [Project significant](https://www.fda.gov/about-fda/oncology-center-excellence/project-significant-statistics-cancer-trials) on _Impact of Cross-over in the Evaluation of Overall Survival in cancer RCTs_, find slides [here](events_past.html#fda-lungevity-project-significant).
+  - Evgeny was invited for a plenary talk at the [Nordic lymphoma meeting](http://www.nordic-lymphoma.org/plenary-meeting/). It is great to see the rising interest in estimands also in the clinical community! Find slides [here](events_past.html#nordic-lymphoma-group-plenary-meeting).
+  - Stefan contributed a talk to the yearly [APF workshop](events_past.html#apf-workshop-early-phase-clinical-development-estimands-biomarkers-and-decision-making).
+- As of December 2023, the SIG has `r length(loc)` members (`r sum(loc == "Europe", na.rm = TRUE)` from Europe, `r sum(loc == "NorAm", na.rm = TRUE)` from US, and `r sum(loc == "Asia", na.rm = TRUE)` from Asia) representing `r length(unique(com))` companies / institutions, see [status](status.html).
+
 # Achievements 2022
 
 The group continues to be an influential player in the global discussion on estimands between industry, regulators, and academia. Key achievements in 2022 are:
@@ -53,7 +72,7 @@ The group continues to be an influential player in the global discussion on esti
 ](communication/20221202_ASA_NJ_TTF_estimands.pdf).
 - On June 28th & 29th we had two full group TCs with regulators attending where we presented our work. Slidedecks are available [here](ha.html).
 - [eunethta](https://www.eunethta.eu/) is currently seeking comments for their set of guidelines for a joint clinical assessment of European HTA bodies. Several of the WG's papers were cited in [EFPIA's response to deliverable 4.5](https://www.eunethta.eu/d4-5/).
-- As of November 2022, the SIG has `r length(loc)` members (`r sum(loc == "Europe", na.rm = TRUE)` from Europe, `r sum(loc == "NorAm", na.rm = TRUE)` from US, and `r sum(loc == "Asia", na.rm = TRUE)` from Asia) representing `r length(unique(com))` companies / institutions, see [status](status.html).
+- As of November 2022, the SIG has 97 members (36 from Europe, 50 from US, and 10 from Asia) representing 48 companies / institutions, see [status](status.html).
 
 # Achievements 2021
 
