@@ -1,5 +1,5 @@
 ---
-title: "Oncology estimand working group: newsletter 17th July 2023"
+title: "Oncology estimand working group: newsletter December 2023"
 format:
   html:
     toc: true
@@ -21,10 +21,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hi all,
 
-We hope this reaches you well! Before we all leave for summer vacation we would like to share again some recent developments, events, and achievements.
+We hope this reaches you well! Before we all leave for end-of-year vacation we would like to share again some recent developments, events, and achievements.
 
 # Updates
 
+- Since the last newsletter the following publications have been **submitted**:
 - Since the last newsletter the following publications have been **accepted** or already **appeared**:
   - @rufibach_23fu, including [code](https://oncoestimand.github.io/quantFU/quantFU.html).
   - @liu_23logic .
