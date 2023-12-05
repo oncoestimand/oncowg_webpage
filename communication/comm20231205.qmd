@@ -31,9 +31,14 @@ We hope this reaches you well! Before we all leave for end-of-year vacation we w
   - @weber_23 .
 
 - We keep updating the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
-- Conferences: 
-  - Many presentations, organized invited sessions, and panel discussions at the summer conferences, see [events](events_past.html) for a wrap-up and links to materials. Thanks to everyone who organized and contributed!
-  - Evgeny was invited for a plenary talk at the [Nordic lymphoma meeting](http://www.nordic-lymphoma.org/plenary-meeting/). It is great to see the rising interest in estimands also in the clinical community!
+- Summer conferences: 
+  - Many presentations, organized invited sessions, and panel discussions at summer conferences, see [events](events_past.html) for a wrap-up and links to materials. Thanks to everyone who organized and contributed!
+- Further events:
+  - Stefan and Francois contributed talks to a [BBS seminar](events_past.html#seminar-of-the-basel-biometric-society-estimands-in-early-development-ed-across-therapeutic-areas) on _Estimands in Early Development (ED) across Therapeutic Areas_.
+  - Kaspar was invited to present in an FDA / Lungevity TC within [Project significant](https://www.fda.gov/about-fda/oncology-center-excellence/project-significant-statistics-cancer-trials) on _Impact of Cross-over in the Evaluation of Overall Survival in cancer RCTs_, find slides [here](events_past.html#fda-lungevity-project-significant).
+  - Evgeny was invited for a plenary talk at the [Nordic lymphoma meeting](http://www.nordic-lymphoma.org/plenary-meeting/). It is great to see the rising interest in estimands also in the clinical community! Find slides [here](events_past.html#nordic-lymphoma-group-plenary-meeting).
+  - Stefan contributed a talk to the yearly [APF workshop](events_past.html#apf-workshop-early-phase-clinical-development-estimands-biomarkers-and-decision-making).
+- Future conferences:
   - Submission of a [proposal](talks/20240616/2024 PSI Amsterdam oncology estimand.pdf) for an entire session to the [PSI 2024 conference in Amsterdam](https://www.psiweb.org/conferences/about-the-conference).
 - As a spin-off of our WG, a few colleagues from the [PRO task force](taskforces.html#patient-reported-outcomes) submitted a proposal to [EFSPI](https://www.efspi.org/) for a [special interest group](https://efspi.org/EFSPI/SIGS/EFSPI/Special_Interest_Groups/SIGS.aspx). We except to start this very soon under the formal [EFSPI](https://www.efspi.org/) umbrella.
 
