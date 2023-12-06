@@ -55,6 +55,7 @@ The group continues to be an influential player in the global discussion on esti
   - Kaspar was invited to present in an FDA / Lungevity TC within [Project significant](https://www.fda.gov/about-fda/oncology-center-excellence/project-significant-statistics-cancer-trials) on _Impact of Cross-over in the Evaluation of Overall Survival in cancer RCTs_, find slides [here](events_past.html#fda-lungevity-project-significant).
   - Evgeny was invited for a plenary talk at the [Nordic lymphoma meeting](http://www.nordic-lymphoma.org/plenary-meeting/). It is great to see the rising interest in estimands also in the clinical community! Find slides [here](events_past.html#nordic-lymphoma-group-plenary-meeting).
   - Stefan contributed a talk to the yearly [APF workshop](events_past.html#apf-workshop-early-phase-clinical-development-estimands-biomarkers-and-decision-making).
+- As a spin-off of our WG, a few colleagues from the [PRO task force](taskforces.html#patient-reported-outcomes) submitted a proposal to [EFSPI](https://www.efspi.org/) for a [special interest group](https://efspi.org/EFSPI/SIGS/EFSPI/Special_Interest_Groups/SIGS.aspx). We except to start this very soon under the formal [EFSPI](https://www.efspi.org/) umbrella.
 - As of December 2023, the SIG has `r length(loc)` members (`r sum(loc == "Europe", na.rm = TRUE)` from Europe, `r sum(loc == "NorAm", na.rm = TRUE)` from US, and `r sum(loc == "Asia", na.rm = TRUE)` from Asia) representing `r length(unique(com))` companies / institutions, see [status](status.html).
 
 # Achievements 2022
