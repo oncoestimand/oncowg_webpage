@@ -28,6 +28,7 @@ Here we list the publications that the group has written or contributed to.
 10) Liu, Y., Yang, M., Kil, S., Li, J., Mondal, S., Shentu, Y., Tian, H., Wang, L., Yung, G. _From logic-respecting efficacy estimands to logic-ensuring analysis principle for time-to-event endpoint in randomized clinical trials with subgroups._ (2023). Statistics in Biopharmaceutical Research, **15(3)**, 560--573. [doi](https://doi.org/10.1080/19466315.2023.2186945). 
 11) Englert, S., Mercier, F., Pilling, E. A., Homer, V., Habermehl, C., Kan-Dobrosky, N. _Defining estimands for efficacy assessment in single arm Phase 1b or Phase 2 clinical trials in oncology early development._ (2023+). Pharmaceutical Statistics, to appear. | [doi](https://doi.org/10.1002/pst.2319) |
 12) Weber, H. J., Corson, S., Li, J., Mercier, F., Roychoudhury, S., Sailer, M. O., Sun, S., Todd, A., Yung, G. _Duration of and time to response in oncology clinical trials from the perspective of the estimand framework._ (2023+). Pharmaceutical Statistics, to appear. | [arXiv](https://arxiv.org/abs/2212.10911) | [doi](https://doi.org/10.1002/pst.2340) | [github](https://github.com/oncoestimand/dor) | [markdown](https://oncoestimand.github.io/dor/dor.html) |
+13) Lawrance, R., Skaltsa, K., Regnault, A., Floden, L. _Reflections on estimands for patient-reported outcomes in cancer clinical trials._ (2023+). Journal of Biopharmaceutical Statistics, to appear. | [doi](https://doi.org/10.1080/10543406.2023.2280628) |
 
 # Submitted
 

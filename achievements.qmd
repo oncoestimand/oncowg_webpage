@@ -43,7 +43,7 @@ com <- email[ind, "Institution"]
 The group continues to be an influential player in the global discussion on estimands between industry, regulators, and academia. Key achievements in 2023 are:
 
 - General activities listed as achievements in last years below are continued by the group.
-- Several [publications](publications.html) of the SIG appeared or have been submitted this year. In total, (at least) 12 published papers and numerous talks meanwhile come out of this group.
+- Several [publications](publications.html) of the SIG appeared or have been submitted this year. In total, (at least) 13 published papers and numerous talks meanwhile come out of this group.
 - The SIG gave many talks and organized sessions at conferences and webinars, see [events](events_past.html). Some highlights:
   - Jonathan gave an invited talk at the [Duke industry statistics symposium 2023](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html#duke-industry-statistics-symposium-2023).
   - Co-organized and contributed to a BBS seminar on [Quantification of risk: ask the right questions or time to apply the estimand framework to safety!](https://baselbiometrics.github.io/home/docs/events_past.html#quantification-of-risk-ask-the-right-questions-or-time-to-apply-the-estimand-framework-to-safety)

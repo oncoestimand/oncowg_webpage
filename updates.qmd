@@ -14,6 +14,7 @@ bibliography: biblio.bib
 
 # 2023
 
+- 7th December: The paper on _Reflections on estimands for patient-reported outcomes in cancer clinical trials._ has been accepted by Journal of Biopharmaceutical Statistics, see [publications](publications.html).
 - 5th December: Added [2023 achievements](achievements.html#achievements-2023).
 - 1st November: Anja Victor and Stefan Englert will present at [APF Workshop](events_upcoming.html#apf-workshop-early-phase-clinical-development-estimands-biomarkers-and-decision-making) in Darmstadt.
 - 7th October: The paper on _Duration of and time to response in oncology clinical trials from the perspective of the estimand framework._ has been accepted by Pharmaceutical Statistics, see [publications](publications.html).
