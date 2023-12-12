@@ -30,6 +30,10 @@ We hope this reaches you well! Before we all leave for end-of-year vacation we w
 - Since the last newsletter the following publications have been **accepted** or already **appeared**:
   - @weber_23 .
   - @lawrance_23 .
+  - @mercier_23 .
+  - @wei_23 .
+
+Adding everything up the WG has published seven [publications](publications.html) this year (numbers 9-15 in [publication list](publications.html)). This is an amazing achievement!
 
 - We keep updating the [events page](https://oncoestimand.github.io/oncowg_webpage/docs/events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
 - Summer conferences: Many presentations, organized invited sessions, and panel discussions at summer conferences, see [events](events_past.html) for a wrap-up and links to materials. Thanks to everyone who organized and contributed! Details:
