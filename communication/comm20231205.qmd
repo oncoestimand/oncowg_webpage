@@ -46,7 +46,7 @@ Adding everything up the WG has published seven [publications](../publications.h
   - Stefan contributed a talk to the yearly [APF workshop](../events_past.html#apf-workshop-early-phase-clinical-development-estimands-biomarkers-and-decision-making).
 - Future conferences:
   - Submission of a [proposal](../talks/20240616/2024 PSI Amsterdam oncology estimand.pdf) for an entire session to the [PSI 2024 conference in Amsterdam](https://www.psiweb.org/conferences/about-the-conference).
-- As a spin-off of our WG, a few colleagues from the [PRO task force]../taskforces.html#patient-reported-outcomes) submitted a proposal to [EFSPI](https://www.efspi.org/) for a [special interest group](https://efspi.org/EFSPI/SIGS/EFSPI/Special_Interest_Groups/SIGS.aspx). We except to start this very soon under the formal [EFSPI](https://www.efspi.org/) umbrella.
+- As a spin-off of our WG, a few colleagues from the [PRO task force](../taskforces.html#patient-reported-outcomes) submitted a proposal to [EFSPI](https://www.efspi.org/) for a [special interest group](https://efspi.org/EFSPI/SIGS/EFSPI/Special_Interest_Groups/SIGS.aspx). We except to start this very soon under the formal [EFSPI](https://www.efspi.org/) umbrella.
 
 # Action items for WG members
 
