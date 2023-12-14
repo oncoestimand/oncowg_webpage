@@ -14,7 +14,10 @@ bibliography: biblio.bib
 
 # 2023
 
-- 12th December: The paper on _Estimands in oncology early clinical development: Assessing the impact of intercurrent events on the dose-toxicity relationship._ has been accepted by Statistics in Biopharmaceutical Research, see [publications](publications.html).
+- 12th December: The papers on 
+  - _Estimands in oncology early clinical development: Assessing the impact of intercurrent events on the dose-toxicity relationship._ 
+  - _Conditional and Unconditional treatment effects in randomized clinical trials: Estimands, Estimation, and Interpretation._ 
+  have both been accepted by Statistics in Biopharmaceutical Research, see [publications](publications.html).
 - 7th December: The paper on _Reflections on estimands for patient-reported outcomes in cancer clinical trials._ has been accepted by Journal of Biopharmaceutical Statistics, see [publications](publications.html).
 - 5th December: Added [2023 achievements](achievements.html#achievements-2023).
 - 1st November: Anja Victor and Stefan Englert will present at [APF Workshop](events_upcoming.html#apf-workshop-early-phase-clinical-development-estimands-biomarkers-and-decision-making) in Darmstadt.
