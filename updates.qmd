@@ -14,6 +14,7 @@ bibliography: biblio.bib
 
 # 2023
 
+- 18th December: Latest [newsletter](communication/comm20231218.html) to the group.
 - 12th December: The papers on 
   - _Estimands in oncology early clinical development: Assessing the impact of intercurrent events on the dose-toxicity relationship._ 
   - _Conditional and Unconditional treatment effects in randomized clinical trials: Estimands, Estimation, and Interpretation._ 

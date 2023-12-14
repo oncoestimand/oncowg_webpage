@@ -1,5 +1,5 @@
 ---
-title: "Oncology estimand working group: newsletter December 2023"
+title: "Oncology estimand working group: newsletter 18th December 2023"
 format:
   html:
     toc: true
