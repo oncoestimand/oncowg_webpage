@@ -1,0 +1,48 @@
+---
+title: "Oncology estimand working group: newsletter xxxx 2024"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-title: Contents
+    toc-location: left
+    number-sections: true
+    number-depth: 2
+bibliography: ../biblio.bib
+---
+
+```{r setup, include = FALSE, echo = FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hi all,
+
+We hope this reaches you well! Before we all leave for end-of-year vacation we would like to share again some recent developments, events, and achievements.
+
+# Updates
+
+- Since the last newsletter the following publications have been **submitted**:
+  - @mozumder24 .
+- Since the last newsletter the following publications have been **accepted** or already **appeared**:
+
+Adding everything up the WG has published seven [publications](../publications.html) this year (numbers 9-15 in [publication list](../publications.html)). This is an amazing achievement!
+
+- We keep updating the [events page](../events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
+
+# Action items for WG members
+
+- Please routinely share slidedecks or links to other material that we can add to the [events page](../events_past.html).
+ 
+You are invited to share the link to this newsletter broadly. To conclude, we invite you to regularly check out our webpage: [www.oncoestimand.org](http://www.oncoestimand.org).
+
+Kind Regards,<br>
+Evgeny & Kaspar
+
+# References
+
+
+
