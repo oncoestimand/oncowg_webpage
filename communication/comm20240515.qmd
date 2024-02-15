@@ -1,0 +1,60 @@
+---
+title: "Oncology estimand working group: newsletter UPCOMING"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-title: Contents
+    toc-location: left
+    number-sections: true
+    number-depth: 2
+bibliography: ../biblio.bib
+---
+
+```{r setup, include = FALSE, echo = FALSE}
+## load packages
+packs.html <- c("knitr", "pander", "reporttools", "dplyr", "readxl")
+for (i in 1:length(packs.html)){library(packs.html[i], character.only = TRUE)}
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hi all,
+
+We hope this reaches you well! Before we all leave for end-of-year vacation we would like to share again some recent developments, events, and achievements.
+
+# Updates
+
+- Since the last newsletter the following publications have been **submitted**:
+  - 
+- Since the last newsletter the following publications have been **accepted** or already **appeared**:
+  - @siegel2023timetoevent .
+
+Adding everything up the WG has published seven [publications](../publications.html) this year (numbers 9-15 in [publication list](../publications.html)). This is an amazing achievement!
+
+- We keep updating the [events page](../events_past.html) with our past and upcoming appearances, including posting of presented slidedecks. **Please let us know of further presentations, workshops, webinars, etc that are not on the list yet!**
+- Summer conferences: Many presentations, organized invited sessions, and panel discussions at summer conferences, see [events](../events_past.html) for a wrap-up and links to materials. Thanks to everyone who organized and contributed! Details:
+  - Invited talk and pre-conference course on "Causal Inference in Randomized Controlled Trials" at [JSM in Toronto](../events_past.html#joint-statistical-meetings).
+  - Panel discussion at [ASA Biopharmaceutical Section Regulatory Industry Statistics Workshop](../events_past.html#asa-biopharmaceutical-section-regulatory-industry-statistics-workshop).
+- Further events:
+  - Stefan and Francois contributed talks to a [BBS seminar](../events_past.html#seminar-of-the-basel-biometric-society-estimands-in-early-development-ed-across-therapeutic-areas) on _Estimands in Early Development (ED) across Therapeutic Areas_.
+  - Kaspar was invited to present in an FDA / Lungevity TC within [Project significant](https://www.fda.gov/about-fda/oncology-center-excellence/project-significant-statistics-cancer-trials) on _Impact of Cross-over in the Evaluation of Overall Survival in cancer RCTs_, find slides [here](../events_past.html#fda-lungevity-project-significant).
+  - Evgeny was invited for a plenary talk at the [Nordic lymphoma meeting](http://www.nordic-lymphoma.org/plenary-meeting/). It is great to see the rising interest in estimands also in the clinical community! Find slides [here](../events_past.html#nordic-lymphoma-group-plenary-meeting).
+  - Stefan contributed a talk to the yearly [APF workshop](../events_past.html#apf-workshop-early-phase-clinical-development-estimands-biomarkers-and-decision-making).
+- Future conferences:
+  - Our session [proposal](../talks/20240616/2024 PSI Amsterdam oncology estimand.pdf) for an entire session at the [PSI 2024 conference in Amsterdam](https://www.psiweb.org/conferences/about-the-conference) has been accepteed! Congratulations to all the speakers.
+- As a spin-off of our WG, a few colleagues from the [PRO task force](../taskforces.html#patient-reported-outcomes) submitted a proposal to [EFSPI](https://www.efspi.org/) for a [special interest group](https://efspi.org/EFSPI/SIGS/EFSPI/Special_Interest_Groups/SIGS.aspx). We except to start this very soon under the formal [EFSPI](https://www.efspi.org/) umbrella.
+
+# Action items for WG members
+
+- Please routinely share slidedecks or links to other material that we can add to the [events page](../events_past.html).
+ 
+You are invited to share the link to this newsletter broadly. To conclude, we invite you to regularly check out our webpage: [www.oncoestimand.org](http://www.oncoestimand.org).
+
+Kind Regards,<br>
+Evgeny & Kaspar
+
+# References
+
+
+
