@@ -21,6 +21,7 @@ project:
     - code.qmd
     - collaborations.qmd
     - nalt_9862938.qmd
+    - videos.qmd
 
 website:
   title: "Oncology Estimand WG"
@@ -59,8 +60,12 @@ website:
           href: events_upcoming.html
         - text: "Past events"
           href: events_past.html
-    - text: "Newsletters"
-      href: news.html
+    - text: "Communication"
+      menu:
+        - text: "Newsletters"
+          href: news.html
+        - text: "Linkedin videos"
+          href: videos.html
     - text: "Further resources"
       href: resources.html
 

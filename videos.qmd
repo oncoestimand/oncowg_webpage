@@ -1,0 +1,24 @@
+---
+title: "Linkedin videos"
+date-modified: last-modified
+output: 
+  rmarkdown::html_document:
+    highlight: pygments
+    number_sections: yes
+    self_contained: yes
+    toc: no
+    toc_depth: 3
+    toc_float: yes
+bibliography: biblio.bib
+---
+
+Starting wrapping up the group, in 2024 we started to publish a series of videos on linkedin, with the support of [EFSPI](http://www.efspi.org), [PSI](https://www.psiweb.org/), and [ASA biopharmaceutical section](https://community.amstat.org/biop/home).
+
+```{r, include=TRUE, echo=FALSE}
+suppressWarnings(library("knitr"))
+suppressWarnings(library("readxl"))
+tab <- as.data.frame(read_excel("data/videos.xlsx"), col_types = rep("text", 2))
+tab[is.na(tab)] <- ""
+tab[, "Link"] <- paste("[Link](", tab[, "Link"], ")", sep = "")
+kable(tab)
+```
