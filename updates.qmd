@@ -1,6 +1,6 @@
 ---
 title: "Latest updates of this page"
-date-modified: last-modified
+date: last-modified
 output: 
   rmarkdown::html_document:
     highlight: pygments

@@ -1,6 +1,6 @@
 ---
 title: "Newsletters sent to the group"
-date-modified: last-modified
+date: last-modified
 output: 
   rmarkdown::html_document:
     highlight: pygments

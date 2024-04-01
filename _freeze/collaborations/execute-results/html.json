@@ -1,0 +1,14 @@
+{
+  "hash": "c28e5ada1cc6024833bc061612753498",
+  "result": {
+    "markdown": "---\ntitle: \"Collaborations\"\ndate: last-modified\nexecute:   \n  freeze: auto  # re-render only when source changes\noutput: \n  rmarkdown::html_document:\n    highlight: pygments\n    number_sections: yes\n    self_contained: yes\n    toc: yes\n    toc_depth: 3\n    toc_float: yes\nbibliography: biblio.bib\n---\n\n\n\n\n# Membership in scientific organizations\n\nSee [here](https://oncoestimand.github.io/oncowg_webpage/docs/#membership-in-professional-organizations).\n\n# Collaboration with Health Authorities\n\nSee [here](ha.html).\n\n# Estimand implementation working group\n\nThe working group closely collaborates with the [EFSPI/EFPIA Estimands Implementation WG (EIWG)](https://www.efspi.org/EFSPI/Working_Groups/EFSPI_EFPIA_EIWG.aspx) to implement estimands in drug development by collaborating with non-statistical partner functions. Stefan Englert is a member of both working groups and leads that collaboration.\n\n# PHUSE\n\nThe [safety taskforce](taskforces.html#estimands-for-safety) is a formal joint venture between the working group and [PHUSE](https://phuse.global/), and the [safety taskforce](taskforces.html#estimands-for-safety) is a formal part of the [PHUSE](https://phuse.global/) organizational structure, see [here](https://advance.phuse.global/pages/viewpage.action?pageId=37226675). Jonathan Siegel is leading this collaboration.\n\n# ASA LIDS section\n\nThe [censoring mechanism subteam](taskforces.html#censoring) with the [ASA LIDS section](https://community.amstat.org/lids/home). Although the oncology estimand WG is as a whole affiliated with the [BIOP section](https://community.amstat.org/biop/home), the [censoring mechanism subteam](taskforces.html#censoring) had previously established a relationship with the [ASA LIDS section](https://community.amstat.org/lids/home). Jonathan Siegel is leading this collaboration.\n\n\nThe collaboration continues to bear fruit. For example, the “Time-to-event Estimands in Oncology” session at the upcoming LIDS 2023 conference is a direct result of the collaboration, as is Richard Cook’s periodic involvement in various EOI conference sessions and panels over the years. (Richard will be the discussant for our session at LIDS).\n\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

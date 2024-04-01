@@ -1,6 +1,6 @@
 ---
 title: "Task forces"
-date-modified: last-modified
+date: last-modified
 output: 
   rmarkdown::html_document:
     highlight: pygments

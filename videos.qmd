@@ -1,7 +1,7 @@
 ---
 title: "Linkedin videos"
-date-modified: last-modified
-output: 
+date: last-modified
+utput: 
   rmarkdown::html_document:
     highlight: pygments
     number_sections: yes
