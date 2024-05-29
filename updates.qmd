@@ -14,6 +14,9 @@ bibliography: biblio.bib
 
 # 2024
 
+- 29th May: Fourth video [linkedin video](videos.html) published!
+- 23rd April: Third video [linkedin video](videos.html) published!
+- 18th March: Second video [linkedin video](videos.html) published!
 - 20th February: Our first [linkedin video](videos.html) was published!
 - 15th February: The paper on _Time-to-event estimands and loss to follow-up in oncology in light of the estimands framework_ has been accepted by Pharmaceutical Statistics, see [publications](publications.html).
 - 15th January: Added submitte paper _Censoring Assumptions for Time-to-event Endpoints for Oncology Trials in Light of the Estimands Framework_ to [publications](publications.html).
