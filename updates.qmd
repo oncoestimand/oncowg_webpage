@@ -14,7 +14,7 @@ bibliography: biblio.bib
 
 # 2024
 
-- 20th June: Added [slidedecks]() from WG session at [PSI conference 2024](https://www.psiweb.org/conferences/about-the-conference
+- 20th June: Added [slidedecks](events_past.html#psi-conference) from WG session at [PSI conference 2024](https://www.psiweb.org/conferences/about-the-conference
 ) in Amsterdam.
 - 29th May: Fourth video [linkedin video](videos.html) published!
 - 23rd April: Third video [linkedin video](videos.html) published!
