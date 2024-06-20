@@ -44,7 +44,7 @@ rdate <- unique(talks$rdate)
 dates <- unique(select(talks, date))[, 1]
 ```
 
-Below a list of past events with contributions of the WG, with links to slidedecks and recordings (where available).
+Below a list of upcoming events with contributions of the WG.
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE, include = FALSE}
 
