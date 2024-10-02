@@ -53,7 +53,7 @@
     "href": "status.html",
     "title": "Status",
     "section": "",
-    "text": "As of 01 Oktober 2024, the working group\n\nhas 101 members (36 from Europe, 55 from US, and 10 from Asia) representing 50 companies / institutions,\nregularly interacts with eight Health Authorities globally,\nregularly organizes sessions and presents at conferences,\nhas started to interact with academic colleagues."
+    "text": "As of 02 Oktober 2024, the working group\n\nhas 101 members (36 from Europe, 55 from US, and 10 from Asia) representing 50 companies / institutions,\nregularly interacts with eight Health Authorities globally,\nregularly organizes sessions and presents at conferences,\nhas started to interact with academic colleagues."
   },
   {
     "objectID": "resources.html",
@@ -168,13 +168,6 @@
     "text": "After a first phase where five subteams have written several publications (see publications) the working group now operates within seven task forces. Objectives and member rosters of these task forces are available below."
   },
   {
-    "objectID": "taskforces.html#estimands-engagement",
-    "href": "taskforces.html#estimands-engagement",
-    "title": "Task forces",
-    "section": "Estimands engagement",
-    "text": "Estimands engagement\nLead: Stefan Englert (J&J)\nObjective: Develop basic introductory material that can be used by all study team members to educate themselves on Oncology Estimands. Translate key messages from the working group activities to a non-statistical audience, targeting especially clinical functions.\nOpen to new members from regulatory agencies and academia.\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nJiawei\nWei\nNovartis\nAsia\n\n\nStefan\nEnglert\nJ&J\nEurope\n\n\nJonathan\nSiegel\nBayer\nNorAm\n\n\nFeng\nLiu\nMarengo Therapeutics\nNorAm\n\n\nRui\nTang\nServier\nNorAm"
-  },
-  {
     "objectID": "taskforces.html#principal-stratification-in-clinical-trials",
     "href": "taskforces.html#principal-stratification-in-clinical-trials",
     "title": "Task forces",
@@ -217,13 +210,6 @@
     "text": "Patient-reported outcomes\nLead: Rachael Lawrance (Adelphi)\nObjective: Clarify what questions are we answering with typical analyses conducted on HRQoL endpoints in regulatory clinical trials. We are going to consider longitudinal mixed models and time to event analyses initially; “mapping” potential common questions into the estimand framework. The task force is also going to dig into the question of “how to handle death” in HRQoL analyses. We are keen to build collaborative approaches with statisticians and others active in this topic area, such as SISAQoL and ISOQoL working groups.\n2021 summary on backfitting MMRM\nThis taskforce has concluded its work. As a spin-off a new EFSPI SIG is to be initiated in early 2024. If you are interested to join please reach out to Rachael Lawrance.\n\n\n\n\n\n\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nRachael\nLawrance\nAdelphi\nEurope\n\n\nRajat\nMukherjee\nAlira Health\nEurope\n\n\nXiangning\nHuang\nAstraZeneca\nEurope\n\n\nKonstantina\nSkaltsa\nIQVIA\nEurope\n\n\nAntoine\nRegnault\nModus Outcomes\nEurope\n\n\nEvgeny\nDegtyarev\nNovartis\nEurope\n\n\nStephen\nCorson\nPhastar\nEurope\n\n\nJonathan\nSiegel\nBayer\nNorAm\n\n\nLibby\nFloden\nClinOutSolutions\nNorAm\n\n\nDevin\nPeipert\nNorthwestern University Feinberg School of Medicine\nNorAm\n\n\nDave\nAndrae\nNA\nNorAm"
   },
   {
-    "objectID": "taskforces.html#duration-of-responses",
-    "href": "taskforces.html#duration-of-responses",
-    "title": "Task forces",
-    "section": "Duration of responses",
-    "text": "Duration of responses\nLead: Hans-Jochen Weber (Novartis)\nObjective: Duration of response and also time to response are standard secondary endpoints in clinical studies in oncology. There are different approaches for analysis and often the clinical question to be addressed remains unclear. We contextualize the different approaches using the estimand framework and illustrate those with case studies. Finally we intend to present recommendations for analyses targeting relevant clinical questions.\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nAlex\nTodd\nAstraZeneca\nEurope\n\n\nHong\nSun\nBMS\nEurope\n\n\nMartin-Oliver\nSailer\nBoehringer\nEurope\n\n\nMin-Hua\nJen\nLilly\nEurope\n\n\nHans-Jochen\nWeber\nNovartis\nEurope\n\n\nStephen\nCorson\nPhastar\nEurope\n\n\nFrancois\nMercier\nRoche\nEurope\n\n\nJiang\nLi\nBeigene\nNorAm\n\n\nSteven\nSun\nJ&J\nNorAm\n\n\nSatrajit\nRoychoudhury\nPfizer\nNorAm\n\n\nGodwin\nYung\nRoche\nNorAm\n\n\nWenchuan\nGuo\nSeagen\nNorAm"
-  },
-  {
     "objectID": "taskforces.html#quantification-of-follow-up",
     "href": "taskforces.html#quantification-of-follow-up",
     "title": "Task forces",
@@ -236,6 +222,20 @@
     "title": "Task forces",
     "section": "Early development estimand nexus (EDEN)",
     "text": "Early development estimand nexus (EDEN)\nLead: Francois Mercier (Roche)\nObjective: In oncology Phase 1a (dose-escalation) and Phase 1b (expansion cohort) studies, the designs are complex because the objectives are often multiple and ambitious. Defining estimands and the associated estimators in this setting can be difficult. In this WG, we intend to implement the ICH-E9 addendum and to reflect on the challenges it presents in early clinical development studies. Such challenges may include: (1) absence of control group (2) varying dose, but also dosing schedule across treatment arms (a.k.a. cohorts) (3) presence of anti-drug antibody (ADA) (4) prophylactic treatment or co-medication for toxicity mitigation (e.g. using steroids) (5) compassionate within-patient dose escalation. The taskforce will give clinically relevant opinions and recommendations based on our analysis and interpretation of the selected case studies. Contact to other task forces will be sought based on need.\n\n\n\n\n\n\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nElizabeth\nPilling\nAstraZeneca\nEurope\n\n\nVictoria\nHomer\nCancer Research UK Clinical Trials Unit\nEurope\n\n\nStefan\nEnglert\nJ&J\nEurope\n\n\nChristina\nHabermehl\nMerck\nEurope\n\n\nAnja\nVictor\nMerck\nEurope\n\n\nFrancois\nMercier\nRoche\nEurope\n\n\nNatalia\nKan-Dobrosky\nAbbvie\nNorAm\n\n\nAtalanta\nGhosh\nBMS\nNorAm\n\n\nJunxian\nGeng\nBoehringer\nNorAm\n\n\nHongtao\nZhang\nMerck\nNorAm\n\n\nGuillaume\nLecorps\nSanofi\nNorAm\n\n\nXiaojiang\nZhan\nServier\nNorAm"
+  },
+  {
+    "objectID": "taskforces.html#estimands-engagement",
+    "href": "taskforces.html#estimands-engagement",
+    "title": "Task forces",
+    "section": "Estimands engagement",
+    "text": "Estimands engagement\nLead: NA NA (NA)\nObjective: Develop basic introductory material that can be used by all study team members to educate themselves on Oncology Estimands. Translate key messages from the working group activities to a non-statistical audience, targeting especially clinical functions.\nThis taskforce has concluded its work. Further activities will be organized under the Estimand Implementation Working Group (EWIG). If you are interested to contribute please reach out to Stefan Englert.\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nJiawei\nWei\nNovartis\nAsia\n\n\nStefan\nEnglert\nJ&J\nEurope\n\n\nJonathan\nSiegel\nBayer\nNorAm\n\n\nFeng\nLiu\nMarengo Therapeutics\nNorAm\n\n\nRui\nTang\nServier\nNorAm"
+  },
+  {
+    "objectID": "taskforces.html#duration-of-responses",
+    "href": "taskforces.html#duration-of-responses",
+    "title": "Task forces",
+    "section": "Duration of responses",
+    "text": "Duration of responses\nLead: NA NA (NA)\nObjective: Duration of response and also time to response are standard secondary endpoints in clinical studies in oncology. The tasks force has concluded its work, see publication #12 on the list.\n\n\n\nFirstname\nLastname\nInstitution\nLocation\n\n\n\n\nAlex\nTodd\nAstraZeneca\nEurope\n\n\nHong\nSun\nBMS\nEurope\n\n\nMartin-Oliver\nSailer\nBoehringer\nEurope\n\n\nMin-Hua\nJen\nLilly\nEurope\n\n\nHans-Jochen\nWeber\nNovartis\nEurope\n\n\nStephen\nCorson\nPhastar\nEurope\n\n\nFrancois\nMercier\nRoche\nEurope\n\n\nJiang\nLi\nBeigene\nNorAm\n\n\nSteven\nSun\nJ&J\nNorAm\n\n\nSatrajit\nRoychoudhury\nPfizer\nNorAm\n\n\nGodwin\nYung\nRoche\nNorAm\n\n\nWenchuan\nGuo\nSeagen\nNorAm"
   },
   {
     "objectID": "taskforces.html#treatment-switching",
