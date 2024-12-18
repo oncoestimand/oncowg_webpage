@@ -20,7 +20,13 @@ Find on this webpage information on the working group on estimands in oncology.
 
 # Status
 
-The working group has been very successful in supporting implementation of the ICH E9(R1) estimands addendum in routine drug development, see [talks](events_past.html) and [publications](publications.html). Currently, [task forces](taskforces.html) are wrapping up their work. Some of them will continue their work under other EFSPI / PSI / ASA working groups and may take new members. Please directly reach out to them as indicated [here](taskforces.html).
+The working group has been very successful in supporting implementation of the ICH E9(R1) estimands addendum in routine drug development, see [talks](events_past.html) and [publications](publications.html). 
+
+The working group officially ended its activities at the end of 2024.
+
+Some of the [taskforces](taskforces.html) will continue their work under other EFSPI / PSI / ASA working groups and may take new members. Please directly reach out to them as indicated [here](taskforces.html).
+
+This homepage will remain online as a repository of the WG's work for the foreseeable future.
 
 # Membership in professional organizations
 

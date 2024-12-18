@@ -38,6 +38,17 @@ loc <- email[ind, "Location"]
 com <- email[ind, "Institution"]
 ```
 
+# Achievements 2024
+
+Key achievements in 2024 are:
+
+- The WG organized a session at the [PSI conference 2024](https://www.psiweb.org/conferences/about-the-conference) in Amsterdam.
+- Four [linkedin videos](videos.html) have been published.
+- The paper on _Time-to-event estimands and loss to follow-up in oncology in light of the estimands framework_ has been accepted by Pharmaceutical Statistics, see [publications](publications.html).
+- The paper _Censoring Assumptions for Time-to-event Endpoints for Oncology Trials in Light of the Estimands Framework_ has been submitted [publications](publications.html).
+
+The working group officially ended its activities at the end of 2024.
+
 # Achievements 2023
 
 The group continues to be an influential player in the global discussion on estimands between industry, regulators, and academia. Key achievements in 2023 are:
