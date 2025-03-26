@@ -34,8 +34,8 @@ Here we list the publications that the group has written or contributed to.
 14) Mercier, F., Homer, V., Geng, J., Zhang, H., Englert, S., Kan-Dobrosky, N., Victor, A. _Estimands in oncology early clinical development: Assessing the impact of intercurrent events on the dose-toxicity relationship._ (2023). Statistics in Biopharmaceutical Research, to appear. | [doi](https://doi.org/10.1080/19466315.2023.2296648) |
 15) Wei, J., Xu, J., Bornkamp, B., Lin, R., Tian, H., Xi, D., Zhang, X., Zhao, Z., Roychoudhury, S. _Conditional and Unconditional treatment effects in randomized clinical trials: Estimands, Estimation, and Interpretation._ (2024). Statistics in Biopharmaceutical Research, **16(3)**, 371-381. | [doi](https://doi.org/10.1080/19466315.2023.2292774) |
 16) Siegel, J.M., Weber, H.J., Englert, S., Liu, F., Casey, M. _Time-to-event estimands and loss to follow-up in oncology in light of the estimands framework_ (2024). Pharmaceutical Statistics, **23(5)**, 709-727. | [arxiv](https://arxiv.org/abs/2203.01781) | [doi](https://doi.org/10.1002/pst.2386) |.
+17) Mozumder, S.I., Grinsted, L., Siegel, J.M., Liu, F., Weber, H., Englert, S. _Time-to-event Estimands in Oncology Trials: What’s Censoring Got To Do, Got To Do With It?_ (2025+). Statistics in Biopharmaceutical Research, to appear.
 
 # Submitted
 
 <!-- * Siegel, J.M. Weber, J., Englert, S. _The Role of Occlusion: Potential Extension of the ICH E9 (R1) Addendum on Estimands and Sensitivity Analysis for Time-to-Event Oncology Studies_ (2022). Submitted. | [arxiv](https://arxiv.org/abs/2203.02182) |. -->
-* Mozumder, S.I., Grinsted, L., Siegel, J.M., Liu, F., Weber, H., Englert, S. _Censoring Assumptions for Time-to-event Endpoints for Oncology Trials in Light of the Estimands Framework._ (2024+). Under revision.

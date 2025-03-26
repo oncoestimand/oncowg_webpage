@@ -12,6 +12,10 @@ output:
 bibliography: biblio.bib
 ---
 
+# 2025
+
+- 26th March: The paper on _Time-to-event Estimands in Oncology Trials: What’s Censoring Got To Do, Got To Do With It?_ has been accepted by Statistics in Biopharmaceutical Research, see [publications](publications.html).
+
 # 2024
 
 - 20th June: Added [slidedecks](events_past.html#psi-conference) from WG session at [PSI conference 2024](https://www.psiweb.org/conferences/about-the-conference
